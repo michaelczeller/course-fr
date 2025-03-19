@@ -2,7 +2,7 @@
 title: "The Far Right in Europe and Beyond"
 ---
 
-This is a Quarto website.
+This is a Quarto website for the course 'The Far Right in Europe and Beyond'
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
