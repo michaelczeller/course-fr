@@ -2,8 +2,201 @@
 title: "Syllabus"
 ---
 
-About this site
 
-```{r}
-1 + 1
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(timeDate)
+library(tibble)
+library(dplyr)
+library(knitr)
+
+# https://www.benlinzmeier.rocks/post/an-rmarkdown-syllabus-template/
+# http://svmiller.com/blog/2016/07/r-markdown-syllabus/
+
+library(lubridate) # for submission date of assignments
+
+# library(RefManageR)
+# bib <- ReadBib("library.bib")
+# myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+
+# https://www.lmu.de/en/workspace-for-students/abc-study-guide/lecture-periods/index.html
+# https://www.ferienwiki.de/feiertage/de/bayern
+
+#This code chunk sets up a table of meeting days for the course.
+#You can set days of the week for course meetings (e.g. Monday and Wednesday).
+#Semester start and end dates are selected and then university holidays like spring break are specified.
+#Days of the week that the course meets. Must be full day name in quotes.
+Days <- c("Thursday")
+#Semester start date for classes as YYYY/M/D.
+SemesterStart <- as.Date("2025/4/15")
+#Semester end date for classes as YYYY/M/D.
+SemesterEnd <- as.Date("2025/7/19")
+#Fall break start and stop date.
+WinterBreak <-
+  seq.Date(
+    from = as.Date("2022/12/23"),
+    to = as.Date("2023/1/9"),
+    by = "day"
+  )
+#Spring break start and stop date.
+# SpringBreak <-
+#   seq.Date(
+#     from = as.Date("2022/02/28"),
+#     to = as.Date("2022/03/06"),
+#     by = "day"
+#   )
+#Creates a list of days within the semester.
+SemesterDays <-
+  seq.Date(from = SemesterStart, to = SemesterEnd, by = "day")
+#Add day before Thanksgiving.
+#Add day before Thanksgiving.
+# DayBeforeThnks<-as.Date(holiday(
+#     year = getRmetricsOptions("currentYear"),
+#     Holiday = c("USThanksgivingDay")))-1
+#Full list of holidays that there are no classes including breaks.
+Holidays <-
+  c(as.Date(holiday(
+    year = getRmetricsOptions("currentYear"),
+    Holiday = c("USLaborDay", "USThanksgivingDay", "USMLKingsBirthday")
+  )), WinterBreak)
+#Create a list of semester days excluding holidays.
+SemesterDays <- SemesterDays[!SemesterDays %in% Holidays]
+#Make dataframe with all semester days.
+ClassDays <- data.frame(index = 1:length(SemesterDays))
+#Insert dates.
+ClassDays$Date <- SemesterDays
+#Insert weekday designation.
+ClassDays$Weekday <- weekdays(ClassDays$Date)
+#Limit to the class meeting days.
+MeetingDays <- ClassDays[ClassDays$Weekday %in% Days, ]
+#Create numeric list of weeks.
+Week <- cut.Date(MeetingDays$Date, breaks = "week")
+levels(Week) <- 1:length(levels(Week))
+MeetingDays$Week <- Week
+MeetingDays$Class <- 1:nrow(MeetingDays)
+
+Lecture_Topic <- c("Concepts", # Class 1
+                   "Far-right ideology: from transnational traits to local idiosyncracies", # Class 2
+                   "Parties: radical and extreme", # Class 3
+                   "Parties: representatives", # Class 4
+                   "Parties: voters", # Class 5
+                   "Parties: responses and counter-strategies", # Class 6
+                   "Movement-parties", # Class 7
+                   "Mobilisation and movements", # Class 8
+                   "Counter-mobilisation", # Class 9
+                   "Movement decline, failure, and demobilisation", # Class 10
+                   "Radicalisation", # Class 11
+                   "Violence", # Class 12
+                   "Online", # Class 13
+                   "Studying the far right: methods, ethics, and safety") # Class 14 , 
+# 15: "Studying the far right: ethics and safety")
+          
+links <- c("#class1","#class2","#class3","#class4","#class5","#class6","#class7","#class8","#class9","#class10","#class11","#class12","#class13","#class14")
+
+MeetingDays <- bind_cols(MeetingDays, Lecture = Lecture_Topic)
+#### Grade table ####
+Grades <- tribble( ~ Grade,
+                   ~ Range,
+                   "A",
+                   "90-100",
+                   "B",
+                   "80-89",
+                   "C",
+                   "70-79",
+                   "D",
+                   "60-69",
+                   "F",
+                   "< 60")
+####Assignment weight table####
+Weights <- tribble(
+                    ~ Item,
+                    ~ Weight,
+                    "Writing scaffolding",
+                    "20 %",
+                    "Semester Project",
+                    "25 %",
+                    "Labratory Assignments",
+                    "20 %",
+                    "Midterm Exam",
+                    "15 %",
+                    "Final Exam",
+                    "20 %"
+                  )
 ```
+
+
+
+# Recommended prior knowledge
+<!-- Empfohlene Vorkenntnisse -->
+
+Students will benefit from familiarity with research literature on political parties, social movements, and/or political violence. But relevant parts of these research fields will be introduced in the course where pertinent. 
+
+# Necessary prerequisites
+<!-- Notwendige Voraussetzungen -->
+
+Not applicable.
+
+# Course requirements
+
+The examination credit (*Prüfungsleistung*) in this course depends on your degree programme:
+
+```{r requirements, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+# col1 <- c("","Attendance & Participation","Presentation","Essay"),
+kable(data.frame(
+  col1 <- c("","Participation","Presentation","Essay","Exercise","Klausur"),
+  col2 <- c("BA main","X","X","X","",""),
+  col3 <- c("BA minor (60 ECTS)","X","X","X","",""),
+  col4 <- c("BA minor (30 ECTS)","X","X (or Exercise)","","X (or Presentation)",""),
+  col5 <- c("Pedagogy","X","X (or Exercise)","","X (or Presentation)","X"),
+  col6 <- c("Exchange","X","X","X","","")),
+  col.names = NULL, align = c("l","c","c","c","c","c")) %>%
+  kableExtra::kable_styling(bootstrap_options = "bordered")
+```
+
+
+## Participation
+
+To receive credit for this course, all students are expected to attend class meetings and participate actively in class discussions. Active participation requires independent preparation, especially doing the required reading. Assigned and recommended readings for each session are listed on the following pages. 
+
+## Presentation (*Referat*)
+
+Students that are required by their degree programme to present must give one short (20 minutes maximum) group (2-3 students) presentation of how the far right relates to the European Union and/or EU-level politics. This presentation should be informed by material from Prof. Dr. Berthold Rittberger's lecture (15026 *Vorlesungsübung*: The Political System of the European Union). The presentation should introduce an area of EU politics, **present a piece of research** (i.e., a journal article or research report) **that deals with the far right in this area of EU politics**, and then lead a short class discussion about the conclusions and significance (e.g., for voters in EU elections) of this research and area of political activity. Students may choose any quality published research for their presentation material, though the instructor may suggest students focus on some other piece of research. 
+
+Students are responsible for creating their own group and organising their presentation. The date of presentation will be agreed with the instructor and, wherever possible, arranged so that no more than one group presents per class meeting. 
+
+## Essay (*Hausarbeit*)
+
+Students that are required by their degree programme to write a final essay will write an analytical report on a far-right phenomenon, such as voting for far-right parties in Europe (or in a specific country) or far-right protest activity or far-right violence. The report should be 3000-4000 words (excluding citations). It should briefly introduce the subject, briefly discuss relevant research literature, and (particularly important) **should gather and present (in a tablular and/or graphic format) some data relevant to understanding the far-right phenomenon** (e.g., a report on a party might present their election results; a report on a movement might present the protest events they have organised during a specific period of time). Please note that introduction and literature review are to be *brief*. **The intention of this report is for you to gather data and generate analytical insights**. Imagine that you are describing this far-right phenomenon to someone (a policymaker or researcher) with no specific knowledge of it; your job is to provide context briefly, offer specific knowledge, and why that knowledge is important. 
+
+Students are generally free to choose their topic and have it confirmed by the instructor---though the instructor may veto a topic and assign another, or ask the student to choose another. By the middle of the semester, students should have started their data collection and should submit a draft dataframe: this (most likely) will be an Excel file with your variables in columns and observations in rows. The instructor will check it and offer any necessary guidance about completing data collection. Prior to the end of the semester, students intending to write the essay should submit a short synopsis that states your topic, lists some relevant research sources, describes the parameters of the data (i.e., variables, number of observations---think of writing up a mini-codebook) and its presentation (i.e., how you will present it in your report), and identifies any particular points on which you need preliminary feedback. (**This is your chance to get risk-free feedback on your work. Embrace it!**) Feedback on the synopsis may direct students to revise their topic, focus on other sources, and/or reconsider their data approach to their proposed report.
+
+Deadline for draft dataframe submission: **`r SemesterEnd - (35)`**
+
+Deadline for short synopsis submission: **`r SemesterEnd - (14)`**
+
+Deadline for full report submission (including full dataframe): **`r SemesterEnd + (28)`**
+
+Under exceptional circumstances, the instructor may accept late submissions due to unforeseen circumstances. Generally, late submissions will be marked down 0,3 for every two days it is not submitted. If foreseen circumstances make the deadline impossible, please speak to the instructor to make an alternative arrangement. 
+
+Finally, a suggested (purely voluntary, but perhaps to your ultimate benefit) mode of conducting work on your report: students may find it advantageous to work in [R](https://www.r-project.org/about.html) and [Rstudio](https://posit.co/download/rstudio-desktop/). This is a powerful data management and analysis tool. It combines the capability to import and visualise data, conduct sophisticated analyses, and even present them in nicely formatted documents (whether Word, PDF, or HTML). Students interested in working with datasets in their theses, going on to advanced academic studies, or pursuing a career in research will benefit enormously from engaging with this tool early and often. The course introduction will provide some tips for using this tool. For further information, please turn to the vast material related to \texttt{R} online or inquire with the instructor.
+
+## Exercise (*Übungsaufgabe*)
+
+Students that are required by their degree programme to complete an exercise will write a memo on an assigned far-right actor (e.g., a party, movement, or organisation). The memo topic will be assigned during our 12th class meeting, on **\textcolor{red}{`r MeetingDays$Date[12]`}** and it will be due on the day before our 13th class meeting **\textcolor{red}{`r MeetingDays$Date[13] - 1`}**. Under exceptional circumstances, the instructor may accept late submissions due to unforeseen circumstances. Generally, late submissions will be marked down 0,3 for every two days it is not submitted. If foreseen circumstances make the deadline inconvenient, please speak to the instructor to make an alternative arrangement. 
+
+The memo should be 1000-2000 words. It should provide a basic description of the far-right actor and any important context. It should gather and present (in a table and/or graphic format) some data relevant to understanding the far-right actor (e.g., a memo on a party might present their election results in the last five national elections; a memo on a movement might present the protest events they have organised during a specific period of time). Imagine that you are describing this far-right actor to someone (a policymaker or researcher) with no specific knowledge of it; your job is to provide context, specific knowledge, and why that knowledge is important. 
+
+<!-- Possible far-right actors: Reichsbürger,  -->
+
+<!-- ## Klausur -->
+
+# Useful books and sources of information.
+
+1. Mudde, C. (2019). *The far right today*. John Wiley & Sons.
+
+2. Ashe, S. D., Busher, J., Macklin, G., & Winter, A. (Eds.). (2020). *Researching the Far Right: Theory, Method and Practice*. London: Routledge.
+
+3. Virchow, F. (2017). *Handbuch Rechtsextremismus*. Wiesbaden: Springer VS.
+
+4. Mudde, C. (2002). *The Ideology of the Extreme Right*. Manchester: Manchester University Press.

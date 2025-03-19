@@ -2,8 +2,339 @@
 title: "Schedule"
 ---
 
-About this site
 
-```{r}
-1 + 1
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(timeDate)
+library(tibble)
+library(dplyr)
+library(knitr)
+
+# https://www.benlinzmeier.rocks/post/an-rmarkdown-syllabus-template/
+# http://svmiller.com/blog/2016/07/r-markdown-syllabus/
+
+library(lubridate) # for submission date of assignments
+
+# library(RefManageR)
+# bib <- ReadBib("library.bib")
+# myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+
+# https://www.lmu.de/en/workspace-for-students/abc-study-guide/lecture-periods/index.html
+# https://www.ferienwiki.de/feiertage/de/bayern
+
+#This code chunk sets up a table of meeting days for the course.
+#You can set days of the week for course meetings (e.g. Monday and Wednesday).
+#Semester start and end dates are selected and then university holidays like spring break are specified.
+#Days of the week that the course meets. Must be full day name in quotes.
+Days <- c("Thursday")
+#Semester start date for classes as YYYY/M/D.
+SemesterStart <- as.Date("2025/4/15")
+#Semester end date for classes as YYYY/M/D.
+SemesterEnd <- as.Date("2025/7/19")
+#Fall break start and stop date.
+WinterBreak <-
+  seq.Date(
+    from = as.Date("2022/12/23"),
+    to = as.Date("2023/1/9"),
+    by = "day"
+  )
+#Spring break start and stop date.
+# SpringBreak <-
+#   seq.Date(
+#     from = as.Date("2022/02/28"),
+#     to = as.Date("2022/03/06"),
+#     by = "day"
+#   )
+#Creates a list of days within the semester.
+SemesterDays <-
+  seq.Date(from = SemesterStart, to = SemesterEnd, by = "day")
+#Add day before Thanksgiving.
+#Add day before Thanksgiving.
+# DayBeforeThnks<-as.Date(holiday(
+#     year = getRmetricsOptions("currentYear"),
+#     Holiday = c("USThanksgivingDay")))-1
+#Full list of holidays that there are no classes including breaks.
+Holidays <-
+  c(as.Date(holiday(
+    year = getRmetricsOptions("currentYear"),
+    Holiday = c("USLaborDay", "USThanksgivingDay", "USMLKingsBirthday")
+  )), WinterBreak)
+#Create a list of semester days excluding holidays.
+SemesterDays <- SemesterDays[!SemesterDays %in% Holidays]
+#Make dataframe with all semester days.
+ClassDays <- data.frame(index = 1:length(SemesterDays))
+#Insert dates.
+ClassDays$Date <- SemesterDays
+#Insert weekday designation.
+ClassDays$Weekday <- weekdays(ClassDays$Date)
+#Limit to the class meeting days.
+MeetingDays <- ClassDays[ClassDays$Weekday %in% Days, ]
+#Create numeric list of weeks.
+Week <- cut.Date(MeetingDays$Date, breaks = "week")
+levels(Week) <- 1:length(levels(Week))
+MeetingDays$Week <- Week
+MeetingDays$Class <- 1:nrow(MeetingDays)
+
+Lecture_Topic <- c("Concepts", # Class 1
+                   "Far-right ideology: from transnational traits to local idiosyncracies", # Class 2
+                   "Parties: radical and extreme", # Class 3
+                   "Parties: representatives", # Class 4
+                   "Parties: voters", # Class 5
+                   "Parties: responses and counter-strategies", # Class 6
+                   "Movement-parties", # Class 7
+                   "Mobilisation and movements", # Class 8
+                   "Counter-mobilisation", # Class 9
+                   "Movement decline, failure, and demobilisation", # Class 10
+                   "Radicalisation", # Class 11
+                   "Violence", # Class 12
+                   "Online", # Class 13
+                   "Studying the far right: methods, ethics, and safety") # Class 14 , 
+# 15: "Studying the far right: ethics and safety")
+          
+links <- c("#class1","#class2","#class3","#class4","#class5","#class6","#class7","#class8","#class9","#class10","#class11","#class12","#class13","#class14")
+
+MeetingDays <- bind_cols(MeetingDays, Lecture = Lecture_Topic)
+#### Grade table ####
+Grades <- tribble( ~ Grade,
+                   ~ Range,
+                   "A",
+                   "90-100",
+                   "B",
+                   "80-89",
+                   "C",
+                   "70-79",
+                   "D",
+                   "60-69",
+                   "F",
+                   "< 60")
+####Assignment weight table####
+Weights <- tribble(
+                    ~ Item,
+                    ~ Weight,
+                    "Writing scaffolding",
+                    "20 %",
+                    "Semester Project",
+                    "25 %",
+                    "Labratory Assignments",
+                    "20 %",
+                    "Midterm Exam",
+                    "15 %",
+                    "Final Exam",
+                    "20 %"
+                  )
 ```
+
+
+```{r include=FALSE}
+biblio <- bibtex::read.bib("library.bib")
+```
+
+
+
+Adding syllabus information
+
+
+```{r Schedule, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(kableExtra)
+
+MeetingDays$Lecture <- paste0("[", MeetingDays$Lecture, "](", links, ")")
+
+kable(MeetingDays[,c("Date","Class","Week","Lecture")],
+      # caption = "Course Schedule.",
+      align = c("l","c","c","l"),
+      format = "simple"
+      ) %>% kableExtra::kable_styling(latex_options = "hold_position")
+```
+
+
+# Course outline and readings
+<!-- Studienleistungen -->
+
+## PART I - What is 'far right'?
+
+*In the first sessions of the course we will focus on establishing the conceptual basis for studying the far right. This begins with understanding that 'far right' is a contested term used to describe an indeterminate and diverse set of cases. We will look at how research (and by extension, law and policy) has variously defined far right. We will look at the ideology that serves to motivate organisations and actors we encounter later in the course. This part will help students to evaluate published work on far-right politics and protest, and to situate their own research within relevant conceptual frameworks.*
+
+## Class 1 - `r nth(MeetingDays$Lecture, 1)` {#class1}
+
+### Required reading
+
+- `r capture.output(print(biblio["Mudde2007ch1"]))` 
+
+<!-- ### Further reading -->
+
+## Class 2 - `r nth(MeetingDays$Lecture, 2)` {#class2}
+
+### Required reading
+
+- `r capture.output(print(biblio["Virchow2007a"]))`
+
+<!-- ### Further reading -->
+
+## PART II - Far-right political parties
+
+*In this set of class sessions, we will focus on far-right political parties. What makes a party __radical__ right as opposed to __extreme__ right? (Is this even a useful distinction?) Who represents, leads far-right parties, and in what way? Who votes for them and why? And how do other political actors respond to far-right parties? These are all questions that we will grapple with in this portion of the course.*
+
+## Class 3 - `r nth(MeetingDays$Lecture, 3)` {#class3}
+
+### Required reading
+
+- `r capture.output(print(biblio["Minkenberg2013"]))` 
+- `r capture.output(print(biblio["Mudde2007ch2"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["Karacsony2011"]))` 
+- `r capture.output(print(biblio["Ernst2017"]))`
+
+## Class 4 - `r nth(MeetingDays$Lecture, 4)` {#class4}
+
+### Required reading
+
+<!-- (women, charisma) -->
+- `r capture.output(print(biblio["WeeksETAL2022"]))` 
+
+### Further reading
+
+- `r capture.output(print(biblio["mayerImpactGenderVotes2022"]))`
+
+## Class 5 - `r nth(MeetingDays$Lecture, 5)` {#class5}
+
+### Required reading
+
+- `r capture.output(print(biblio["Bornschier2021"]))`
+- `r capture.output(print(biblio["Lucassen2012"]))`
+- `r capture.output(print(biblio["Rydgren2009"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["Allen2017"]))`
+- `r capture.output(print(biblio["Amengay2018"]))`
+- `r capture.output(print(biblio["Berbuir2015"]))`
+- `r capture.output(print(biblio["VanHiel2012"]))`
+
+## Class 6 - `r nth(MeetingDays$Lecture, 6)` {#class6}
+
+### Required reading
+
+- `r capture.output(print(biblio["Art2007"]))`
+- `r capture.output(print(biblio["BourneVeugelers2022"]))`
+- `r capture.output(print(biblio["Heinze2018"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["Mayer1995"]))`
+- `r capture.output(print(biblio["Allchorn2019"]))`
+
+## PART III - Far-right movements
+
+*In this set of class sessions, we will shift our focus from political parties to movement actors. To make this transition, we consider the liminal cases that are often called 'movement-parties' and, more broadly, consider the relationship between far-right movements and aligned parties. In the sphere of social mobilisation and movement activism, how does far-right activity manifest? Are far-right movements akin to other social movements or some __sui generis__ category? How do other movement actors respond to the far right and to what effect? And why and how do far-right movements falter, fail, and demobilise? These questions take us into a dynamic and highly active field of contemporary research.*
+
+## Class 7 - `r nth(MeetingDays$Lecture, 7)` {#class7}
+
+### Required reading
+
+- `r capture.output(print(biblio["ColomboETAL2021"]))`
+- `r capture.output(print(biblio["Pirro2018"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["BerntzenWeisskricher2016"]))`
+- `r capture.output(print(biblio["Weisskircher2019"]))`
+
+## Class 8 - `r nth(MeetingDays$Lecture, 8)` {#class8}
+
+### Required reading
+
+- `r capture.output(print(biblio["CastelliGattinara2019"]))`
+- `r capture.output(print(biblio["Giugni2005"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["Koopmans1995"]))`
+- `r capture.output(print(biblio["Chermak2013"]))`
+
+## Class 9 - `r nth(MeetingDays$Lecture, 9)` {#class9}
+
+### Required reading
+
+- `r capture.output(print(biblio["CopseyMerrill2020"]))`
+- `r capture.output(print(biblio["Mayer1995"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["LaFree2018"]))`
+- `r capture.output(print(biblio["Copsey2018"]))`
+
+## Class 10 - `r nth(MeetingDays$Lecture, 10)` {#class10}
+
+### Required reading
+
+- `r capture.output(print(biblio["GaudetteETAL2022"]))`
+- `r capture.output(print(biblio["Morrow2018"]))`
+- `r capture.output(print(biblio["Bleich2013"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["Zeller2021_qca"]))`
+- `r capture.output(print(biblio["Zeller2021_hess"]))`
+
+## PART IV - Radicalisation, violence, and online far-right activity
+
+*In this penultimate set of classes, we will look at more extreme instances of far-right behaviour. How do individuals become involved in far-right activity? What violent manifestations arise from radicalisation into right-wing extremism? And how have new modes of communication and relation on the Internet effected far-right activity? These questions, these classes take up some of the most menacing aspects of the far right and consider whether online tools have significantly changed the conditions of far-right activity.*
+
+## Class 11 - `r nth(MeetingDays$Lecture, 11)` {#class11}
+
+### Required reading
+
+- `r capture.output(print(biblio["Schils2017"]))`
+- `r capture.output(print(biblio["Jensen2018"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["dellaPorta2018-radicalization"]))`
+- `r capture.output(print(biblio["Vergani2018"]))`
+
+## Class 12 - `r nth(MeetingDays$Lecture, 12)` {#class12}
+
+### Required reading
+
+- `r capture.output(print(biblio["Manthe2021"]))`
+- `r capture.output(print(biblio["Ravndal2018"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["Adamczyk2014"]))`
+- `r capture.output(print(biblio["Fahey2019"]))`
+- `r capture.output(print(biblio["Koopmans2004"]))`
+- `r capture.output(print(biblio["Meadowcroft2017"]))`
+- `r capture.output(print(biblio["Ravndal2018a"]))`
+
+## Class 13 - `r nth(MeetingDays$Lecture, 13)` {#class13}
+
+### Required reading
+
+- `r capture.output(print(biblio["Ernst2017"]))`
+- `r capture.output(print(biblio["zhangEextremismConceptualFramework2022"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["Caiani2015"]))`
+- `r capture.output(print(biblio["Saltman2021"]))`
+- `r capture.output(print(biblio["Simpson2016"]))`
+
+## PART V - Studying the far right
+
+*In our final course sessions, we draw together the preceding parts of the course to consider how to study far-right phenomena. This consideration goes beyond components of theory, data, methods, and analysis; it extends to thornier issues of ethics and safety. By concluding with these topics, the course will create a space for students to consider how they might conduct their own research into the far right.*
+
+## Class 14 - `r nth(MeetingDays$Lecture, 14)` {#class14}
+
+### Required reading
+
+- `r capture.output(print(biblio["Blee2007"]))`
+- `r capture.output(print(biblio["Hutter"]))`
+
+### Further reading
+
+- `r capture.output(print(biblio["Blee1998"]))`
+- `r capture.output(print(biblio["Meijers2021"]))`

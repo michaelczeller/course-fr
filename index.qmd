@@ -1,11 +1,265 @@
 ---
-title: "The Far Right in Europe and Beyond"
+title: "The Far Right in Europe and beyond"
 ---
 
-This is a Quarto website for the course 'The Far Right in Europe and Beyond'
+Instructor: Dr. Michael C. Zeller    
+Email: [m.zeller@lmu.de](mailto:m.zeller@lmu.de)    
+Webpage: michaelzeller.de    
+Office hours: TBD    
+Office: GSI (Oettingenstr. 67) Room H105    
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(timeDate)
+library(tibble)
+library(dplyr)
+library(knitr)
+
+# https://www.benlinzmeier.rocks/post/an-rmarkdown-syllabus-template/
+# http://svmiller.com/blog/2016/07/r-markdown-syllabus/
+
+library(lubridate) # for submission date of assignments
+
+# library(RefManageR)
+# bib <- ReadBib("library.bib")
+# myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+
+# https://www.lmu.de/en/workspace-for-students/abc-study-guide/lecture-periods/index.html
+# https://www.ferienwiki.de/feiertage/de/bayern
+
+#This code chunk sets up a table of meeting days for the course.
+#You can set days of the week for course meetings (e.g. Monday and Wednesday).
+#Semester start and end dates are selected and then university holidays like spring break are specified.
+#Days of the week that the course meets. Must be full day name in quotes.
+Days <- c("Thursday")
+#Semester start date for classes as YYYY/M/D.
+SemesterStart <- as.Date("2025/4/15")
+#Semester end date for classes as YYYY/M/D.
+SemesterEnd <- as.Date("2025/7/19")
+#Fall break start and stop date.
+WinterBreak <-
+  seq.Date(
+    from = as.Date("2022/12/23"),
+    to = as.Date("2023/1/9"),
+    by = "day"
+  )
+#Spring break start and stop date.
+# SpringBreak <-
+#   seq.Date(
+#     from = as.Date("2022/02/28"),
+#     to = as.Date("2022/03/06"),
+#     by = "day"
+#   )
+#Creates a list of days within the semester.
+SemesterDays <-
+  seq.Date(from = SemesterStart, to = SemesterEnd, by = "day")
+#Add day before Thanksgiving.
+#Add day before Thanksgiving.
+# DayBeforeThnks<-as.Date(holiday(
+#     year = getRmetricsOptions("currentYear"),
+#     Holiday = c("USThanksgivingDay")))-1
+#Full list of holidays that there are no classes including breaks.
+Holidays <-
+  c(as.Date(holiday(
+    year = getRmetricsOptions("currentYear"),
+    Holiday = c("USLaborDay", "USThanksgivingDay", "USMLKingsBirthday")
+  )), WinterBreak)
+#Create a list of semester days excluding holidays.
+SemesterDays <- SemesterDays[!SemesterDays %in% Holidays]
+#Make dataframe with all semester days.
+ClassDays <- data.frame(index = 1:length(SemesterDays))
+#Insert dates.
+ClassDays$Date <- SemesterDays
+#Insert weekday designation.
+ClassDays$Weekday <- weekdays(ClassDays$Date)
+#Limit to the class meeting days.
+MeetingDays <- ClassDays[ClassDays$Weekday %in% Days, ]
+#Create numeric list of weeks.
+Week <- cut.Date(MeetingDays$Date, breaks = "week")
+levels(Week) <- 1:length(levels(Week))
+MeetingDays$Week <- Week
+MeetingDays$Class <- 1:nrow(MeetingDays)
+
+Lecture_Topic <- c("Concepts", # Class 1
+                   "Far-right ideology: from transnational traits to local idiosyncracies", # Class 2
+                   "Parties: radical and extreme", # Class 3
+                   "Parties: representatives", # Class 4
+                   "Parties: voters", # Class 5
+                   "Parties: responses and counter-strategies", # Class 6
+                   "Movement-parties", # Class 7
+                   "Mobilisation and movements", # Class 8
+                   "Counter-mobilisation", # Class 9
+                   "Movement decline, failure, and demobilisation", # Class 10
+                   "Radicalisation", # Class 11
+                   "Violence", # Class 12
+                   "Online", # Class 13
+                   "Studying the far right: methods, ethics, and safety") # Class 14 , 
+# 15: "Studying the far right: ethics and safety")
+          
+links <- c("#class1","#class2","#class3","#class4","#class5","#class6","#class7","#class8","#class9","#class10","#class11","#class12","#class13","#class14")
+
+MeetingDays <- bind_cols(MeetingDays, Lecture = Lecture_Topic)
+#### Grade table ####
+Grades <- tribble( ~ Grade,
+                   ~ Range,
+                   "A",
+                   "90-100",
+                   "B",
+                   "80-89",
+                   "C",
+                   "70-79",
+                   "D",
+                   "60-69",
+                   "F",
+                   "< 60")
+####Assignment weight table####
+Weights <- tribble(
+                    ~ Item,
+                    ~ Weight,
+                    "Writing scaffolding",
+                    "20 %",
+                    "Semester Project",
+                    "25 %",
+                    "Labratory Assignments",
+                    "20 %",
+                    "Midterm Exam",
+                    "15 %",
+                    "Final Exam",
+                    "20 %"
+                  )
 ```
+
+
+## Course level: BA
+
+## Course format: seminar
+
+## Course number: 15030
+
+## Credits: 2.0 SWS
+
+## Module assignment: P5 Vertiefung Politik in Europa
+
+<!-- Politische Soziologie -->
+
+# Course description
+<!-- Kompetenzen -->
+
+The aim of this course is to familiarise students with the social scientific research of far-right politics and protest, and to provide students with the conceptual tools and methodological clues to investigate for themselves. In this course, we will discuss the terms and conceptualisations used to study the far right and their manifestations in far-right parties and voters, mobilisation and movements, online activity, and political violence. We will consider explanations for the rise and success as well as decline and failure of the far right across these areas. Crucially, this course will cover these topics from a comparative perspective, underscoring the commonalities and variations between different contexts. In addition to considering the empirical substance of far-right phenomena, students will be encouraged to scrutinise the methodological tools applied in studies of the far right, to evaluate how well a particular methodology is answering a given research question. Taken together, students in this course will acquire knowledge about far-right activity in diverse social sphere and will hone analytical skills used to research and evaluate the far right. 
+
+<!-- # Course content -->
+<!-- Lehrinhalte -->
+
+
+
+# Course schedule
+
+```{r Schedule, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(kableExtra)
+
+MeetingDays$Lecture <- paste0("[", MeetingDays$Lecture, "](", links, ")")
+
+kable(MeetingDays[,c("Date","Class","Week","Lecture")],
+      # caption = "Course Schedule.",
+      align = c("l","c","c","l"),
+      format = "simple"
+      ) %>% kableExtra::kable_styling(latex_options = "hold_position")
+```
+
+
+# Student conduct
+
+## Plagiarism
+
+Plagiarism is when ideas and words from others are presented as if they are one's own. It does not matter from which source (e.g., a book, magazine, newspaper, or the internet) the ideas and text came from or whether it is a large or small piece or whether it is copied verbatim or rephrased. The only consequential point is whether the original source is correctly cited or not.
+
+<!-- ## Grading -->
+
+<!-- ### Late policy -->
+
+<!-- ### Extra credit -->
+<!-- Extra credit may be made available throughout the semester at my discretion. -->
+
+<!-- Assignments will be returned within a week of submission. -->
+
+```{r Grades_Table, eval=FALSE, include=FALSE}
+kable(Grades,
+      align = c("l", "r"))
+```
+
+<!-- Assignment weighting will follow: -->
+```{r Weights_Table, eval=FALSE, include=FALSE}
+kable(Weights,
+      align = c("l", "r"))
+```
+
+<!-- \newpage -->
+
+<!-- # Writing tasks -->
+<!-- ## Scaffolding tasks -->
+<!-- Scaffolding writing tasks assigned to give you some practice and general feedback to improve your writing. -->
+<!-- ### Abstract 1 -->
+
+<!-- First attempt at writing an abstract using the Nature paragraph template. -->
+
+<!-- ### Figure Caption -->
+
+<!-- Write the figure captions for several example figures using some literature examples. Learn to describe figures in text. -->
+
+<!-- ### Abstract 2 -->
+
+<!-- Write the abstract for a second paper using the feedback from the first abstract to improve your process. -->
+
+<!-- ### Peer Review -->
+
+<!-- Peer review of preprint or publication using example template. The goal of this assignment is to focus on critiquing the logic put forward in the paper with suggestions for refining it. -->
+
+
+<!-- ## Semester project -->
+<!-- Semester project outline of writing products. -->
+
+<!-- ### Project abstract -->
+
+<!-- Short outline of full project highlighting the hypotheses to test, data to collect, and impact of the project. This includes no figures but could include a small table for organizing hypotheses. -->
+
+<!-- ### Project first draft -->
+
+<!-- Full proposal draft with figures. The important aspect of this submission is assessment of the research plan and justification. -->
+
+<!-- ### Project peer review -->
+
+<!-- Review of a peer's proposal with the goal of improving the work by increasing clarity, readability and communication. -->
+
+<!-- ### Project final draft -->
+
+<!-- Full, final project proposal with figures, time line and clear plan for work. Focus is on clearly communicating to your peers that the work is worth doing and that you can do it. -->
+
+<!-- ### Project presentation -->
+
+<!-- Presentation of a peer's research proposal with a focus on justifying funding their project. The goal is to convince the audience that the project can be done and will have an important impact on society. -->
+
+
+<!-- \newpage -->
+
+<!-- The sections of code below that include "child=..." are drawing from seperate .md documents. These allow for updating text in a single spot for use in multiple syllabus documents. -->
+```{r Academic disruption, eval=FALSE, child='general_components/academic_disruption.md', include=FALSE}
+```
+
+```{r Academic honesty, eval=FALSE, child='general_components/academic_honesty.md', include=FALSE}
+```
+
+## Course and Teacher evaluation
+
+Student input for the purpose of course improvement is taken very seriously and will potentially be done periodically. Please take the time to evaluate this course and the instructor, especially at the end of the semester. Evaluations will in no way affect your grade.
+
+
+
+<!-- This is a Quarto website for the course 'The Far Right in Europe and beyond' -->
+
+<!-- To learn more about Quarto websites visit <https://quarto.org/docs/websites>. -->
+
+<!-- ```{r} -->
+<!-- 1 + 1 -->
+<!-- ``` -->
