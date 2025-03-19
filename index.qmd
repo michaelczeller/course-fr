@@ -1,5 +1,5 @@
 ---
-title: "course-fr"
+title: "The Far Right in Europe and Beyond"
 ---
 
 This is a Quarto website.
