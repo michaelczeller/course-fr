@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "course-fr"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus/index.qmd
+        text: Syllabus
+      - href: schedule/index.qmd
+        text: Schedule
+      - href: content/index.qmd
+        text: Content
+      - href: resources/index.qmd
+        text: Resources
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
