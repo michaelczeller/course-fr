@@ -28,9 +28,9 @@ library(lubridate) # for submission date of assignments
 #Days of the week that the course meets. Must be full day name in quotes.
 Days <- c("Thursday")
 #Semester start date for classes as YYYY/M/D.
-SemesterStart <- as.Date("2025/4/15")
+SemesterStart <- as.Date("2025/4/20")
 #Semester end date for classes as YYYY/M/D.
-SemesterEnd <- as.Date("2025/7/19")
+SemesterEnd <- as.Date("2025/7/24")
 #Fall break start and stop date.
 WinterBreak <-
   seq.Date(
@@ -138,7 +138,7 @@ Adding syllabus information
 
 library(kableExtra)
 
-MeetingDays$Lecture <- paste0("[", MeetingDays$Lecture, "](", links, ")")
+# MeetingDays$Lecture <- paste0("[", MeetingDays$Lecture, "](", links, ")")
 
 kable(MeetingDays[,c("Date","Class","Week","Lecture")],
       # caption = "Course Schedule.",

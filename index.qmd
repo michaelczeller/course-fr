@@ -34,9 +34,9 @@ library(lubridate) # for submission date of assignments
 #Days of the week that the course meets. Must be full day name in quotes.
 Days <- c("Thursday")
 #Semester start date for classes as YYYY/M/D.
-SemesterStart <- as.Date("2025/4/15")
+SemesterStart <- as.Date("2025/4/20")
 #Semester end date for classes as YYYY/M/D.
-SemesterEnd <- as.Date("2025/7/19")
+SemesterEnd <- as.Date("2025/7/24")
 #Fall break start and stop date.
 WinterBreak <-
   seq.Date(
@@ -130,20 +130,17 @@ Weights <- tribble(
                   )
 ```
 
+## Course particulars
 
-## Course level: BA
-
-## Course format: seminar
-
-## Course number: 15030
-
-## Credits: 2.0 SWS
-
-## Module assignment: P5 Vertiefung Politik in Europa
+- Course level: **BA**
+- Course format: **seminar**
+- Course number: **15030**
+- Credits: **2.0 SWS**
+- Module assignment: **P5 Vertiefung Politik in Europa**
 
 <!-- Politische Soziologie -->
 
-# Course description
+## Course description
 <!-- Kompetenzen -->
 
 The aim of this course is to familiarise students with the social scientific research of far-right politics and protest, and to provide students with the conceptual tools and methodological clues to investigate for themselves. In this course, we will discuss the terms and conceptualisations used to study the far right and their manifestations in far-right parties and voters, mobilisation and movements, online activity, and political violence. We will consider explanations for the rise and success as well as decline and failure of the far right across these areas. Crucially, this course will cover these topics from a comparative perspective, underscoring the commonalities and variations between different contexts. In addition to considering the empirical substance of far-right phenomena, students will be encouraged to scrutinise the methodological tools applied in studies of the far right, to evaluate how well a particular methodology is answering a given research question. Taken together, students in this course will acquire knowledge about far-right activity in diverse social sphere and will hone analytical skills used to research and evaluate the far right. 
@@ -153,13 +150,13 @@ The aim of this course is to familiarise students with the social scientific res
 
 
 
-# Course schedule
+## Course schedule
 
 ```{r Schedule, echo=FALSE, message=FALSE, warning=FALSE}
 
 library(kableExtra)
 
-MeetingDays$Lecture <- paste0("[", MeetingDays$Lecture, "](", links, ")")
+# MeetingDays$Lecture <- paste0("[", MeetingDays$Lecture, "](", links, ")")
 
 kable(MeetingDays[,c("Date","Class","Week","Lecture")],
       # caption = "Course Schedule.",
@@ -169,9 +166,9 @@ kable(MeetingDays[,c("Date","Class","Week","Lecture")],
 ```
 
 
-# Student conduct
+## Student conduct
 
-## Plagiarism
+### Plagiarism
 
 Plagiarism is when ideas and words from others are presented as if they are one's own. It does not matter from which source (e.g., a book, magazine, newspaper, or the internet) the ideas and text came from or whether it is a large or small piece or whether it is copied verbatim or rephrased. The only consequential point is whether the original source is correctly cited or not.
 

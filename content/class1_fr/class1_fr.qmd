@@ -1,0 +1,479 @@
+---
+title: "Class 1 slides"
+author: "Michael C. Zeller"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: print
+---
+
+# Course introduction
+
+## Course Introduction
+
+- What is 'far right'?
+- Course structure
+    + no class on 9 May and 30 May (holidays), topics covered in prior and subsequent sessions
+        - any assignment submission requirements remain the same
+- Learning aims
+- Course assessments
+- Office hours and communication
+- e-learning site
+- Q & A
+- student introductions
+
+## Defining 'far right'
+
+- Broadly: **a _noun_ or _adjective_ referring to phenomena that reject (at least elements of) _liberalism_ and/or _democracy_, and is characterised by _nationalism_, _exclusionism_, _xenophobia_, _strong state_, _welfare chauvinism_, _traditional ethics_, _authoritarianism_, and/or _populism_**
+
+- **Radical right** (populist and non-populist cases)
+    + opposition to fundamental values of liberal democracy (radical) and belief in a natural order with inequalities (right)
+
+- **Extreme right**
+    + rejection of democracy (Ignazi's 'antisystem'---but that depends on the system)
+
+- __far right__ encompasses both these terms
+
+## Publications on radical right (from [Arzheimer](https://www.kai-arzheimer.com/tag/bibliography/))
+
+\vspace{-6mm}
+
+![From Arzheimer's bibliography: <https://www.kai-arzheimer.com/tag/bibliography/>](radical_right_pubs.png)
+
+## Structure of the course 
+
+<!-- \begin{columns} -->
+<!-- \begin{column}{0.5\textwidth} -->
+<!-- \textbf{PART I - What is 'far right'?} -->
+<!--     \begin{itemize} -->
+<!--         \item Concepts -->
+<!--         \item Far-right ideology: from transnational traits to local idiosyncracies -->
+<!--     \end{itemize} -->
+<!-- \textbf{PART II - Far-right parties} -->
+<!--     \begin{itemize} -->
+<!--         \item Radical and extreme -->
+<!--         \item Representatives -->
+<!--         \item Voters -->
+<!--         \item Responses and counter-strategies -->
+<!--     \end{itemize} -->
+<!-- \end{column} -->
+<!-- \begin{column}{0.5\textwidth} -->
+<!-- \textbf{PART III - Far-right movements} -->
+<!--     \begin{itemize} -->
+<!--         \item Movement-parties -->
+<!--         \item Mobilisation and movements -->
+<!--         \item Counter-mobilisation -->
+<!--         \item Demobilisation -->
+<!--     \end{itemize} -->
+<!-- \textbf{PART IV - Radicalisation, violence, online activity} -->
+<!--     \begin{itemize} -->
+<!--         \item Radicalisation -->
+<!--         \item Violence -->
+<!--         \item Online -->
+<!--     \end{itemize} -->
+<!-- \textbf{PART V - Studying far right} -->
+<!--     \begin{itemize} -->
+<!--         \item Methods, ethics, and safety -->
+<!--     \end{itemize} -->
+<!-- \end{column} -->
+<!-- \end{columns} -->
+
+## Idea of the research field (Arzheimer, 2022)
+
+\vspace{-10mm}
+
+![Wordfish from Arzheimer's bibliography: Y-axis - how likely the appearance of a word is in research on FR; x-axis - strength of association of a word with underlying dimension](wordfish-beta-april-2022.png)
+
+## Aims
+
+- knowledge about past and contemporary far-right political and social activity
+- familiarity with breadth of research literature covering the far right
+- Capacity to...
+    * assess developments in far-right socio-politics, especially by identifying underlying factors and comparing across contexts
+    * critically evaluate research on the far right, especially by evaluating the data and methods used
+
+## What the course is not...
+
+- neither training in nor forum for activism against the far right
+    * it's a seminar, like many others, with real-world implications
+- not a place for airing grievances about the far right and caricaturing its supporters
+    * good research on the far right takes seriously its ideology, organisations, and supporters---and tries to divorce analysis from normative commitments
+- dogmatic positions about far-right acitivity
+    * we will respectfully debate---and likely disagree at several points---about what qualifies as far right, how it should be researched and understood, and what to do with the fruits of research
+
+## Connection to Vorlesung
+
+This seminar is connected to **Prof. Dr. Berthold Rittberger**’s lecture *(15026 Vorlesungsübung: The Political System of the European Union)*
+
+- is everyone enrolled in that?
+- we will tie in Prof. Rittberger's content through student presentations
+
+## Course assessment
+
+```{r requirements, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+# col1 <- c("","Attendance & Participation","Presentation","Essay"),
+kable(data.frame(
+  col1 <- c("","Participation","Presentation","Essay","Exercise","Klausur"),
+  col2 <- c("BA main","X","X","X","",""),
+  col3 <- c("BA minor (60)","X","X","X","",""),
+  col4 <- c("BA minor (30)","X","X (or Exercise)","","X (or Presentation)",""),
+  col5 <- c("Pedagogy","X","X (or Exercise)","","X (or Presentation)","X"),
+  col6 <- c("Exchange","X","X","X","","")),
+  col.names = NULL, align = c("l","c","c","c","c","c")) %>%
+  kableExtra::kable_styling(latex_options = "hold_position",
+                            bootstrap_options = "bordered",
+                            font_size = 7)
+```
+
+- **Participation** - do the readings and discuss in class <!-- limit electronic devices in class -->
+- **Presentation** (*Referat*)
+    + short (max. 20 mins.) group presentation introducing EU politics area, present a piece of research on the far right in this area of EU politics
+    + groups, topics, and presentation date due to me by **\textcolor{red}{16 May}**---but there are advantages to booking early...
+- **Essay**
+    + report on a far-right phenomenon (e.g., voters, a party, protests, violence)
+    + gather and present data, generate analytical insights
+    + 3000-4000 words (excluding citations)
+    + **\textcolor{red}{14 June}**: draft dataframe due. **\textcolor{red}{5 July}**: short synopsis due. **\textcolor{red}{16 August}**: full, final report due. 
+    + consider working with data visualisation and analysis software!
+
+## Course assessment
+
+```{r requirements-repeat, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+# col1 <- c("","Attendance & Participation","Presentation","Essay"),
+kable(data.frame(
+  col1 <- c("","Participation","Presentation","Essay","Exercise","Klausur"),
+  col2 <- c("BA main","X","X","X","",""),
+  col3 <- c("BA minor (60)","X","X","X","",""),
+  col4 <- c("BA minor (30)","X","X (or Exercise)","","X (or Presentation)",""),
+  col5 <- c("Pedagogy","X","X (or Exercise)","","X (or Presentation)","X"),
+  col6 <- c("Exchange","X","X","X","","")),
+  col.names = NULL, align = c("l","c","c","c","c","c")) %>%
+  kableExtra::kable_styling(latex_options = "hold_position",
+                            bootstrap_options = "bordered",
+                            font_size = 7)
+```
+
+- **Exercise**
+    + memo on an assigned far-right actor (e.g., a party, movement, or organisation)
+    + basic description and any important context, gather and present relevant data (e.g., a memo on a party might present their election results in the last five national elections; on a movement, a string of protest events), importance of this data and far-right actor
+    + topic assigned right after class on **\textcolor{red}{4 July}** --- due on **\textcolor{red}{10 July}**
+    + 1000-2000 words
+    + I will offer suggestions about useful sources for your assigned topic
+- **Klausur**
+    + 90-minutes exam in essay form, by arrangement
+
+## For the paper, and writing in general...
+
+![Patriotta, G. (2017). Crafting papers for publication: Novelty and convention in academic writing. *Journal of Management Studies, 54*(5), 747-759.](crafting_papers_for_publication.png)
+
+It is feasible that final papers could provide a start for a research publication. For those interested in research careers, this should be kept in mind.
+
+## Typical class meeting
+
+- Opening question(s)/discussion point(s)
+    + e.g., theoretical dilemma, typology forming, item from the news
+- Short summarising lecture on theory/findings related to week's topic
+- Discussion point
+- Discussing the reading(s)
+    + highlighting important points (especially theory and research design)
+        * _students who do the reading will find this discussion most illuminating_
+- Presentation of further research relevant to week's topic
+    + _another reason to attend class: this further research might help you on your assignments_
+- Summative discussion: takeaways, new ideas, lingering questions
+
+\vspace{5mm}
+
+**Throughout, we will use _cases_ (especially the cases you are familiar with) to link _theory_ to _real-world events_.**
+
+
+## Office hours and communication
+
+* best to send an email
+    + [michael.zeller@gsi.uni-muenchen.de](mailto:michael.zeller@gsi.uni-muenchen.de)
+    + [m.zeller@lmu.de](mailto:m.zeller@lmu.de)
+
+* 11.00 - 12.00 on Wednesdays at GSI (Oettingenstr. 67) - Room H105
+* or by appointment
+
+## Moodle
+
+* Self-enrol: 15030 The Far Right in Europe and Beyond
+    + access key: "FR2024"
+* All course readings are available
+* The **syllabus** is there -- the mystical, magical source of all knowledge about the course
+
+<!-- * Guidelines on essay -->
+
+## Resources
+
+\scriptsize
+
+Kai Arzheimer's website: <https://www.kai-arzheimer.com/> and Twitter: [@ kai_arzheimer](https://twitter.com/kai_arzheimer)
+\vspace{-3mm}
+
+- Extreme Right Bibliography: <https://www.kai-arzheimer.com/extreme-right-western-europe-bibliography/>
+
+Cas Mudde's podcast, *Radikaal*: <https://www.radikaalpodcast.com/> and his Twitter: [@ CasMudde](https://twitter.com/casmudde)
+
+C-REX: <https://www.sv.uio.no/c-rex/english/>
+\vspace{-3mm}
+
+- *Knowing what's (far) right: A compendium*: <https://www.sv.uio.no/c-rex/english/groups/compendium/c-rex-compendium-print-version.pdf>
+
+ECPR Extremism & Democracy website: <https://standinggroups.ecpr.eu/extremismanddemocracy/>
+\vspace{-3mm}
+
+- _e-Extreme_ newsletter: <https://standinggroups.ecpr.eu/extremismanddemocracy/newsletter/>
+- Routledge book series: [_Extremism and Democracy_](https://www.routledge.com/Extremism-and-Democracy/book-series/ED) and [_Fascism and the Far Right_](https://www.routledge.com/Routledge-Studies-in-Fascism-and-the-Far-Right/book-series/FFR)
+
+Anti-Defamation League: <https://www.adl.org/>
+
+\vspace{4mm}
+
+and much, much more
+
+## About me
+
+- tell me if you have problems understanding me
+    \vspace{-2mm}
+    + there's an accent at work that I tragically cannot shake off
+\vspace{-2mm}
+- Ph.D. in political science from Central European University (CEU)
+    \vspace{-2mm}
+    + focus on comparative politics
+    + specialisation in qualitative methods (incl. qualitative comparative analysis [QCA], [Bayesian] process tracing)
+    + dissertation on the demobilisation of far-right social movement campaigns
+\vspace{-2mm}
+- researcher in funded projects on 
+    \vspace{-2mm}
+    + bans of right-wing extremist organisations and related online content moderation
+    + radicalisation, violent extremism, polarisation, and resilience
+\vspace{-2mm}
+- specialisation in qualitative methods, but also with quantitative text analysis, network analysis, and some inferential statistical methods
+\vspace{-2mm}
+- a slowly-developing website with some resources <https://michaelzeller.de/>
+
+- current research work: protest and polarisation; militant democracy (in Germany) and organisational proscription; far-right movement leadership; contention around the Istanbul Convention
+
+## About the course
+
+* Q & A 
+
+## Presentation round
+
+* Information about you
+    - Study programme
+    - Country (place) of origin
+    - Background in education/research
+    - Expectations for this course
+    - Academic/professional aspirations?
+
+# Onto our topic: concept formation and conceptualising the far right
+
+## Concept formation
+
+- **concepts** are the building blocks of social science research
+    + a term denoting an abstract idea
+
+![](Munck_data_aggregation.png)
+
+## Concept formation
+
+- identifying bounds of concepts <!-- Sartori's extension (denotation) and intension (connotation) -->
+    * See @Sartori1970
+- broadly, three types of concepts in social science
+    + \underline{classical}: **all** criteria are shared by **all** cases
+    + \underline{radial}: **some** criteria are shared by **all** cases; others are not
+    + \underline{family resemblance}: **No** criterion is shared by **all** cases
+
+## Classical vs. radial [@collier1993ConceptualStretchingRevisited]
+
+<!-- second venn made with <https://www.mathcha.io/editor> -->
+
+<!-- \begin{columns} -->
+<!-- \begin{column}{0.8\textwidth} -->
+
+<!-- ```{r out.height='90%'} -->
+<!-- knitr::include_graphics(rep("CollierMahon_classical_radial.png")) -->
+<!-- ``` -->
+
+<!-- \end{column} -->
+
+<!-- \begin{column}{0.2\textwidth} -->
+
+<!-- % visualising these (and family resemblance) as venn diagrams -->
+
+<!-- \end{column} -->
+<!-- \end{columns} -->
+
+## Visualising classical/radial concepts
+
+<!-- \begin{columns} -->
+<!-- \begin{column}{0.5\textwidth} -->
+<!-- \centering -->
+<!-- Classical concept (\textbf{bold}) -->
+
+<!-- \begin{tikzpicture}[venncircle/.style={draw, circle, minimum size=3cm, align=center}, node distance=1.5cm] -->
+<!--     \node[venncircle] (circle1) {}; -->
+<!--     \node[venncircle, right of=circle1] (circle2) {}; -->
+<!--     \node (MN) at ($(circle1)!0.5!(circle2)$){}; -->
+<!--     \node[venncircle, below of=MN] (circle3) {}; -->
+<!--     \node[xshift=-0.5cm, yshift=0.2cm] (att1)  at ($(circle1)$){claws};  -->
+<!--     \node[xshift=0.5cm, yshift=0.2cm] (att2)  at ($(circle2)$){snout};  -->
+<!--     \node[xshift=0cm, yshift=-0.5cm] (att3)  at ($(circle3)$){four legs};  -->
+<!--     \node[xshift=0cm, yshift=1cm] (allatts)  at ($(circle3)$){\textbf{dog}};  -->
+<!-- \end{tikzpicture} -->
+
+<!-- \end{column} -->
+
+<!-- \begin{column}{0.5\textwidth} -->
+<!-- \centering -->
+<!-- Radial concept (\textbf{bold}) -->
+
+<!-- \tikzset{every picture/.style={line width=0.75pt}}        -->
+
+<!-- \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1] -->
+<!-- \path (0,235); %set diagram left start at 0, and has height of 235 -->
+
+<!-- %Shape: Circle [id:dp4821562904022312]  -->
+<!-- \draw   (140,110) .. controls (140,82.39) and (162.39,60) .. (190,60) .. controls (217.61,60) and (240,82.39) .. (240,110) .. controls (240,137.61) and (217.61,160) .. (190,160) .. controls (162.39,160) and (140,137.61) .. (140,110) -- cycle ; -->
+<!-- %Shape: Circle [id:dp9245300852368512]  -->
+<!-- \draw   (70,50) .. controls (70,22.39) and (92.39,0) .. (120,0) .. controls (147.61,0) and (170,22.39) .. (170,50) .. controls (170,77.61) and (147.61,100) .. (120,100) .. controls (92.39,100) and (70,77.61) .. (70,50) -- cycle ; -->
+<!-- %Shape: Circle [id:dp9817604519113161]  -->
+<!-- \draw   (70,110) .. controls (70,82.39) and (92.39,60) .. (120,60) .. controls (147.61,60) and (170,82.39) .. (170,110) .. controls (170,137.61) and (147.61,160) .. (120,160) .. controls (92.39,160) and (70,137.61) .. (70,110) -- cycle ; -->
+<!-- %Shape: Circle [id:dp4528349026360641]  -->
+<!-- \draw   (0,110) .. controls (0,82.39) and (22.39,60) .. (50,60) .. controls (77.61,60) and (100,82.39) .. (100,110) .. controls (100,137.61) and (77.61,160) .. (50,160) .. controls (22.39,160) and (0,137.61) .. (0,110) -- cycle ; -->
+<!-- %Shape: Circle [id:dp054714890782140646]  -->
+<!-- \draw   (70,170) .. controls (70,142.39) and (92.39,120) .. (120,120) .. controls (147.61,120) and (170,142.39) .. (170,170) .. controls (170,197.61) and (147.61,220) .. (120,220) .. controls (92.39,220) and (70,197.61) .. (70,170) -- cycle ; -->
+
+<!-- % Text Node -->
+<!-- \draw (721,21) node    {$0$}; -->
+<!-- % Text Node -->
+<!-- \draw (701,71) node    {$0$}; -->
+<!-- % Text Node -->
+<!-- \draw (101,102) node [anchor=north west][inner sep=0.75pt]  [font=\small] [align=left] {female}; -->
+<!-- % Text Node -->
+<!-- \draw (75,136) node [anchor=north west][inner sep=0.75pt]  [rotate=-270] [align=left] {\textbf{mother}}; -->
+<!-- % Text Node -->
+<!-- \draw (97,72) node [anchor=north west][inner sep=0.75pt]   [align=left] {\textbf{mother}}; -->
+<!-- % Text Node -->
+<!-- \draw (96,131) node [anchor=north west][inner sep=0.75pt]   [align=left] {\textbf{mother}}; -->
+<!-- % Text Node -->
+<!-- \draw (167,87) node [anchor=north west][inner sep=0.75pt]  [rotate=-90] [align=left] {\textbf{mother}}; -->
+<!-- % Text Node -->
+<!-- \draw (93,20) node [anchor=north west][inner sep=0.75pt]   [align=left] {\begin{minipage}[lt]{37.31pt}\setlength\topsep{0pt} -->
+<!-- 50\% of  -->
+<!-- \begin{center} -->
+<!-- genes -->
+<!-- \end{center} -->
+
+<!-- \end{minipage}}; -->
+<!-- % Text Node -->
+<!-- \draw (174,101) node [anchor=north west][inner sep=0.75pt]   [align=left] {nurtures}; -->
+<!-- % Text Node -->
+<!-- \draw (92,162) node [anchor=north west][inner sep=0.75pt]   [align=left] {\begin{minipage}[lt]{40.15pt}\setlength\topsep{0pt} -->
+<!-- \begin{center} -->
+<!-- married\\to father -->
+<!-- \end{center} -->
+
+<!-- \end{minipage}}; -->
+<!-- % Text Node -->
+<!-- \draw (26,91) node [anchor=north west][inner sep=0.75pt]   [align=left] {\begin{minipage}[lt]{29.37pt}\setlength\topsep{0pt} -->
+<!-- \begin{center} -->
+<!-- gives \\birth -->
+<!-- \end{center} -->
+
+<!-- \end{minipage}}; -->
+
+<!-- \end{tikzpicture} -->
+
+<!-- \end{column} -->
+<!-- \end{columns} -->
+
+<!-- and family resemblance, where no characteristics are shared all -->
+
+<!-- \textbf{other examples?} -->
+
+## Mudde's approach
+
+Options
+
+1. family resemblance <!-- "none of the parties are exactly the same, but each family member will have some features in common with all other members" -->
+2. Weber's ideal type 
+3. _Primus inter pares_ <!-- one example that sets the model for all others -->
+4. lowest common denominator <!-- group on the basis of the (few) features that all individual members have in common. This would lead to a so-called “minimum definition” (cf. Eatwell 1996). -->
+5. greatest common denominator <!-- the “greatest common denominator” and employs a “most similar system design” (Przeworksi & Teune 1970), i.e. similarities among a selection of party family members from backgrounds as similar as possible. The aim is to find a “maximum definition,” possible number of similarities within (part of) the family (see Mudde 2000a) -->
+
+<!-- Mudde uses approaches 2 and 3, prefering their 'classical rather than radial' nature -->
+
+## Ideological components
+
+- nationalism
+- exclusionism
+- xenophobia
+- strong state
+- welfare chauvinism
+- traditional ethics
+
+\hspace{10mm} &darr;
+
+- __nativism__
+- __authoritarianism__
+- __populism__
+
+<!-- what do you think? does this make sense? are potentially important components missing ('ethnopluralism'?)? what are some problems of focusing on ideological components? (TALK ABOUT PREO) -->
+
+## Radical and extreme
+
+Radical right (populist and non-populist cases)
+
+- opposition to fundamental values of liberal democracy (radical) and belief in a natural order with inequalities (right)
+
+Extreme right
+
+- rejection of democracy (Ignazi's 'antisystem'---but that depends on the system)
+
+And __far right__ encompasses them both
+
+## Radical and extreme
+
+![From: Arzheimer, Kai. “Conceptual Confusion is not Always a Bad Thing: The Curious Case of European Radical Right Studies.” Demokratie und Entscheidung. Eds. Marker, Karl, Michael Roseneck, Annette Schmitt, and Jürgen Sirsch. Wiesbaden: Springer, 2018. 23-40.](er-rr-timeseries.png)
+
+## Examples?
+
+What cases are you familiar with?
+
+How should categorise them and why?
+
+## Examples - talking through cases
+
+<!-- \begin{table}[] -->
+<!-- \begin{tabular}{|l|l|} -->
+<!-- \hline -->
+<!-- \multicolumn{1}{|l|}{\textbf{Radical}}  & \textbf{Extreme}       \\ \hline -->
+<!-- \multicolumn{1}{|l|}{AfD}               & Der Flügel?            \\ \hline -->
+<!-- \multicolumn{1}{|l|}{}                  & NPD                    \\ \hline -->
+<!-- \multicolumn{1}{|l|}{FPÖ}               &                        \\ \hline -->
+<!-- \multicolumn{1}{|l|}{UKIP?}             & Britain First          \\ \hline -->
+<!-- \multicolumn{1}{|l|}{}                  & British National Party \\ \hline -->
+<!-- \multicolumn{1}{|l|}{RN/Front National} &                        \\ \hline -->
+<!-- \multicolumn{1}{|l|}{Fidesz}            & Mi Hazánk Mozgalom     \\ \hline -->
+<!-- \multicolumn{1}{|l|}{}                  & Golden Dawn            \\ \hline -->
+<!-- \multicolumn{1}{|l|}{Forza Italia}      & Casa Pound             \\ \hline -->
+<!-- \multicolumn{2}{|c|}{FdI, Lega?}                                 \\ \hline -->
+<!-- \multicolumn{1}{|l|}{Partij voor de Vrijheid} &                  \\ \hline -->
+<!-- \multicolumn{1}{|l|}{PiS/United Right}  &                        \\ \hline -->
+<!-- \end{tabular} -->
+<!-- \end{table} -->
+
+even trickier with movements?
+
+## Points to be aware of?
+
+- concept formation
+- measurement
+- methods
+- descriptive vs. causal inference
+- generalisation
