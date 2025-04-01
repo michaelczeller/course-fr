@@ -68,3 +68,28 @@ If you are considering a career in research, you may find it helpful to familiar
 ### International Student Services Centre: 
 [https://www.lmu.de/en/study/important-contacts/international-office/index.html](https://www.lmu.de/en/study/important-contacts/international-office/index.html)
 
+# This is a test
+
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+#| warning: false
+slide_buttons <- function(slide_id) {
+  glue::glue('<p class="text-center buttons"><a class="btn btn-danger" target="_blank" href="{slide_id}.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> View all slides in new window</a> <a class="btn btn-danger" target="_blank" href="{slide_id}.pdf" role="button"><i class="fa-solid fa-file-pdf"></i> Download PDF of all slides</a></p>')
+}
+
+slide_buttons("/slides/slides_test")
+
+library(xaringanExtra)
+
+xaringanExtra::embed_xaringan(
+  "/slides/slides_test.html",
+  ratio = "16:9",
+  border = "none",
+  margin = "0 auto"
+)
+```
+
+
+
+
+

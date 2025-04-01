@@ -133,6 +133,8 @@ biblio <- bibtex::read.bib("library.bib")
 
 Adding syllabus information
 
+SLIDES: <https://www.youtube.com/watch?v=41yTFhQBXaE>
+
 
 ```{r Schedule, echo=FALSE, message=FALSE, warning=FALSE}
 

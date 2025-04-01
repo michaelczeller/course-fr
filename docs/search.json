@@ -18,14 +18,14 @@
     "href": "content/index.html",
     "title": "Content",
     "section": "",
-    "text": "Download class slides"
+    "text": "View all slides in new window  Download PDF of all slides"
   },
   {
     "objectID": "schedule/index.html",
     "href": "schedule/index.html",
     "title": "Schedule",
     "section": "",
-    "text": "Adding syllabus information\nDate\nClass\nWeek\nLecture\n\n\n\n\n2025-04-24\n1\n1\nConcepts\n\n\n2025-05-01\n2\n2\nFar-right ideology: from transnational traits to local idiosyncracies\n\n\n2025-05-08\n3\n3\nParties: radical and extreme\n\n\n2025-05-15\n4\n4\nParties: representatives\n\n\n2025-05-22\n5\n5\nParties: voters\n\n\n2025-05-29\n6\n6\nParties: responses and counter-strategies\n\n\n2025-06-05\n7\n7\nMovement-parties\n\n\n2025-06-12\n8\n8\nMobilisation and movements\n\n\n2025-06-19\n9\n9\nCounter-mobilisation\n\n\n2025-06-26\n10\n10\nMovement decline, failure, and demobilisation\n\n\n2025-07-03\n11\n11\nRadicalisation\n\n\n2025-07-10\n12\n12\nViolence\n\n\n2025-07-17\n13\n13\nOnline\n\n\n2025-07-24\n14\n14\nStudying the far right: methods, ethics, and safety"
+    "text": "Adding syllabus information\nSLIDES: https://www.youtube.com/watch?v=41yTFhQBXaE\nDate\nClass\nWeek\nLecture\n\n\n\n\n2025-04-24\n1\n1\nConcepts\n\n\n2025-05-01\n2\n2\nFar-right ideology: from transnational traits to local idiosyncracies\n\n\n2025-05-08\n3\n3\nParties: radical and extreme\n\n\n2025-05-15\n4\n4\nParties: representatives\n\n\n2025-05-22\n5\n5\nParties: voters\n\n\n2025-05-29\n6\n6\nParties: responses and counter-strategies\n\n\n2025-06-05\n7\n7\nMovement-parties\n\n\n2025-06-12\n8\n8\nMobilisation and movements\n\n\n2025-06-19\n9\n9\nCounter-mobilisation\n\n\n2025-06-26\n10\n10\nMovement decline, failure, and demobilisation\n\n\n2025-07-03\n11\n11\nRadicalisation\n\n\n2025-07-10\n12\n12\nViolence\n\n\n2025-07-17\n13\n13\nOnline\n\n\n2025-07-24\n14\n14\nStudying the far right: methods, ethics, and safety"
   },
   {
     "objectID": "resources/index.html",
@@ -654,8 +654,8 @@
     "objectID": "content/index.html#class-1",
     "href": "content/index.html#class-1",
     "title": "Content",
-    "section": "",
-    "text": "Download class slides"
+    "section": "Class 1",
+    "text": "Class 1\n\n\n\n\n  \n     Download class slides"
   },
   {
     "objectID": "index.html#course-particulars",
@@ -684,5 +684,593 @@
     "title": "The Far Right in Europe and beyond",
     "section": "Student conduct",
     "text": "Student conduct\n\nPlagiarism\nPlagiarism is when ideas and words from others are presented as if they are one’s own. It does not matter from which source (e.g., a book, magazine, newspaper, or the internet) the ideas and text came from or whether it is a large or small piece or whether it is copied verbatim or rephrased. The only consequential point is whether the original source is correctly cited or not."
+  },
+  {
+    "objectID": "slides/slides_test.html#quarto",
+    "href": "slides/slides_test.html#quarto",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/.\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "slides/slides_test.html#bullets",
+    "href": "slides/slides_test.html#bullets",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code\n\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "slides/slides_test.html#code",
+    "href": "slides/slides_test.html#code",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\n\nThis is part of the Quarto documentation.\n\nYou can also add text marked as code!"
+  },
+  {
+    "objectID": "slides/slides_test.html#tabset-example",
+    "href": "slides/slides_test.html#tabset-example",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Tabset example",
+    "text": "Tabset example\n\nExample 1Example 2\n\n\nContent here for tabset 1 :)\n\n\nMore content here, for tabset 2 :)"
+  },
+  {
+    "objectID": "slides/slides_test.html#incremental-content",
+    "href": "slides/slides_test.html#incremental-content",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Incremental content",
+    "text": "Incremental content\nHi!\n\nUse . . . to separate content as an incremental slide!"
+  },
+  {
+    "objectID": "slides/slides_test.html#you-can-add-r-code",
+    "href": "slides/slides_test.html#you-can-add-r-code",
+    "title": "Quarto R-Ladies Theme",
+    "section": "You can add R code",
+    "text": "You can add R code\n\nlibrary(dplyr)\nlibrary(ggplot2)\ng &lt;- starwars |&gt; \n  ggplot() +\n  geom_point(aes(x = height, y = mass)) +\n  theme_light()"
+  },
+  {
+    "objectID": "slides/slides_test.html#and-show-the-results-aswell",
+    "href": "slides/slides_test.html#and-show-the-results-aswell",
+    "title": "Quarto R-Ladies Theme",
+    "section": "And show the results aswell :)",
+    "text": "And show the results aswell :)\n\ng"
+  },
+  {
+    "objectID": "slides/slides_test.html#what-about-tables",
+    "href": "slides/slides_test.html#what-about-tables",
+    "title": "Quarto R-Ladies Theme",
+    "section": "What about tables?",
+    "text": "What about tables?\nknitr::kable()\n\n\n\ntab &lt;- starwars |&gt;\n  tidyr::drop_na(species) |&gt; \n  group_by(species) |&gt;\n  summarise(\n    n = n(),\n    mean_heigth = round(mean(height, na.rm = TRUE)),\n    mean_mass = round(mean(mass, na.rm = TRUE))\n  ) |&gt; \n  slice_max(order_by = n, n = 4) \n\nknitr::kable(tab)\n\n\n\n\n\n\n\nspecies\nn\nmean_heigth\nmean_mass\n\n\n\n\nHuman\n35\n178\n81\n\n\nDroid\n6\n131\n70\n\n\nGungan\n3\n209\n74\n\n\nKaminoan\n2\n221\n88\n\n\nMirialan\n2\n168\n53\n\n\nTwi’lek\n2\n179\n55\n\n\nWookiee\n2\n231\n124\n\n\nZabrak\n2\n173\n80"
+  },
+  {
+    "objectID": "slides/slides_test.html#dtdatatable",
+    "href": "slides/slides_test.html#dtdatatable",
+    "title": "Quarto R-Ladies Theme",
+    "section": "DT::datatable()",
+    "text": "DT::datatable()\nWith the smaller class in the slide! Ex: ## slide name {.smaller}"
+  },
+  {
+    "objectID": "slides/slides_test.html#gtgt",
+    "href": "slides/slides_test.html#gtgt",
+    "title": "Quarto R-Ladies Theme",
+    "section": "gt::gt()",
+    "text": "gt::gt()\n\n\n\n\n\n\n\n\nspecies\nn\nmean_heigth\nmean_mass\n\n\n\n\nHuman\n35\n178\n81\n\n\nDroid\n6\n131\n70\n\n\nGungan\n3\n209\n74\n\n\nKaminoan\n2\n221\n88\n\n\nMirialan\n2\n168\n53\n\n\nTwi'lek\n2\n179\n55\n\n\nWookiee\n2\n231\n124\n\n\nZabrak\n2\n173\n80"
+  },
+  {
+    "objectID": "slides/slides_test.html#reactablereactable",
+    "href": "slides/slides_test.html#reactablereactable",
+    "title": "Quarto R-Ladies Theme",
+    "section": "reactable::reactable()",
+    "text": "reactable::reactable()"
+  },
+  {
+    "objectID": "slides/slides_test.html#diagrams-with-mermaid",
+    "href": "slides/slides_test.html#diagrams-with-mermaid",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Diagrams with Mermaid!",
+    "text": "Diagrams with Mermaid!\nRead about how to create a diagram in this post by Mine Çetinkaya-Rundel.\n\n\n\n#quartotip 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.Read more: https://t.co/3qx9oSNCay pic.twitter.com/fYzGcISl4h\n\n— Quarto (@quarto_pub) July 19, 2022"
+  },
+  {
+    "objectID": "slides/slides_test.html#exporting-into-pdf",
+    "href": "slides/slides_test.html#exporting-into-pdf",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Exporting into PDF",
+    "text": "Exporting into PDF\nYou can use the function pagedown::chrome_print() to print the HTML version into a PDF!\npagedown::chrome_print(\"path-to-file.html\")"
+  },
+  {
+    "objectID": "course-fr.html",
+    "href": "course-fr.html",
+    "title": "Quarto R-Ladies Theme",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/.\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "course-fr.html#quarto",
+    "href": "course-fr.html#quarto",
+    "title": "Quarto R-Ladies Theme",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/.\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "course-fr.html#bullets",
+    "href": "course-fr.html#bullets",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code\n\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "course-fr.html#code",
+    "href": "course-fr.html#code",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\n\nThis is part of the Quarto documentation.\n\nYou can also add text marked as code!"
+  },
+  {
+    "objectID": "course-fr.html#tabset-example",
+    "href": "course-fr.html#tabset-example",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Tabset example",
+    "text": "Tabset example\n\nExample 1Example 2\n\n\nContent here for tabset 1 :)\n\n\nMore content here, for tabset 2 :)"
+  },
+  {
+    "objectID": "course-fr.html#incremental-content",
+    "href": "course-fr.html#incremental-content",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Incremental content",
+    "text": "Incremental content\nHi!\n. . .\nUse . . . to separate content as an incremental slide!"
+  },
+  {
+    "objectID": "course-fr.html#you-can-add-r-code",
+    "href": "course-fr.html#you-can-add-r-code",
+    "title": "Quarto R-Ladies Theme",
+    "section": "You can add R code",
+    "text": "You can add R code\n\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(ggplot2)\ng &lt;- starwars |&gt; \n  ggplot() +\n  geom_point(aes(x = height, y = mass)) +\n  theme_light()"
+  },
+  {
+    "objectID": "course-fr.html#and-show-the-results-aswell",
+    "href": "course-fr.html#and-show-the-results-aswell",
+    "title": "Quarto R-Ladies Theme",
+    "section": "And show the results aswell :)",
+    "text": "And show the results aswell :)\n\ng \n\nWarning: Removed 28 rows containing missing values or values outside the scale range\n(`geom_point()`)."
+  },
+  {
+    "objectID": "course-fr.html#what-about-tables",
+    "href": "course-fr.html#what-about-tables",
+    "title": "Quarto R-Ladies Theme",
+    "section": "What about tables?",
+    "text": "What about tables?\n\nknitr::kable()\n\n\n\ntab &lt;- starwars |&gt;\n  tidyr::drop_na(species) |&gt; \n  group_by(species) |&gt;\n  summarise(\n    n = n(),\n    mean_heigth = round(mean(height, na.rm = TRUE)),\n    mean_mass = round(mean(mass, na.rm = TRUE))\n  ) |&gt; \n  slice_max(order_by = n, n = 4) \n\nknitr::kable(tab)\n\n\n\ntab &lt;- starwars |&gt;\n  tidyr::drop_na(species) |&gt; \n  group_by(species) |&gt;\n  summarise(\n    n = n(),\n    mean_heigth = round(mean(height, na.rm = TRUE)),\n    mean_mass = round(mean(mass, na.rm = TRUE))\n  ) |&gt; \n  slice_max(order_by = n, n = 4) \n\nknitr::kable(tab)\n\n\n\n\nspecies\nn\nmean_heigth\nmean_mass\n\n\n\n\nHuman\n35\n178\n81\n\n\nDroid\n6\n131\n70\n\n\nGungan\n3\n209\n74\n\n\nKaminoan\n2\n221\n88\n\n\nMirialan\n2\n168\n53\n\n\nTwi’lek\n2\n179\n55\n\n\nWookiee\n2\n231\n124\n\n\nZabrak\n2\n173\n80"
+  },
+  {
+    "objectID": "course-fr.html#dtdatatable",
+    "href": "course-fr.html#dtdatatable",
+    "title": "Quarto R-Ladies Theme",
+    "section": "DT::datatable()",
+    "text": "DT::datatable()\nWith the smaller class in the slide! Ex: ## slide name {.smaller}\n\nDT::datatable(tab, options = list(pageLength = 5))"
+  },
+  {
+    "objectID": "course-fr.html#gtgt",
+    "href": "course-fr.html#gtgt",
+    "title": "Quarto R-Ladies Theme",
+    "section": "gt::gt()",
+    "text": "gt::gt()\n\ngt::gt(tab)\n\n\n\n\n\n\n\nspecies\nn\nmean_heigth\nmean_mass\n\n\n\n\nHuman\n35\n178\n81\n\n\nDroid\n6\n131\n70\n\n\nGungan\n3\n209\n74\n\n\nKaminoan\n2\n221\n88\n\n\nMirialan\n2\n168\n53\n\n\nTwi'lek\n2\n179\n55\n\n\nWookiee\n2\n231\n124\n\n\nZabrak\n2\n173\n80"
+  },
+  {
+    "objectID": "course-fr.html#reactablereactable",
+    "href": "course-fr.html#reactablereactable",
+    "title": "Quarto R-Ladies Theme",
+    "section": "reactable::reactable()",
+    "text": "reactable::reactable()\n\nreactable::reactable(tab)"
+  },
+  {
+    "objectID": "course-fr.html#diagrams-with-mermaid",
+    "href": "course-fr.html#diagrams-with-mermaid",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Diagrams with Mermaid!",
+    "text": "Diagrams with Mermaid!\nRead about how to create a diagram in this post by Mine Çetinkaya-Rundel.\n\n\n\n#quartotip 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.Read more: https://t.co/3qx9oSNCay pic.twitter.com/fYzGcISl4h\n\n— Quarto (@quarto_pub) July 19, 2022"
+  },
+  {
+    "objectID": "course-fr.html#exporting-into-pdf",
+    "href": "course-fr.html#exporting-into-pdf",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Exporting into PDF",
+    "text": "Exporting into PDF\nYou can use the function pagedown::chrome_print() to print the HTML version into a PDF!\npagedown::chrome_print(\"path-to-file.html\")"
+  },
+  {
+    "objectID": "slides/01_slides.html#course-introduction-1",
+    "href": "slides/01_slides.html#course-introduction-1",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Course Introduction",
+    "text": "Course Introduction\n\nWhat is ‘far right’?\nCourse structure\n\nno class on 9 May and 30 May (holidays), topics covered in prior and subsequent sessions\n\nany assignment submission requirements remain the same\n\n\nLearning aims\nCourse assessments\nOffice hours and communication\ne-learning site\nQ & A\nstudent introductions"
+  },
+  {
+    "objectID": "slides/01_slides.html#defining-far-right",
+    "href": "slides/01_slides.html#defining-far-right",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Defining ‘far right’",
+    "text": "Defining ‘far right’\n\nBroadly: a noun or adjective referring to phenomena that reject (at least elements of) liberalism and/or democracy, and is characterised by nationalism, exclusionism, xenophobia, strong state, welfare chauvinism, traditional ethics, authoritarianism, and/or populism\nRadical right (populist and non-populist cases)\n\nopposition to fundamental values of liberal democracy (radical) and belief in a natural order with inequalities (right)\n\nExtreme right\n\nrejection of democracy (Ignazi’s ‘antisystem’—but that depends on the system)\n\nfar right encompasses both these terms"
+  },
+  {
+    "objectID": "slides/01_slides.html#publications-on-radical-right-from-arzheimer",
+    "href": "slides/01_slides.html#publications-on-radical-right-from-arzheimer",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Publications on radical right (from Arzheimer)",
+    "text": "Publications on radical right (from Arzheimer)\n\nFrom Arzheimer’s bibliography: https://www.kai-arzheimer.com/tag/bibliography/"
+  },
+  {
+    "objectID": "slides/01_slides.html#structure-of-the-course",
+    "href": "slides/01_slides.html#structure-of-the-course",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Structure of the course",
+    "text": "Structure of the course"
+  },
+  {
+    "objectID": "slides/01_slides.html#idea-of-the-research-field-arzheimer-2022",
+    "href": "slides/01_slides.html#idea-of-the-research-field-arzheimer-2022",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Idea of the research field (Arzheimer, 2022)",
+    "text": "Idea of the research field (Arzheimer, 2022)\n\nWordfish from Arzheimer’s bibliography: Y-axis - how likely the appearance of a word is in research on FR; x-axis - strength of association of a word with underlying dimension"
+  },
+  {
+    "objectID": "slides/01_slides.html#aims",
+    "href": "slides/01_slides.html#aims",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Aims",
+    "text": "Aims\n\nknowledge about past and contemporary far-right political and social activity\nfamiliarity with breadth of research literature covering the far right\nCapacity to…\n\nassess developments in far-right socio-politics, especially by identifying underlying factors and comparing across contexts\ncritically evaluate research on the far right, especially by evaluating the data and methods used"
+  },
+  {
+    "objectID": "slides/01_slides.html#what-the-course-is-not",
+    "href": "slides/01_slides.html#what-the-course-is-not",
+    "title": "Quarto R-Ladies Theme",
+    "section": "What the course is not…",
+    "text": "What the course is not…\n\nneither training in nor forum for activism against the far right\n\nit’s a seminar, like many others, with real-world implications\n\nnot a place for airing grievances about the far right and caricaturing its supporters\n\ngood research on the far right takes seriously its ideology, organisations, and supporters—and tries to divorce analysis from normative commitments\n\ndogmatic positions about far-right acitivity\n\nwe will respectfully debate—and likely disagree at several points—about what qualifies as far right, how it should be researched and understood, and what to do with the fruits of research"
+  },
+  {
+    "objectID": "slides/01_slides.html#connection-to-vorlesung",
+    "href": "slides/01_slides.html#connection-to-vorlesung",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Connection to Vorlesung",
+    "text": "Connection to Vorlesung\nThis seminar is connected to Prof. Dr. Berthold Rittberger’s lecture (15026 Vorlesungsübung: The Political System of the European Union)\n\nis everyone enrolled in that?\nwe will tie in Prof. Rittberger’s content through student presentations"
+  },
+  {
+    "objectID": "slides/01_slides.html#course-assessment",
+    "href": "slides/01_slides.html#course-assessment",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Course assessment",
+    "text": "Course assessment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBA main\nBA minor (60)\nBA minor (30)\nPedagogy\nExchange\n\n\nParticipation\nX\nX\nX\nX\nX\n\n\nPresentation\nX\nX\nX (or Exercise)\nX (or Exercise)\nX\n\n\nEssay\nX\nX\n\n\nX\n\n\nExercise\n\n\nX (or Presentation)\nX (or Presentation)\n\n\n\nKlausur\n\n\n\nX\n\n\n\n\n\n\n\n\n\nParticipation - do the readings and discuss in class \nPresentation (Referat)\n\nshort (max. 20 mins.) group presentation introducing EU politics area, present a piece of research on the far right in this area of EU politics\ngroups, topics, and presentation date due to me by —but there are advantages to booking early…\n\nEssay\n\nreport on a far-right phenomenon (e.g., voters, a party, protests, violence)\ngather and present data, generate analytical insights\n3000-4000 words (excluding citations)\n: draft dataframe due. : short synopsis due. : full, final report due.\nconsider working with data visualisation and analysis software!"
+  },
+  {
+    "objectID": "slides/01_slides.html#course-assessment-1",
+    "href": "slides/01_slides.html#course-assessment-1",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Course assessment",
+    "text": "Course assessment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBA main\nBA minor (60)\nBA minor (30)\nPedagogy\nExchange\n\n\nParticipation\nX\nX\nX\nX\nX\n\n\nPresentation\nX\nX\nX (or Exercise)\nX (or Exercise)\nX\n\n\nEssay\nX\nX\n\n\nX\n\n\nExercise\n\n\nX (or Presentation)\nX (or Presentation)\n\n\n\nKlausur\n\n\n\nX\n\n\n\n\n\n\n\n\n\nExercise\n\nmemo on an assigned far-right actor (e.g., a party, movement, or organisation)\nbasic description and any important context, gather and present relevant data (e.g., a memo on a party might present their election results in the last five national elections; on a movement, a string of protest events), importance of this data and far-right actor\ntopic assigned right after class on  — due on \n1000-2000 words\nI will offer suggestions about useful sources for your assigned topic\n\nKlausur\n\n90-minutes exam in essay form, by arrangement"
+  },
+  {
+    "objectID": "slides/01_slides.html#for-the-paper-and-writing-in-general",
+    "href": "slides/01_slides.html#for-the-paper-and-writing-in-general",
+    "title": "Quarto R-Ladies Theme",
+    "section": "For the paper, and writing in general…",
+    "text": "For the paper, and writing in general…\n\nPatriotta, G. (2017). Crafting papers for publication: Novelty and convention in academic writing. Journal of Management Studies, 54(5), 747-759.It is feasible that final papers could provide a start for a research publication. For those interested in research careers, this should be kept in mind."
+  },
+  {
+    "objectID": "slides/01_slides.html#typical-class-meeting",
+    "href": "slides/01_slides.html#typical-class-meeting",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Typical class meeting",
+    "text": "Typical class meeting\n\nOpening question(s)/discussion point(s)\n\ne.g., theoretical dilemma, typology forming, item from the news\n\nShort summarising lecture on theory/findings related to week’s topic\nDiscussion point\nDiscussing the reading(s)\n\nhighlighting important points (especially theory and research design)\n\nstudents who do the reading will find this discussion most illuminating\n\n\nPresentation of further research relevant to week’s topic\n\nanother reason to attend class: this further research might help you on your assignments\n\nSummative discussion: takeaways, new ideas, lingering questions\n\nThroughout, we will use cases (especially the cases you are familiar with) to link theory to real-world events."
+  },
+  {
+    "objectID": "slides/01_slides.html#office-hours-and-communication",
+    "href": "slides/01_slides.html#office-hours-and-communication",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Office hours and communication",
+    "text": "Office hours and communication\n\nbest to send an email\n\nmichael.zeller@gsi.uni-muenchen.de\nm.zeller@lmu.de\n\n11.00 - 12.00 on Wednesdays at GSI (Oettingenstr. 67) - Room H105\nor by appointment"
+  },
+  {
+    "objectID": "slides/01_slides.html#moodle",
+    "href": "slides/01_slides.html#moodle",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Moodle",
+    "text": "Moodle\n\nSelf-enrol: 15030 The Far Right in Europe and Beyond\n\naccess key: “FR2024”\n\nAll course readings are available\nThe syllabus is there – the mystical, magical source of all knowledge about the course"
+  },
+  {
+    "objectID": "slides/01_slides.html#resources",
+    "href": "slides/01_slides.html#resources",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Resources",
+    "text": "Resources\nKai Arzheimer’s website: https://www.kai-arzheimer.com/ and Twitter: @ kai_arzheimer \n\nExtreme Right Bibliography: https://www.kai-arzheimer.com/extreme-right-western-europe-bibliography/\n\nCas Mudde’s podcast, Radikaal: https://www.radikaalpodcast.com/ and his Twitter: @ CasMudde\nC-REX: https://www.sv.uio.no/c-rex/english/ \n\nKnowing what’s (far) right: A compendium: https://www.sv.uio.no/c-rex/english/groups/compendium/c-rex-compendium-print-version.pdf\n\nECPR Extremism & Democracy website: https://standinggroups.ecpr.eu/extremismanddemocracy/ \n\ne-Extreme newsletter: https://standinggroups.ecpr.eu/extremismanddemocracy/newsletter/\nRoutledge book series: Extremism and Democracy and Fascism and the Far Right\n\nAnti-Defamation League: https://www.adl.org/\nand much, much more"
+  },
+  {
+    "objectID": "slides/01_slides.html#about-me",
+    "href": "slides/01_slides.html#about-me",
+    "title": "Quarto R-Ladies Theme",
+    "section": "About me",
+    "text": "About me\n\ntell me if you have problems understanding me \n\nthere’s an accent at work that I tragically cannot shake off \n\nPh.D. in political science from Central European University (CEU) \n\nfocus on comparative politics\nspecialisation in qualitative methods (incl. qualitative comparative analysis [QCA], [Bayesian] process tracing)\ndissertation on the demobilisation of far-right social movement campaigns \n\nresearcher in funded projects on \n\nbans of right-wing extremist organisations and related online content moderation\nradicalisation, violent extremism, polarisation, and resilience \n\nspecialisation in qualitative methods, but also with quantitative text analysis, network analysis, and some inferential statistical methods \na slowly-developing website with some resources https://michaelzeller.de/\ncurrent research work: protest and polarisation; militant democracy (in Germany) and organisational proscription; far-right movement leadership; contention around the Istanbul Convention"
+  },
+  {
+    "objectID": "slides/01_slides.html#about-the-course",
+    "href": "slides/01_slides.html#about-the-course",
+    "title": "Quarto R-Ladies Theme",
+    "section": "About the course",
+    "text": "About the course\n\nQ & A"
+  },
+  {
+    "objectID": "slides/01_slides.html#presentation-round",
+    "href": "slides/01_slides.html#presentation-round",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Presentation round",
+    "text": "Presentation round\n\nInformation about you\n\nStudy programme\nCountry (place) of origin\nBackground in education/research\nExpectations for this course\nAcademic/professional aspirations?"
+  },
+  {
+    "objectID": "slides/01_slides.html#concept-formation",
+    "href": "slides/01_slides.html#concept-formation",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Concept formation",
+    "text": "Concept formation\n\nconcepts are the building blocks of social science research\n\na term denoting an abstract idea"
+  },
+  {
+    "objectID": "slides/01_slides.html#concept-formation-1",
+    "href": "slides/01_slides.html#concept-formation-1",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Concept formation",
+    "text": "Concept formation\n\nidentifying bounds of concepts \n\nSee @Sartori1970\n\nbroadly, three types of concepts in social science\n\n: all criteria are shared by all cases\n: some criteria are shared by all cases; others are not\n: No criterion is shared by all cases"
+  },
+  {
+    "objectID": "slides/01_slides.html#classical-vs.-radial-collier1993conceptualstretchingrevisited",
+    "href": "slides/01_slides.html#classical-vs.-radial-collier1993conceptualstretchingrevisited",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Classical vs. radial [@collier1993ConceptualStretchingRevisited]",
+    "text": "Classical vs. radial [@collier1993ConceptualStretchingRevisited]"
+  },
+  {
+    "objectID": "slides/01_slides.html#visualising-classicalradial-concepts",
+    "href": "slides/01_slides.html#visualising-classicalradial-concepts",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Visualising classical/radial concepts",
+    "text": "Visualising classical/radial concepts\nand family resemblance, where no characteristics are shared all"
+  },
+  {
+    "objectID": "slides/01_slides.html#muddes-approach",
+    "href": "slides/01_slides.html#muddes-approach",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Mudde’s approach",
+    "text": "Mudde’s approach\nOptions\n\nfamily resemblance \nWeber’s ideal type\nPrimus inter pares \nlowest common denominator \ngreatest common denominator"
+  },
+  {
+    "objectID": "slides/01_slides.html#ideological-components",
+    "href": "slides/01_slides.html#ideological-components",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Ideological components",
+    "text": "Ideological components\n\nnationalism\nexclusionism\nxenophobia\nstrong state\nwelfare chauvinism\ntraditional ethics\n\n↓\n\nnativism\nauthoritarianism\npopulism"
+  },
+  {
+    "objectID": "slides/01_slides.html#radical-and-extreme",
+    "href": "slides/01_slides.html#radical-and-extreme",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Radical and extreme",
+    "text": "Radical and extreme\nRadical right (populist and non-populist cases)\n\nopposition to fundamental values of liberal democracy (radical) and belief in a natural order with inequalities (right)\n\nExtreme right\n\nrejection of democracy (Ignazi’s ‘antisystem’—but that depends on the system)\n\nAnd far right encompasses them both"
+  },
+  {
+    "objectID": "slides/01_slides.html#radical-and-extreme-1",
+    "href": "slides/01_slides.html#radical-and-extreme-1",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Radical and extreme",
+    "text": "Radical and extreme\n\nFrom: Arzheimer, Kai. “Conceptual Confusion is not Always a Bad Thing: The Curious Case of European Radical Right Studies.” Demokratie und Entscheidung. Eds. Marker, Karl, Michael Roseneck, Annette Schmitt, and Jürgen Sirsch. Wiesbaden: Springer, 2018. 23-40."
+  },
+  {
+    "objectID": "slides/01_slides.html#examples",
+    "href": "slides/01_slides.html#examples",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Examples?",
+    "text": "Examples?\nWhat cases are you familiar with?\nHow should categorise them and why?"
+  },
+  {
+    "objectID": "slides/01_slides.html#examples---talking-through-cases",
+    "href": "slides/01_slides.html#examples---talking-through-cases",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Examples - talking through cases",
+    "text": "Examples - talking through cases\neven trickier with movements?"
+  },
+  {
+    "objectID": "slides/01_slides.html#points-to-be-aware-of",
+    "href": "slides/01_slides.html#points-to-be-aware-of",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Points to be aware of?",
+    "text": "Points to be aware of?\n\nconcept formation\nmeasurement\nmethods\ndescriptive vs. causal inference\ngeneralisation"
+  },
+  {
+    "objectID": "slides/01_slides.html#quarto",
+    "href": "slides/01_slides.html#quarto",
+    "title": "Quarto R-Ladies Theme",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/.\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "slides/01_slides.html#bullets",
+    "href": "slides/01_slides.html#bullets",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code\n\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "slides/01_slides.html#code",
+    "href": "slides/01_slides.html#code",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\n\nThis is part of the Quarto documentation.\n\nYou can also add text marked as code!"
+  },
+  {
+    "objectID": "slides/01_slides.html#tabset-example",
+    "href": "slides/01_slides.html#tabset-example",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Tabset example",
+    "text": "Tabset example\n\nExample 1Example 2\n\n\nContent here for tabset 1 :)\n\n\nMore content here, for tabset 2 :)"
+  },
+  {
+    "objectID": "slides/01_slides.html#incremental-content",
+    "href": "slides/01_slides.html#incremental-content",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Incremental content",
+    "text": "Incremental content\nHi!\n. . .\nUse . . . to separate content as an incremental slide!"
+  },
+  {
+    "objectID": "slides/01_slides.html#you-can-add-r-code",
+    "href": "slides/01_slides.html#you-can-add-r-code",
+    "title": "Quarto R-Ladies Theme",
+    "section": "You can add R code",
+    "text": "You can add R code\n\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(ggplot2)\ng &lt;- starwars |&gt; \n  ggplot() +\n  geom_point(aes(x = height, y = mass)) +\n  theme_light()"
+  },
+  {
+    "objectID": "slides/01_slides.html#and-show-the-results-aswell",
+    "href": "slides/01_slides.html#and-show-the-results-aswell",
+    "title": "Quarto R-Ladies Theme",
+    "section": "And show the results aswell :)",
+    "text": "And show the results aswell :)\n\ng \n\nWarning: Removed 28 rows containing missing values or values outside the scale range\n(`geom_point()`)."
+  },
+  {
+    "objectID": "slides/01_slides.html#what-about-tables",
+    "href": "slides/01_slides.html#what-about-tables",
+    "title": "Quarto R-Ladies Theme",
+    "section": "What about tables?",
+    "text": "What about tables?\n\nknitr::kable()\n\n\n\ntab &lt;- starwars |&gt;\n  tidyr::drop_na(species) |&gt; \n  group_by(species) |&gt;\n  summarise(\n    n = n(),\n    mean_heigth = round(mean(height, na.rm = TRUE)),\n    mean_mass = round(mean(mass, na.rm = TRUE))\n  ) |&gt; \n  slice_max(order_by = n, n = 4) \n\nknitr::kable(tab)\n\n\n\ntab &lt;- starwars |&gt;\n  tidyr::drop_na(species) |&gt; \n  group_by(species) |&gt;\n  summarise(\n    n = n(),\n    mean_heigth = round(mean(height, na.rm = TRUE)),\n    mean_mass = round(mean(mass, na.rm = TRUE))\n  ) |&gt; \n  slice_max(order_by = n, n = 4) \n\nknitr::kable(tab)\n\n\n\n\nspecies\nn\nmean_heigth\nmean_mass\n\n\n\n\nHuman\n35\n178\n81\n\n\nDroid\n6\n131\n70\n\n\nGungan\n3\n209\n74\n\n\nKaminoan\n2\n221\n88\n\n\nMirialan\n2\n168\n53\n\n\nTwi’lek\n2\n179\n55\n\n\nWookiee\n2\n231\n124\n\n\nZabrak\n2\n173\n80"
+  },
+  {
+    "objectID": "slides/01_slides.html#dtdatatable",
+    "href": "slides/01_slides.html#dtdatatable",
+    "title": "Quarto R-Ladies Theme",
+    "section": "DT::datatable()",
+    "text": "DT::datatable()\nWith the smaller class in the slide! Ex: ## slide name {.smaller}\n\nDT::datatable(tab, options = list(pageLength = 5))"
+  },
+  {
+    "objectID": "slides/01_slides.html#gtgt",
+    "href": "slides/01_slides.html#gtgt",
+    "title": "Quarto R-Ladies Theme",
+    "section": "gt::gt()",
+    "text": "gt::gt()\n\ngt::gt(tab)\n\n\n\n\n\n\n\nspecies\nn\nmean_heigth\nmean_mass\n\n\n\n\nHuman\n35\n178\n81\n\n\nDroid\n6\n131\n70\n\n\nGungan\n3\n209\n74\n\n\nKaminoan\n2\n221\n88\n\n\nMirialan\n2\n168\n53\n\n\nTwi'lek\n2\n179\n55\n\n\nWookiee\n2\n231\n124\n\n\nZabrak\n2\n173\n80"
+  },
+  {
+    "objectID": "slides/01_slides.html#reactablereactable",
+    "href": "slides/01_slides.html#reactablereactable",
+    "title": "Quarto R-Ladies Theme",
+    "section": "reactable::reactable()",
+    "text": "reactable::reactable()\n\nreactable::reactable(tab)"
+  },
+  {
+    "objectID": "slides/01_slides.html#diagrams-with-mermaid",
+    "href": "slides/01_slides.html#diagrams-with-mermaid",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Diagrams with Mermaid!",
+    "text": "Diagrams with Mermaid!\nRead about how to create a diagram in this post by Mine Çetinkaya-Rundel.\n\n\n\n#quartotip 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.Read more: https://t.co/3qx9oSNCay pic.twitter.com/fYzGcISl4h\n\n— Quarto (@quarto_pub) July 19, 2022"
+  },
+  {
+    "objectID": "slides/01_slides.html#exporting-into-pdf",
+    "href": "slides/01_slides.html#exporting-into-pdf",
+    "title": "Quarto R-Ladies Theme",
+    "section": "Exporting into PDF",
+    "text": "Exporting into PDF\nYou can use the function pagedown::chrome_print() to print the HTML version into a PDF!\npagedown::chrome_print(\"path-to-file.html\")\n\npagedown::chrome_print(file.path(\"..\", \"docs/slides\", \"01_slides.html\"))"
+  },
+  {
+    "objectID": "content/index.html#class-1-improved",
+    "href": "content/index.html#class-1-improved",
+    "title": "Content",
+    "section": "",
+    "text": "View all slides in new window  Download PDF of all slides"
+  },
+  {
+    "objectID": "slides/01_slides.html",
+    "href": "slides/01_slides.html",
+    "title": "Quarto R-Ladies Theme",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/.\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "slides/slides_01.html#quarto",
+    "href": "slides/slides_01.html#quarto",
+    "title": "Class 1",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/.\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "slides/slides_01.html#bullets",
+    "href": "slides/slides_01.html#bullets",
+    "title": "Class 1",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code\n\n\nThis is part of the Quarto documentation."
+  },
+  {
+    "objectID": "slides/slides_01.html#code",
+    "href": "slides/slides_01.html#code",
+    "title": "Class 1",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\n\nThis is part of the Quarto documentation.\n\nYou can also add text marked as code!"
+  },
+  {
+    "objectID": "slides/slides_01.html#tabset-example",
+    "href": "slides/slides_01.html#tabset-example",
+    "title": "Class 1",
+    "section": "Tabset example",
+    "text": "Tabset example\n\nExample 1Example 2\n\n\nContent here for tabset 1 :)\n\n\nMore content here, for tabset 2 :)"
+  },
+  {
+    "objectID": "slides/slides_01.html#incremental-content",
+    "href": "slides/slides_01.html#incremental-content",
+    "title": "Class 1",
+    "section": "Incremental content",
+    "text": "Incremental content\nHi!\n\nUse . . . to separate content as an incremental slide!"
+  },
+  {
+    "objectID": "slides/slides_01.html#you-can-add-r-code",
+    "href": "slides/slides_01.html#you-can-add-r-code",
+    "title": "Class 1",
+    "section": "You can add R code",
+    "text": "You can add R code\n\nlibrary(dplyr)\nlibrary(ggplot2)\ng &lt;- starwars |&gt; \n  ggplot() +\n  geom_point(aes(x = height, y = mass)) +\n  theme_light()"
+  },
+  {
+    "objectID": "slides/slides_01.html#and-show-the-results-aswell",
+    "href": "slides/slides_01.html#and-show-the-results-aswell",
+    "title": "Class 1",
+    "section": "And show the results aswell :)",
+    "text": "And show the results aswell :)\n\ng"
+  },
+  {
+    "objectID": "slides/slides_01.html#what-about-tables",
+    "href": "slides/slides_01.html#what-about-tables",
+    "title": "Class 1",
+    "section": "What about tables?",
+    "text": "What about tables?\nknitr::kable()\n\n\n\ntab &lt;- starwars |&gt;\n  tidyr::drop_na(species) |&gt; \n  group_by(species) |&gt;\n  summarise(\n    n = n(),\n    mean_heigth = round(mean(height, na.rm = TRUE)),\n    mean_mass = round(mean(mass, na.rm = TRUE))\n  ) |&gt; \n  slice_max(order_by = n, n = 4) \n\nknitr::kable(tab)\n\n\n\n\n\n\n\nspecies\nn\nmean_heigth\nmean_mass\n\n\n\n\nHuman\n35\n178\n81\n\n\nDroid\n6\n131\n70\n\n\nGungan\n3\n209\n74\n\n\nKaminoan\n2\n221\n88\n\n\nMirialan\n2\n168\n53\n\n\nTwi’lek\n2\n179\n55\n\n\nWookiee\n2\n231\n124\n\n\nZabrak\n2\n173\n80"
+  },
+  {
+    "objectID": "slides/slides_01.html#dtdatatable",
+    "href": "slides/slides_01.html#dtdatatable",
+    "title": "Class 1",
+    "section": "DT::datatable()",
+    "text": "DT::datatable()\nWith the smaller class in the slide! Ex: ## slide name {.smaller}"
+  },
+  {
+    "objectID": "slides/slides_01.html#gtgt",
+    "href": "slides/slides_01.html#gtgt",
+    "title": "Class 1",
+    "section": "gt::gt()",
+    "text": "gt::gt()\n\n\n\n\n\n\n\n\nspecies\nn\nmean_heigth\nmean_mass\n\n\n\n\nHuman\n35\n178\n81\n\n\nDroid\n6\n131\n70\n\n\nGungan\n3\n209\n74\n\n\nKaminoan\n2\n221\n88\n\n\nMirialan\n2\n168\n53\n\n\nTwi'lek\n2\n179\n55\n\n\nWookiee\n2\n231\n124\n\n\nZabrak\n2\n173\n80"
+  },
+  {
+    "objectID": "slides/slides_01.html#reactablereactable",
+    "href": "slides/slides_01.html#reactablereactable",
+    "title": "Class 1",
+    "section": "reactable::reactable()",
+    "text": "reactable::reactable()"
+  },
+  {
+    "objectID": "slides/slides_01.html#diagrams-with-mermaid",
+    "href": "slides/slides_01.html#diagrams-with-mermaid",
+    "title": "Class 1",
+    "section": "Diagrams with Mermaid!",
+    "text": "Diagrams with Mermaid!\nRead about how to create a diagram in this post by Mine Çetinkaya-Rundel.\n\n\n\n#quartotip 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.Read more: https://t.co/3qx9oSNCay pic.twitter.com/fYzGcISl4h\n\n— Quarto (@quarto_pub) July 19, 2022"
+  },
+  {
+    "objectID": "slides/slides_01.html#exporting-into-pdf",
+    "href": "slides/slides_01.html#exporting-into-pdf",
+    "title": "Class 1",
+    "section": "Exporting into PDF",
+    "text": "Exporting into PDF\nYou can use the function pagedown::chrome_print() to print the HTML version into a PDF!\npagedown::chrome_print(\"path-to-file.html\")"
   }
 ]
