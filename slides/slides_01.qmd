@@ -304,10 +304,11 @@ kable(data.frame(
 
 ## Moodle
 
-* Self-enrol: 15030 The Far Right in Europe and Beyond
-    + access key: "FR2024"
+* Self-enrol: The Far Right in Europe and Beyond
+    + access key: "FRpol"
 * All course readings are available
-* The **syllabus** is there -- the mystical, magical source of all knowledge about the course
+
+<!-- * The **syllabus** is there -- the mystical, magical source of all knowledge about the course -->
 
 <!-- * Guidelines on essay -->
 
