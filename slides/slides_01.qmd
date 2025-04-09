@@ -205,6 +205,9 @@ kable(data.frame(
 - 2500-3500 words (excluding citations)
 - [28 June]{style="color:red;"}: short synopsis due. [16 August]{style="color:red;"}: full, final report due. 
 - consider working with data visualisation and analysis software!
+- A couple rules apply: 
+    (1) **no national-level election data** (if you want to study a party/parties, consider EU-level or regional-level or local-level); 
+    (2) **no drawing any data from or citing Statista or other data curation services**.
 
 <!-- ## Exercise (*Übungsaufgabe*) - only pedagogy students -->
 
