@@ -5,7 +5,7 @@ title: "The Far Right in Europe and beyond"
 Instructor: Dr. Michael C. Zeller    
 Email: [m.zeller@lmu.de](mailto:m.zeller@lmu.de)    
 Webpage: michaelzeller.de    
-Office hours: TBD    
+Office hour: Wednesdays, 10.00 - 11.00    
 Office: GSI (Oettingenstr. 67) Room H105    
 
 
@@ -134,8 +134,8 @@ Weights <- tribble(
 
 - Course level: **BA**
 - Course format: **seminar**
-- Course number: **15030**
-- Credits: **2.0 SWS**
+<!-- - Course number: **15030** -->
+<!-- - Credits: **2.0 SWS** -->
 - Module assignment: **P5 Vertiefung Politik in Europa**
 
 <!-- Politische Soziologie -->

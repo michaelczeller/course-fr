@@ -159,7 +159,7 @@ kable(data.frame(
 
 ## Participation
 
-To receive credit for this course, all students are expected to attend class meetings and participate actively in class discussions. Active participation requires independent preparation, especially [doing the required reading]{style="color:red;"}. Assigned and recommended readings for each session are listed in the **Schedule**.
+To receive credit for this course, all students are expected to attend class meetings and participate actively in class discussions. Active participation requires independent preparation, especially [doing the required reading]{style="color:red;"}. Assigned and recommended readings for each session are listed in the [Schedule](../schedule/index.qmd).
 
 ## Presentation (*Referat*)
 
@@ -237,6 +237,49 @@ An [example data report](../report/index.qmd) is provided on this website. It is
 Finally, a suggested (purely voluntary, but perhaps to your ultimate benefit) mode of conducting work on your report: students may find it advantageous to work in [R](https://www.r-project.org/about.html) and [Rstudio](https://posit.co/download/rstudio-desktop/). This is a powerful data management and analysis tool. It combines the capability to import and visualise data, conduct sophisticated analyses, and even present them in nicely formatted documents (whether Word, PDF, or HTML). Students interested in working with datasets in their theses, going on to advanced academic studies, or pursuing a career in research will benefit enormously from engaging with this tool early and often. The course introduction will provide some tips for using this tool. For further information, please turn to the vast material related to R online or inquire with the instructor.
 
 **Once you have read this far, send me an email stating your favourite city and what (if any) topics about the far right you are interested in. I will reply with free tips about data and/or sources that might be suitable for a data report.**
+
+::: {.callout-caution collapse="true"}
+## Scoring rubric
+
+```{r rep-rubric, echo=FALSE}
+#| message: false
+#| warning: false
+#| paged-print: false
+# Load necessary library
+library(dplyr)
+library(kableExtra)
+
+rubric <- data.frame(
+  # block=c("Content", "Content", "Content", "Content", "Form", "Form"),
+  criteria=c("<b>1. Introduction</b> <br> - Does the introduction clearly introduce the topic and related data? <br> - Does the introduction briefly state any information or context that is essential to understanding the topic and/or data? <br> - Does the introduction state the aim of the report? <br> - Does the introduction summarise the structure of the report and the main findings? <br> - Was there an overview of the analytical technique(s) of the method?",
+             "<b>2. Literature and concepts</b> <br> - Does the report have a section on relevant literature and concepts related to their topic and data? <br> - Does the section provide detailed systematised concept(s) to understand the rest of the data report? <br> - Does the section provide the contextual information necessary to understand the rest of the data report?", 
+             "<b>3. Data description</b> <br> - Does the data description explain how the data were collected or created? <br> - Does the data description report the (most important) variables and overall data structure (e.g., one row is an observation of what)? <br> Does the data description provide any necessary descriptive statistics (e.g., number of observations, range/mean/median, missing observations)? <br> - Does the data description reflect on the strengths and weaknesses of the underlying source of the data?",
+             "<b>4. Data presentation</b> <br> - Are the data presented in a tabular and graphical format? <br> - Is the presentation readable and readily interpretable (e.g., clear labels, legends)? <br> - Is the presentation directly connected to the analytical discussion?",
+             "<b>5. Analytical insights</b> <br> - Does the report discuss (descriptive) analytical insights enabled by presentation of the data and closer inspection of certain data points or collections of data points? <br> - Is the report cautious about the limits of how much we can interpret the data (e.g., how certain can we be of any trends; how plausible is any speculation about causes?)?",
+             "<b>6. Conclusion</b> <br> - Does the conclusion summarise the report? <br> - Does it reflect on the shortcomings or limitations of the data and interpretation? <br> - Does it discuss possible ways that this data might be used further (e.g., for thesis research projects, to inform policy discussions)?",
+             "<b>7. Form</b> <br> - Is the report well-organised, logically structured, and easy to follow? <br> - Do the different sections clearly, coherently relate to each other? <br> - Is the writing clear, with few if any spelling, typological, grammatical, or syntactical errors?",
+             "<b>8. Data</b> <br> - Has the report been submitted with the raw data? <br> - Is the data file clear? <br> - Would the reader be able to replicate the data report using the data file?") #, 
+  # present=c("","","","","",""),
+  # evaluation=c("","","","","","")
+)
+
+colnames(rubric)<-c("Criteria and Indicators")
+
+# kable(plan, format = "latex")  # For LaTeX output
+# kable(plan, format = "html")   # For HTML output
+
+rubric %>% 
+  # group_by(Block) %>% 
+  kable("html", escape = FALSE) %>% 
+  # collapse_rows(1, valign="middle") %>% 
+  kable_styling(full_width = FALSE) # %>% 
+  # column_spec(1, bold = TRUE) %>% 
+  # collapse_rows(1, valign="middle") # %>% column_spec(2, width = "80px") %>% 
+  # column_spec(2, width = "120px")
+
+```
+
+:::
 
 ## Exercise (*Übungsaufgabe*)
 
