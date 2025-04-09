@@ -1,163 +1,679 @@
 ---
-title: "Class 1"
-subtitle: "Intro to Course"
-author: "[Michael C. Zeller](https://michaelzeller.de)"
+title: "Class 1: The Far Right in Europe and Beyond"
+subtitle: "Introduction to Course"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
 format: 
   rladies-revealjs:
     footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
 incremental: false
 embed-resources: true
+bibliography: ../../../library.bib
 ---
 
-<!-- [MZeller](https://michaelzeller.de/) for [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/index.html). Code available on [GitHub](https://github.com/beatrizmilz/quarto-rladies-theme). -->
 
-## Quarto
 
-Quarto enables you to weave together content and executable code into a finished presentation.
-To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+# Course Introduction {background-color="#2c844c"}
 
-> This is part of the [Quarto documentation](https://quarto.org/docs/presentations/).
+<!-- # Reminders -->
 
-## Bullets
+<!-- ## Reminders -->
 
-When you click the **Render** button a document will be generated that includes:
+<!-- - and? -->
 
--   Content authored with markdown
--   Output from executable code
+<!-- To make a slide like this, use: -->
 
-> This is part of the [Quarto documentation](https://quarto.org/docs/presentations/).
+<!--     # Title of slide {background-color="#562457"} -->
 
-## Code
+- What is 'far right'?
+- Course structure
+    <!-- + no class on 1 May and 29 May (holidays), topics covered in prior and subsequent sessions -->
+        <!-- - any assignment submission requirements remain the same -->
+- Learning aims
+- What the course is not...
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code.
-You can embed code like this:
+## First task...
 
-```{r}
-#| echo: true
-1 + 1
-```
+[Read the syllabus!]{style="font-size:120px;"}
 
-> This is part of the [Quarto documentation](https://quarto.org/docs/presentations/).
+<!-- <div style="font-size: 50px;">Read the syllabus!</div> -->
 
-You can also add `text marked as code`!
+- We have a shiny new (developing) website for the course
+    + <https://michaelzeller.de/course-fr/>
 
-# New topic! {background-color="#2c844c"}
+- Before our next meeting, your task is to peruse the website
+    + especially the [Syllabus]{style="color:red;"}, [Schedule]{style="color:red;"}, and [Report example]{style="color:red;"} pages. 
 
-To make a slide like this, use:
+## Defining 'far right'
 
-    # Title of slide {background-color="#562457"}
-
-## Tabset example
-
-::: panel-tabset
-## Example 1
-
-Content here for tabset 1 :)
-
-## Example 2
-
-More content here, for tabset 2 :)
-:::
-
-## Incremental content
-
-Hi! 
+- Broadly: a **[noun]{style="color:red;"}** or **[adjective]{style="color:red;"}** referring to phenomena that reject (at least elements of) _liberalism_ and/or _democracy_, and is characterised by 
+[nationalism]{style="color:cadetblue;"}, [exclusionism]{style="color:cadetblue;"}, [xenophobia]{style="color:cadetblue;"}, [strong state]{style="color:cadetblue;"}, [welfare chauvinism]{style="color:cadetblue;"}, [traditional ethics]{style="color:cadetblue;"}, [authoritarianism]{style="color:cadetblue;"}, and/or [populism]{style="color:cadetblue;"}
 
 . . .
 
+- [Radical]{style="color:red;"} right (populist and non-populist cases): opposition to fundamental values of liberal democracy (radical) and belief in a natural order with inequalities (right)
 
-Use `. . .` to separate content as an incremental slide!
+- [Extreme]{style="color:red;"} right: rejection of democracy (Ignazi's 'antisystem'---but that depends on the system)
 
+. . .
 
-## You can add R code
+- __[far right]{style="color:red;"}__ encompasses both these terms
 
-```{r}
-#| echo: true
-library(dplyr)
-library(ggplot2)
-g <- starwars |> 
-  ggplot() +
-  geom_point(aes(x = height, y = mass)) +
-  theme_light()
+## Publications on radical right (from [Arzheimer](https://www.kai-arzheimer.com/tag/bibliography/))
+
+![From Arzheimer's bibliography: <https://www.kai-arzheimer.com/tag/bibliography/>](slide_files/01/radical_right_pubs.png)
+
+## Idea of the research field (Arzheimer, 2022)
+
+![Wordfish from Arzheimer's bibliography: Y-axis - how likely the appearance of a word is in research on far right; x-axis - strength of association of a word with underlying dimension](slide_files/01/wordfish-beta-april-2022.png)
+
+## Structure of the course 
+
+<style>
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+
+<div class="container">
+
+<div class="col">
+- [PART I - What is 'far right'?]{style="color:blue;"}
+    + Concepts
+    + Far-right ideology: from transnational traits to local idiosyncrasies
+
+- [PART II - Far-right parties]{style="color:blue;"}
+    + Radical and extreme
+    + Representatives
+    + Voters
+    + Responses and counter-strategies
+</div>
+
+<div class="col">
+- [PART III - Far-right movements]{style="color:blue;"}
+    + Movement-parties
+    + Mobilisation and movements
+    + Counter-mobilisation
+    + Demobilisation
+
+- [PART IV - Individuals in far right]{style="color:blue;"}
+    + Radicalisation
+    + Violence
+    + Online
+
+- [PART V - Studying the far right]{style="color:blue;"}
+    + Methods, ethics, and safety
+</div>
+
+</div>
+
+## Holidays
+
+Several holidays overlap with our class meetings:   
+
+- 1 May (Class 2)
+- 29 May (Class 6)
+- 19 June (Class 9) 
+
+**FOR NOW, no make-up classes are planned...**   
+
+- requires attentive reading and preparation so we can cover the material in the surrounding classes
+- possibly adding short recorded lectures...
+
+## Aims
+
+- knowledge about past and contemporary far-right political and social activity
+- familiarity with breadth of research literature covering the far right
+- Capacity to...
+    * assess developments in far-right socio-politics, especially by identifying underlying factors and comparing across contexts
+    * critically evaluate research on the far right, especially by evaluating the data and methods used
+    * gather, assess, and present data about far-right socio-politics
+
+## What the course is not...
+
+<!-- - neither training in nor forum for activism against the far right -->
+- [not for activism against the far right]{style="color:red;"}
+    * it's a seminar, like many others, with real-world implications
+
+. . .
+
+- [not for airing grievances about far right and caricaturing far-right supporters]{style="color:red;"}
+    * good research on the far right takes seriously its ideology, organisations, and supporters---and tries to divorce analysis from normative commitments
+
+. . .
+
+- [not for dogmatic positions about far-right activity]{style="color:red;"}
+    * we will respectfully debate---and likely disagree at several points---about what qualifies as far right, how it should be researched and understood, and what to do with the fruits of research
+
+## Connection to Vorlesung
+
+This seminar is connected to **Prof. Dr. Berthold Rittberger**’s lecture *(Vorlesungsübung: The Political System of the European Union)*
+
+- is everyone enrolled in that?
+- we will tie in Prof. Rittberger's content through class discussions
+<!-- - we will tie in Prof. Rittberger's content through student presentations -->
+
+# Course assessments {background-color="#2c844c"}
+
+- Participation
+- Presentation
+- Essay (Data report)
+
+## Course assessment
+
+```{r requirements, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+# col1 <- c("","Attendance & Participation","Presentation","Essay"),
+kable(data.frame(
+  col1 <- c("","Participation","Presentation","Essay","Exercise","Klausur"),
+  col2 <- c("BA main","X","X","X","",""),
+  col3 <- c("BA minor (60)","X","X","X","",""),
+  col4 <- c("BA minor (30)","X","X (or Exercise)","","X (or Presentation)",""),
+  col5 <- c("Pedagogy","X","X (or Exercise)","","X (or Presentation)","X"),
+  col6 <- c("Exchange","X","X","X","","")),
+  col.names = NULL, align = c("l","c","c","c","c","c")) %>%
+  kableExtra::kable_styling(latex_options = "hold_position",
+                            bootstrap_options = "bordered",
+                            font_size = 30)
 ```
 
-## And show the results aswell :)
+## Participation
 
-```{r}
-#| fig.align: center
-#| echo: true
-g 
+- do the readings and discuss in class <!-- limit electronic devices in class -->
+- make note of any questions or comments you have as you go through the readings
+- most of the readings are research journal articles
+    + more in-depth than book chapters---requires greater concentration
+    + consider complementing with a general reader (examples listed at of [Syllabus](https://michaelzeller.de/course-fr/syllabus/))
+
+## Presentation (*Referat*)
+
+- short (max. 20 mins.) group presentation on a method
+- groups, topics, and preferred date due to me by [Week 4 (15 May)]{style="color:red;"}
+    + but there are advantages to booking early...
+
+## Essay (*Hausarbeit*): Data report
+
+- data report on a far-right phenomenon (e.g., voters, a party, protests, violence)
+- gather and present data, generate analytical insights
+- 2500-3500 words (excluding citations)
+- [28 June]{style="color:red;"}: short synopsis due. [16 August]{style="color:red;"}: full, final report due. 
+- consider working with data visualisation and analysis software!
+
+<!-- ## Exercise (*Übungsaufgabe*) - only pedagogy students -->
+
+<!-- - memo on an assigned far-right actor (e.g., a party, movement, or organisation) -->
+<!-- - basic description and any important context, gather and present relevant data (e.g., a memo on a party might present their election results in the last five national elections; on a movement, a string of protest events), importance of this data and far-right actor -->
+<!-- - topic assigned right after class on [3 July]{style="color:red;"} --- due on [9 July]{style="color:red;"} -->
+<!-- - 1000-2000 words -->
+<!-- - I will offer suggestions about useful sources for your assigned topic -->
+<!-- - **Klausur** -->
+<!--     + 90-minutes exam in essay form, by arrangement -->
+
+## Course assessment summary
+
+::: panel-tabset
+## Overview
+
+```{r reqs, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+# col1 <- c("","Attendance & Participation","Presentation","Essay"),
+kable(data.frame(
+  col1 <- c("","Participation","Presentation","Essay","Exercise","Klausur"),
+  col2 <- c("BA main","X","X","X","",""),
+  col3 <- c("BA minor (60)","X","X","X","",""),
+  col4 <- c("BA minor (30)","X","X (or Exercise)","","X (or Presentation)",""),
+  col5 <- c("Pedagogy","X","X (or Exercise)","","X (or Presentation)","X"),
+  col6 <- c("Exchange","X","X","X","","")),
+  col.names = NULL, align = c("l","c","c","c","c","c")) %>%
+  kableExtra::kable_styling(latex_options = "hold_position",
+                            bootstrap_options = "bordered",
+                            font_size = 30)
 ```
 
-## What about tables? {.smaller}
+## Participation
 
-### `knitr::kable()`
+- do the readings and discuss in class <!-- limit electronic devices in class -->
+- make note of any questions or comments you have as you go through the readings
+- most of the readings are research journal articles
+    + more in-depth than book chapters---requires greater concentration
+    + consider complementing with a general reader (examples listed at of [Syllabus](https://michaelzeller.de/course-fr/syllabus/))
+
+## Presentation
+
+- short (max. 20 mins.) group presentation on a method
+- groups, topics, and preferred date due to me by [Week 4 (15 May)]{style="color:red;"}
+    + but there are advantages to booking early...
+
+## Data report
+
+- data report on a far-right phenomenon (e.g., voters, a party, protests, violence)
+- gather and present data, generate analytical insights
+- 2500-3500 words (excluding citations)
+- [28 June]{style="color:red;"}: short synopsis due. [16 August]{style="color:red;"}: full, final report due. 
+- consider working with data visualisation and analysis software!
+:::
+
+
+
+## For the essay and writing in general...
+
+![Patriotta, G. (2017). Crafting papers for publication: Novelty and convention in academic writing. *Journal of Management Studies, 54*(5), 747-759.](slide_files/01/crafting_papers_for_publication.png)
+
+<!-- It is feasible that final papers could provide a start for a research publication. For those interested in research careers, this should be kept in mind. -->
+
+
+# Course practicalities {background-color="#2c844c"}
+
+- Typical class meeting
+- Office hours and communication
+- e-learning site
+- resources
+- about me
+- Q & A
+- student introductions
+
+## Typical class meeting
+
+- Opening question(s)/discussion point(s)
+    + e.g., theoretical dilemma, typology forming, item from the news
+- Summarising lecture on theory/findings related to week's topic
+    + discussion points
+- Discussing the reading(s)
+    + highlighting important points (esp. theory and research design)
+        * _students who read will find discussion more illuminating_
+- Presentation of further research relevant to week's topic
+- Summative discussion: takeaways, new ideas, lingering questions
+
+[Throughout, we will use _cases_ to link _theory_ to _real-world events_]{style="color:red;"}
+
+## Office hours and communication
+
+* best to send an email
+    + [michael.zeller@gsi.uni-muenchen.de](mailto:michael.zeller@gsi.uni-muenchen.de)
+    + [m.zeller@lmu.de](mailto:m.zeller@lmu.de)
+
+* 11.00 - 12.00 on Wednesdays at GSI (Oettingenstr. 67) - Room H105
+* or by appointment
+
+## Moodle
+
+* Self-enrol: 15030 The Far Right in Europe and Beyond
+    + access key: "FR2024"
+* All course readings are available
+* The **syllabus** is there -- the mystical, magical source of all knowledge about the course
+
+<!-- * Guidelines on essay -->
+
+## Resources
+
+Kai Arzheimer's website: <https://www.kai-arzheimer.com/> and Twitter: [@ kai_arzheimer](https://twitter.com/kai_arzheimer)
+\vspace{-3mm}
+
+- Extreme Right Bibliography: <https://www.kai-arzheimer.com/extreme-right-western-europe-bibliography/>
+
+Cas Mudde's podcast, *Radikaal*: <https://www.radikaalpodcast.com/> and his Twitter: [@ CasMudde](https://twitter.com/casmudde)
+
+C-REX: <https://www.sv.uio.no/c-rex/english/>
+\vspace{-3mm}
+
+- *Knowing what's (far) right: A compendium*: <https://www.sv.uio.no/c-rex/english/groups/compendium/c-rex-compendium-print-version.pdf>
+
+## Resources
+
+ECPR Extremism & Democracy website: <https://standinggroups.ecpr.eu/extremismanddemocracy/>
+\vspace{-3mm}
+
+- _e-Extreme_ newsletter: <https://standinggroups.ecpr.eu/extremismanddemocracy/newsletter/>
+- Routledge book series: [_Extremism and Democracy_](https://www.routledge.com/Extremism-and-Democracy/book-series/ED) and [_Fascism and the Far Right_](https://www.routledge.com/Routledge-Studies-in-Fascism-and-the-Far-Right/book-series/FFR)
+
+Anti-Defamation League: <https://www.adl.org/>
+
+and much, much more
+
+## About me
+
+- tell me if you have problems understanding me
+    + there's an accent at work that I tragically cannot shake off
+- Ph.D. in political science from Central European University (CEU)
+    + specialisation in qualitative methods (incl. QCA, [Bayesian] process tracing), but also quant. text analysis, network analysis
+<!-- + dissertation on the demobilisation of far-right social movement campaigns -->
+- researcher in funded projects on ...
+    + violent/banned far-right groups and online content moderation
+    + radicalisation, violent extremism, polarisation, and resilience
+<!-- - a slowly-developing website with some resources <https://michaelzeller.de/> -->
+- current work: militant democracy; far-right activist networks; political violence (in 1970s Northern Ireland; in contemporary Italy); paths to female leadership in Asia; protest and polarisation
+
+## About the course
+
+* Q & A 
+
+## About you! Student introductions
+
+* Information about you, possibly including...
+    - Expectations for this course
+    - favourite joke
+    - Study programme
+    - favourite song
+    - Country (place) of origin
+    - top source for news
+    - Background in education/research
+    - secret skill
+    - Academic/professional aspirations
+
+# Onto our topic: concept formation and conceptualising the far right {background-color="#2c844c"}
+
+- fundamentals of social science concepts
+- Mudde's approach for the far right
+
+## Concept formation
+
+- **concepts** are the building blocks of social science research
+    + a term denoting an abstract idea
+
+![](slide_files/01/Munck_data_aggregation.png)
+
+## Concept formation
+
+- identifying bounds of concepts <!-- Sartori's extension (denotation) and intension (connotation) -->
+    * See @Sartori1970
+- broadly, three types of concepts in social science
+
+. . . 
+
+1. [classical]{style="color:red;"}: **all** criteria are shared by **all** cases
+
+. . . 
+
+2. [radial]{style="color:red;"}: **some** criteria are shared by **all** cases; others are not
+
+. . . 
+
+3. [family resemblance]{style="color:red;"}: **No** criterion is shared by **all** cases
+
+## Visualising classical/radial concepts
 
 ::: columns
 ::: {.column width="50%"}
-```{r}
-#| label: kable-ex
-#| echo: true
-#| eval: false
-tab <- starwars |>
-  tidyr::drop_na(species) |> 
-  group_by(species) |>
-  summarise(
-    n = n(),
-    mean_heigth = round(mean(height, na.rm = TRUE)),
-    mean_mass = round(mean(mass, na.rm = TRUE))
-  ) |> 
-  slice_max(order_by = n, n = 4) 
+Classical concept (all criteria)
+```{r, fig.width=5}
+#| label: venn1
+#| echo: false
+#| eval: true
+library(venn)
+# https://bookdown.org/dusadrian/QCAbook/lkf.html#venn
+# https://cran.r-project.org/web/packages/venn/venn.pdf
 
-knitr::kable(tab)
+venn("111", snames = "claws, snout, ears", sncs = 1.1)
+centroid <- getCentroid(getZones("111"))[[1]]
+text(centroid[1], centroid[2], labels = "DOG", cex = 1.5)
 ```
 :::
 
 ::: {.column width="50%"}
-```{r}
-#| label: kable-ex
+Radial concept (all share 'female')
+```{r, fig.width=5}
+#| label: venn2
 #| eval: true
+venn(4, snames = "female, 50% of genes, married to father, nurtures", sncs = 1.1)
+area1 <- getZones("1100") # list of length ...
+polygon(area1[[1]], col="lightblue")
+centroid1 <- getCentroid(getZones("1100"))[[1]]
+text(centroid1[1], centroid1[2], labels = "mother", cex = 0.85)
+
+area2 <- getZones("1010") # list of length ...
+polygon(area2[[1]], col="lightblue")
+centroid2 <- getCentroid(getZones("1010"))[[1]]
+text(centroid2[1], centroid2[2], labels = "mother", cex = 0.85)
+
+area3 <- getZones("1001") # list of length ...
+polygon(area3[[1]], col="lightblue")
+centroid3 <- getCentroid(getZones("1001"))[[1]]
+text(centroid3[1], centroid3[2], labels = "mother", cex = 0.85)
+
+area4 <- getZones("1110") # list of length ...
+polygon(area4[[1]], col="lightblue")
+centroid4 <- getCentroid(getZones("1110"))[[1]]
+text(centroid4[1], centroid4[2], labels = "mother", cex = 0.85)
+
+area5 <- getZones("1101") # list of length ...
+polygon(area5[[1]], col="lightblue")
+centroid5 <- getCentroid(getZones("1101"))[[1]]
+text(centroid5[1], centroid5[2], labels = "mother", cex = 0.85)
+
+area6 <- getZones("1011") # list of length ...
+polygon(area6[[1]], col="lightblue")
+centroid6 <- getCentroid(getZones("1011"))[[1]]
+text(centroid6[1], centroid6[2], labels = "mother", cex = 0.85)
+
+area7 <- getZones("1111") # list of length ...
+polygon(area7[[1]], col="lightblue")
+centroid7 <- getCentroid(getZones("1111"))[[1]]
+text(centroid7[1], centroid7[2], labels = "mother", cex = 0.85)
 ```
 :::
 :::
 
-## `DT::datatable()` {.smaller}
+and family resemblance: no characteristics shared by all (e.g., games)
 
-With the `smaller` class in the slide!
-Ex: `## slide name {.smaller}`
+## Classical vs. radial [@collier1993ConceptualStretchingRevisited]
 
-```{r}
-DT::datatable(tab, options = list(pageLength = 5))
+![](slide_files/01/CollierMahon_classical_radial.png)
+
+```{r out.height='100%'}
+#| eval: false
+#| include: false
+knitr::include_graphics(rep("slide_files/01/CollierMahon_classical_radial.png"))
 ```
 
-## `gt::gt()`
 
-```{r}
-gt::gt(tab)
-```
+## Options (according to Mudde)
 
-## `reactable::reactable()`
+1. family resemblance 
+<!-- + "none of the parties are exactly the same, but each family member will have some features in common with all other members" -->
 
-```{r}
-reactable::reactable(tab)
-```
+. . . 
 
-## Diagrams with Mermaid!
+2. Weber's ideal type 
+    <!-- + must satisfy all characteristics -->
 
-Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/).
+. . . 
 
-<center>
-<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
+3. _Primus inter pares_ ('first among equals'): one example that sets the model for all others
+
+. . . 
+
+4. lowest common denominator: group on the basis of the (few) features that all individual members have in common. This would lead to a so-called “minimum definition” (cf. Eatwell 1996)
+
+. . .
+
+5. greatest common denominator: a “maximum definition,” maximise possible number of similarities within (part of) the family
+    
+<!-- the “greatest common denominator” and employs a “most similar system design” (Przeworksi & Teune 1970), i.e. similarities among a selection of party family members from backgrounds as similar as possible. The aim is to find a “maximum definition,” possible number of similarities within (part of) the family (see Mudde 2000a) -->
+
+<!-- Mudde uses approaches 2 and 3, prefering their 'classical rather than radial' nature -->
+
+## Ideological components
+
+- nationalism
+- exclusionism
+- xenophobia
+- strong state
+- welfare chauvinism
+- traditional ethics
+
+\hspace{10mm} &darr;
+
+- __nativism__
+- __authoritarianism__
+- __populism__
+
+<!-- what do you think? does this make sense? are potentially important components missing ('ethnopluralism'?)? what are some problems of focusing on ideological components? (TALK ABOUT PREO) -->
+
+## Radical and extreme
+
+Again...
+
+> [Radical]{style="color:red;"} right (populist and non-populist cases): opposition to fundamental values of liberal democracy (radical) and belief in a natural order with inequalities (right)
+
+> [Extreme]{style="color:red;"} right: rejection of democracy (Ignazi's 'antisystem'---but that depends on the system)
+
+> __[far right]{style="color:red;"}__ encompasses both these terms
+
+## Radical and extreme
+
+![From: Arzheimer, Kai. “Conceptual Confusion is not Always a Bad Thing: The Curious Case of European Radical Right Studies.” Demokratie und Entscheidung. Eds. Marker, Karl, Michael Roseneck, Annette Schmitt, and Jürgen Sirsch. Wiesbaden: Springer, 2018. 23-40.](slide_files/01/er-rr-timeseries.png)
+
+## Examples?
+
+What cases are you familiar with?
+
+How should we categorise them and why?
+
+## Examples - talking through (party) cases
+
+| **Radical**                    | **Extreme**               |
+|--------------------------------|---------------------------|
+| **AfD**                        | Der Flügel?               |
+| **FPÖ**                        | NPD                       |
+| **UKIP?**                      | British National Party    |
+| **RN/Front National**          | Britain First             |
+| **PiS/United Right**           | Casa Pound                |
+| **Fidesz**                     | Mi Hazánk Mozgalom        |
+| **FdI, Lega, Forza Italia?**   | Golden Dawn               |
+| **Partij voor de Vrijheid**    |                           |
+
+even trickier with movements?
+
+## Points to be aware of?
+
+- concept formation
+- measurement
+- methods
+- descriptive vs. causal inference
+- generalisation
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- 1 + 1 -->
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+<!-- ::: -->
 
 
-## Exporting into PDF
 
-You can use the function `pagedown::chrome_print()` to print the HTML version into a PDF!
+<!-- ## You can add R code -->
 
-```r
-pagedown::chrome_print("path-to-file.html")
-```
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- library(dplyr) -->
+<!-- library(ggplot2) -->
+<!-- g <- starwars |>  -->
+<!--   ggplot() + -->
+<!--   geom_point(aes(x = height, y = mass)) + -->
+<!--   theme_light() -->
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+<!-- #| fig.align: center -->
+<!-- #| echo: true -->
+<!-- g  -->
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| echo: true -->
+<!-- #| eval: false -->
+<!-- tab <- starwars |> -->
+<!--   tidyr::drop_na(species) |>  -->
+<!--   group_by(species) |> -->
+<!--   summarise( -->
+<!--     n = n(), -->
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+<!--   ) |>  -->
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| eval: true -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+<!-- gt::gt(tab) -->
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+<!-- reactable::reactable(tab) -->
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<!-- </center> -->
+
 
 
 ```{r}
@@ -165,7 +681,5 @@ pagedown::chrome_print(file.path("..", "docs/slides", "slides_01.html"))
 ```
 
 
-<!-- ```{r, print, eval=FALSE, echo=FALSE, message=FALSE} -->
-<!-- pagedown::chrome_print("rmd_workshop.html", output = "rmd_workshop.pdf") -->
-<!-- ``` -->
+## References
 

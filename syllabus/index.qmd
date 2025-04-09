@@ -236,7 +236,7 @@ An [example data report](../report/index.qmd) is provided on this website. It is
 
 Finally, a suggested (purely voluntary, but perhaps to your ultimate benefit) mode of conducting work on your report: students may find it advantageous to work in [R](https://www.r-project.org/about.html) and [Rstudio](https://posit.co/download/rstudio-desktop/). This is a powerful data management and analysis tool. It combines the capability to import and visualise data, conduct sophisticated analyses, and even present them in nicely formatted documents (whether Word, PDF, or HTML). Students interested in working with datasets in their theses, going on to advanced academic studies, or pursuing a career in research will benefit enormously from engaging with this tool early and often. The course introduction will provide some tips for using this tool. For further information, please turn to the vast material related to R online or inquire with the instructor.
 
-**Once you have read this far, send me an email stating your favourite city and what (if any) topics about the far right you are interested in. I will reply with free tips about data and/or sources that might be suitable for a data report.**
+**Once you have read this far, if you send me an email before second class stating your favourite city and what (if any) topics about the far right you are interested in. I will reply with free tips about data and/or sources that might be suitable for a data report.**
 
 ::: {.callout-caution collapse="true"}
 ## Scoring rubric
@@ -281,11 +281,11 @@ rubric %>%
 
 :::
 
-## Exercise (*Übungsaufgabe*)
+<!-- ## Exercise (*Übungsaufgabe*) -->
 
-Students that are required by their degree programme to complete an exercise will write a memo on an assigned far-right actor (e.g., a party, movement, or organisation). The memo topic will be assigned during our 12th class meeting, on **\textcolor{red}{`r MeetingDays$Date[12]`}** and it will be due on the day before our 13th class meeting **\textcolor{red}{`r MeetingDays$Date[13] - 1`}**. Under exceptional circumstances, the instructor may accept late submissions due to unforeseen circumstances. Generally, late submissions will be marked down 0,3 for every two days it is not submitted. If foreseen circumstances make the deadline inconvenient, please speak to the instructor to make an alternative arrangement. 
+<!-- Students that are required by their degree programme to complete an exercise will write a memo on an assigned far-right actor (e.g., a party, movement, or organisation). The memo topic will be assigned during our 12th class meeting, on **\textcolor{red}{`r MeetingDays$Date[12]`}** and it will be due on the day before our 13th class meeting **\textcolor{red}{`r MeetingDays$Date[13] - 1`}**. Under exceptional circumstances, the instructor may accept late submissions due to unforeseen circumstances. Generally, late submissions will be marked down 0,3 for every two days it is not submitted. If foreseen circumstances make the deadline inconvenient, please speak to the instructor to make an alternative arrangement.  -->
 
-The memo should be 1000-2000 words. It should provide a basic description of the far-right actor and any important context. It should gather and present (in a table and/or graphic format) some data relevant to understanding the far-right actor (e.g., a memo on a party might present their election results in the last five national elections; a memo on a movement might present the protest events they have organised during a specific period of time). Imagine that you are describing this far-right actor to someone (a policymaker or researcher) with no specific knowledge of it; your job is to provide context, specific knowledge, and why that knowledge is important. 
+<!-- The memo should be 1000-2000 words. It should provide a basic description of the far-right actor and any important context. It should gather and present (in a table and/or graphic format) some data relevant to understanding the far-right actor (e.g., a memo on a party might present their election results in the last five national elections; a memo on a movement might present the protest events they have organised during a specific period of time). Imagine that you are describing this far-right actor to someone (a policymaker or researcher) with no specific knowledge of it; your job is to provide context, specific knowledge, and why that knowledge is important.  -->
 
 <!-- Possible far-right actors: Reichsbürger,  -->
 
@@ -300,3 +300,10 @@ The memo should be 1000-2000 words. It should provide a basic description of the
 3. Virchow, F. (2017). *Handbuch Rechtsextremismus*. Wiesbaden: Springer VS.
 
 4. Mudde, C. (2002). *The Ideology of the Extreme Right*. Manchester: Manchester University Press.
+
+# Student conduct
+
+## Plagiarism
+
+Plagiarism is when ideas and words from others are presented as if they are one's own. It does not matter from which source (e.g., a book, magazine, newspaper, or the internet) the ideas and text came from or whether it is a large or small piece or whether it is copied verbatim or rephrased. The only consequential point is whether the original source is correctly cited or not.
+

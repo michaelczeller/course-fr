@@ -5,7 +5,7 @@ title: "The Far Right in Europe and beyond"
 Instructor: Dr. Michael C. Zeller    
 Email: [m.zeller@lmu.de](mailto:m.zeller@lmu.de)    
 Webpage: michaelzeller.de    
-Office hour: Wednesdays, 10.00 - 11.00    
+Office hour: Wednesdays, 11.00 - 12.00    
 Office: GSI (Oettingenstr. 67) Room H105    
 
 
@@ -164,11 +164,6 @@ kable(MeetingDays[,c("Date","Class","Week","Lecture")],
 ```
 
 
-## Student conduct
-
-### Plagiarism
-
-Plagiarism is when ideas and words from others are presented as if they are one's own. It does not matter from which source (e.g., a book, magazine, newspaper, or the internet) the ideas and text came from or whether it is a large or small piece or whether it is copied verbatim or rephrased. The only consequential point is whether the original source is correctly cited or not.
 
 <!-- ## Grading -->
 
