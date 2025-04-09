@@ -148,9 +148,7 @@ The aim of this course is to familiarise students with the social scientific res
 <!-- # Course content -->
 <!-- Lehrinhalte -->
 
-
-
-## Course schedule
+## Course schedule overview
 
 ```{r Schedule, echo=FALSE, message=FALSE, warning=FALSE}
 

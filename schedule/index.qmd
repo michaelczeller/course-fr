@@ -130,13 +130,58 @@ biblio <- bibtex::read.bib("library.bib")
 ```
 
 
+```{r Plan, echo=FALSE}
+#| message: false
+#| warning: false
+#| paged-print: false
+# Load necessary library
+library(dplyr)
+library(kableExtra)
 
-Adding syllabus information
+plan <- data.frame(
+  block=c("Introduction", "Introduction", "Far-right parties", "Far-right parties", "Far-right parties", "Far-right parties", "Far-right movements", "Far-right movements", "Far-right movements", "Far-right movements", "Individuals in the far right", "Individuals in the far right", "Individuals in the far right", "Studying the far right"),
+  theme=c("1. Overview","2. Far-right ideology", "3. Radical and extreme parties", "4. Party representatives", "5. Party voters", "6. Responses and counter-strategies", "7. Movement-parties", "8. Mobilisation and movements", "9. Counter-mobilisation", "10. Demobilisation", "11. Radicalisation", "12. Violence", "13. Online", "14. Methods, ethics, and safety"),
+  content=c("","Ideological traits (nativism, authoritarianism, populism, anti-egalitarianism, etc.); group ideology", "radical vs. extreme politics in rhetoric, policy, behaviour", "Politicians that represent far-right parties; gender elements", "Voting behaviour for far right, social and economic characteristics", "Party competition and inter-party dynamics", "Connecting electoral politics to street politics", "Social movement organisations (SMOs); political opportunities; discursive opportunities", "Non-far-right movement responses; strategies, tactics; opposing movement characteristics", "external pressures (social control); internal pressures (individual- and group-level)", "radicalisation, deradicalisation, engagement, disengagement", "Characteristics of far-right violence, individual- and group-based", "Social media platforms; transnationalisation; counterspeech", "Ethnography, measurement, research"),
+  actors=c("","intellectuals; ideologues; activists", "parties; party leaders", "parties; party members", "parties; voters; party constituents", "parties; party leaders; party members", "movement-parties", "movements; movement organisations; mobilising networks", "movements; movement organisations; campaigns", "movements; movement organisations; campaigns", "individuals; activists", "terrorists; violent activists; hooligans; movement members", "individuals; platform users", "researchers; research participants"),
+  literature=c("Mudde","Virchow", "Mudde; Minkenberg", "Weeks et al.; Mayer", "Rydgren; Bornschier et al.", "Art; Heinze", "Pirro and Gattinara", "Koopmans; Gattinara and Pirro", "Mayer; Copsey", "Gaudette et al.; Morrow and Meadowcroft", "della Porta; Jensen et al.", "Ravndal; Manthe", "Zhang; Saltman et al.", "Blee")
+  # KlausurConnection=c()
+)
 
-SLIDES: <https://www.youtube.com/watch?v=41yTFhQBXaE>
+plan$Date <- MeetingDays$Date
+
+plan <- plan %>% select(block, Date, theme, content, actors, literature)
+
+# plan$theme <- paste0("[", plan$theme, "](", links, ")")
+plan$theme <- paste0('<a href="', links, '">', plan$theme, '</a>')
+
+# paste0('<a href="#', plan$Theme, '">', plan$Theme, '</a>')
+
+colnames(plan)<-c("Block","Date","Theme","Content","Key Actors","Key literature")
+
+# kable(plan, format = "latex")  # For LaTeX output
+# kable(plan, format = "html")   # For HTML output
+
+plan %>% 
+  group_by(Block) %>% 
+  kable("html", escape = FALSE) %>% 
+  column_spec(1, bold = TRUE) %>% 
+  collapse_rows(1, valign="middle") %>% 
+  column_spec(2, width = "80px") %>% 
+  column_spec(2, width = "120px")
+
+```
 
 
-```{r Schedule, echo=FALSE, message=FALSE, warning=FALSE}
+**[Holidays]{style="color:red;"}: 1 May (Class 2), 29 May (Class 6), and 19 June (Class 9) are all holidays. [Class slides will be made available for these days]{style="color:red;"}**
+
+<!-- Adding syllabus information -->
+
+<!-- INTERACTIVE SLIDES: <https://www.youtube.com/watch?v=41yTFhQBXaE> -->
+
+
+```{r Schedule, message=FALSE, warning=FALSE}
+#| eval: false
+#| include: false
 
 library(kableExtra)
 

@@ -16,6 +16,8 @@ website:
         text: Content
       - href: resources/index.qmd
         text: Resources
+      - href: report/index.qmd
+        text: Report example
 
 
 format:
