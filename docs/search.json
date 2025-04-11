@@ -1048,5 +1048,68 @@
     "title": "Syllabus",
     "section": "Plagiarism",
     "text": "Plagiarism\nPlagiarism is when ideas and words from others are presented as if they are one’s own. It does not matter from which source (e.g., a book, magazine, newspaper, or the internet) the ideas and text came from or whether it is a large or small piece or whether it is copied verbatim or rephrased. The only consequential point is whether the original source is correctly cited or not."
+  },
+  {
+    "objectID": "slides/slides_02.html#first-task",
+    "href": "slides/slides_02.html#first-task",
+    "title": "Class 2: Ideology",
+    "section": "First task…",
+    "text": "First task…\n\n\nCrazy German GIF from Crazy GIFs"
+  },
+  {
+    "objectID": "slides/slides_02.html#references",
+    "href": "slides/slides_02.html#references",
+    "title": "Class 2: Ideology",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "slides/slides_02.html#test-survey",
+    "href": "slides/slides_02.html#test-survey",
+    "title": "Class 2: Ideology",
+    "section": "Test survey",
+    "text": "Test survey\n\n\n\n\n\nTake the survey at https://forms.gle/8WbaPnWe73YsaZhQ6"
+  },
+  {
+    "objectID": "slides/slides_02.html#survey-results",
+    "href": "slides/slides_02.html#survey-results",
+    "title": "Class 2: Ideology",
+    "section": "survey results",
+    "text": "survey results\n\n\n\n\n\n\n\nmd`## Poll results (Respondents: ${respondentCount})`\n\n\n\n\n\n\n\nimport { liveGoogleSheet } from \"@jimjamslam/live-google-sheet\";\nimport { aq, op } from \"@uwdata/arquero\";\n\nsurveyResults = liveGoogleSheet(\n  \"https://docs.google.com/spreadsheets/d/e/\" +\n    \"2PACX-1vQ2YqQkLeFoCyEFroWLRyaVZt4i4GVb3EZsZ0dZgKDdicwB3eQ7AtEYTPHQaimRHutX3tGE49JQ235f/\" +\n    \"pub?gid=1263356727&single=true&output=csv\",\n  15000, 1, 3);\n\nrespondentCount = surveyResults.length;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncountsUsed = aq.from(surveyResults)\n  .derive({ used: d =&gt; op.split(d.interest, \", \") })\n  .select(\"used\")\n  .unroll(\"used\")\n  .groupby(\"used\")\n  .count()\n  .derive({ measure: d =&gt; \"Have used\" })\n  .rename({ used: \"tool\" })\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncountsWant = aq.from(surveyResults)\n  .derive({ want: d =&gt; op.split(d.familiar, \", \") })\n  .select(\"want\")\n  .unroll(\"want\")\n  .groupby(\"want\")\n  .count()\n  .derive({ measure: d =&gt; \"Want to learn\" })\n  .rename({ want: \"tool\" })\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n// combine the two counts into one dataset again\n// countsAll = [...countsUsed.objects(), ...countsWant.objects()];\n\nplotUsed = Plot.plot({\n  marks: [\n    Plot.barY(countsUsed, { x: \"tool\", y: \"count\", fill: \"tool\" }),  // Use barY for vertical bars\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })  // Change ruleX to ruleY for the vertical line\n  ],\n  x: { label: \"\", tickSize: 0 },  // No ticks on X, or you can adjust as needed\n  y: { label: \"\", tickSize: 0 },  // No ticks on Y, or adjust\n  facet: { data: countsUsed, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 12,\n  }\n});"
+  },
+  {
+    "objectID": "slides/slides_02.html#and-now",
+    "href": "slides/slides_02.html#and-now",
+    "title": "Class 2: Ideology",
+    "section": "and now?",
+    "text": "and now?"
+  },
+  {
+    "objectID": "slides/slides_01.html#initial-class-poll",
+    "href": "slides/slides_01.html#initial-class-poll",
+    "title": "Class 1: The Far Right in Europe and Beyond",
+    "section": "Initial class poll",
+    "text": "Initial class poll\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTake the survey at https://forms.gle/epUVVCkebH3sQcW76"
+  },
+  {
+    "objectID": "slides/slides_01.html#poll-results",
+    "href": "slides/slides_01.html#poll-results",
+    "title": "Class 1: The Far Right in Europe and Beyond",
+    "section": "Poll results",
+    "text": "Poll results\n\nmd`## Poll results (Respondents: ${respondentCount})`\n\n\n\n\n\n\n\nimport { liveGoogleSheet } from \"@jimjamslam/live-google-sheet\";\nimport { aq, op } from \"@uwdata/arquero\";\n\nsurveyResults = liveGoogleSheet(\n  \"https://docs.google.com/spreadsheets/d/e/\" +\n    \"2PACX-1vQ2YqQkLeFoCyEFroWLRyaVZt4i4GVb3EZsZ0dZgKDdicwB3eQ7AtEYTPHQaimRHutX3tGE49JQ235f/\" +\n    \"pub?gid=1263356727&single=true&output=csv\",\n  15000, 1, 5); // adjust the last number to select all relevant columns \n\nrespondentCount = surveyResults.length;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncountsInterest = aq.from(surveyResults)\n  .derive({ interest: d =&gt; op.split(d.interest, \", \") })\n  .select(\"interest\")\n  .unroll(\"interest\")\n  .groupby(\"interest\")\n  .count()\n  .derive({ measure: d =&gt; \"Have interest\" })\n  .rename({ interest: \"part\" })\n\nplotUsed = Plot.plot({\n  marks: [\n    Plot.barY(countsInterest, { x: \"part\", y: \"count\", fill: \"part\" }),  // Use barY for vertical bars\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })  // Change ruleX to ruleY for the vertical line\n  ],\n  x: { label: \"\", tickSize: 0 },  // No ticks on X, or you can adjust as needed\n  y: { label: \"\", tickSize: 0 },  // No ticks on Y, or adjust\n  facet: { data: countsInterest, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 12,\n  }\n});"
+  },
+  {
+    "objectID": "slides/slides_01.html#initial-class-poll-1",
+    "href": "slides/slides_01.html#initial-class-poll-1",
+    "title": "Class 1: The Far Right in Europe and Beyond",
+    "section": "Initial class poll",
+    "text": "Initial class poll\n\nmd`## Poll results (Respondents: ${respondentCount})`\n\n\n\n\n\n\n\nimport { liveGoogleSheet } from \"@jimjamslam/live-google-sheet\";\nimport { aq, op } from \"@uwdata/arquero\";\n\nsurveyResults = liveGoogleSheet(\n  \"https://docs.google.com/spreadsheets/d/e/\" +\n    \"2PACX-1vROCUn2oxvBJiHkMnEWrVT3TtycRzm6xqQKW0zvHXTzRLb4ajeCTShXMaghF3jowbqFvaZwY8r5j5NX/\" +\n    \"pub?gid=1685617065&single=true&output=csv\",\n  10000, 1, 5); // adjust the last number to select all relevant columns \n\nrespondentCount = surveyResults.length;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncountsColour = aq.from(surveyResults)\n  .select(\"colour\")\n  .groupby(\"colour\")\n  .count()\n  .derive({ measure: d =&gt; \"Colours\" })\n\n// Calculate the maximum count from your dataset\nmaxCountCol = Math.max(...countsColour.objects().map(d =&gt; d.count));\n\nplotColour = Plot.plot({\n  marks: [\n    Plot.barY(countsColour, {\n      x: \"colour\",\n      y: \"count\",\n      fill: \"colour\"\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"red\",\n      \"orange\",\n      \"yellow\",\n      \"green\",\n      \"blue\",\n      \"indigo\",\n      \"violet\"\n    ],\n    range: [\n      \"#d73027\",  // red\n      \"orange\",  // orange\n      \"yellow\",  // yellow\n      \"forestgreen\",   // green\n      \"blue\",  // blue\n      \"#4B0082\",  // indigo\n      \"#8F00FF\"   // violet\n    ]\n  },\n  x: { label: \"\", tickSize: 0 },  // Customize as necessary\n  y: {\n    label: \"\",\n    tickSize: 0,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(countsColour.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, maxCountCol]\n  },\n  facet: { data: countsColour, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 12,\n  }\n});"
+  },
+  {
+    "objectID": "slides/slides_01.html#initial-class-poll-2",
+    "href": "slides/slides_01.html#initial-class-poll-2",
+    "title": "Class 1: The Far Right in Europe and Beyond",
+    "section": "Initial class poll",
+    "text": "Initial class poll\n\ncountsInterest = aq.from(surveyResults)\n  // .derive({ interest: d =&gt; op.split(d.interest, \", \") }) // not needed here... the interest column contains only a single value per row, but you're treating it as if it could contain multiple values separated by commas. So, when you use op.split(d.interest, \", \"), it attempts to split a single value (like \"Far-right movements\") into an array, which causes incorrect behavior during the plotting process.\n  .select(\"interest\")\n  // .unroll(\"interest\") // not needed in this poll since multiple options are not allowed --- \"This takes the array in the 'interest' field and \"unrolls\" it. This means that if a person has indicated three interests, this step will create three separate records for that person, each record corresponding to one interest. It effectively flattens the array into individual rows, so you'll have one row per interest per each person.\n  .derive({\n    interest: d =&gt;\n      d.interest === \"Far-right parties\" ? \"parties\" :\n      d.interest === \"Far-right movements\" ? \"movements\" :\n      d.interest === \"Individuals in the far right\" ? \"individuals\" :\n      d.interest === \"Studying the far right\" ? \"studying\" :\n      d.interest  // fallback in case there are unexpected values\n  })\n  .groupby(\"interest\")\n  .count()\n  .derive({ measure: d =&gt; \"Initial student interests\" })\n  // .rename({ interest: \"part\" })\n\n// Calculate the maximum count from your dataset\nmaxCount = Math.max(...countsInterest.objects().map(d =&gt; d.count));\n\nplotInterest = Plot.plot({\n  marks: [\n    Plot.barY(countsInterest, {\n      x: \"interest\",\n      y: \"count\",\n      fill: \"interest\"\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"parties\", // \"Far-right parties\",\n      \"movements\", // \"Far-right movements\",\n      \"individuals\", // \"Individuals in the far right\",\n      \"studying\" // \"Studying the far right\"\n    ],\n    range: [\n      \"#d73027\",  // Far-right parties\n      \"forestgreen\",  // Far-right movements\n      \"#91bfdb\",  // Individuals in the far right\n      \"#4575b4\"   // Studying the far right\n    ]\n  },\n  x: { \n    label: \"\",\n    tickSize: 0,\n    tickFormat: d =&gt; d\n  },  \n  y: {\n    label: \"\",\n    tickSize: 0,\n    tickFormat: d =&gt; d,\n    // tickFormat: d =&gt; Math.floor(d), // Round down to the nearest whole number\n    tickValues: Array.from({ length: maxCount + 1 }, (_, i) =&gt; i), // Array of whole numbers [0, 1, ..., maxCount]\n    domain: [0, maxCount]\n  },\n  facet: { data: countsInterest, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 12,\n  }\n});"
   }
 ]

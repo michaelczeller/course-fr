@@ -19,6 +19,9 @@ bibliography: ../../../library.bib
 
 # Course Introduction {background-color="#2c844c"}
 
+:::: {.columns}
+:::{.column width="60%"}
+
 <!-- # Reminders -->
 
 <!-- ## Reminders -->
@@ -35,6 +38,21 @@ bibliography: ../../../library.bib
         <!-- - any assignment submission requirements remain the same -->
 - Learning aims
 - What the course is not...
+
+<!-- https://tenor.com/en-GB/view/crazy-german-flag-germany-trikot-gif-12722037627503073743 -->
+
+:::
+
+::: {.column width="40%" .right}
+
+<div class="tenor-gif-embed" data-postid="12722037627503073743" data-share-method="host" data-aspect-ratio="0.564257" data-width="70%">
+  <a href="https://tenor.com/view/crazy-german-flag-germany-trikot-gif-12722037627503073743">Crazy German GIF</a>
+  from <a href="https://tenor.com/search/crazy-gifs">Crazy GIFs</a>
+</div>
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+:::
+::::
 
 ## First task...
 
@@ -114,6 +132,35 @@ bibliography: ../../../library.bib
 
 </div>
 
+## Initial class poll
+
+<!-- Steps:    -->
+<!-- - create Google forms poll and publish it    -->
+<!-- - link it to a Google Sheet -->
+<!--     + rename the columns to unique single words -->
+<!--     + add at least 10 extra columns to the sheet -->
+<!--     + publish to the web (file > share > publish to web)  -->
+<!--         - just the sheet (not the whole workbook) AND *as a CSV* -->
+<!--         - in 'Published content & settings' make it 'Entire Document' and tick the option to 'automatically republish...' -->
+<!--     + copy the link and use it broken up as in the first code chunk -->
+<!-- - create link and QR code for survey -->
+<!--     + in the Google form, click the 'Published' settings at top right > 'copy responder link' and tick 'shorten URL' -->
+<!--     + go to <https://www.qr-code-generator.com/>, add the link, and screen shot the QR code -->
+<!-- - TO RESET THE POLL...  -->
+
+<!-- https://observablehq.com/@observablehq/data-wrangling-with-arquero-from-r -->
+
+:::: {.columns}
+:::{.column width="40%"}
+![](slide_files/01/class1_poll_QR.png){fig-alt="A QR code for the survey."}
+:::
+
+::: {.column width="60%" .center}
+<br>Take the survey at **<https://forms.gle/epUVVCkebH3sQcW76>**
+:::
+::::
+
+
 ## Holidays
 
 Several holidays overlap with our class meetings:   
@@ -159,6 +206,173 @@ This seminar is connected to **Prof. Dr. Berthold Rittberger**’s lecture *(Vor
 - is everyone enrolled in that?
 - we will tie in Prof. Rittberger's content through class discussions
 <!-- - we will tie in Prof. Rittberger's content through student presentations -->
+
+## Initial class poll
+
+```{ojs}
+md`## Poll results (Respondents: ${respondentCount})`
+```
+
+
+```{ojs}
+
+import { liveGoogleSheet } from "@jimjamslam/live-google-sheet";
+import { aq, op } from "@uwdata/arquero";
+
+surveyResults = liveGoogleSheet(
+  "https://docs.google.com/spreadsheets/d/e/" +
+    "2PACX-1vROCUn2oxvBJiHkMnEWrVT3TtycRzm6xqQKW0zvHXTzRLb4ajeCTShXMaghF3jowbqFvaZwY8r5j5NX/" +
+    "pub?gid=1685617065&single=true&output=csv",
+  10000, 1, 5); // adjust the last number to select all relevant columns 
+
+respondentCount = surveyResults.length;
+
+```
+
+```{ojs}
+countsColour = aq.from(surveyResults)
+  .select("colour")
+  .groupby("colour")
+  .count()
+  .derive({ measure: d => "Colours" })
+
+// Calculate the maximum count from your dataset
+maxCountCol = Math.max(...countsColour.objects().map(d => d.count));
+
+plotColour = Plot.plot({
+  marks: [
+    Plot.barY(countsColour, {
+      x: "colour",
+      y: "count",
+      fill: "colour"
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "indigo",
+      "violet"
+    ],
+    range: [
+      "#d73027",  // red
+      "orange",  // orange
+      "yellow",  // yellow
+      "forestgreen",   // green
+      "blue",  // blue
+      "#4B0082",  // indigo
+      "#8F00FF"   // violet
+    ]
+  },
+  x: { label: "", tickSize: 0 },  // Customize as necessary
+  y: {
+    label: "",
+    tickSize: 0,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(countsColour.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, maxCountCol]
+  },
+  facet: { data: countsColour, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 12,
+  }
+});
+
+```
+
+
+<!-- ```{r} -->
+<!--     range: [ -->
+<!--       "#d73027",  // red -->
+<!--       "orange",  // orange -->
+<!--       "gold",  // yellow -->
+<!--       "forestgreen",   // green -->
+<!--       "blue",  // blue -->
+<!--       "#4B0082",  // indigo -->
+<!--       "#8F00FF"   // violet -->
+<!--     ] -->
+<!-- ``` -->
+
+## Initial class poll 
+
+```{ojs}
+countsInterest = aq.from(surveyResults)
+  // .derive({ interest: d => op.split(d.interest, ", ") }) // not needed here... the interest column contains only a single value per row, but you're treating it as if it could contain multiple values separated by commas. So, when you use op.split(d.interest, ", "), it attempts to split a single value (like "Far-right movements") into an array, which causes incorrect behavior during the plotting process.
+  .select("interest")
+  // .unroll("interest") // not needed in this poll since multiple options are not allowed --- "This takes the array in the 'interest' field and "unrolls" it. This means that if a person has indicated three interests, this step will create three separate records for that person, each record corresponding to one interest. It effectively flattens the array into individual rows, so you'll have one row per interest per each person.
+  .derive({
+    interest: d =>
+      d.interest === "Far-right parties" ? "parties" :
+      d.interest === "Far-right movements" ? "movements" :
+      d.interest === "Individuals in the far right" ? "individuals" :
+      d.interest === "Studying the far right" ? "studying" :
+      d.interest  // fallback in case there are unexpected values
+  })
+  .groupby("interest")
+  .count()
+  .derive({ measure: d => "Initial student interests" })
+  // .rename({ interest: "part" })
+
+// Calculate the maximum count from your dataset
+maxCount = Math.max(...countsInterest.objects().map(d => d.count));
+
+plotInterest = Plot.plot({
+  marks: [
+    Plot.barY(countsInterest, {
+      x: "interest",
+      y: "count",
+      fill: "interest"
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "parties", // "Far-right parties",
+      "movements", // "Far-right movements",
+      "individuals", // "Individuals in the far right",
+      "studying" // "Studying the far right"
+    ],
+    range: [
+      "#d73027",  // Far-right parties
+      "forestgreen",  // Far-right movements
+      "#91bfdb",  // Individuals in the far right
+      "#4575b4"   // Studying the far right
+    ]
+  },
+  x: { 
+    label: "",
+    tickSize: 0,
+    tickFormat: d => d
+  },  
+  y: {
+    label: "",
+    tickSize: 0,
+    tickFormat: d => d,
+    // tickFormat: d => Math.floor(d), // Round down to the nearest whole number
+    tickValues: Array.from({ length: maxCount + 1 }, (_, i) => i), // Array of whole numbers [0, 1, ..., maxCount]
+    domain: [0, maxCount]
+  },
+  facet: { data: countsInterest, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 12,
+  }
+});
+
+```
+
+
 
 # Course assessments {background-color="#2c844c"}
 
