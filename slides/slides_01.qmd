@@ -37,7 +37,8 @@ bibliography: ../../../library.bib
     <!-- + no class on 1 May and 29 May (holidays), topics covered in prior and subsequent sessions -->
         <!-- - any assignment submission requirements remain the same -->
 - Learning aims
-- What the course is not...
+- What the course is
+- What the course is **not**...
 
 <!-- https://tenor.com/en-GB/view/crazy-german-flag-germany-trikot-gif-12722037627503073743 -->
 
@@ -183,6 +184,19 @@ Several holidays overlap with our class meetings:
     * critically evaluate research on the far right, especially by evaluating the data and methods used
     * gather, assess, and present data about far-right socio-politics
 
+## What the course is
+
+- A seminar---a big one, but still a seminar
+    + **[very important to read for informed discussion]{style="color:red;"}**
+        * answer specific questions, clarify concepts
+        * evaluate research, connect to related empirical material
+    + losing my hearing + big room + quiet speaker = ☹    
+        * so [please speak up]{style="color:red;"}
+    + lengthier discussions &rarr; may not cover all slides
+    + I will learn your names---but I need your help [participate in discussions]{style="color:red;"}
+
+- If you have a comment related to the discussion, say it! It's much better than telling me after class
+
 ## What the course is not...
 
 <!-- - neither training in nor forum for activism against the far right -->
@@ -305,6 +319,154 @@ plotColour = Plot.plot({
 ## Initial class poll 
 
 ```{ojs}
+function PieChart(data, {
+  name = ([x]) => x,  // given d in data, returns the (ordinal) label
+  value = ([, y]) => y, // given d in data, returns the (quantitative) value
+  title, // given d in data, returns the title text
+  width = 640, // outer width, in pixels
+  height = 400, // outer height, in pixels
+  innerRadius = 0, // inner radius of pie, in pixels (non-zero for donut)
+  outerRadius = Math.min(width, height) / 2, // outer radius of pie, in pixels
+  labelRadius = (innerRadius * 0.5 + outerRadius * 0.5), // center radius of labels
+  format = ",", // a format specifier for values (in the label)
+  names, // array of names (the domain of the color scale)
+  colors, // array of colors for names
+  stroke = innerRadius > 0 ? "none" : "white", // stroke separating widths
+  strokeWidth = 1, // width of stroke separating wedges
+  strokeLinejoin = "round", // line join of stroke separating wedges
+  padAngle = stroke === "none" ? 1 / outerRadius : 0, // angular separation between wedges, in radians
+} = {}) {
+  // Compute values.
+  const N = d3.map(data, name);
+  const V = d3.map(data, value);
+  const I = d3.range(N.length).filter(i => !isNaN(V[i]));
+
+  // Unique the names.
+  if (names === undefined) names = N;
+  names = new d3.InternSet(names);
+
+  // Chose a default color scheme based on cardinality.
+  if (colors === undefined) colors = d3.schemeSpectral[names.size];
+  if (colors === undefined) colors = d3.quantize(t => d3.interpolateSpectral(t * 0.8 + 0.1), names.size);
+
+  // Construct scales.
+  const color = d3.scaleOrdinal(names, colors);
+
+  // Compute titles.
+  if (title === undefined) {
+    const formatValue = d3.format(format);
+    title = i => `${N[i]}\n${formatValue(V[i])}`;
+  } else {
+    const O = d3.map(data, d => d);
+    const T = title;
+    title = i => T(O[i], i, data);
+  }
+
+  // Construct arcs.
+  const arcs = d3.pie().padAngle(padAngle).sort(null).value(i => V[i])(I);
+  const arc = d3.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+  const arcLabel = d3.arc().innerRadius(labelRadius).outerRadius(labelRadius);
+  
+  const svg = d3.create("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .attr("viewBox", [-width / 2, -height / 2, width, height])
+      .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
+
+  svg.append("g")
+      .attr("stroke", stroke)
+      .attr("stroke-width", strokeWidth)
+      .attr("stroke-linejoin", strokeLinejoin)
+    .selectAll("path")
+    .data(arcs)
+    .join("path")
+      .attr("fill", d => color(N[d.data]))
+      .attr("d", arc)
+    .append("title")
+      .text(d => title(d.data));
+
+  svg.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 100)
+      .attr("text-anchor", "middle")
+    .selectAll("text")
+    .data(arcs)
+    .join("text")
+      .attr("transform", d => `translate(${arcLabel.centroid(d)})`)
+    .selectAll("tspan")
+    .data(d => {
+      const lines = `${title(d.data)}`.split(/\n/);
+      return (d.endAngle - d.startAngle) > 0.25 ? lines : lines.slice(0, 1);
+    })
+    .join("tspan")
+      .attr("x", 0)
+      .attr("y", (_, i) => `${i * 1.1}em`)
+      .attr("font-weight", (_, i) => i ? null : "bold")
+      .text(d => d);
+
+  return Object.assign(svg.node(), {scales: {color}});
+}
+```
+
+::: columns
+::: {.column width="50%"}
+Prior methods class
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+methodsCounts = aq.from(surveyResults)
+  .select("methods")
+  .groupby("methods")
+  .count()
+  .rename({ count: 'value', methods: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+methodsChart = PieChart(methodsCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["yes", "no"], // ordering
+  colors: ["#4CAF50", "#F44336"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+
+:::
+
+::: {.column width="50%"}
+Prior analytical software use
+
+```{ojs}
+
+// aggregate the yes/no counts for "software"
+softwareCounts = aq.from(surveyResults)
+  .select("software")
+  .groupby("software")
+  .count()
+  .rename({ count: 'value', software: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+softwareChart = PieChart(softwareCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["yes", "no"], // ordering
+  colors: ["#4CAF50", "#F44336"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+:::
+:::
+
+
+
+
+## Initial class poll 
+
+```{ojs}
 countsInterest = aq.from(surveyResults)
   // .derive({ interest: d => op.split(d.interest, ", ") }) // not needed here... the interest column contains only a single value per row, but you're treating it as if it could contain multiple values separated by commas. So, when you use op.split(d.interest, ", "), it attempts to split a single value (like "Far-right movements") into an array, which causes incorrect behavior during the plotting process.
   .select("interest")
@@ -408,20 +570,19 @@ kable(data.frame(
 
 ## Presentation (*Referat*)
 
-- short (max. 20 mins.) group presentation on a method
-- groups, topics, and preferred date due to me by [Week 4 (15 May)]{style="color:red;"}
+- short (max. 20 mins.) group (3-4 people) presentation on a method
+- groups and date today, topics due to me by [Week 4 (15 May)]{style="color:red;"}
     + but there are advantages to booking early...
 
 ## Essay (*Hausarbeit*): Data report
 
 - data report on a far-right phenomenon (e.g., voters, a party, protests, violence)
+    + why a dataset? Helpful preparation for thinking about [validity]{style="color:red;"}, [reliability]{style="color:red;"}, etc. &rarr; relevant for quant. and qual. 
 - gather and present data, generate analytical insights
-- 2500-3500 words (excluding citations)
+- 2000-3000 words (excluding citations)
 - [28 June]{style="color:red;"}: short synopsis due. [16 August]{style="color:red;"}: full, final report due. 
 - consider working with data visualisation and analysis software!
-- A couple rules apply: 
-    (1) **no national-level election data** (if you want to study a party/parties, consider EU-level or regional-level or local-level); 
-    (2) **no drawing any data from or citing Statista or other data curation services**.
+- A couple rules: (1) **no national-level election data** (if you want to study a party/parties, consider EU-level or regional-level or local-level); (2) **no drawing any data from or citing Statista or other data curation services**.
 
 <!-- ## Exercise (*Übungsaufgabe*) - only pedagogy students -->
 
@@ -464,15 +625,15 @@ kable(data.frame(
 
 ## Presentation
 
-- short (max. 20 mins.) group presentation on a method
-- groups, topics, and preferred date due to me by [Week 4 (15 May)]{style="color:red;"}
+- short (max. 20 mins.) group (3-4 people) presentation on a method
+- groups and date today, topics due to me by [Week 4 (15 May)]{style="color:red;"}
     + but there are advantages to booking early...
 
 ## Data report
 
 - data report on a far-right phenomenon (e.g., voters, a party, protests, violence)
 - gather and present data, generate analytical insights
-- 2500-3500 words (excluding citations)
+- 2000-3000 words (excluding citations)
 - [28 June]{style="color:red;"}: short synopsis due. [16 August]{style="color:red;"}: full, final report due. 
 - consider working with data visualisation and analysis software!
 :::
@@ -502,13 +663,28 @@ kable(data.frame(
     + e.g., theoretical dilemma, typology forming, item from the news
 - Summarising lecture on theory/findings related to week's topic
     + discussion points
+- Short video relevant to topic
 - Discussing the reading(s)
     + highlighting important points (esp. theory and research design)
-        * _students who read will find discussion more illuminating_
 - Presentation of further research relevant to week's topic
 - Summative discussion: takeaways, new ideas, lingering questions
 
 [Throughout, we will use _cases_ to link _theory_ to _real-world events_]{style="color:red;"}
+
+<!-- https://reimbar.org/dev/arrows/ -->
+
+```{mermaid}
+#| eval: false
+#| include: false
+
+## a flowchart created using Mermaid:
+
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
 
 ## Office hours and communication
 
@@ -524,6 +700,9 @@ kable(data.frame(
 * Self-enrol: The Far Right in Europe and Beyond
     + access key: "FRpol"
 * All course readings are available
+
+* [But better to look at the new, shiny, developing, purpose-built website:]{style="color:red;"}: <https://michaelzeller.de/course-fr/>
+
 
 <!-- * The **syllabus** is there -- the mystical, magical source of all knowledge about the course -->
 
@@ -584,6 +763,8 @@ and much, much more
     - Background in education/research
     - secret skill
     - Academic/professional aspirations
+
+# Take a moment and, if required for your course of study, form presentation groups of 3-4. <br> [See me after to tell me!]{style="color:red;"} {background-color="#2c844c"}
 
 # Onto our topic: concept formation and conceptualising the far right {background-color="#2c844c"}
 
@@ -776,6 +957,13 @@ even trickier with movements?
 - methods
 - descriptive vs. causal inference
 - generalisation
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>     
+
+Alternatively, send me an email: [m.zeller@lmu.de]{style="color:red;"}
+
 
 <!-- ## Code -->
 
