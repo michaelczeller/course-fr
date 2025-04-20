@@ -2,6 +2,19 @@
 title: "Resources"
 ---
 
+# On the far right
+
+As social scientific research on the far right has grown in recent decades, researchers, groups, and institutions have created a wealth of accessible resources on the subject. Below are a few of the many resources available:
+
+- Kai Arzheimer's website: <https://www.kai-arzheimer.com/> <!-- and Twitter: [@ kai_arzheimer](https://twitter.com/kai_arzheimer) -->
+    + Extreme Right Bibliography: <https://www.kai-arzheimer.com/extreme-right-western-europe-bibliography/>
+- Cas Mudde's podcast, *Radikaal*: <https://www.radikaalpodcast.com/> <!-- and his Twitter: [@ CasMudde](https://twitter.com/casmudde) -->
+- C-REX: <https://www.sv.uio.no/c-rex/english/>
+- *Knowing what's (far) right: A compendium*: <https://www.sv.uio.no/c-rex/english/groups/compendium/c-rex-compendium-print-version.pdf>
+- ECPR Extremism & Democracy website: <https://standinggroups.ecpr.eu/extremismanddemocracy/>
+    + _e-Extreme_ newsletter: <https://standinggroups.ecpr.eu/extremismanddemocracy/newsletter/>
+- Routledge book series: [_Extremism and Democracy_](https://www.routledge.com/Extremism-and-Democracy/book-series/ED) and [_Fascism and the Far Right_](https://www.routledge.com/Routledge-Studies-in-Fascism-and-the-Far-Right/book-series/FFR)
+
 # On writing
 
 For general guidance, please see the academic writing guidance provided by the university: <https://www.en.ub.uni-muenchen.de/writing/academic-writing/index.html>. All writing benefits from feedback and revision, so try to write and then revise your work. Beyond that guidance, the university has a Writing Center (<https://www.en.schreibzentrum.fak13.uni-muenchen.de/index.html>) that offers students help.
