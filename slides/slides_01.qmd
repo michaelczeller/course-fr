@@ -55,6 +55,29 @@ bibliography: ../../../library.bib
 :::
 ::::
 
+
+<!-- ## test video  -->
+
+```{r}
+#| eval: false
+#| include: false
+
+{{< video https://youtu.be/wo9vZccmqwc width="1000" height="600" >}}
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x12"
+    width="1000"
+>}}
+
+# Can store a video locally:
+{{< video local-video.mp4 >}}
+
+```
+
+
+
 ## First task...
 
 [Read the syllabus!]{style="font-size:120px;"}
@@ -193,7 +216,7 @@ Several holidays overlap with our class meetings:
     + losing my hearing + big room + quiet speaker = ☹    
         * so [please speak up]{style="color:red;"}
     + lengthier discussions &rarr; may not cover all slides
-    + I will learn your names---but I need your help [participate in discussions]{style="color:red;"}
+    + I will learn your names---but I need your help: [participate in discussions]{style="color:red;"}
 
 - If you have a comment related to the discussion, say it! It's much better than telling me after class
 
@@ -258,7 +281,9 @@ plotColour = Plot.plot({
     Plot.barY(countsColour, {
       x: "colour",
       y: "count",
-      fill: "colour"
+      fill: "colour",
+      stroke: "black",
+      strokeWidth: 1
     }),
     Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
   ],
@@ -275,17 +300,20 @@ plotColour = Plot.plot({
     range: [
       "#d73027",  // red
       "orange",  // orange
-      "yellow",  // yellow
+      "#fce803",  // yellow
       "forestgreen",   // green
       "blue",  // blue
       "#4B0082",  // indigo
       "#8F00FF"   // violet
     ]
   },
-  x: { label: "", tickSize: 0 },  // Customize as necessary
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+  },  
   y: {
     label: "",
-    tickSize: 0,
+    tickSize: 10,
     tickFormat: d => d,
     tickValues: Array.from(
       new Set(countsColour.objects().map(d => d.count))
@@ -297,7 +325,7 @@ plotColour = Plot.plot({
   style: {
     width: 1350,
     height: 500,
-    fontSize: 12,
+    fontSize: 30,
   }
 });
 
@@ -492,7 +520,9 @@ plotInterest = Plot.plot({
     Plot.barY(countsInterest, {
       x: "interest",
       y: "count",
-      fill: "interest"
+      fill: "interest",
+      stroke: "black",
+      strokeWidth: 1
     }),
     Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
   ],
@@ -510,30 +540,37 @@ plotInterest = Plot.plot({
       "#4575b4"   // Studying the far right
     ]
   },
+  marginBottom: 105,
   x: { 
     label: "",
-    tickSize: 0,
+    tickSize: 0, 
+    tickRotate: -30,
     tickFormat: d => d
   },  
   y: {
     label: "",
-    tickSize: 0,
+    tickSize: 10,
     tickFormat: d => d,
     // tickFormat: d => Math.floor(d), // Round down to the nearest whole number
     tickValues: Array.from({ length: maxCount + 1 }, (_, i) => i), // Array of whole numbers [0, 1, ..., maxCount]
     domain: [0, maxCount]
   },
   facet: { data: countsInterest, x: "measure", label: "" },
-  marginLeft: 140,
+  marginLeft: 100,
   style: {
     width: 1350,
     height: 500,
-    fontSize: 12,
+    fontSize: 25,
   }
 });
 
-```
+//  marginBottom: 80,
+//  x: { label: "", tickSize: 2, tickRotate: -45,
+//    domain: ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+//  },  
 
+
+```
 
 
 # Course assessments {background-color="#2c844c"}
@@ -566,7 +603,7 @@ kable(data.frame(
 - make note of any questions or comments you have as you go through the readings
 - most of the readings are research journal articles
     + more in-depth than book chapters---requires greater concentration
-    + consider complementing with a general reader (examples listed at of [Syllabus](https://michaelzeller.de/course-fr/syllabus/))
+    + consider complementing with a general reader (examples listed in [Syllabus](https://michaelzeller.de/course-fr/syllabus/))
 
 ## Presentation (*Referat*)
 
@@ -764,12 +801,23 @@ and much, much more
     - secret skill
     - Academic/professional aspirations
 
-# Take a moment and, if required for your course of study, form presentation groups of 3-4. <br> [See me after to tell me!]{style="color:red;"} {background-color="#2c844c"}
+# Presentation groups {background-color="#2c844c"}
 
-# Onto our topic: concept formation and conceptualising the far right {background-color="#2c844c"}
+:::: {.columns}
+:::{.column width="65%"}
 
-- fundamentals of social science concepts
-- Mudde's approach for the far right
+[If presenting required for your course of study, form groups of 3-4. <br> [Tell me your group and top 3 preferred dates]{style="color:red;"}:]{style="font-size:60px;"}
+
+<https://forms.gle/6oRRsp9gaeNtGTSv6>
+
+:::
+
+::: {.column width="35%" .right}
+
+![](slide_files/01/groups_survey.png)
+
+:::
+::::
 
 ## Concept formation
 
@@ -898,22 +946,48 @@ knitr::include_graphics(rep("slide_files/01/CollierMahon_classical_radial.png"))
 
 <!-- Mudde uses approaches 2 and 3, prefering their 'classical rather than radial' nature -->
 
-## Ideological components
+## Ideological components (maximum definition)
+
+<!-- what do you think? does this make sense? are potentially important components missing ('ethnopluralism'?)? what are some problems of focusing on ideological components? (TALK ABOUT PREO) -->
+
+:::: {.columns}
+:::{.column width="40%"}
 
 - nationalism
 - exclusionism
 - xenophobia
 - strong state
 - welfare chauvinism
-- traditional ethics
+- traditional ethics 
 
-\hspace{10mm} &darr;
+:::
+
+:::{.column width="20%"}
+
+&rarr;
+
+simplifies
+
+&rarr;
+
+to
+
+&rarr;
+
+:::
+
+::: {.column width="40%" .right}
 
 - __nativism__
 - __authoritarianism__
 - __populism__
 
-<!-- what do you think? does this make sense? are potentially important components missing ('ethnopluralism'?)? what are some problems of focusing on ideological components? (TALK ABOUT PREO) -->
+:::
+::::
+
+. . . 
+
+[I will discuss these terms in next week's slides]{style="color:red;"} 
 
 ## Radical and extreme
 
@@ -963,7 +1037,6 @@ even trickier with movements?
 Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>     
 
 Alternatively, send me an email: [m.zeller@lmu.de]{style="color:red;"}
-
 
 <!-- ## Code -->
 
