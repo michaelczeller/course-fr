@@ -4,6 +4,7 @@ project:
 
 website:
   title: "The Far Right in Europe and beyond"
+  google-analytics: "G-3J9K3S6FZW"
   navbar:
     left:
       - href: index.qmd
