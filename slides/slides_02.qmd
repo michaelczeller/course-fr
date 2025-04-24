@@ -1,0 +1,978 @@
+---
+title: "Class 2: Far-right ideology "
+subtitle: "From transnational traits to local idiosyncracies"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+incremental: false
+embed-resources: true
+bibliography: ../../../library.bib
+---
+
+
+# Opening notes {background-color="#2c844c"}
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Korbinian Mayer, Angel David Meissner, Adrian Morina, Elli Quitter, Damir Smajlovic, Felix Strasser, Tim Winterling -->
+
+Remember: topic to me at least by Week 4
+
+::: panel-tabset
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | TBD | 
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | TBD |
+| 29 May: | NO CLASS MEETING                        |  | 
+
+: Presentations line-up
+
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | TBD | 
+| 12 June: | Omar B., Lela E., Niclas W. | TBD |
+| 19 June: | NO CLASS MEETING                        |  | 
+| 26 June: | Colombe I., Konstantin S., Jakob W. | TBD | 
+
+: Presentations line-up
+
+## July
+
+| Date    | Presenters                              | Method |
+| -------:|:----------------------------------------|:------:|
+| 3 July:  | Alexander V., Samuel B., Luis G., Oscar O. | TBD | 
+| 10 July: | Lina S., Stephen W., Philomena B. | TBD | 
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD | 
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD | 
+| 24 July: | Lorenz F., Daniel B., Fiona W., Medina H. | TBD | 
+
+: Presentations line-up
+
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+# Ideological components {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="40%"}
+
+- nationalism
+- exclusionism
+- xenophobia
+- strong state
+- welfare chauvinism
+- traditional ethics 
+
+:::
+
+:::{.column width="20%"}
+
+&rarr;
+
+&rarr;
+
+&rarr;
+
+:::
+
+::: {.column width="40%" .right}
+
+- __nativism__
+- __authoritarianism__
+- __populism__
+
+:::
+::::
+
+## Recall... 
+
+### [Far Right encompasses both]{style="color:red;"}
+
+| Radical right              | Extreme right                  |
+|:--------------------------:|:------------------------------:|
+| illiberal but democratic   | anti-democratic, anti-system   |
+
+<!-- > [Radical]{style="color:red;"} right (populist and non-populist cases): opposition to fundamental values of liberal democracy (radical) and belief in a natural order with inequalities (right) -->
+
+<!-- > [Extreme]{style="color:red;"} right: rejection of democracy (Ignazi's 'antisystem'---but that depends on the system) -->
+
+<!-- > __[far right]{style="color:red;"}__ encompasses both these terms -->
+
+## Nationalism (a whole area of study on its own)
+
+- *basic definition*: political doctrine that strives for the congruence of the cultural and the political unit, i.e., the nation and the state  
+
+- Variations:
+    + ethnic nationalism
+    + civic nationalism (e.g., Will Kymlicka)
+        * assimilative
+        * integrative 
+
+## Exclusionism
+
+- *basic definition*: ideological practice of deliberately excluding certain individuals, groups, or communities based on (usually inherited/innate) characteristics such as race, ethnicity, religion, gender, or other factors
+
+. . . 
+
+- Particularly common examples: 
+    + antisemitism
+    + ethnopluralism (all ethnicities are equal, but should be kept separate)
+
+## Xenophobia
+
+- *basic definition*: antipathy towards people from other countries (typically) or perceived as 'other' ('out-group')
+    + overlaps with _nationalism_ and _exclusionism_
+
+## Strong state
+
+- *basic definition*: preference for a powerful, centralised government (often with an autocratic leader) capable of maintaining control over various aspects of society
+
+- Here, the state becomes a tool for...
+    + representing and preserving national identity
+    + maintaining social order
+    + securing dominance of a particular group 
+    + building/maintaining strong military
+
+## Welfare chauvinism
+
+- *basic definition*: belief in restricting access to welfare benefits based on exclusionary precepts 
+    + e.g., healthcare, unemployment benefits, housing assistance --- only for certain categories of people
+    + assumption of (undeserving) 'outsiders' that are 'scamming' the system, i.e., taking from welfare system without having first contributed
+
+## Traditional ethics 
+
+- *basic definition*: belief in preservation and promotion of "traditional" patterns of social life, for example: 
+. . . 
+- traditional gender and sexuality: two sexes/genders with typical traits
+. . . 
+- traditional gender family roles: male 'breadwinner' and stay-at-home female
+. . . 
+- social hierarchies (e.g., of gender, class)
+
+
+## @Mudde2007ch1 - 3 core features
+
+- [nativism]{style="color:red;"} (*combination of nationalism and xenophobia*): states should be inhabited exclusively by members of the native group ("the nation"); non-native elements (persons and ideas) are fundamentally threatening
+
+. . . 
+
+- [authoritarianism]{style="color:red;"}: belief in a strictly ordered society, in which infringements of authority are to be punished severely
+
+. . . 
+
+- [populism]{style="color:red;"}: 'thin' ideology where society consists of "the (pure) people" versus "the (corrupt) elite" and which argues for politics of the *volonté générale* (general will) of the people 
+    + not as inherently anti-democratic as the other two features
+    + not unique feature of far-right politics (e.g., left-wing populism, as in Latin America)
+
+## Missing features and special considerations?
+
+So... [nativism]{style="color:red;"}, [authoritarianism]{style="color:red;"}, and [populism]{style="color:red;"}  
+
+- does this make sense? are any important components missing? 
+- issues to consider on ideology and classification:
+    + individuals' and groups' ideology can change, even dramatically
+    + where does 'ideology' happen or manifest?
+        * for @Mudde2007ch1, it is assessable through party manifestos
+        * &#8618; then how to assess movements?
+        * difference of what parties write in official material and say elsewhere? [e.g., 'frontstage moderation', @brandmann2022RadicalrightPartiesMilitant]
+    + is 'far right' classification only/mainly about ideology---or might it also be about behaviours/actions?
+
+# Idiosyncratic far-right features {background-color="#2c844c"}
+
+## A miscellaneous smattering of features
+
+- [accelerationism]{style="color:red;"}: accelerate society's system collapse to hasten new order
+- [anti-globalist]{style="color:red;"}: opposed to globalisation, advocating preservation of national sovereignty, local cultures, economies
+- [civilizationist]{style="color:red;"}: world is a battle of competing civilisations (e.g., 'Western, Christian')
+- [great replacement]{style="color:red;"}: conspiracy belief that white or European or autochthonous populations are being systematically replaced by immigrants
+- [irredentism]{style="color:red;"}: restoration of former territory (e.g., HU, AT, SRB)
+- [male supremacism]{style="color:red;"}: belief that men are inherently superior to women and should dominate in society
+- [neo-völkisch]{style="color:red;"}: revival blend of ethnonationalist (racial or ethnic purity), spiritual, and esoteric beliefs (mythic or pagan themes)
+
+# A (disturbing) digression: fascism {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+
+- what is it?
+- historical phenomenon or living ideology?
+
+:::
+
+::: {.column width="50%" .right}
+
+<div class="tenor-gif-embed" data-postid="375571764777954685" data-share-method="host" data-aspect-ratio="1.76596" data-width="100%"><a href="https://tenor.com/view/so-hot-right-now-trending-meme-zoolander-this-is-epic-gif-375571764777954685">So Hot Right Now Trending GIF</a>from <a href="https://tenor.com/search/so+hot+right+now-gifs">So Hot Right Now GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+:::
+::::
+
+## Fascism 
+
+- *thin, consensus definition*: revolutionary ultra-nationalism
+    + a totalitarian movement 
+- locked into a specific era? 
+    + yes!: today's right-wing extremism is 'essentially different' to interwar predecessors
+    + no!: ideological features, modes of organising, aspirations --- all live on in contemporary organisations
+
+<!-- e.g., D. Prowe, ‘“Classic Fascism” and the New Radical Right in Western Europe: Comparisons and Contrasts’, Contemporary European History, vol. 3, no. 3 (1994), pp. 289–313. -->
+
+## Fascism 
+
+- Stanley Payne (1995): 
+    (1) [negations]{style="color:red;"} (anti-Marxism, anti-liberalism, anti-conservatism); 
+    (2) [ideology and programme]{style="color:red;"}, such as nationalism, a positive evaluation of war, imperialism, and corporatism; 
+    (3) [style]{style="color:red;"}, such as the organised party-mass movement, and extensive use of symbolism
+
+. . . 
+
+- Roger Eatwell (2007): ideology that strives to forge social rebirth based on a [holistic-national radical Third Way]{style="color:red;"}, though in practice fascism has tended to stress style, especially action and the [charismatic leader]{style="color:red;"}, more than detailed programme, and to engage in a [Manichaean]{style="color:red;"} demonisation of its enemies
+
+## Fascism - contemporary examples?
+
+Some scholarship applies the 'fascist' label to... 
+
+- British National Party (BNP) 
+- Nationaldemokratische Partei Deutschlands (NPD)
+- Golden Dawn 
+- Jobbik 
+- Mi Hazánk 
+- CasaPound 
+- Fratelli d'Italia 
+- Kotleba - People's Party Our Slovakia
+
+# Ideology and emotions {background-color="#2c844c"}
+
+## Ideology and emotions
+
+@Pilkington2018[p. 124]: "... activists attached both rational and emotional meanings to their activism... the rational and the emotional may be entwined in social movement participation rather than constituting alternative explanations of motivation to engage"
+
+for more on *emotions* in social movements, see @Jasper2018_emotions
+
+## Ideology and emotions
+
+@Virchow2007a[p. 156]: "...an integrative approach that considers ideology production, dissemination, and learning on the one hand and the way that protagonists of movements perform and act on the other hand"
+
+- in other words... [examining 'theory and practice' of FR]{style="color:red;"}
+
+Rational actors with ideological convictions, or...
+
+![](slide_files/02/collage-from-hell.png)
+
+## Ideology and emotions 
+
+@Virchow2007a[p. 160, *emphasis* added]: "why people join and stay in political movements cannot be explained by *cognitive* processes alone. Rather, *emotional* and *practical* dimensions also are relevant to political recruitment and socialization"
+
+- key concept: [emotional collective]{style="color:red;"}
+
+- Hints at the various modes of radicalisation (Class 11): true believers, material gain, network/peer-to-peer socialisation, etc.   
+- Ideology is important---but not to the exclusion of other considerations
+
+## Ideology and emotions 
+
+- Demonstrations as sites of instilling ideology and of creating emotion
+
+- create 'emotional collective' and stabilise *collective identity* [cf. @PollettaJasper2001]
+    + racial pride, rage/grievance about immigrants, distrust of state, amusement or aggression towards counter-protesters
+- recruit new followers
+- promote new leaders
+- 'shape an ideological worldview and attitudes'
+
+- asserting FR's right to participate in public sphere
+- occupy a public space, as show of power
+
+## Emotional collectives in action
+
+@Pilkington2018 - looking at youth radical right activists in Croatia (football fans), England (EDL), Russia (jogging club)
+<!-- This chapter is concerned with the emotional meanings attached to activism. This is not to suggest that activism is exclusively, or even primarily, emotionally motivated; the synthesis analysis revealed that young activists attached both rational and emotional meanings to their activism. The starting position of the authors is, rather, that emotionality does not equate to irrationality (Jasper 1998: 398), and that the rational and the emotional may be entwined in social movement participation rather than constituting alternative explanations of motivation to engage (Crossley 2002: 50). -->
+
+<!-- @Pilkington2018[p. 132] -->
+<!-- two expressions of the emotional and affective dimensions of activism are considered: the pleasure of activism (‘getting a buzz’); and the affective bonds forged through activism, experienced as being ‘like one big family’. -->
+
+![](slide_files/02/pilkington_images.png)
+
+## Emotional collectives in action
+
+@Pilkington2018[p. 128]: [bonds]{style="color:red;"} through the 'buzz' of participation (at demonstrations, mass jogging events, or football matches) --- also through the warmth, affection and sense of belonging to a 'family' generated by participation and persistent relationships between actions 
+
+> When we arrived at the stadium, just that feeling that you are at Giuseppe Meazza and that you silenced the home fans in the first 5 minutes, their flags down, 4000 of us shouting hard [...] money can’t buy that feeling. I would have walked [to Milan] for that. (Crni, TOR, HR)
+
+<!-- ## Methods note: participant observation -->
+
+<!-- @Virchow2007a[p. 160]: Participant observational methods are particularly useful for investigating movement interaction, leadership, ideological setting, and participant behavior, although observations can create differing impressions of the far right, depending on the number of people involved, the kind of interactions that happen between those marching and the police, bystanders and protesters opposing the neo-Nazis, and whether the rally is a silent march or a loud demonstration. -->
+
+# Far-right organisational forms {background-color="#2c844c"}
+
+## Organisations (macro-, meso-, micro-levels)
+
+:::: {.columns}
+:::{.column width="60%"}
+
+- Parties
+    + Party family 
+    + individual parties (and within-party studies)
+    + voters/supporters
+
+- Mobilisation
+    + Whole movements or movement sectors/fields
+    + SMOs
+    + leaders, activists, members, participants
+
+:::
+
+::: {.column width="40%" .right}
+
+- Terrorism / violent extremism 
+    + surrounding structures (e.g., NSU)
+    + groups, cells
+    + individuals 
+
+:::
+::::
+
+
+## Triadic competition and contention 
+
+```{dot}
+digraph {
+    rankdir=TB;
+    node [shape=box, style=filled, fillcolor=lightblue, fontname=Helvetica];
+
+    StateInstitutions [label="state institutions", shape=trapezium, fillcolor=lightgreen];
+
+    FRParties [label="FR parties (esp. RR)"];
+    CompetingParties [label="competing parties"];
+
+    StateInstitutions -> FRParties;
+    StateInstitutions -> CompetingParties;
+    FRParties -> CompetingParties;
+    CompetingParties -> FRParties;
+    
+    // Rank alignments for layout control
+    {rank = same; FRParties; CompetingParties;}
+}
+
+```
+
+## Triadic competition and contention 
+
+
+```{dot}
+digraph {
+    rankdir=TB;
+    node [shape=box, style=filled, fillcolor=lightblue, fontname=Helvetica];
+
+    State [label="state", shape=trapezium, fillcolor=lightgreen];
+    FRMovements [label="FR movements"];
+    CounterMovements [label="countermovements"];
+
+    State -> FRMovements;
+    State -> CounterMovements;
+    FRMovements -> CounterMovements;
+    CounterMovements -> FRMovements;
+
+    // Rank alignments for layout control
+    {rank = same; FRMovements; CounterMovements;}
+}
+
+```
+
+<!-- groupuscules - decentralized, segmented, policephalous (multiple leaders with few followers attached to each of them), and reticular (linked autonomous cells) (Della Porta and Diani 1999, 140). -->
+
+# Germany's far-right scene {background-color="#2c844c"}
+
+- Overview
+- Party membership
+- Demonstrations (movement activity)
+- Crime
+- Terrorism, political violence
+- 2024 counter-mobilisation
+
+##  Germany's far-right scene
+
+_Parties_: AfD, DVU, NPD*, REP
+
+_Media, civil society_: Institut für Staatspolitik (*Sezession*), Compact, Desiderius Erasmus Stiftung (AfD)
+
+_SMOs_: NPD*, Dritte (III.) Weg, Identitäre Bewegung Deutschland, Pro-Bewegung
+
+- groupuscules, Kameradschaften
+- @Virchow2007a: 4 big demonstration campaigns of the 2000s: 13 Feb. Dresden, 1 May, Aug. Hess, Nov. Halbe
+- anti-COVID groups? are they far-right? Querdenken 711, dieBasis? [e.g., @plumper2021StrategyProtestCovid19; @HeinzeWeisskricher2022]
+
+<!-- @Virchow2007a[p. 150] "large sections of today’s German neo-Nazis do not try to build nationwide hierarchical (party) organizations with a definite leadership but organize in small groups on a local or regional basis or in groups dedicated to a specific issue like supporting like-minded prisoners or promoting an imagined Teutonic heritage. This has given rise to a number of leaders, who at times are rivals, but who also organize joint political campaigns." -->
+
+_Terrorism_: NSU, Gruppe Freital, Oldschool Society
+
+## German FR party membership
+
+```{r echo=FALSE}
+library(readxl)
+library(ggplot2)
+
+deorg <- read_excel("slide_files/02/VSB_figures_up_to2022.xlsx", sheet = "GER_org", range = "B25:D166")
+# View(deorg)
+
+fr_members_de_c <- ggplot(data = deorg, aes(x = Year, y = Members, color = Organisation)) + 
+  geom_line(linewidth = 1) + theme(legend.position = "bottom") +
+  theme(legend.title = element_blank()) +
+  guides(col = guide_legend(nrow = 1)) +
+  scale_x_continuous("",breaks = seq(1990,2023,5)) +
+  theme(text = element_text(size = 20)) +
+  labs(y="Number of members/individuals")
+fr_members_de_c
+```
+
+## German FR demo mobilisation (2005-2020)
+
+:::: {.columns}
+:::{.column width="45%"}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.height=15}
+library(readxl)
+library(dplyr)
+
+df <- read_excel("slide_files/02/demos_2005-2020mar_final_geo.xlsx")
+df <- as.data.frame(df)
+
+# make date variable a date object
+df$Datum <- as.Date(df$Datum, format="%d.%m.%Y")
+
+# further data wrangling
+
+# ### replace Bundesland abbreviations
+# unique(df$Land)
+
+# make locality-year count data of FR demos
+df$Jahr <- format(df$Datum, "%Y")
+
+# df_trim <- df %>% drop_na(long)
+df_LocYear <- df %>% 
+  tidyr::drop_na(long) %>% 
+  group_by(Jahr, Ort) %>% 
+  summarise(Demo_Zahl=n(),
+            Teiln_Zahl=sum(Teiln.))
+# check <- unique(df_LocYear$Ort)
+# check <- as.data.frame(check)
+
+library(tidyverse)
+library(tidygeocoder)
+library(ggplot2)
+library(sf)
+library(rnaturalearth)
+library(mapview)
+library(dplyr)
+library(spatstat)
+library(leafpop)
+
+df_trim <- df %>% tidyr::drop_na(long)
+
+df_trim$latJIT <- jitter(df_trim$lat, factor = 100)
+df_trim$longJIT <- jitter(df_trim$long, factor = 100)
+
+df_trim$Großenkategorie = NA
+df_trim$Großenkategorie = ifelse(df_trim$Teiln. > 999, 4, df_trim$Großenkategorie)
+df_trim$Großenkategorie = ifelse(df_trim$Teiln. > 499 & df_trim$Teiln. < 999, 3, df_trim$Großenkategorie)
+df_trim$Großenkategorie = ifelse(df_trim$Teiln. > 99 & df_trim$Teiln. < 499, 2, df_trim$Großenkategorie)
+df_trim$Großenkategorie = ifelse(df_trim$Teiln. < 99, 1, df_trim$Großenkategorie)
+
+df_trim$Großenkategorie_col = NA
+df_trim$Großenkategorie_col = ifelse(df_trim$Großenkategorie == 4, "red",    df_trim$Großenkategorie_col)
+df_trim$Großenkategorie_col = ifelse(df_trim$Großenkategorie == 3, "orange", df_trim$Großenkategorie_col)
+df_trim$Großenkategorie_col = ifelse(df_trim$Großenkategorie == 2, "yellow", df_trim$Großenkategorie_col)
+df_trim$Großenkategorie_col = ifelse(df_trim$Großenkategorie == 1, "green",  df_trim$Großenkategorie_col)
+
+df_trim <- as.data.frame(df_trim)
+
+df_trim_sf <- df_trim %>% 
+  st_as_sf(
+    coords = c("longJIT", "latJIT"),
+    crs = st_crs("EPSG:32632") # CRS for Germany
+  )
+
+de = ne_countries(scale = 50, returnclass = "sf") |>
+  filter(admin == "Germany") 
+
+mapData <- ne_countries(scale = 10, continent = c("Europe"), returnclass = "sf")
+de_states <- ne_states(country = "germany", returnclass = "sf")
+de_states <- dplyr::select(de_states, name, geometry)
+
+st_crs(df_trim_sf) <- st_crs(de)
+
+pp = st_geometry(df_trim_sf)
+window = st_geometry(de)
+
+crs = st_crs("EPSG:32632") # CRS for Germany
+pp = st_transform(pp, crs)[!st_is_empty(pp)]
+window = st_transform(window, crs)
+wt = as.ppp(c(window, pp))
+
+# Smooth points
+density_spatstat <- density(wt, dimyx = 500)
+# Convert density_spatstat into a stars object.
+density_stars <- stars::st_as_stars(density_spatstat)
+# Convert density_stars into an sf object
+density_sf <- st_as_sf(density_stars) %>% st_set_crs(32632)
+
+RWE_de_map_density <- ggplot() +
+  geom_sf(data = density_sf, aes(fill = v), col = NA) + 
+  scale_fill_viridis_c(option = "magma") +
+  # scale_fill_gradientn(colours = c("grey80", "grey10")) +
+  geom_sf(data=df_trim_sf, shape=1, size=5, colour="green", stroke=0.5, fill=NA) + 
+  geom_sf(data = st_boundary(de_states)) + 
+  theme_void() + 
+  theme(legend.position="none")
+RWE_de_map_density
+
+# RWE_de_map <- ggplot() +
+#   geom_sf(data = density_sf, aes(fill = v), col = NA) + 
+#   # scale_fill_viridis_c(option = "magma") +
+#   # scale_fill_gradientn(colours = c("grey80", "grey10")) +
+#   geom_sf(data = st_boundary(de_states)) +
+#   geom_sf(data = subset(df_trim_sf, Großenkategorie %in% "1"), shape = 1,
+#           size = 1, colour = "green", stroke = 0.5, fill = NA) + 
+#   geom_sf(data = subset(df_trim_sf, Großenkategorie %in% "2"), shape = 1,
+#           size = 2, colour = "yellow", stroke = 0.5, fill = NA) + 
+#   geom_sf(data = subset(df_trim_sf, Großenkategorie %in% "3"), shape = 1,
+#           size = 3, colour = "orange", stroke = 1, fill = NA) + 
+#   geom_sf(data = subset(df_trim_sf, Großenkategorie %in% "4"), shape = 1,
+#           size = 5, colour = "red", stroke = 1, fill = NA) + 
+#   theme_void() + 
+#   theme(legend.position="none")
+# RWE_de_map
+
+
+```
+
+:::
+
+::: {.column width="55%" .right}
+
+*Kleine Anfrage* data
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(kableExtra)
+# library(knitr)
+
+k <- df_trim %>% 
+  group_by(Zuordnung) %>% 
+  summarise(Events = n(),
+            TotalParicipants = sum(Teiln.))
+
+k = k %>% dplyr::select(Events, TotalParicipants, Zuordnung)
+
+k %>%
+  kbl(col.names = c("Events","Participants","Grouping"),
+      format.args = list(big.mark = ",")) %>% # , digits=2
+  kable_classic_2(full_width = F, font_size = 20) %>%
+  row_spec(0, bold = T)
+```
+
+:::
+::::
+
+## German FR crime
+
+```{r echo=FALSE, fig.height=6}
+devsb <- read_excel("slide_files/02/VSB_figures_up_to2022.xlsx", sheet = "GER_crime", range = "B11:D242")
+# View(devsb)
+
+# COLOUR
+devfsb <- ggplot(data = devsb, aes(x = Year, y = Number, color = Offence)) + 
+  geom_line(linewidth = 1) + theme(legend.position = "bottom") +
+  theme(legend.title = element_blank()) +
+  guides(col = guide_legend(ncol = 2)) +
+  theme(text = element_text(size = 15)) +
+  scale_y_continuous("Number of offences", breaks = seq(0,15000,1000)) +
+  scale_x_continuous("",breaks = seq(1990,2022,5))
+devfsb
+```
+
+## German FR terrorism/violent extremism
+
+:::: {.columns}
+:::{.column width="70%"}
+
+![](slide_files/02/2022-08-08RTV_de_map_auto.png)
+
+:::
+
+::: {.column width="30%" .right}
+
+Visualisation of DE data 1990-2020 from @ravndal2021rtv
+
+:::
+::::
+
+## far-right motivated homicides in Germany
+
+Recognised by BRD vs. identified by [Amadeu Antonio Stiftung](https://www.amadeu-antonio-stiftung.de/todesopfer-rechter-gewalt/)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(rvest)
+library(stringr)
+library(dplyr)
+library(magrittr)
+library(httr)
+library(lubridate)
+
+################ SCRAPING DATA
+
+# links to news stories
+
+# LINK <- read_html("https://www.amadeu-antonio-stiftung.de/todesopfer-rechter-gewalt/") %>% 
+#   html_nodes("#main .text-grey-light a") %>% 
+#   html_attr("href")
+# 
+# DATE <- read_html("https://www.amadeu-antonio-stiftung.de/todesopfer-rechter-gewalt/") %>% 
+#   html_nodes(".bigdate") %>% 
+#   html_text()
+# 
+# DATE <- dmy(DATE)
+# 
+# YEAR <- format(DATE, format="%Y")
+# 
+# VICTIM <- read_html("https://www.amadeu-antonio-stiftung.de/todesopfer-rechter-gewalt/") %>% 
+#   html_nodes("#main .no-underline") %>% 
+#   html_text()
+# VICTIM <- VICTIM[1:237]
+# 
+# AGE <- read_html("https://www.amadeu-antonio-stiftung.de/todesopfer-rechter-gewalt/") %>% 
+#   html_nodes(".md\\:block:nth-child(3)") %>% 
+#   html_text()
+# # 27.07.2000 - no age; 04.04.1992 - no age
+# AGE <- append(AGE, "46", after = 24)
+# AGE <- append(AGE, "0", after = 130)
+# AGE <- AGE[1:237]
+# AGE <- gsub(" Jahre","",as.character(AGE))
+# AGE <- gsub("13 Monate","1",as.character(AGE))
+# 
+# LOCATION <- read_html("https://www.amadeu-antonio-stiftung.de/todesopfer-rechter-gewalt/") %>% 
+#   html_nodes(".mt-2.md\\:block") %>% 
+#   html_text()
+# 
+# LAND <- regmatches(LOCATION, gregexpr( "(?<=\\().+?(?=\\))", LOCATION, perl = T))
+# LAND <- str_remove_all(LAND, "Saale")
+# 
+# OFFICIAL <- c(F,T,F,T,F,F,F,T,F,T,T,T,F,T,T,F,F,F,F,F,F,T,T,T,F,T,T,T,T,F,F,F,T,T,T,T,F,T,T,T,T,F,F,T,F,T,T,F,F,T,F,T,T,T,T,T,T,F,F,F,T,F,F,F,F,T,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,F,F,F,T,T,T,F,F,F,T,T,F,T,T,T,F,F,T,F,T,F,F,F,T,T,T,F,T,T,T,T,T,F,F,F,F,T,F,F,T,T,T,F,F,F,F,F,T,F,T,T,T,T,F,F,F,F,T,T,T,F,F,T,F,T,F,F,F,T,F,F,F,F,F,F,F,T,T,T,T,F,F,F,F,F,F,F,T,F,F,T,T,F,F,T,T,F,F,T,F,F,F,T,F,T,F,F,T,F,T,F,F,F,F,T,F,F,F,T,F,F,T,T,T,T,T,T,T,T,T,F,T,T,F,T,F,T,T,T,F,T,T,T,T,T,T,T,T,T,F,F,T,T,T,T)
+# 
+# COUNTRYCODE <- rep("DE",237)
+# 
+# df <- data.frame(YEAR, DATE, LOCATION, LAND, VICTIM, AGE, OFFICIAL, COUNTRYCODE, LINK)
+# df$AGE <- as.numeric(df$AGE)
+# 
+# df[119, 4] = "Sachsen-Anhalt"
+# df[220, 4] = "Sachsen-Anhalt"
+# df[221, 4] = "Sachsen-Anhalt"
+# 
+# df$LOCATION <- gsub("\\s*\\([^\\)]+\\)","",as.character(df$LOCATION))
+# 
+# dfOFFIC <- subset(df, OFFICIAL == T)
+# rownames(dfOFFIC) = seq(length=nrow(dfOFFIC))
+
+df <- read.csv("slide_files/02/FR_homicides2023-01-20.csv", row.names=1, header = TRUE)
+
+dfUNOFFIC <- subset(df, OFFICIAL == F)
+rownames(dfUNOFFIC) = seq(length=nrow(dfUNOFFIC))
+
+dfOFFIC <- subset(df, OFFICIAL == T)
+rownames(dfOFFIC) = seq(length=nrow(dfOFFIC))
+
+dfplot <- df %>% 
+  group_by(YEAR) %>% 
+  summarise(DEATHS = length(YEAR))
+dfplot$YEAR <- as.numeric(dfplot$YEAR)
+dfplot$DEATHS <- as.numeric(dfplot$DEATHS)
+
+dfplotofficial <- dfOFFIC %>% 
+  group_by(YEAR) %>% 
+  summarise(OFFICIAL = length(YEAR))
+dfplotofficial$YEAR <- as.numeric(dfplotofficial$YEAR)
+dfplotofficial$OFFICIAL <- as.numeric(dfplotofficial$OFFICIAL)
+
+dfX <- merge(dfplot, dfplotofficial, by=c("YEAR"), all = TRUE)
+dfX[is.na(dfX)] <- 0
+
+library(ggplot2)
+library(reshape2)
+
+a <- ggplot(dfX, aes(x=YEAR))+
+  geom_col(aes(y=DEATHS), colour = "black", fill = "grey60", width = 1)+
+  geom_col(aes(y=OFFICIAL), colour = "black", fill = "black", width = 0.5)+
+  scale_x_continuous("", breaks = seq(1990,2021,1))+
+  scale_y_continuous("Deaths", breaks = seq(0,30,5), minor_breaks = seq(0,30,1), limits = c(0,30))+
+  theme_bw()+
+  theme(text = element_text(size=15), axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+a
+
+# df_melt <- melt(dfX, id="YEAR")
+# 
+# b <- ggplot(df_melt, aes(x = YEAR, y = value, fill = variable)) +
+#   geom_col(position = "dodge", colour = "black", width = 0.8) +
+#   scale_y_continuous("Deaths", breaks = seq(0,30,5), minor_breaks = seq(0,30,1), limits = c(0,30))+
+#   scale_fill_manual("", values=c("grey60","black")) + # "Darjeeling1", n = 4)
+#   scale_x_continuous("", breaks = seq(1990,2021,1), minor_breaks = seq(1990,2021,1))+
+#   theme_bw()+
+#   theme(text = element_text(size=15), axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+#   theme(legend.position = c(0.6, 0.8),
+#         text = element_text(size=15),
+#         legend.title=element_blank(),
+#         legend.box.background = element_rect(colour = "black"))
+# b
+```
+
+## far-right motivated homicides in Germany
+
+:::: {.columns}
+:::{.column width="70%"}
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, fig.height=9}
+
+# SOURCE DATA AND VISUALISATIONS
+# - https://www.amadeu-antonio-stiftung.de/todesopfer-rechter-gewalt/
+# - https://de.wikipedia.org/wiki/Todesopfer_rechtsextremer_Gewalt_in_der_Bundesrepublik_Deutschland
+# - https://www.zeit.de/gesellschaft/zeitgeschehen/2018-09/todesopfer-rechte-gewalt-karte-portraet
+# - https://www.zeit.de/gesellschaft/zeitgeschehen/2020-09/rechte-gewalt-todesopfer-bundeskriminalamt-wiedervereinigung/komplettansicht?utm_referrer=https%3A%2F%2Fde.wikipedia.org%2F
+
+library(raster)
+library(sf)
+
+# germany <- getData(country = "Germany", level = 1) 
+germany <- readRDS("slide_files/02/germany.rds")
+
+## ALTERNATIVE APPROACH USING sf PACKAGE
+# germany <- 
+#   getData(country = "Germany", level = 1) %>% 
+#   st_as_sf() %>% 
+#   left_join(dat, by = c("NAME_1" = "Bundesland"))
+
+diff_col2 <- ggplot() +
+  geom_polygon(data = germany,
+               aes(x = long, y = lat, group = group),
+               colour = "black", fill = "grey90") +
+  geom_point(data = dfUNOFFIC,
+             aes(x = LON, y = LAT),
+             position = position_jitter(w = 0.1, h = 0.1),
+             shape = 1, size = 5, color = "blue", stroke = 1.2) +
+  geom_point(data = dfOFFIC,
+             aes(x = LON, y = LAT),
+             position = position_jitter(w = 0.1, h = 0.1),
+             shape = 1, size = 5, color = "red", stroke = 1.2) +
+  coord_map() +
+  theme_void() +
+  # xlab("Longitude") + ylab("Latitude") +
+  theme(legend.position = "none")
+# labs(color = 'Record length')
+diff_col2
+```
+
+:::
+
+::: {.column width="30%" .right}
+
+[[o]{style="font-size:60px;"}]{style="color:red;"}: officially recognised by BRD
+
+[[o]{style="font-size:60px;"}]{style="color:blue;"}: identified by Amadeu Antonio Stiftung
+
+:::
+::::
+
+## 2024 counter-mobilisation against AfD
+
+```{r, out.width='85%'}
+knitr::include_graphics(rep("slide_files/02/weeks-maps-panel-1.png"))
+```
+
+[<https://www.derstandard.at/story/3000000209911/die-logik-hinter-den-anti-afd-protesten>]{style="font-size:20px;"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ## test video  -->
+
+```{r}
+#| eval: false
+#| include: false
+
+{{< video https://youtu.be/wo9vZccmqwc width="1000" height="600" >}}
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc
+    title="What is the CERN?"
+    start="116"
+    aspect-ratio="21x12"
+    width="1000"
+>}}
+
+# Can store a video locally:
+{{< video local-video.mp4 >}}
+
+```
+
+
+
+
+
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>     
+
+Alternatively, send me an email: [m.zeller@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- 1 + 1 -->
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+<!-- ::: -->
+
+
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- library(dplyr) -->
+<!-- library(ggplot2) -->
+<!-- g <- starwars |>  -->
+<!--   ggplot() + -->
+<!--   geom_point(aes(x = height, y = mass)) + -->
+<!--   theme_light() -->
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+<!-- #| fig.align: center -->
+<!-- #| echo: true -->
+<!-- g  -->
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| echo: true -->
+<!-- #| eval: false -->
+<!-- tab <- starwars |> -->
+<!--   tidyr::drop_na(species) |>  -->
+<!--   group_by(species) |> -->
+<!--   summarise( -->
+<!--     n = n(), -->
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+<!--   ) |>  -->
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| eval: true -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+<!-- gt::gt(tab) -->
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+<!-- reactable::reactable(tab) -->
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<!-- </center> -->
+
+
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_02.html"))
+```
+
+
+## References
+
