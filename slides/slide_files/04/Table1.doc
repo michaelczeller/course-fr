@@ -1,0 +1,33 @@
+
+<table style="text-align:center"><caption><strong>Determinants of Women's Representation i</strong></caption>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><strong>Model 1</strong></td><td><strong>Model 2</strong></td><td><strong>Model 3</strong></td><td><strong>Model 4</strong></td><td><strong>Model 5</strong></td></tr>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">M/F Ratio</td><td>-0.551</td><td>-0.551</td><td>-0.630</td><td>-0.727</td><td>-0.605</td></tr>
+<tr><td style="text-align:left"></td><td>(0.486)</td><td>(0.478)</td><td>(0.432)</td><td>(0.432)</td><td>(0.431)</td></tr>
+<tr><td style="text-align:left">Vote Change</td><td>-0.166</td><td>0.840</td><td>0.896</td><td>0.988</td><td>1.154<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.178)</td><td>(0.538)</td><td>(0.492)</td><td>(0.508)</td><td>(0.506)</td></tr>
+<tr><td style="text-align:left">Time</td><td></td><td></td><td>0.479<sup>**</sup></td><td>0.480<sup>**</sup></td><td>0.151</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.149)</td><td>(0.149)</td><td>(0.177)</td></tr>
+<tr><td style="text-align:left">Female Leader</td><td></td><td></td><td></td><td>-0.035</td><td>1.153</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(3.785)</td><td>(3.504)</td></tr>
+<tr><td style="text-align:left">Cabinet Party</td><td></td><td></td><td></td><td>-3.980</td><td>-3.511</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(2.451)</td><td>(2.453)</td></tr>
+<tr><td style="text-align:left">Women in Parliament</td><td></td><td></td><td></td><td></td><td>0.461<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(0.183)</td></tr>
+<tr><td style="text-align:left">Dis. Mag.</td><td></td><td></td><td></td><td></td><td>-0.007</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(0.037)</td></tr>
+<tr><td style="text-align:left">PR</td><td></td><td></td><td></td><td></td><td>1.093</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(4.287)</td></tr>
+<tr><td style="text-align:left">Quota Law</td><td></td><td></td><td></td><td></td><td>6.561</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(3.444)</td></tr>
+<tr><td style="text-align:left">Western Europe</td><td></td><td></td><td></td><td></td><td>-2.215</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(3.908)</td></tr>
+<tr><td style="text-align:left">M/F Ratio*Vote Change</td><td></td><td>-0.663<sup>*</sup></td><td>-0.668<sup>*</sup></td><td>-0.760<sup>*</sup></td><td>-0.868<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.338)</td><td>(0.308)</td><td>(0.319)</td><td>(0.317)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>21.318<sup>***</sup></td><td>20.684<sup>***</sup></td><td>-941.659<sup>**</sup></td><td>-942.046<sup>**</sup></td><td>-294.866</td></tr>
+<tr><td style="text-align:left"></td><td>(2.360)</td><td>(2.271)</td><td>(298.581)</td><td>(299.696)</td><td>(353.765)</td></tr>
+<tr><td style="text-align:left">N</td><td>58</td><td>58</td><td>58</td><td>58</td><td>58</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td>-210.194</td><td>-208.362</td><td>-203.640</td><td>-202.374</td><td>-197.883</td></tr>
+<tr><td style="text-align:left">AIC</td><td>432.387</td><td>430.723</td><td>423.279</td><td>424.748</td><td>425.765</td></tr>
+<tr><td style="text-align:left">BIC</td><td>444.750</td><td>445.146</td><td>439.763</td><td>445.352</td><td>456.672</td></tr>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="6" style="text-align:left"><sup>***</sup>p < .001; <sup>**</sup>p < .01; <sup>*</sup>p < .05</td></tr>
+</table>

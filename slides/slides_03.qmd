@@ -1,0 +1,1339 @@
+---
+title: "Class 3: Parties"
+subtitle: "radical and extreme"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+incremental: false
+embed-resources: true
+bibliography: ../../../library.bib
+---
+
+
+# Opening notes {background-color="#2c844c"}
+
+## Students' favourite cities
+
+```{r}
+library(ggplot2)
+library(ggrepel)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(dplyr)
+
+places <- data.frame(
+  city = c("Ohrid", "Munich", "Merano", "Copenhagen"),
+  country = c("Macedonia", "Germany", "Italy", "Denmark"),
+  likes = c(1, 2, 1, 1),
+  stringsAsFactors = FALSE
+)
+
+places_geo <- places %>% 
+  tidygeocoder::geocode(
+    city = city,
+    country = country,
+    method = "osm"
+    )
+
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+ggplot(data=world) +
+  geom_sf(fill="seagreen1") +
+  geom_point(data=places_geo, aes(x=long, y=lat, size=likes), color="red") +
+  geom_point(data=places_geo, aes(x=long, y=lat, size=likes), 
+             shape=1, color="black") +
+  geom_text_repel(data=places_geo, aes(x=long, y=lat, label=city), size=4) +
+  # coord_sf() +
+  coord_sf(xlim = c(-10, 30), ylim = c(35, 60), expand = FALSE) +
+  scale_size_continuous(breaks=c(1, 2, 5), range=c(3, 10), name="Likes") + 
+  theme_void() + # + labs(title="Favorite Cities", x="", y="")
+  theme(legend.position=c(0.05, 0.5), 
+        legend.background=element_rect(fill="white", color="black", linewidth=0.5), 
+        legend.box.background=element_rect(fill="white", color="black", linewidth=0.5))
+
+```
+
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Korbinian Mayer, Angel David Meissner, Adrian Morina, Elli Quitter, Damir Smajlovic, Felix Strasser, Tim Winterling -->
+
+Remember: topic to me at least by Week 4
+
+::: panel-tabset
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | TBD | 
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | TBD |
+| 29 May: | NO CLASS MEETING                        |  | 
+
+: Presentations line-up
+
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | regression | 
+| 12 June: | Omar B., Lela E., Niclas W. | TBD |
+| 19 June: | NO CLASS MEETING                        |  | 
+| 26 June: | Colombe I., Konstantin S., Jakob W. | TBD | 
+
+: Presentations line-up
+
+## July
+
+| Date    | Presenters                              | Method |
+| -------:|:----------------------------------------|:------:|
+| 3 July:  | Alexander V., Samuel B., Luis G., Oscar O. | TBD | 
+| 10 July: | Lina S., Stephen W., Philomena B. | TBD | 
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD | 
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD | 
+| 24 July: | Lorenz F., Daniel B., Fiona W., Medina H. | TBD | 
+
+: Presentations line-up
+
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+# Check-in: ideological components {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="40%"}
+
+- nationalism
+- exclusionism
+- xenophobia
+- strong state
+- welfare chauvinism
+- traditional ethics 
+
+:::
+
+:::{.column width="20%"}
+
+&rarr;
+
+&rarr;
+
+&rarr;
+
+:::
+
+::: {.column width="40%" .right}
+
+- __nativism__
+- __authoritarianism__
+- __populism__
+
+:::
+::::
+
+- [questions from the recorded lecture?]{style="color:red;"}
+
+
+# Party classification {background-color="#2c844c"}
+
+
+:::: {.columns}
+:::{.column width="60%"}
+
+- applying the ideological components to classify parties
+    + why do this?
+    + how?
+    + scoring cases
+
+:::
+
+::: {.column width="40%" .right}
+
+<div class="tenor-gif-embed" data-postid="20305763" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/pizza-pizza-day-national-pizza-day-pizza-day2021-pizza-party-gif-20305763">Pizza Pizza Day GIF</a>from <a href="https://tenor.com/search/pizza-gifs">Pizza GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+:::
+::::
+
+## Discussion point
+
+- [Why classify parties into party families? Is this worthwhile?]{style="color:red;"}
+
+. . . 
+
+> temporal, contextual comparisons; consequences for policy positions and other party behaviour (e.g., cooperation with other parties); map party system landscapes
+
+. . . 
+
+- [How can we make classifications?]{style="color:red;"}
+
+## Mudde's approach (focused on ideology)
+
+1. **[party-based]{style="color:red;"}**: 
+    a. Party name; 
+    b. Membership in transnational confederations; 
+    c. self-identification 
+    
+. . . 
+
+- all duds...
+
+## Mudde's approach (focused on ideology)
+
+2. **[researcher-based]{style="color:red;"}**: 
+    1. electorates/constituencies 
+        - problems: electorates change; electorates are heterogeneous
+    2. member ideology
+        - problems: diverse membership; active members are most extreme (David May's '[special law of curvilinear disparity]{style="color:cadetblue;"}' compared to leadership and voting base; your thoughts?)
+    3. leader ideology
+        - problems: who exactly? how (interviews, speeches?)?
+    4. official party literature
+        - conditions: 'official' only (no 'aligned' lit.), national only (no regional), <!-- thoughts from the German federalists?? --> and both external and internal lit. is optimal
+
+## Mudde's approach (focused on ideology)
+
+2. **[researcher-based]{style="color:red;"}**: 
+    1. electorates/constituencies 
+        - problems: electorates change; electorates are heterogeneous
+    2. member ideology
+        - problems: diverse membership; active members are most extreme (David May's '[special law of curvilinear disparity]{style="color:cadetblue;"}' compared to leadership and voting base; your thoughts?)
+    3. leader ideology
+        - problems: who exactly? how (interviews, speeches?)?
+    4. [official party literature]{style="color:blue;"}
+        - conditions: 'official' only (no 'aligned' lit.), national only (no regional), <!-- thoughts from the German federalists?? --> and both external and internal lit. is optimal
+
+## Populist radical right parties (PRRPs)
+
++---------------+--------------+-----------------+
+|               | populist     | non-populist    |
++===============+==============+=================+
+| radical       |              |                 |
+|               |              |                 |
++---------------+--------------+-----------------+
+| non-radical   |              |                 |
+|               |              |                 |
++---------------+--------------+-----------------+
+
+. . . 
+
+Mudde's list ... a bit outdated. [What is the scene like today?]{style="color:blue;"}
+
+::: panel-tabset
+
+## Populist & Radical
+
+FPÖ ([AT]{style="color:red;"}); 
+Vlaams Belang ([BE]{style="color:red;"}); 
+Hrvatska stranka prava ([HR]{style="color:red;"}); 
+Dansk Folkeparti ([DK]{style="color:red;"}); 
+Front National ([FR]{style="color:red;"}); 
+Die Republikaner ([DE]{style="color:red;"}); 
+MIEP ([HU]{style="color:red;"}); 
+Liga Polskich Rodzin ([PL]{style="color:red;"}); 
+Partidul Romania Mare ([RO]{style="color:red;"}); 
+LDPR (Zhironovsky) ([RU]{style="color:red;"}); 
+Slovenska narodna strana ([SI]{style="color:red;"}) 
+
+## Populist & Non-Radical ('neo-liberal populist')
+
+Norwegian Fremskrittspartiet ([NO]{style="color:red;"}); 
+Bulgarian Business Bloc ([BG]{style="color:red;"}); 
+Danish Fremskridtspartiet ([DK]{style="color:red;"}); 
+Lijst Pim Fortuyn ([NL]{style="color:red;"}); 
+Forza Italia ([IT]{style="color:red;"}); 
+Polish Unia Polityki Realnej ([PL]{style="color:red;"}); 
+Swedish Ny Demokrati ([SE]{style="color:red;"}); 
+Schweizer Autopartei ([CH]{style="color:red;"}) 
+
+## Non-Populist & Radical
+
+NPD ([DE]{style="color:red;"}); 
+National Political Union ([GR]{style="color:red;"}); 
+BNP ([UK]{style="color:red;"}); 
+Dutch Centrumpartij '86 ([NL]{style="color:red;"}); 
+Prava Alternativa ([CZ]{style="color:red;"}); 
+Narodowe Odrodzenie Polski ([PL]{style="color:red;"}); 
+Movement for Romania ([RO]{style="color:red;"}); 
+Russian National Unity ([RU]{style="color:red;"}); 
+National Bolshevik Party ([RU]{style="color:red;"}); 
+[non-extreme]{style="color:cadetblue;"}: Nationalist Action Party ([TR]{style="color:red;"})
+
+## Non-Populist & Non-Radical
+
+Civic Democratic Party ([CZ]{style="color:red;"}); 
+Fidesz ([HU]{style="color:red;"})
+...
+
+:::
+
+## Party classification in practice
+
+::: panel-tabset
+
+## BJP (India)
+
+:::: {.columns}
+:::{.column width="60%"}
+
+- name: *Bharatiya Janata Party* 
+- founded: 1980
+- in gov: yes, since 2014
+- leadership: Narendra Modi (Prime Minister), J.P. Nadda (Party President)
+- notable social organisation: *Rashtriya Swayamsevak Sangh* ('National Volunteer Corps', RSS)
+<!-- - ideology: Hindu nationalism, right-wing populism, conservative social values, economic nationalism -->
+:::
+
+::: {.column width="40%" .right}
+![](slide_files/03/foto_bjp.png)
+:::
+::::
+
+## Republicans (U.S.)
+
+:::: {.columns}
+:::{.column width="60%"}
+
+- name: *Republican Party* 
+- founded: 1854
+- in gov: yes, since 2025 (and repeatedly before)
+- leadership: Donald Trump 
+- notable social organisation: (e.g.,) Turning Point USA 
+<!-- - ideology: conservatism, economic liberalism, Christian right, American nationalism, populism -->
+:::
+
+::: {.column width="40%" .right}
+![](slide_files/03/foto_rep.png)
+:::
+::::
+
+## AfD (Germany)
+
+:::: {.columns}
+:::{.column width="60%"}
+
+- name: *Alternative für Deutschland*
+- founded: 2013
+- in gov: no, never at national or regional levels
+- leadership: Tino Chrupalla and Alice Weidel 
+- notable social organisation: Desiderius-Erasmus-Stiftung
+<!-- - ideology: right-wing to far-right, German nationalism, anti-immigration, Euroscepticism, anti-Islam, populism -->
+:::
+
+::: {.column width="40%" .right}
+![](slide_files/03/foto_afd.png)
+:::
+::::
+
+:::
+
+## Party classification in practice
+
+:::: {.columns}
+:::{.column width="40%"}
+![](slide_files/03/class3_poll_QR.png){fig-alt="A QR code for the survey."}
+:::
+
+::: {.column width="60%" .center}
+<!-- go to <https://www.qr-code-generator.com/>, add the link, and screen shot the QR code -->
+Take the survey at **<https://forms.gle/MPe6HyUSdEdkMpk6A>**
+
+- not based on evaluating party literature---just on your familiarity with these cases
+:::
+::::
+
+## Class poll - classification
+
+```{ojs}
+md`## Poll results (Respondents: ${respondentCount})`
+```
+
+
+```{ojs}
+
+import { liveGoogleSheet } from "@jimjamslam/live-google-sheet";
+import { aq, op } from "@uwdata/arquero";
+
+// UPDATE THE LINK FOR A NEW POLL
+surveyResults = liveGoogleSheet(
+  "https://docs.google.com/spreadsheets/d/e/" +
+    "2PACX-1vTPm05azJcLoJJ-VRuMZfmZrOjwbPMFL3AeaFWJw-YOKsuspBB9H_QS8mYunO5NB8XNlcoys_INGvXQ/" +
+    "pub?gid=1226040417&single=true&output=csv",
+  10000, 1, 13); // adjust the last number to select all relevant columns 
+
+respondentCount = surveyResults.length;
+
+```
+
+
+```{ojs}
+function PieChart(data, {
+  name = ([x]) => x,  // given d in data, returns the (ordinal) label
+  value = ([, y]) => y, // given d in data, returns the (quantitative) value
+  title, // given d in data, returns the title text
+  width = 640, // outer width, in pixels
+  height = 400, // outer height, in pixels
+  innerRadius = 0, // inner radius of pie, in pixels (non-zero for donut)
+  outerRadius = Math.min(width, height) / 2, // outer radius of pie, in pixels
+  labelRadius = (innerRadius * 0.5 + outerRadius * 0.5), // center radius of labels
+  format = ",", // a format specifier for values (in the label)
+  names, // array of names (the domain of the color scale)
+  colors, // array of colors for names
+  stroke = innerRadius > 0 ? "none" : "white", // stroke separating widths
+  strokeWidth = 1, // width of stroke separating wedges
+  strokeLinejoin = "round", // line join of stroke separating wedges
+  padAngle = stroke === "none" ? 1 / outerRadius : 0, // angular separation between wedges, in radians
+} = {}) {
+  // Compute values.
+  const N = d3.map(data, name);
+  const V = d3.map(data, value);
+  const I = d3.range(N.length).filter(i => !isNaN(V[i]));
+
+  // Unique the names.
+  if (names === undefined) names = N;
+  names = new d3.InternSet(names);
+
+  // Chose a default color scheme based on cardinality.
+  if (colors === undefined) colors = d3.schemeSpectral[names.size];
+  if (colors === undefined) colors = d3.quantize(t => d3.interpolateSpectral(t * 0.8 + 0.1), names.size);
+
+  // Construct scales.
+  const color = d3.scaleOrdinal(names, colors);
+
+  // Compute titles.
+  if (title === undefined) {
+    const formatValue = d3.format(format);
+    title = i => `${N[i]}\n${formatValue(V[i])}`;
+  } else {
+    const O = d3.map(data, d => d);
+    const T = title;
+    title = i => T(O[i], i, data);
+  }
+
+  // Construct arcs.
+  const arcs = d3.pie().padAngle(padAngle).sort(null).value(i => V[i])(I);
+  const arc = d3.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+  const arcLabel = d3.arc().innerRadius(labelRadius).outerRadius(labelRadius);
+  
+  const svg = d3.create("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .attr("viewBox", [-width / 2, -height / 2, width, height])
+      .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
+
+  svg.append("g")
+      .attr("stroke", stroke)
+      .attr("stroke-width", strokeWidth)
+      .attr("stroke-linejoin", strokeLinejoin)
+    .selectAll("path")
+    .data(arcs)
+    .join("path")
+      .attr("fill", d => color(N[d.data]))
+      .attr("d", arc)
+    .append("title")
+      .text(d => title(d.data));
+
+  svg.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 100)
+      .attr("text-anchor", "middle")
+    .selectAll("text")
+    .data(arcs)
+    .join("text")
+      .attr("transform", d => `translate(${arcLabel.centroid(d)})`)
+    .selectAll("tspan")
+    .data(d => {
+      const lines = `${title(d.data)}`.split(/\n/);
+      return (d.endAngle - d.startAngle) > 0.25 ? lines : lines.slice(0, 1);
+    })
+    .join("tspan")
+      .attr("x", 0)
+      .attr("y", (_, i) => `${i * 1.1}em`)
+      .attr("font-weight", (_, i) => i ? null : "bold")
+      .text(d => d);
+
+  return Object.assign(svg.node(), {scales: {color}});
+}
+```
+
+::: columns
+::: {.column width="33%"}
+BJP - nativist?
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+bjp_nativCounts = aq.from(surveyResults)
+  .select("bjp_nativ")
+  .groupby("bjp_nativ")
+  .count()
+  .rename({ count: 'value', bjp_nativ: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+bjp_nativChart = PieChart(bjp_nativCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["Yes", "No", "Maybe"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+
+:::
+
+::: {.column width="33%"}
+
+BJP - authoritarian?
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+bjp_authCounts = aq.from(surveyResults)
+  .select("bjp_auth")
+  .groupby("bjp_auth")
+  .count()
+  .rename({ count: 'value', bjp_auth: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+bjp_authChart = PieChart(bjp_authCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["Yes", "No", "Maybe"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+
+:::
+
+::: {.column width="33%"}
+BJP - populist?
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+bjp_popuCounts = aq.from(surveyResults)
+  .select("bjp_popu")
+  .groupby("bjp_popu")
+  .count()
+  .rename({ count: 'value', bjp_popu: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+bjp_popuChart = PieChart(bjp_popuCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["Yes", "No", "Maybe"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+:::
+:::
+
+## Class poll - classification
+
+::: columns
+::: {.column width="33%"}
+Republican (US) - nativist?
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+rep_nativCounts = aq.from(surveyResults)
+  .select("rep_nativ")
+  .groupby("rep_nativ")
+  .count()
+  .rename({ count: 'value', rep_nativ: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+rep_nativChart = PieChart(rep_nativCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["Yes", "No", "Maybe"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+
+:::
+
+::: {.column width="33%"}
+
+Republican (US) - authoritarian?
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+rep_authCounts = aq.from(surveyResults)
+  .select("rep_auth")
+  .groupby("rep_auth")
+  .count()
+  .rename({ count: 'value', rep_auth: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+rep_authChart = PieChart(rep_authCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["Yes", "No", "Maybe"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+
+:::
+
+::: {.column width="33%"}
+Republican (US) - populist?
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+rep_popuCounts = aq.from(surveyResults)
+  .select("rep_popu")
+  .groupby("rep_popu")
+  .count()
+  .rename({ count: 'value', rep_popu: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+rep_popuChart = PieChart(rep_popuCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["Yes", "No", "Maybe"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+:::
+:::
+
+## Class poll - classification
+
+::: columns
+::: {.column width="33%"}
+AfD - nativist?
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+afd_nativCounts = aq.from(surveyResults)
+  .select("afd_nativ")
+  .groupby("afd_nativ")
+  .count()
+  .rename({ count: 'value', afd_nativ: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+afd_nativChart = PieChart(afd_nativCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["Yes", "No", "Maybe"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+
+:::
+
+::: {.column width="33%"}
+
+AfD - authoritarian?
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+afd_authCounts = aq.from(surveyResults)
+  .select("afd_auth")
+  .groupby("afd_auth")
+  .count()
+  .rename({ count: 'value', afd_auth: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+afd_authChart = PieChart(afd_authCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["Yes", "No", "Maybe"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+
+:::
+
+::: {.column width="33%"}
+AfD - populist?
+
+```{ojs}
+
+// aggregate the yes/no counts for "methods"
+afd_popuCounts = aq.from(surveyResults)
+  .select("afd_popu")
+  .groupby("afd_popu")
+  .count()
+  .rename({ count: 'value', afd_popu: 'name' }) // Rename for D3 pie chart
+  .objects() // convert to array for D3
+
+afd_popuChart = PieChart(afd_popuCounts, {
+  name: d => d.name,
+  value: d => d.value,
+  names: ["Yes", "No", "Maybe"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  width,
+  height: 900
+})
+
+```
+:::
+:::
+
+## Class poll - classification: radical/extreme?
+
+::: columns
+::: {.column width="33%"}
+BJP
+
+```{ojs}
+bjp_radextCounts = aq.from(surveyResults)
+  .select("bjp_radext")
+  .groupby("bjp_radext")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+bjp_maxCountRE = Math.max(...bjp_radextCounts.objects().map(d => d.count));
+
+plot_bjp_radext = Plot.plot({
+  marks: [
+    Plot.barY(bjp_radextCounts, {
+      x: "bjp_radext",
+      y: "count",
+      fill: "bjp_radext",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Radical",
+      "Extreme",
+      "Neither"
+    ],
+    range: [
+      "#d73027",  // red
+      "#4B0082",  // indigo
+      "cadetblue"   // violet
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Radical", "Extreme", "Neither"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(bjp_radextCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, bjp_maxCountRE]
+  },
+  facet: { data: bjp_radextCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="33%"}
+Republicans
+
+```{ojs}
+rep_radextCounts = aq.from(surveyResults)
+  .select("rep_radext")
+  .groupby("rep_radext")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+rep_maxCountRE = Math.max(...rep_radextCounts.objects().map(d => d.count));
+
+plot_rep_radext = Plot.plot({
+  marks: [
+    Plot.barY(rep_radextCounts, {
+      x: "rep_radext",
+      y: "count",
+      fill: "rep_radext",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Radical",
+      "Extreme",
+      "Neither"
+    ],
+    range: [
+      "#d73027",  // red
+      "#4B0082",  // indigo
+      "cadetblue"   // violet
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Radical", "Extreme", "Neither"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(rep_radextCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, rep_maxCountRE]
+  },
+  facet: { data: rep_radextCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="33%"}
+AfD
+
+```{ojs}
+afd_radextCounts = aq.from(surveyResults)
+  .select("afd_radext")
+  .groupby("afd_radext")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+afd_maxCountRE = Math.max(...afd_radextCounts.objects().map(d => d.count));
+
+plot_afd_radext = Plot.plot({
+  marks: [
+    Plot.barY(afd_radextCounts, {
+      x: "afd_radext",
+      y: "count",
+      fill: "afd_radext",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Radical",
+      "Extreme",
+      "Neither"
+    ],
+    range: [
+      "#d73027",  // red
+      "#4B0082",  // indigo
+      "cadetblue"   // violet
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Radical", "Extreme", "Neither"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(afd_radextCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, afd_maxCountRE]
+  },
+  facet: { data: afd_radextCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+:::
+
+## Party classification in practice - utility
+
+> [Does Mudde's classification approach enable differentiation *between* far-right parties or merely classification whether a party belongs to the far-right party family?]{style="font-size:60px;"}
+
+
+## A tricky case?
+
+- [Schweizerische Volkspartei]{style="color:red;"} - Union démocratique du centre (SVP)
+    + conservative? populist radical right? decentralised mess?
+
+:::: {.columns}
+:::{.column width="70%"}
+
+![](slide_files/03/svp_ad.png)
+
+:::
+
+::: {.column width="30%" .right}
+
+advert adapted by NPD, Lega Nord, VB, Democracia Nacional---among others
+
+:::
+::::
+
+## A (typical) tricky case?
+
+- [Schweizerische Volkspartei]{style="color:red;"} - Union démocratique du centre (SVP)
+    + conservative? populist radical right? decentralised mess?
+
+:::: {.columns}
+:::{.column width="65%"}
+
+![](slide_files/03/svp_ad.png)
+
+:::
+
+::: {.column width="35%" .right}
+
+advert adapted by NPD, Lega Nord, VB, Democracia Nacional---among others
+
+- regional variation
+    + Berne (centrist); Zurich (populist, adversarial)
+
+:::
+::::
+
+<!-- as Swiss politics is first and foremost cantonal, it is not always easy to speak of truly national parties (e.g. Kriesi 1998). ... There are two very important cantonal branches in Switzerland in general, and within the SVP in particular: Berne [centrist, govermental party] and Zurich ["in the financially and economically strong canton of Zurich, the party has developed a more conservative and oppositional character since the mid 1970s, particularly under the leadership of Christoph Blocher"] -->
+
+
+<!-- BIG QUESTIONS: -->
+<!-- -dynamics of shifting party positions (e.g., PiS, FIDESZ) -->
+<!-- -what do you make of Minkenberg's classifications? what are they based on? are they convincing? -->
+<!-- \begin{itemize} \item<1->{\_} \vspace{-0.65 cm} \item<2->{"(for details, see Minkenberg, 2003, 2008)"} \end{itemize} -->
+<!-- -qualitative difference (in historical and cultural, and cleavage conditions) between West and East Europe? -->
+
+# Radical right electoral performance {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- overview
+- @Minkenberg2013
+- European elections 2024
+- German elections 2025
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="19063502" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/election-results-loading-election2020-every-vote-counts-count-every-vote-gif-19063502">Election Results Loading Election2020 GIF</a>from <a href="https://tenor.com/search/election+results+loading-gifs">Election Results Loading GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+## Overview electoral performance ([ParlGov](https://www.parlgov.org/))
+
+![](slide_files/03/share-all.png)
+
+[<https://github.com/hdigital/parlgov-snippets/tree/main/party-family-share>]{style="font-size:20px;"}
+
+## Overview electoral performance ([ParlGov](https://www.parlgov.org/))
+
+![](slide_files/03/share-country.png)
+
+[<https://github.com/hdigital/parlgov-snippets/tree/main/party-family-share>]{style="font-size:20px;"}
+
+## Overview cabinet share ([ParlGov](https://www.parlgov.org/))
+
+![](slide_files/03/cabinet-share.png)
+
+[<https://github.com/hdigital/parlgov-snippets/blob/main/country-year/cabinet-share.png>]{style="font-size:20px;"}
+
+## Resources to dive deeper
+
+- EUI list of datasets: [<https://www.eui.eu/Research/Library/ResearchGuides/Economics/Statistics/DataPortal/EED>]{style="font-size:30px;"} 
+- Chapel Hill Expert Surveys (CHES): <https://www.chesdata.eu/>
+- Manifesto Project Database (at WZB): <https://manifesto-project.wzb.eu/>
+- Parliament and government composition database (ParlGov): <http://www.parlgov.org/>
+- Parltrack: <https://parltrack.org/>
+- Varieties of Democracy (V-Dem): <https://www.v-dem.net/>
+
+## @Minkenberg2013 - far-right parties
+
+1. extremist/autocratic-fascist (usually including racism or xenophobia): [NPD/DVU]{style="color:red;"} (DE), [BNP]{style="color:red;"} (UK), [Jobbik]{style="color:red;"} (HU)
+
+2. Ethnocentrist (but not fascist): [FPÖ]{style="color:red;"} (AT), [VB]{style="color:red;"} (BE), [REP]{style="color:red;"} (DE), [FN]{style="color:red;"} (FR), [MIEP]{style="color:red;"} (HU), [Lega]{style="color:red;"} (IT), [SVP]{style="color:red;"} (CH)
+
+3. populist/populist-authoritarian (strong and charismatic leader and with a diffuse nationalist ideology): [BZÖ]{style="color:red;"} (AT), [FIDESZ]{style="color:red;"} (HU), [PiS]{style="color:red;"} (PL)
+
+4. religious-fundamentalist: [KDNP]{style="color:red;"} (HU), [LPR]{style="color:red;"} (PL)
+
+## Visualising @Minkenberg2013 Table 2: RR-West (lineplot)
+
+```{r RR-West, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+df <- data.frame(
+  country = c("AUS","BEL","DEN","FRA","GER","GBR","ITA","NET","NOR","SWE","SWI",
+              "AUS","BEL","DEN","FRA","GER","GBR","ITA","NET","NOR","SWE","SWI",
+              "AUS","BEL","DEN","FRA","GER","GBR","ITA","NET","NOR","SWE","SWI",
+              "AUS","BEL","DEN","FRA","GER","GBR","ITA","NET","NOR","SWE","SWI",
+              "AUS","BEL","DEN","FRA","GER","GBR","ITA","NET","NOR","SWE","SWI",
+              "AUS","BEL","DEN","FRA","GER","GBR","ITA","NET","NOR","SWE","SWI",
+              "AUS","BEL","DEN","FRA","GER","GBR","ITA","NET","NOR","SWE","SWI"),
+  period =  c("1980-1984","1980-1984","1980-1984","1980-1984","1980-1984","1980-1984","1980-1984","1980-1984","1980-1984","1980-1984","1980-1984",
+              "1985-1989","1985-1989","1985-1989","1985-1989","1985-1989","1985-1989","1985-1989","1985-1989","1985-1989","1985-1989","1985-1989",
+              "1990-1994","1990-1994","1990-1994","1990-1994","1990-1994","1990-1994","1990-1994","1990-1994","1990-1994","1990-1994","1990-1994",
+              "1995-1999","1995-1999","1995-1999","1995-1999","1995-1999","1995-1999","1995-1999","1995-1999","1995-1999","1995-1999","1995-1999",
+              "2000-2004","2000-2004","2000-2004","2000-2004","2000-2004","2000-2004","2000-2004","2000-2004","2000-2004","2000-2004","2000-2004",
+              "2005-2009","2005-2009","2005-2009","2005-2009","2005-2009","2005-2009","2005-2009","2005-2009","2005-2009","2005-2009","2005-2009",
+              "2009","2009","2009","2009","2009","2009","2009","2009","2009","2009","2009"),
+  result = c(5.0,1.1,6.4,0.4,0.2,0.0,6.8,0.8,4.5,0.0,3.8,
+             9.7,1.7,6.9,9.9,0.6,0.6,5.9,0.7,8.4,0.0,6.3,
+             19.6,6.6,6.4,12.7,2.3,0.9,18.0,2.9,6.0,4.0,11.9,
+             24.4,10.9,9.8,14.9,3.3,0.0,25.8,0.6,15.3,0.0,18.7,
+             10.0,13.8,12.6,12.4,1.0,0.2,4.3,11.4,14.7,1.5,26.6,
+             28.3,14.0,13.9,4.7,2.1,0.7,8.3,5.9,22.5,3.0,30.0,
+             17.8,10.1,14.8,6.3,1.7,8.3,10.2,15.3,0.0,3.3,0.0)
+  )
+
+library(RColorBrewer)
+
+ggplot(data = df, aes(x = period, y = result, color = country, group = country)) + 
+  geom_line(size = 1) + theme(legend.position = c(0.1, 0.65)) +
+  geom_point(size = 4) + geom_point(shape = 1, size = 4, colour="black") +
+  scale_color_brewer(palette = "Paired") +
+  theme(text = element_text(size = 20)) +
+  labs(y="Vote (%)")
+```
+
+
+<!-- ## Visualising Minkenberg (2013) Table 2: RR-West (barplot) -->
+
+```{r RR-West-alt, message=FALSE, warning=FALSE, paged.print=FALSE}
+#| eval: false
+#| include: false
+
+ggplot(df, aes(x = period, y = result, fill = country)) +
+  geom_col(position = "dodge", colour = "black") + theme(legend.position = c(0.1, 0.6)) +
+  scale_fill_brewer(palette = "Paired") +
+  theme(text = element_text(size = 20)) +
+  labs(y="Vote (%)")
+```
+
+## Relation of party strength to movement strength
+
+How is Minkenberg evaluating party and movement strength? [Is there a causal relationship?]{style="color:red;"} (if so, in what direction?)
+
++------------+-----------------------+------------------------+
+|            | low party strength    | high party strength    |
++============+=======================+========================+
+| low        |                       | Austria,               |
+| movement   |                       | France,                |
+| strength   |                       | Italy                  |
++------------+-----------------------+------------------------+
+| medium     | Germany (West),       | Denmark,               |
+| movement   | Netherlands           | Norway,                |
+| strength   |                       | Switzerland,           |
+|            |                       | Belgium                |
++------------+-----------------------+------------------------+
+| high       | Germany (East),       |                        |
+| movement   | United Kingdom,       |                        |
+| strength   | Sweden                |                        |
++------------+-----------------------+------------------------+
+
+## Relation of party strength to movement strength
+
+@Koopmans1995 have an (outdated?) answer:
+
+> mobilization of left-wing movements is concentrated during periods of right-wing government, whereas the Right tends to mobilize most strongly when the Left is in power. However, the highest levels of mobilization, of the Left and to some extent also of the Right, occur when mixed governments, in which power is shared by parties of the Left and of the Right, are in power.
+
+## relationship types of the right and the radical right
+
+@Minkenberg2013: *the efforts by a number of radical right parties to appear 'respectable' has changed their pariah status---although as will be shown, they have not become a conservative or moderate right-wing party*
+
+- policy adoption (e.g., on immigration) from far-right to centre (even centre-left, e.g., Denmark 2019?)
+- Possible results: 
+    * taking issue away from FR party &rarr; marginalising it
+    * legitimation and confirmation of issue ownership [e.g., @Karacsony2011]
+    * alignment and opening opportunities for formal cooperation 
+    * others?
+
+## what was/is/will be going on in Central and Eastern Europe?
+
+- is Central and Eastern Europe special, different *in degree* or even *in kind*?
+
+. . . 
+
+```{r RR-East}
+
+df <- data.frame(
+  country = c("BUL","CZR","HUN","POL","ROM","SLK","SLV",
+              "BUL","CZR","HUN","POL","ROM","SLK","SLV",
+              "BUL","CZR","HUN","POL","ROM","SLK","SLV",
+              "BUL","CZR","HUN","POL","ROM","SLK","SLV",
+              "BUL","CZR","HUN","POL","ROM","SLK","SLV"),
+  period =  c("1990-1994","1990-1994","1990-1994","1990-1994","1990-1994","1990-1994","1990-1994",
+              "1995-1999","1995-1999","1995-1999","1995-1999","1995-1999","1995-1999","1995-1999",
+              "2000-2004","2000-2004","2000-2004","2000-2004","2000-2004","2000-2004","2000-2004",
+              "2005-2009","2005-2009","2005-2009","2005-2009","2005-2009","2005-2009","2005-2009",
+              "2009","2009","2009","2009","2009","2009","2009"),
+  result = c(0,   6.8,0.8, 14.1,5.8, 0.0, 0.0,
+             0,   6.0,5.5, 8.0, 9.2, 0.0, 0.0,
+             0,   1.1,4.5, 18.1,20.9,7.0, 4.4,
+             8.7, 0,  1.7, 10.4,3.1, 11.7,5.4,
+             12.0,0,  14.8,1.5, 8.6, 5.5, 2.9)
+  )
+
+ggplot(data = df, aes(x = period, y = result, color = country, group = country)) + 
+  geom_line(size = 1) + theme(legend.position = c(0.3, 0.8)) +
+  geom_point(size = 4) + geom_point(shape = 1, size = 4, colour="black") +
+  scale_color_brewer(palette = "Paired") +
+  theme(text = element_text(size = 20)) +
+  labs(y="Vote (%)")
+```
+
+## Hungary: shifting political sands - a closer look
+
+```{r}
+library(knitr)
+library(kableExtra)
+
+data <- data.frame(
+  Year = c(1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022),
+  Left = c("MSZP", "", "", "", "", "LMP", "LMP", "LMP", ""),
+  Centre = c("FIDESZ", "**MSZP**, FIDESZ", "MSZP", "**MSZP**", "**MSZP**", "MSZP", "MSZP (+ coalition)", "MSZP-Parbeszed, +", "United (incl. Jobbik)"),
+  Centre2 = c("SZDSZ, **MDF**", "SZDSZ, MDF", "SZDSZ, **FIDESZ**, MDF", "SZDSZ, FIDESZ-MDF", "SZDSZ, MDF", "", "", "", ""),
+  Right = c("FKGP, KDNP", "KDNP, FKGP", "FKGP", "", "FIDESZ", "**FIDESZ**", "**FIDESZ**", "**FIDESZ**", "**FIDESZ**"),
+  Notes = c("", "(MIEP)", "MIEP", "", "", "Jobbik", "Jobbik", "Jobbik", "Mi Hazánk")
+)
+
+data %>%
+  kable(format = "html",
+        col.names = c("", "left", "", "centre", "", "right"),
+        align = c("l", "c", "c", "c", "c", "c")) %>%
+  kable_styling(latex_options = c("scale_down", "striped")) %>%
+  row_spec(0, bold = TRUE, font_size = 25) %>%
+  row_spec(1:9, font_size = 25)
+
+```
+
+- Minkenberg writes about MIÉP and István Csurka, and FIDESZ: *[the efforts by a number of radical right parties to appear ‘respectable’ has changed their pariah status---although as will be shown, they have not become a conservative or moderate right-wing party]{style="font-size:30px;"}*
+
+## Hungary - a closer look
+
+<!-- the efforts by a number of radical right parties to appear ‘respectable’ has changed their pariah status—although as will be shown, they have not become a conservative or moderate right-wing party -->
+
+- Example of Jobbik and Gabor Vona [cf. 'frontstage moderation', @brandmann2022RadicalrightPartiesMilitant]
+
+![](slide_files/03/Vona.png)
+
+## far-right parties in government
+
+@Minkenberg2013[p. 19]: 
+
+> In the language of Giovanni Sartori: the radical right's 'blackmail potential' may be more consequential than its 'coalition potential'
+
+::: {.callout-tip collapse="true"}
+## coalition potential
+ability to influence electoral competition by (potential) inclusion in a viable government
+:::
+
+::: {.callout-tip collapse="true"}
+## blackmail potential
+represents another pole of political support and counters traditional centripetal party competition between the centrist parties
+:::
+
+
+## far-right parties in government - discussion questions
+
+[[What are the barriers to far-right parties in government? Are they unique?]{style="font-size:40px;"}]{style="color:darkred;"}
+
+. . . 
+
+[[Is there anything distinctive about the effects of far-right parties in government (policy, political competition, internationally)?]{style="font-size:40px;"}]{style="color:cadetblue;"}
+
+. . . 
+
+[[What do you know about cases of far right in government (e.g., FPÖ/BZÖ, Lega [Nord], Dansk Folkepartiet, FdI)?]{style="font-size:40px;"}]{style="color:darkred;"}
+
+. . . 
+
+[[What has happened since Minkenberg's article in 2013? Are we in a '*new world*'?]{style="font-size:40px;"}]{style="color:cadetblue;"}
+
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>     
+
+Alternatively, send me an email: [m.zeller@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- 1 + 1 -->
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+<!-- ::: -->
+
+
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- library(dplyr) -->
+<!-- library(ggplot2) -->
+<!-- g <- starwars |>  -->
+<!--   ggplot() + -->
+<!--   geom_point(aes(x = height, y = mass)) + -->
+<!--   theme_light() -->
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+<!-- #| fig.align: center -->
+<!-- #| echo: true -->
+<!-- g  -->
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| echo: true -->
+<!-- #| eval: false -->
+<!-- tab <- starwars |> -->
+<!--   tidyr::drop_na(species) |>  -->
+<!--   group_by(species) |> -->
+<!--   summarise( -->
+<!--     n = n(), -->
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+<!--   ) |>  -->
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| eval: true -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+<!-- gt::gt(tab) -->
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+<!-- reactable::reactable(tab) -->
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<!-- </center> -->
+
+
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_03.html"))
+```
+
+
+## References
+
