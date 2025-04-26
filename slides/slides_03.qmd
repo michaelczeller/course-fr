@@ -28,9 +28,9 @@ library(rnaturalearthdata)
 library(dplyr)
 
 places <- data.frame(
-  city = c("Ohrid", "Munich", "Merano", "Copenhagen"),
-  country = c("Macedonia", "Germany", "Italy", "Denmark"),
-  likes = c(1, 2, 1, 1),
+  city = c("Ohrid", "Munich", "Merano", "Copenhagen", "Prague"),
+  country = c("Macedonia", "Germany", "Italy", "Denmark", "Czechia"),
+  likes = c(1, 2, 1, 1, 1),
   stringsAsFactors = FALSE
 )
 
@@ -906,6 +906,198 @@ plot_afd_radext = Plot.plot({
 
 :::
 :::
+
+## BJP - debatable classification
+
+::: panel-tabset
+
+## Nativist
+
+:::: {.columns}
+:::{.column width="50%"}
+[pro]{style="color:red;"}  
+
+- Promotes India rooted in *Hindutva* (cultural nationalism)
+- non-Hindus framed as threat
+- Citizenship Amendment Act (CAA) discriminates against Muslims
+:::
+
+::: {.column width="50%" .right}
+[contra]{style="color:red;"}  
+
+- Presents itself as inclusive of all Indians, promoting unity
+- Merely defending (religious) majority, not attacking minorities
+- Party has broad, diverse demographic support base
+:::
+::::
+
+## Authoritarian
+
+:::: {.columns}
+:::{.column width="50%"}
+[pro]{style="color:red;"}
+
+- power has been centralised around PM Modi
+- some crackdown on dissent (e.g., civil society orgs.)
+- civil liberties restrictions (e.g., internet shutdowns)
+:::
+
+::: {.column width="50%" .right}
+[contra]{style="color:red;"}
+
+- multi-party political system endures
+- plurality-winning party in functioning electoral democracy
+- judiciary and press (perhaps harassed, but) remains independent
+:::
+::::
+
+## Populist
+
+:::: {.columns}
+:::{.column width="50%"}
+[pro]{style="color:red;"}
+
+- often frames politics as people vs. elites
+- charismatic leadership of Modi
+- emphasis on direct communication (e.g., *Mann Ki Baat* radio)
+:::
+
+::: {.column width="50%" .right}
+[contra]{style="color:red;"}
+
+- party has deep institutional roots 
+- often technocratic (economic) policy agenda
+:::
+::::
+
+:::
+
+## Republicans - debatable classification
+
+::: panel-tabset
+
+## Nativist
+
+:::: {.columns}
+:::{.column width="50%"}
+[pro]{style="color:red;"}
+
+- emphasis on restrictive immigration policies
+- rhetoric distinguishing between 'real Americans' and foreign-born other
+- asserting threat of 'globalism
+:::
+
+::: {.column width="50%" .right}
+[contra]{style="color:red;"}
+
+- argue immigration policy is about upholding lawful procedures
+- sometimes significant immigrant-background electoral support
+:::
+::::
+
+## Authoritarian
+
+:::: {.columns}
+:::{.column width="50%"}
+[pro]{style="color:red;"}
+
+- increasing willingness to undermine democratic norms
+- (continued) expansion of executive power
+- hostility towards independent institutions
+:::
+
+::: {.column width="50%" .right}
+[contra]{style="color:red;"}
+
+- U.S. politics remains democratically competitive
+- more complex intra-party dynamics---not only Trump loyalism
+- libertarian elements in party likely hostile to creeping authoritarianism
+:::
+::::
+
+## Populist
+
+:::: {.columns}
+:::{.column width="50%"}
+[pro]{style="color:red;"}
+
+- lots of people vs. elite rhetoric
+- unique charisma of Trump
+- direct communication of social media and rallies
+:::
+
+::: {.column width="50%" .right}
+[contra]{style="color:red;"}
+
+- heavily institutionalised and reliant on (certain) elites
+- 'traditional conservatives' in GOP (opposed to MAGA populism?)
+:::
+::::
+
+:::
+
+## AfD - debatable classification
+
+::: panel-tabset
+
+## Nativist
+
+:::: {.columns}
+:::{.column width="50%"}
+[pro]{style="color:red;"}
+
+- strongly anti-immigrant stance 
+- promotion of German cultural identity
+- demanding assimilation or else exclusion
+:::
+
+::: {.column width="50%" .right}
+[contra]{style="color:red;"}
+
+- manifesto documents are less strongly-worded than campaign rhetoric
+- 'cultural identity' is accessible (unlike ethnic nationalism)
+:::
+::::
+
+## Authoritarian
+
+:::: {.columns}
+:::{.column width="50%"}
+[pro]{style="color:red;"}
+
+- advocacy for enhanced state powers (esp. on migration-related issues)
+- attempts to undermine some institutions
+- some expressed admiration of authoritarian leaders
+:::
+
+::: {.column width="50%" .right}
+[contra]{style="color:red;"}
+
+- competes in free and fair elections just like other parties, adhering to many informal conventions
+- does not advocate the elimination of political pluralism
+:::
+::::
+
+## Populist
+
+:::: {.columns}
+:::{.column width="50%"}
+[pro]{style="color:red;"}
+
+- positions itself as voice of 'true people' against mainstream elites
+- skilled direct communication through social media and collaboration with movement orgs.
+:::
+
+::: {.column width="50%" .right}
+[contra]{style="color:red;"}
+
+- policy proposals do not have the same sort of anti-elitism as members' campaign rhetoric
+- some elite backing 
+:::
+::::
+
+:::
+
 
 ## Party classification in practice - utility
 
