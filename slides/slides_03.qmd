@@ -28,9 +28,9 @@ library(rnaturalearthdata)
 library(dplyr)
 
 places <- data.frame(
-  city = c("Ohrid", "Munich", "Merano", "Copenhagen", "Prague"),
-  country = c("Macedonia", "Germany", "Italy", "Denmark", "Czechia"),
-  likes = c(1, 2, 1, 1, 1),
+  city = c("Ohrid", "Munich", "Merano", "Copenhagen", "Prague", "Seoul"),
+  country = c("Macedonia", "Germany", "Italy", "Denmark", "Czechia", "South Korea"),
+  likes = c(1, 2, 1, 1, 1, 1),
   stringsAsFactors = FALSE
 )
 
@@ -50,7 +50,7 @@ ggplot(data=world) +
              shape=1, color="black") +
   geom_text_repel(data=places_geo, aes(x=long, y=lat, label=city), size=4) +
   # coord_sf() +
-  coord_sf(xlim = c(-10, 30), ylim = c(35, 60), expand = FALSE) +
+  coord_sf(xlim = c(-20, 140), ylim = c(0, 70), expand = FALSE) +
   scale_size_continuous(breaks=c(1, 2, 5), range=c(3, 10), name="Likes") + 
   theme_void() + # + labs(title="Favorite Cities", x="", y="")
   theme(legend.position=c(0.05, 0.5), 
