@@ -3,10 +3,12 @@ title: "The Far Right in Europe and beyond"
 ---
 
 Instructor: Dr. Michael C. Zeller    
-Email: [m.zeller@lmu.de](mailto:m.zeller@lmu.de)    
-Webpage: michaelzeller.de    
+Email: [m.zeller@lmu.de](mailto:m.zeller@lmu.de) (please use your LMU email address for communication)    
+Webpage: <https://michaelzeller.de/>    
 Office hour: Wednesdays, 11.00 - 12.00    
 Office: GSI (Oettingenstr. 67) Room H105    
+
+
 
 
 ```{r setup, include=FALSE}

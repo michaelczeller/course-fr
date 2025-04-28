@@ -731,6 +731,9 @@ flowchart LR
 
 * 11.00 - 12.00 on Wednesdays at GSI (Oettingenstr. 67) - Room H105
 * or by appointment
+* Please [use your LMU email address for communication]{style="color:red;"}
+    + this is important for the security of the university email system
+
 
 ## Moodle
 
