@@ -28,9 +28,9 @@ library(rnaturalearthdata)
 library(dplyr)
 
 places <- data.frame(
-  city = c("Ohrid", "Munich", "Merano", "Copenhagen", "Prague", "Seoul"),
-  country = c("Macedonia", "Germany", "Italy", "Denmark", "Czechia", "South Korea"),
-  likes = c(1, 2, 1, 1, 1, 1),
+  city = c("Ohrid", "Munich", "Merano", "Copenhagen", "Prague", "Seoul", "Cardiff"),
+  country = c("Macedonia", "Germany", "Italy", "Denmark", "Czechia", "South Korea", "United Kingdom"),
+  likes = c(1, 2, 1, 1, 1, 1, 1),
   stringsAsFactors = FALSE
 )
 
