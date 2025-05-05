@@ -83,7 +83,7 @@ Remember: topic to me at least by Week 4
 
 : Presentations line-up
 
-- [no more regression presentations]{style="color:cadetblue;"}---[see syllabus for some other options]{style="color:red;"}
+- [no more regression presentations]{style="color:cadetblue;"}---[see syllabus for some of the other options]{style="color:red;"}
 
 ## June
 
