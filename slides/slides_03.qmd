@@ -484,6 +484,7 @@ BJP - nativist?
 // aggregate the yes/no counts for "methods"
 bjp_nativCounts = aq.from(surveyResults)
   .select("bjp_nativ")
+  .derive({ bjp_nativ: d => (d.bjp_nativ && d.bjp_nativ.trim() !== "" ? d.bjp_nativ : "NA") })
   .groupby("bjp_nativ")
   .count()
   .rename({ count: 'value', bjp_nativ: 'name' }) // Rename for D3 pie chart
@@ -492,8 +493,8 @@ bjp_nativCounts = aq.from(surveyResults)
 bjp_nativChart = PieChart(bjp_nativCounts, {
   name: d => d.name,
   value: d => d.value,
-  names: ["Yes", "No", "Maybe"], // ordering
-  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  names: ["Yes", "No", "Maybe", "NA"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey", "#CCCCCC"], // green 'yes', red 'no'
   width,
   height: 900
 })
@@ -511,6 +512,7 @@ BJP - authoritarian?
 // aggregate the yes/no counts for "methods"
 bjp_authCounts = aq.from(surveyResults)
   .select("bjp_auth")
+  .derive({ bjp_auth: d => (d.bjp_auth && d.bjp_auth.trim() !== "" ? d.bjp_auth : "NA") })
   .groupby("bjp_auth")
   .count()
   .rename({ count: 'value', bjp_auth: 'name' }) // Rename for D3 pie chart
@@ -519,8 +521,8 @@ bjp_authCounts = aq.from(surveyResults)
 bjp_authChart = PieChart(bjp_authCounts, {
   name: d => d.name,
   value: d => d.value,
-  names: ["Yes", "No", "Maybe"], // ordering
-  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  names: ["Yes", "No", "Maybe", "NA"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey", "#CCCCCC"], // green 'yes', red 'no'
   width,
   height: 900
 })
@@ -537,6 +539,7 @@ BJP - populist?
 // aggregate the yes/no counts for "methods"
 bjp_popuCounts = aq.from(surveyResults)
   .select("bjp_popu")
+  .derive({ bjp_popu: d => (d.bjp_popu && d.bjp_popu.trim() !== "" ? d.bjp_popu : "NA") })
   .groupby("bjp_popu")
   .count()
   .rename({ count: 'value', bjp_popu: 'name' }) // Rename for D3 pie chart
@@ -545,13 +548,14 @@ bjp_popuCounts = aq.from(surveyResults)
 bjp_popuChart = PieChart(bjp_popuCounts, {
   name: d => d.name,
   value: d => d.value,
-  names: ["Yes", "No", "Maybe"], // ordering
-  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  names: ["Yes", "No", "Maybe", "NA"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey", "#CCCCCC"], // green 'yes', red 'no'
   width,
   height: 900
 })
 
 ```
+
 :::
 :::
 
@@ -566,6 +570,7 @@ Republican (US) - nativist?
 // aggregate the yes/no counts for "methods"
 rep_nativCounts = aq.from(surveyResults)
   .select("rep_nativ")
+  .derive({ rep_nativ: d => (d.rep_nativ && d.rep_nativ.trim() !== "" ? d.rep_nativ : "NA") })
   .groupby("rep_nativ")
   .count()
   .rename({ count: 'value', rep_nativ: 'name' }) // Rename for D3 pie chart
@@ -574,8 +579,8 @@ rep_nativCounts = aq.from(surveyResults)
 rep_nativChart = PieChart(rep_nativCounts, {
   name: d => d.name,
   value: d => d.value,
-  names: ["Yes", "No", "Maybe"], // ordering
-  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  names: ["Yes", "No", "Maybe", "NA"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey", "#CCCCCC"], // green 'yes', red 'no'
   width,
   height: 900
 })
@@ -588,11 +593,13 @@ rep_nativChart = PieChart(rep_nativCounts, {
 
 Republican (US) - authoritarian?
 
+
 ```{ojs}
 
 // aggregate the yes/no counts for "methods"
 rep_authCounts = aq.from(surveyResults)
   .select("rep_auth")
+  .derive({ rep_auth: d => (d.rep_auth && d.rep_auth.trim() !== "" ? d.rep_auth : "NA") })
   .groupby("rep_auth")
   .count()
   .rename({ count: 'value', rep_auth: 'name' }) // Rename for D3 pie chart
@@ -601,8 +608,8 @@ rep_authCounts = aq.from(surveyResults)
 rep_authChart = PieChart(rep_authCounts, {
   name: d => d.name,
   value: d => d.value,
-  names: ["Yes", "No", "Maybe"], // ordering
-  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  names: ["Yes", "No", "Maybe", "NA"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey", "#CCCCCC"], // green 'yes', red 'no'
   width,
   height: 900
 })
@@ -619,6 +626,7 @@ Republican (US) - populist?
 // aggregate the yes/no counts for "methods"
 rep_popuCounts = aq.from(surveyResults)
   .select("rep_popu")
+  .derive({ rep_popu: d => (d.rep_popu && d.rep_popu.trim() !== "" ? d.rep_popu : "NA") })
   .groupby("rep_popu")
   .count()
   .rename({ count: 'value', rep_popu: 'name' }) // Rename for D3 pie chart
@@ -627,13 +635,14 @@ rep_popuCounts = aq.from(surveyResults)
 rep_popuChart = PieChart(rep_popuCounts, {
   name: d => d.name,
   value: d => d.value,
-  names: ["Yes", "No", "Maybe"], // ordering
-  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  names: ["Yes", "No", "Maybe", "NA"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey", "#CCCCCC"], // green 'yes', red 'no'
   width,
   height: 900
 })
 
 ```
+
 :::
 :::
 
@@ -648,6 +657,7 @@ AfD - nativist?
 // aggregate the yes/no counts for "methods"
 afd_nativCounts = aq.from(surveyResults)
   .select("afd_nativ")
+  .derive({ afd_nativ: d => (d.afd_nativ && d.afd_nativ.trim() !== "" ? d.afd_nativ : "NA") })
   .groupby("afd_nativ")
   .count()
   .rename({ count: 'value', afd_nativ: 'name' }) // Rename for D3 pie chart
@@ -656,8 +666,8 @@ afd_nativCounts = aq.from(surveyResults)
 afd_nativChart = PieChart(afd_nativCounts, {
   name: d => d.name,
   value: d => d.value,
-  names: ["Yes", "No", "Maybe"], // ordering
-  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  names: ["Yes", "No", "Maybe", "NA"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey", "#CCCCCC"], // green 'yes', red 'no'
   width,
   height: 900
 })
@@ -675,6 +685,7 @@ AfD - authoritarian?
 // aggregate the yes/no counts for "methods"
 afd_authCounts = aq.from(surveyResults)
   .select("afd_auth")
+  .derive({ afd_auth: d => (d.afd_auth && d.afd_auth.trim() !== "" ? d.afd_auth : "NA") })
   .groupby("afd_auth")
   .count()
   .rename({ count: 'value', afd_auth: 'name' }) // Rename for D3 pie chart
@@ -683,8 +694,8 @@ afd_authCounts = aq.from(surveyResults)
 afd_authChart = PieChart(afd_authCounts, {
   name: d => d.name,
   value: d => d.value,
-  names: ["Yes", "No", "Maybe"], // ordering
-  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  names: ["Yes", "No", "Maybe", "NA"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey", "#CCCCCC"], // green 'yes', red 'no'
   width,
   height: 900
 })
@@ -701,6 +712,7 @@ AfD - populist?
 // aggregate the yes/no counts for "methods"
 afd_popuCounts = aq.from(surveyResults)
   .select("afd_popu")
+  .derive({ afd_popu: d => (d.afd_popu && d.afd_popu.trim() !== "" ? d.afd_popu : "NA") })
   .groupby("afd_popu")
   .count()
   .rename({ count: 'value', afd_popu: 'name' }) // Rename for D3 pie chart
@@ -709,13 +721,14 @@ afd_popuCounts = aq.from(surveyResults)
 afd_popuChart = PieChart(afd_popuCounts, {
   name: d => d.name,
   value: d => d.value,
-  names: ["Yes", "No", "Maybe"], // ordering
-  colors: ["#4CAF50", "#F44336", "grey"], // green 'yes', red 'no'
+  names: ["Yes", "No", "Maybe", "NA"], // ordering
+  colors: ["#4CAF50", "#F44336", "grey", "#CCCCCC"], // green 'yes', red 'no'
   width,
   height: 900
 })
 
 ```
+
 :::
 :::
 
