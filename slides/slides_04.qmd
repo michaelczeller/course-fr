@@ -1,0 +1,1290 @@
+---
+title: "Class 4: Parties"
+subtitle: "representatives"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+incremental: false
+embed-resources: true
+bibliography: ../../../library.bib
+---
+
+
+# Opening notes {background-color="#2c844c"}
+
+<div class="tenor-gif-embed" data-postid="14209777" data-share-method="host" data-aspect-ratio="1.94" data-width="70%"><a href="https://tenor.com/view/open-gif-14209777">Open Sticker</a>from <a href="https://tenor.com/search/open-stickers">Open Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+<!-- <div class="tenor-gif-embed" data-postid="23663828" data-share-method="host" data-aspect-ratio="1" data-width="70%"><a href="https://tenor.com/view/happy-birthday-gif-23663828">Happy Birthday GIF</a>from <a href="https://tenor.com/search/happy+birthday-gifs">Happy Birthday GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Angel David Meissner, Adrian Morina, Elli Quitter -->
+
+Remember: topic to me at least by Week 4
+
+::: panel-tabset
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | logistic regression | 
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | discourse analysis |
+| 29 May: | NO CLASS MEETING                        |  | 
+
+: Presentations line-up
+
+- [no more regression presentations]{style="color:cadetblue;"}---[see syllabus for some of the other options]{style="color:red;"}
+
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | regression | 
+| 12 June: | Omar B., Lela E., Niclas W. | TBD |
+| 19 June: | NO CLASS MEETING                        |  | 
+| 26 June: | Colombe I., Konstantin S., Jakob W. | TBD | 
+| 26 June: | Maksim K., Felix S., Jon L.D., Damir S., Korbinian M. | case study | 
+
+## July
+
+| Date    | Presenters                              | Method |
+| -------:|:----------------------------------------|:------:|
+| 3 July:  | Alexander V., Samuel B., Luis G., Oscar O. | TBD | 
+| 10 July: | Lina S., Stephen W., Philomena B. | TBD | 
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD | 
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD | 
+| 24 July: | Lorenz F., Daniel B., Fiona W., Medina H. | TBD | 
+
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+## Opening questions
+
+[[How is the 'average' party structured? What do members, representatives, leaders do?]{style="font-size:60px;"}]{style="color:darkred;"}
+
+. . . 
+
+[[What about far-right parties' members, representatives, and leaders might be significantly different from other parties'?]{style="font-size:60px;"}]{style="color:cadetblue;"}
+
+# German parties' demographics {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="40%"}
+![](slide_files/04/class4_poll_QR.png){fig-alt="A QR code for the survey."}
+:::
+
+::: {.column width="60%" .center}
+<!-- go to <https://www.qr-code-generator.com/>, add the link, and screen shot the QR code -->
+Take the survey at **<https://forms.gle/gqu5hQXJMwgc1X6UA>**
+
+- youngest/oldest average MPs? highest/lowest percentage of women and people with migration backgrounds?
+:::
+::::
+
+<!-- - [questions from the recorded lecture?]{style="color:red;"} -->
+
+## Percentage of women MPs - hunch
+
+```{ojs}
+md`## Poll results (Respondents: ${respondentCount})`
+```
+
+
+```{ojs}
+
+import { liveGoogleSheet } from "@jimjamslam/live-google-sheet";
+import { aq, op } from "@uwdata/arquero";
+
+// UPDATE THE LINK FOR A NEW POLL
+surveyResults = liveGoogleSheet(
+  "https://docs.google.com/spreadsheets/d/e/" +
+    "2PACX-1vQu1_SNVBYH6TAZ0ZUBFpwmrjzRVsvGgJcL8Y_gN7ec7pIlf70c6SOhWdOz44R7SDzzAdL06cHU4jzt/" +
+    "pub?gid=1194358505&single=true&output=csv",
+  10000, 1, 7); // adjust the last number to select all relevant columns 
+
+respondentCount = surveyResults.length;
+
+```
+
+:::: {.columns}
+:::{.column width="50%"}
+Highest
+```{ojs}
+highest_womenCounts = aq.from(surveyResults)
+  .select("highest_women")
+  .groupby("highest_women")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+highest_women_maxCountRE = Math.max(...highest_womenCounts.objects().map(d => d.count));
+
+plot_highest_women = Plot.plot({
+  marks: [
+    Plot.barY(highest_womenCounts, {
+      x: "highest_women",
+      y: "count",
+      fill: "highest_women",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "CDU.CSU",
+      "AfD",
+      "SPD",
+      "Gruene",
+      "Linke"
+    ],
+    range: [
+      "black",
+      "#009EE0",
+      "#EB001F",
+      "#64A12D",
+      "#BE3075"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["CDU.CSU", "AfD", "SPD", "Gruene", "Linke"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(highest_womenCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, highest_women_maxCountRE]
+  },
+  facet: { data: highest_womenCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="50%" .center}
+Lowest
+```{ojs}
+lowest_womenCounts = aq.from(surveyResults)
+  .select("lowest_women")
+  .groupby("lowest_women")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+lowest_women_maxCountRE = Math.max(...lowest_womenCounts.objects().map(d => d.count));
+
+plot_lowest_women = Plot.plot({
+  marks: [
+    Plot.barY(lowest_womenCounts, {
+      x: "lowest_women",
+      y: "count",
+      fill: "lowest_women",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "CDU.CSU",
+      "AfD",
+      "SPD",
+      "Gruene",
+      "Linke"
+    ],
+    range: [
+      "black",
+      "#009EE0",
+      "#EB001F",
+      "#64A12D",
+      "#BE3075"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["CDU.CSU", "AfD", "SPD", "Gruene", "Linke"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(lowest_womenCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, lowest_women_maxCountRE]
+  },
+  facet: { data: lowest_womenCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+::::
+
+
+## Oldest/youngest MPs - hunch
+
+:::: {.columns}
+:::{.column width="50%"}
+Youngest
+```{ojs}
+youngestCounts = aq.from(surveyResults)
+  .select("youngest")
+  .groupby("youngest")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+youngest_maxCountRE = Math.max(...youngestCounts.objects().map(d => d.count));
+
+plot_youngest = Plot.plot({
+  marks: [
+    Plot.barY(youngestCounts, {
+      x: "youngest",
+      y: "count",
+      fill: "youngest",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "CDU.CSU",
+      "AfD",
+      "SPD",
+      "Gruene",
+      "Linke"
+    ],
+    range: [
+      "black",
+      "#009EE0",
+      "#EB001F",
+      "#64A12D",
+      "#BE3075"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["CDU.CSU", "AfD", "SPD", "Gruene", "Linke"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(youngestCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, youngest_maxCountRE]
+  },
+  facet: { data: youngestCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="50%" .center}
+Oldest
+```{ojs}
+oldestCounts = aq.from(surveyResults)
+  .select("oldest")
+  .groupby("oldest")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+oldest_maxCountRE = Math.max(...oldestCounts.objects().map(d => d.count));
+
+plot_oldest = Plot.plot({
+  marks: [
+    Plot.barY(oldestCounts, {
+      x: "oldest",
+      y: "count",
+      fill: "oldest",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "CDU.CSU",
+      "AfD",
+      "SPD",
+      "Gruene",
+      "Linke"
+    ],
+    range: [
+      "black",
+      "#009EE0",
+      "#EB001F",
+      "#64A12D",
+      "#BE3075"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["CDU.CSU", "AfD", "SPD", "Gruene", "Linke"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(oldestCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, oldest_maxCountRE]
+  },
+  facet: { data: oldestCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+::::
+
+## Percentage of MPs with migration background - hunch
+
+:::: {.columns}
+:::{.column width="50%"}
+Highest
+```{ojs}
+highest_migCounts = aq.from(surveyResults)
+  .select("highest_mig")
+  .groupby("highest_mig")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+highest_mig_maxCountRE = Math.max(...highest_migCounts.objects().map(d => d.count));
+
+plot_highest_mig = Plot.plot({
+  marks: [
+    Plot.barY(highest_migCounts, {
+      x: "highest_mig",
+      y: "count",
+      fill: "highest_mig",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "CDU.CSU",
+      "AfD",
+      "SPD",
+      "Gruene",
+      "Linke"
+    ],
+    range: [
+      "black",
+      "#009EE0",
+      "#EB001F",
+      "#64A12D",
+      "#BE3075"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["CDU.CSU", "AfD", "SPD", "Gruene", "Linke"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(highest_migCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, highest_mig_maxCountRE]
+  },
+  facet: { data: highest_migCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="50%" .center}
+Lowest
+```{ojs}
+lowest_migCounts = aq.from(surveyResults)
+  .select("lowest_mig")
+  .groupby("lowest_mig")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+lowest_mig_maxCountRE = Math.max(...lowest_migCounts.objects().map(d => d.count));
+
+plot_lowest_mig = Plot.plot({
+  marks: [
+    Plot.barY(lowest_migCounts, {
+      x: "lowest_mig",
+      y: "count",
+      fill: "lowest_mig",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "CDU.CSU",
+      "AfD",
+      "SPD",
+      "Gruene",
+      "Linke"
+    ],
+    range: [
+      "black",
+      "#009EE0",
+      "#EB001F",
+      "#64A12D",
+      "#BE3075"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["CDU.CSU", "AfD", "SPD", "Gruene", "Linke"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(lowest_migCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, lowest_mig_maxCountRE]
+  },
+  facet: { data: lowest_migCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+::::
+
+## _ {background-color="#2c844c"}
+
+<!-- [[Now, let's see how those hunches measure up to the facts]{style="font-size:100px;"}]{style="color:darkred;"} -->
+
+[Now, let's see how those hunches measure up to the facts]{style="font-size:100px;"}
+
+## Percentage of women MPs
+
+```{r}
+library(rvest)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(tidyverse)
+library(lubridate)
+
+url <- "https://de.wikipedia.org/wiki/Frauenanteil_im_Deutschen_Bundestag_seit_1949"
+
+webpage <- read_html(url)
+
+## get all tables on the page
+tables <- html_nodes(webpage, "table")
+
+#@ second table on the page
+table_2 <- tables[[2]] %>%
+  html_table(fill = TRUE)
+
+colnames(table_2) <- make.names(colnames(table_2), unique = TRUE)
+
+table_2_cleaned <- table_2 %>%
+  filter(str_detect(Wahlperiode, "Bundestag")) %>%
+  mutate(Year = as.numeric(str_extract(Wahlperiode, "\\d{4}"))) %>%
+  select(Year, everything())
+
+colnames(table_2_cleaned) <- c("Year", "Wahlperiode", "CDU.CSU_per", 
+                               "CDU.CSU_seats", "FDP_per", "FDP_seats", 
+                               "SPD_per", "SPD_seats", "Gruene_per", 
+                               "Gruene_seats", "Linke_per", "Linke_seats", 
+                               "AfD_per", "AfD_seats")
+
+# table_2_cleaned$CDU.CSU_per <- gsub(",", ".", table_2_cleaned$CDU.CSU_per)
+# table_2_cleaned$CDU.CSU_per <- gsub("%", "", table_2_cleaned$CDU.CSU_per)
+# table_2_cleaned$CDU.CSU_per <- gsub("[^0-9\\.]", "", table_2_cleaned$CDU.CSU_per)
+# table_2_cleaned$CDU.CSU_per <- as.numeric(trimws(table_2_cleaned$CDU.CSU_per))
+
+clean_per_column <- function(x) {
+  x <- gsub(",", ".", x) 
+  x <- gsub("%", "", x) 
+  x <- gsub("[^0-9\\.]", "", x) 
+  x <- as.numeric(trimws(x)) 
+  return(x)
+}
+
+## get all columns ending with '_per'
+per_columns <- grep("_per$", names(table_2_cleaned), value = TRUE)
+
+table_2_cleaned[per_columns] <- lapply(table_2_cleaned[per_columns], clean_per_column)
+
+table_2_long <- table_2_cleaned %>%
+  pivot_longer(cols = c(CDU.CSU_per, FDP_per, SPD_per, Gruene_per, Linke_per, AfD_per),
+               names_to = "party", values_to = "percentage_women") %>%
+  mutate(
+    # Clean percentage data
+    percentage_women = as.numeric(gsub(",", ".", gsub("%", "", percentage_women))),
+    party = gsub("_per", "", party)  # Clean the party names
+  )
+
+ggplot(table_2_long, aes(x=Year, y=percentage_women, color=party, group=party)) +
+  geom_step(size=2) + 
+  # geom_point(size=2) +
+  scale_y_continuous(limits=c(0, 100), labels=scales::percent_format(scale=1)) +
+  scale_color_manual(values=c(
+    "AfD"="#009EE0", 
+    "CDU.CSU"="black",
+    "FDP"="goldenrod", #FFED00
+    "Gruene"="#64A12D",
+    "Linke"="#BE3075",
+    "SPD"="#EB001F"
+  )) +
+  labs(title="Proportion of Women in Bundestag by Party", x="",
+    y="Percentage of Women", color="Party") +
+  theme_minimal() + 
+  theme(text=element_text(family="sans", size=18), 
+        plot.title=element_text(hjust=0.5))
+
+```
+
+
+## Oldest/youngest MPs
+
+```{r}
+## https://www.bundestag.de/resource/blob/272474/3c8da5a8d3b2b1c1a2829f60024ad363/Kapitel_03_02_Durchschnittsalter-pdf.pdf
+
+df <- data.frame(
+  Wahlperiode = c("12. WP", "13. WP", "14. WP", "15. WP", "16. WP", "17. WP", "18. WP", "19. WP", "20. WP", "21. WP"),
+  ErstJahr = c(1990, 1994, 1998, 2002, 2005, 2009, 2013, 2017, 2021, 2025),
+  SPD = c(48.8, 49.9, 50.4, 50.7, 50.3, 51.7, 50.1, 50.5, 46.2, 48),
+  CDU.CSU = c(49.0, 49.4, 50.9, 48.5, 49.8, 49.5, 49.9, 50, 49.2, 48.3),
+  Gruene = c(41.3, 41.7, 43.3, 45, 46.3, 46.7, 46.4, 47, 42.5, 42.3),
+  FDP = c(48.9, 51.6, 50.9, 50.6, 47.7, 47.6, NA, 45.5, 47.7, NA),
+  Linke = c(43.3, 48.5, 47, NA, 48.5, 48.6, 50.7, 50, 50.3, 42.2),
+  AfD = c(NA, NA, NA, NA, NA, NA, NA, 42, 37, 50.7)
+)
+
+df_long <- df %>%
+  pivot_longer(cols = c(SPD, CDU.CSU, Gruene, FDP, Linke, AfD),
+               names_to = "Partei", values_to = "Alter")
+
+# ggplot(df_long, aes(x = as.factor(ErstJahr), y = Alter, fill = Partei)) +
+#   geom_bar(stat = "identity", position = position_dodge()) +
+#   scale_y_continuous(limits = c(0, NA)) +
+#   scale_fill_manual(values=c(
+#     "AfD"="#009EE0", 
+#     "CDU.CSU"="black",
+#     "FDP"="goldenrod", #FFED00
+#     "Gruene"="#64A12D",
+#     "Linke"="#BE3075",
+#     "SPD"="#EB001F"
+#   )) +
+#   labs(title = "Durchschnittsalter nach Partei und Wahlperiode",
+#        x = "first year of Bundestag",
+#        y = "Average age",
+#        fill = "Party") +
+#   theme_minimal()
+
+ggplot(df_long, aes(x = as.factor(ErstJahr), y = Alter, color = Partei, group = Partei)) +
+    geom_line(size = 1) +
+    geom_point(size = 5) +
+    scale_y_continuous(limits = c(35, NA)) +
+    scale_color_manual(values = c(
+        "AfD" = "#009EE0", 
+        "CDU.CSU" = "black",
+        "FDP" = "goldenrod",
+        "Gruene" = "#64A12D",
+        "Linke" = "#BE3075",
+        "SPD" = "#EB001F"
+    )) +
+    labs(title = "",
+         x = "First year of Bundestag period",
+         y = "Average Age",
+         color = "Party") +
+    theme_minimal()+
+    theme(text=element_text(family="sans", size=18), 
+        plot.title=element_text(hjust=0.5))
+```
+
+
+## Percentage of MPs with migration background
+
+```{r}
+## https://www1.wdr.de/nachrichten/bundestagswahl-2025/bundestag-zusammensetzung-statistik-100.html
+## https://mediendienst-integration.de/artikel/mehr-abgeordnete-mit-migrationshintergrund-1.html
+## https://mediendienst-integration.de/artikel/abgeordnete-mit-migrationshintergrund.html
+## https://mediendienst-integration.de/artikel/mehr-abgeordnete-mit-migrationshintergrund.html
+
+df_mig <- data.frame(
+  Wahlperiode = c("17. WP","18. WP","19. WP", "20. WP", "21. WP"),
+  ErstJahr = c(2009, 2013, 2017, 2021, 2025),
+  SPD = c(2.7, 6.7, 9.8, 17, 17.5),
+  CDU.CSU = c(0.4, 2.9, 2.9, 4.1, 6.3),
+  Gruene = c(7.9, 11.1, 14.9, 14.4, 20),
+  FDP = c(NA, NA, 6.3, 5.4, NA),
+  Linke = c(8.8, 12.5, 18.8, 28.2, 18.8),
+  AfD = c(NA, NA, 8.7, 7.2, 5.9)
+)
+
+df_mig_long <- df_mig %>%
+  pivot_longer(cols = c(SPD, CDU.CSU, Gruene, FDP, Linke, AfD), 
+               names_to = "Partei", 
+               values_to = "Percentage")
+
+ggplot(df_mig_long, aes(x = as.factor(ErstJahr), y = Percentage, fill = Partei)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  scale_y_continuous("", limits=c(0, NA), labels=scales::percent_format(scale=1))+
+  # scale_y_continuous(limits = c(0, NA)) +
+  scale_fill_manual(values=c(
+    "AfD"="#009EE0",
+    "CDU.CSU"="black",
+    "FDP"="goldenrod", #FFED00
+    "Gruene"="#64A12D",
+    "Linke"="#BE3075",
+    "SPD"="#EB001F"
+  )) +
+  labs(title = "MPs with migration background by party",
+       x = "First Year of Bundestag",
+       fill = "Party") +
+  theme_minimal()+
+    theme(text=element_text(family="sans", size=18), 
+        plot.title=element_text(hjust=0.5))
+
+```
+
+
+## Refresher on party membership concepts
+
+- [party activists or members tend to hold more radical views than the average party voter]{style="color:blue;"}
+    + [median voter theorem]{style="color:red;"}: parties should converge toward the centre to win elections, but...
+    + activists/members: typically more committed and engaged; typically have stronger ideological
+        * impact through party primaries and internal decision-making
+
+. . . 
+
+- [descriptive representation]{style="color:red;"}: *extent to which elected officials resemble the demographic characteristics of constituents* <!-- (e.g., race, gender, ethnicity) -->
+- [substantive representation]{style="color:red;"}: *degree to which elected officials advocate and act for their constituents' needs, preferences, or policy concerns, regardless of shared demographic traits*
+
+## Variation among far-right parties
+
+- Common traits
+    + predominantly male activist/member bases 
+    + typically less (but not 'no') ethnic/racial diversity in membership and representation
+
+<!-- + members' connections to other social organisations  -->
+
+. . . 
+
+- Notable divergences
+    + differences of party membership size 
+        * e.g., Dutch PVV, 1 member (Wilders); Indian BJP, 170 million
+    + internal party differences
+        * loosely constrained (*personalist parties*): centralised, leader dominates 
+        * highly constrained: party rules, intra-party competition
+
+## Factionalism within far-right parties
+
+- frequent divisions between national and regional/local level representatives
+- open question of whether [local representatives more radical or more pragmatic]{style="color:red;"}
+
+# Party leaders {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- who 'typically' leads far-right parties
+    + any trend change between historical and contemporary cases?
+    + any difference from other parties in how these figures become party leaders?
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="8893248" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/leader-cult-brainwashed-simpsons-gif-8893248">Leader GIF</a>from <a href="https://tenor.com/search/leader-gifs">Leader GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+## Party leaders - functions (Salvini)
+
+<!-- Aspect ratios include 1x1, 4x3, 16x9 (the default), and 21x9. -->
+{{< video https://www.youtube.com/watch?v=VoPpNNsrKTM
+    start="1"
+    aspect-ratio="21x9" 
+    width="1000" 
+    height="600"
+>}}
+
+## Party leaders - support, symbolism, cooperation
+
+<!-- Aspect ratios include 1x1, 4x3, 16x9 (the default), and 21x9. -->
+{{< video https://www.youtube.com/watch?v=mkggBP9E4o8
+    start="1"
+    aspect-ratio="21x9" 
+    width="1000" 
+    height="600"
+>}}
+
+## What (party) leaders do
+
+- 'leading tasks' [cf. @Earl2007 on leadership in movements]:
+    (1) articulating [vision]{style="color:red;"} and [ideology]{style="color:red;"}, 
+    (2) engaging the [political environment]{style="color:red;"}, 
+    (3) [framing]{style="color:red;"} the party and its issues, 
+    (4) managing [relations]{style="color:red;"} with other parties and non-party actors, 
+    (5) making [strategic]{style="color:red;"} decisions, 
+    (6) [organizing]{style="color:red;"} specific actions/campaigns, 
+    (7) managing the [internal life of the party]{style="color:red;"}, 
+    (8) [innovating]{style="color:red;"} and entrepreneurial activity, and 
+    (9) providing [social capital]{style="color:red;"} (relationships and networks)
+
+## When things go wrong... {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="40%"}
+- [[consequences of malfeasance or mismanagement?]{style="font-size:50px;"}]{style="color:yellow;"} 
+- [[tacit or explicit complicity in wrongdoing?]{style="font-size:50px;"}]{style="color:yellow;"} 
+:::
+
+::: {.column width="60%" .right}
+<div class="tenor-gif-embed" data-postid="12793738" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/air-quotes-leadership-gif-12793738">Air Quotes Leadership GIF</a>from <a href="https://tenor.com/search/air+quotes-gifs">Air Quotes GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+<!-- [[Now, let's see how those hunches measure up to the facts]{style="font-size:100px;"}]{style="color:darkred;"} -->
+
+## Party leaders - punitive 
+
+Le Pen 2025 embezzlement conviction - 5-year ban on holding office
+
+{{< video https://www.youtube.com/watch?v=DyWOzGPNOB0
+    start="30"
+    end="108"
+    aspect-ratio="21x9" 
+    width="1000" 
+    height="600"
+>}}
+
+## Party leaders - prohibitive 
+
+Golden Dawn leader Nikos Michaloliakos arrested (Greece)
+
+{{< video https://www.youtube.com/watch?v=REIk-RitW1w
+    start="0"
+    aspect-ratio="21x9" 
+    width="1000" 
+    height="600"
+>}}
+
+# Deep-dive: gender in far-right parties {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- Far-right party voters are predominantly male. Why? **What do these parties offer women voters?** Why not vote for the far right?  
+- article: @WeeksETAL2022 
+- replication: @guinaudeau2024RadicalRightPartiesUse 
+- reply: @weeks2024ResponseRadicalRightParties
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="18765629" data-share-method="host" data-aspect-ratio="1.79775" data-width="100%"><a href="https://tenor.com/view/kate-mc-kinnon-snl-snl45-elizabeth-warren-no-gif-18765629">Kate Mc Kinnon Snl GIF</a>from <a href="https://tenor.com/search/kate+mc+kinnon-gifs">Kate Mc Kinnon GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+## Radical right voters [@WeeksETAL2022]
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+library(ggplot2)
+library(directlabels)
+library(RColorBrewer)
+library(colorRamps)
+getPalette = colorRampPalette(brewer.pal(9, "Spectral"))
+
+library(lme4)
+library(lmerTest)
+library(interplot)
+library("dplyr")
+
+#### read in data
+
+setwd("~/Documents/Applications/2023_postdoc_LMU/LMU_courses/FR_politics_and_protest/class4")
+load("weeksETAL_data.RData")
+### head(newd)
+
+# Codebook ~~~~~~~~~~~~~~~
+
+## Variable name followed by in-text label 
+
+## year                              ## Time 
+## pfem_new2                         ## % Women MPs
+## lag1_mfcombined10                 ## M/F Ratio(t-1)
+## chgvotelagged                     ## Vote Change(t-1)
+## femaleleader2_lag                 ## Woman Leader(t-1)
+## cabinet_party2_lag                ## Cabinet Party(t-1)
+## lag1womenpar                      ## Women in Parliament(t-1)
+## tier1_avemag2                     ## District Magnitude
+## prop3                             ## PR Electoral System (1 = SMD; 2 = Modified PR; 3 = PR)
+## natquota                          ## Quota Law
+## weurope                           ## Western Europe 
+## lagged_share_green_newleft        ## Vote Share Green / New Left(t-1)
+## party                             ## Party ID (CMP)
+## country                           ## Country ID 
+
+```
+
+```{r rr-voters, out.width='100%'}
+vars<-c("countryname", "date", "party", "newpartyfam",  "year", "mfcombined10")
+temp<-na.omit(newd[vars])
+# head(temp)
+# nrow(temp) #
+
+### set the cut off
+temp$mfcombined10[temp$mfcombined10>5]<-5
+# summary(temp$mfcombined10)
+
+## take out the smaller party families 
+temp_1<- temp[ which(temp$newpartyfam!='Nationalist / Agrarian' & temp$newpartyfam!='Ethnic / Regional'), ]
+# nrow(temp_1) ##1022
+
+temp_1$newpartyfam <- factor(temp_1$newpartyfam, levels = c("Radical Right", "Conservative", "Liberal", "Social Dem", "Green / New Left", "Christian Dem"))
+temp_1<-na.omit(temp_1) ##984
+
+set.seed(02138)
+
+bypar <- ggplot(data = temp_1, aes(x = year, y = mfcombined10, color = newpartyfam, linetype = newpartyfam )) +
+  geom_point(size = 0.1) + geom_smooth(method = "loess", se = FALSE, size=1.8) +
+  labs(x="Election Year",
+       y="M/F Voter Ratio",
+       title="")
+
+bypar
+
+# bypar + scale_colour_grey(name  ="Party Family") + geom_hline(yintercept=1)+ xlim(1985, 2018) + theme_bw() + 
+# theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+# panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+#   scale_color_grey(name = "Party family") +
+#   scale_linetype_discrete(name = "Party family") +
+#   theme(legend.key.height= unit(.8, 'cm'),
+#         legend.key.width= unit(1.5, 'cm')) + theme(text = element_text(size=20))
+
+```
+
+do these patterns hold outside Europe? Outside 'the West'?
+
+## Women far-right representatives [@WeeksETAL2022]
+
+When Do *Männerparteien* Elect Women?
+
+![](slide_files/04/dora_duro_advert.png)
+
+## Women far-right representatives
+
+:::: {.columns}
+:::{.column width="65%"}
+- [Women often occupy important positions in far-right parties, in terms of visibility or as leaders. Why/why not?]{style="color:cadetblue;"} 
+- Jobbik/Mi Hazank (HU): Dóra Dúró [[&rarr;]{style="color:red;"}]{style="font-size:80px;"}
+- Front National (FR): Marine Le Pen 
+- (NOR) Siv Jensen and Sylvi Listhaug 
+- AfD (DE): Frauke Petry, then Alice Weidel
+- FdI (IT): Giorgia Meloni
+- [Do other parties act similarly (e.g., strategic use of candidate selection)?]{style="color:darkred;"}
+:::
+
+::: {.column width="35%" .right}
+
+```{r duro, out.width='100%'}
+knitr::include_graphics(rep("slide_files/04/dora_duro_puzzle.png"))
+knitr::include_graphics(rep("slide_files/04/dora_duro_hazank.png"))
+```
+
+```{r duro2, eval=FALSE, fig.cap="Dóra Dúró\\label{fig:duro}", include=FALSE, out.width='50%'}
+knitr::include_graphics(rep("slide_files/04/dora_duro_puzzle.png"))
+knitr::include_graphics(rep("slide_files/04/dora_duro_hazank.png"))
+```
+
+:::
+::::
+
+## @WeeksETAL2022
+
+RQ: *Under what conditions do we see an increase in RRP parties' women MPs? Given that RRP parties have traditionally held very conservative views on the role of women in society, what accounts for this increase in women’s representation?*
+
+- [Theory]{style="color:cadetblue;"}: strategic descriptive representation: "[attract new voters without necessarily altering core issue positions]{style="color:red;"}" (p2)
+- [Data]{style="color:cadetblue;"}: European women MPs and voter support: 187 parties, 30 countries, 1985-2018
+    + three sets of factors: party ideology, party organizational structures, and women’s activism within the party  
+- [Methods]{style="color:cadetblue;"}:  Multilevel random intercept models (inferential stats); two typical, "on-the-line" studies: PVV in 2017 and SVP in 2015
+
+## @WeeksETAL2022 - only radical right
+
+```{r fig2, echo=FALSE, message=FALSE, warning=FALSE, out.width='110%'}
+vars<-c("countryname", "date", "party", "newpartyfam", "partyname", "partyabbrev", "year", "pfem_new2", "weurope")
+temp<-na.omit(newd[vars])
+# head(temp)
+# nrow(temp) ##1408
+
+### looking at only RR 
+### Run this bit too look at only RR parties 
+
+temp<-temp[ which(temp$newpartyfam=="Radical Right"), ]
+# nrow(temp) ## 134
+
+### Fix abbreviations and party names 
+temp$partyabbrev<-as.character(temp$partyabbrev)
+temp$partyname<-as.character(temp$partyname)
+
+temp$partyabbrev[temp$partyname=="Austrian Freedom Party"]<-"FPO"
+temp$partyabbrev[temp$countryname=="Czech Republic"]<-"Association for the Republic"
+temp$partyname[temp$countryname=="Czech Republic"]<-"Association for the Republic"
+temp$partyname[temp$countryname=="Latvia"]<-"For Fatherland and Freedom"
+temp$partyname[temp$partyabbrev=="DF"]<-"Danish People's Party"
+temp$partyname[temp$countryname=="Switzerland"]<-"Swiss People's Party"
+temp$partyname[temp$countryname=="Norway" & temp$partyname=="Progress Party"]<-"NO Progress Party"
+temp$partyname[temp$countryname=="Denmark" & temp$partyname=="Progress Party"]<-"DK Progress Party"
+
+# tiff("Figure_2.tiff", width = 10, height = 5, units = 'in', res = 1200)
+
+set.seed(02138)
+bypar <- ggplot(data = temp, aes(x = year, y = pfem_new2, label = partyname, fontface="bold")) +
+  geom_point(size = 0.35, color = "black") + geom_smooth(method = "loess", se = FALSE, color="darkgrey") +
+  labs(x="Election Year",
+       y="% Women in Party",
+       title="")
+
+bypar + geom_hline(yintercept=1) + geom_text(check_overlap = TRUE, size=3) + xlim(1985, 2020)+ 
+theme_bw() + theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) + theme(text = element_text(size=20))
+# dev.off()
+```
+
+## @WeeksETAL2022 
+
+|      | *LOW M/F voter ratio* | *HIGH M/F voter ratio*  |
+|------|-----------------------|-------------------------|
+| *LOW electoral threat*  | *Status quo*: Party does well among men and women, and at the polls. No need to include more women in party. | *Strategic Exclusion (H1b)*: Party with a men-dominated electorate that gains votes doubles down on exclusion of women in the party. |
+| *HIGH electoral threat* | *Status quo*: Party already attracts women voters, so will not target women voters as a strategy to improve vote share | *Strategic Inclusion (H1a)*: Party with a men-dominated electorate that loses votes elects women to appeal to untapped women voters. |
+
+## Reading a regression table
+
+<!-- http://svmiller.com/blog/2014/08/reading-a-regression-table-a-guide-for-students/ -->
+
+Remember: regression is a tool for understanding a phenomenon as a linear function (generally) &rarr; (y = mx + b)
+
+1. Numbers not in parentheses next to a variable: __regression coefficient__: expected change in DV for a one-unit increase in IV. NB: ositive or negative relationship?
+
+2. Numbers inside parentheses next to a variable: __standard error__: estimate of the standard deviation of the coefficient
+
+3. Asterisks/'stars': __statistical significance__: probability of results as extreme as observed result, under the assumption that the null hypothesis is correct. Smaller p-value means such an observation would be less likely under null hypothesis; hence, significance. Statistical significance suggests more precise estimates---NOT necessarily that one IV is more important than another.
+
+## @WeeksETAL2022 
+
+![](slide_files/04/weeksETAL_reg1.png)
+
+
+<!-- ```{r reg-table, message=FALSE, warning=FALSE, include=FALSE} -->
+<!-- newd2 <- newd[ which(newd$newpartyfam=='Radical Right'), ]  -->
+<!-- # nrow(newd2) -->
+
+<!-- library(ggplot2) -->
+<!-- library(directlabels) -->
+<!-- library(RColorBrewer) -->
+<!-- library(colorRamps) -->
+<!-- getPalette = colorRampPalette(brewer.pal(9, "Spectral")) -->
+
+<!-- library(lme4) -->
+<!-- library(lmerTest) -->
+<!-- library(interplot) -->
+
+<!-- set.seed(02145)  -->
+
+<!-- ## Model 1 -- constituent variables  -->
+<!-- out1<-lmer(pfem_new2 ~ lag1_mfcombined10    + chgvotelagged + -->
+<!-- 	(1 | party ) + 	(1 | country), data=newd2, REML=FALSE) -->
+<!-- # summary(out1)  -->
+
+<!-- ## Model 2 -- add interaction  -->
+<!-- out2<-lmer(pfem_new2 ~ lag1_mfcombined10     + chgvotelagged + lag1_mfcombined10:chgvotelagged + -->
+<!-- 	(1 | party ) + 	(1 | country), data=newd2, REML=FALSE) -->
+<!-- # summary(out2) ##  -->
+
+<!-- ### Model 3 -- add time trend  -->
+<!-- out3<-lmer(pfem_new2 ~ lag1_mfcombined10   + chgvotelagged + lag1_mfcombined10:chgvotelagged + -->
+<!-- year + (1 | party ) + 	(1 | country), data=newd2,  REML=FALSE) -->
+<!-- # summary(out3)  -->
+
+<!-- ## Model 4 -- add party level covariates  -->
+<!-- out4<-lmer(pfem_new2 ~ lag1_mfcombined10   + chgvotelagged + lag1_mfcombined10:chgvotelagged + -->
+<!-- year + femaleleader2_lag + cabinet_party2_lag + -->
+<!-- 	(1 | party ) + 	(1 | country), data=newd2,  REML=FALSE) -->
+<!-- # summary(out4)  -->
+
+<!-- ## Model 5 -- add national level covariates  -->
+<!-- out5<-lmer(pfem_new2 ~ lag1_mfcombined10   + chgvotelagged + lag1_mfcombined10:chgvotelagged + -->
+<!-- year + femaleleader2_lag + cabinet_party2_lag + lag1womenpar + tier1_avemag2 + as.factor(prop2) + natquota + weurope + -->
+<!-- 	(1 | party ) + 	(1 | country), data=newd2,  REML=FALSE) -->
+<!-- # summary(out5)  -->
+<!-- ##  -->
+
+<!-- library(stargazer) -->
+<!--  class(out1) <- "lmerMod" -->
+<!--  class(out2) <- "lmerMod" -->
+<!--  class(out3) <- "lmerMod" -->
+<!--  class(out4) <- "lmerMod" -->
+<!--  class(out5) <- "lmerMod" -->
+<!--  stargazer(out1, out2, out3, out4, out5, style="ajps", title="Determinants of Women's Representation in -->
+<!--  Radical Right Parties", dep.var.labels.include = FALSE,  star.cutoffs = c(0.05, 0.01, 0.001), covariate.labels = c("M/F Ratio", "Vote Change",  -->
+<!--  "Time", "Female Leader", "Cabinet Party", "Women in Parliament", "Dis. Mag.", "PR", "Quota Law", "Western Europe", "M/F Ratio*Vote Change")) -->
+
+<!-- ``` -->
+
+## @WeeksETAL2022 
+
+![](slide_files/04/weeksETAL_reg1_plot.png)
+
+<!-- ```{r reg-plot} -->
+<!-- set.seed(02145) -->
+
+<!-- plot2<- interplot(m = out5, var1 = "lag1_mfcombined10", var2 = "chgvotelagged", hist=TRUE) +  -->
+<!--   # Add labels for X and Y axes -->
+<!--     xlab("Vote Change (lagged)") + -->
+<!--     ylab("Estimated Coefficient for\n(lagged) M/F ratio") + -->
+<!--   # Change the background -->
+<!--     theme_bw() + -->
+<!--   # Add the title -->
+<!--     ggtitle("Estimated Coefficient of M/F ratio \non Women in Party by Vote Change") + -->
+<!--     theme(plot.title = element_text(face="bold")) + -->
+<!--   # Add a horizontal line at y = 0 -->
+<!--     geom_hline(yintercept = 0, linetype = "dashed")+ theme(text = element_text(size=16)) -->
+
+<!-- plot2  -->
+<!-- ``` -->
+
+## Replication and rebuttal [@guinaudeau2024RadicalRightPartiesUse] {background-color="#2c844c"}
+
+<!-- - findings of @WeeksETAL2022 driven by single outlier -->
+<!--     + Front Naitonal that elected 2 MPs in 2012 (one woman; [variables as proportions]{style="color:red;"}) -->
+<!-- - without outlier, cannot reject null hypothesis (too few observations) -->
+
+<!-- ![](slide_files/04/guinaudeau2024_effect.png) -->
+
+:::: {.columns}
+:::{.column width="35%"}
+- findings of @WeeksETAL2022 driven by single outlier
+    + Front Naitonal that elected 2 MPs in 2012 (one woman; [variables as proportions]{style="color:red;"})
+- without outlier, cannot reject null hypothesis (too few observations)
+
+:::
+
+::: {.column width="65%" .right}
+![](slide_files/04/guinaudeau2024_effect.png)
+
+:::
+::::
+
+## Reply [@weeks2024ResponseRadicalRightParties]
+
+- @guinaudeau2024RadicalRightPartiesUse misunderstand treatment of outliers
+- should not 'arbitrarily delete one influential case but not another'
+    + "When *all* influential cases are removed, and not just the observation of FN in 2012, our key findings do not change."
+
+> Deleting correctly-coded higher influence observations makes the sample an inaccurate representation of the population, and thus can lead to improper inferences about a population, particularly in a small population like the data on radical right populist parties in Europe.
+
+# far-right parties' electoral performance - discussion (lead-in to next week) {background-color="#2c844c"}
+
+[[under what conditions far-right candidates are more electable?]{style="font-size:95px;"}]{style="color:yellow;"}
+
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>     
+
+Alternatively, send me an email: [m.zeller@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- 1 + 1 -->
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+<!-- ::: -->
+
+
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- library(dplyr) -->
+<!-- library(ggplot2) -->
+<!-- g <- starwars |>  -->
+<!--   ggplot() + -->
+<!--   geom_point(aes(x = height, y = mass)) + -->
+<!--   theme_light() -->
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+<!-- #| fig.align: center -->
+<!-- #| echo: true -->
+<!-- g  -->
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| echo: true -->
+<!-- #| eval: false -->
+<!-- tab <- starwars |> -->
+<!--   tidyr::drop_na(species) |>  -->
+<!--   group_by(species) |> -->
+<!--   summarise( -->
+<!--     n = n(), -->
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+<!--   ) |>  -->
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| eval: true -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+<!-- gt::gt(tab) -->
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+<!-- reactable::reactable(tab) -->
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<!-- </center> -->
+
+
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_04.html"))
+```
+
+
+## References
+
