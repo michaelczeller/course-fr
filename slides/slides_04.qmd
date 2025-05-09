@@ -69,7 +69,7 @@ Remember: topic to me at least by Week 4
 | Date    | Presenters                              | Method |
 | -------:|:----------------------------------------|:------:|
 | 3 July:  | Alexander V., Samuel B., Luis G., Oscar O. | TBD | 
-| 10 July: | Lina S., Stephen W., Philomena B. | TBD | 
+| 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | TBD | 
 | 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD | 
 | 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD | 
 | 24 July: | Lorenz F., Daniel B., Fiona W., Medina H. | TBD | 
@@ -550,7 +550,7 @@ webpage <- read_html(url)
 ## get all tables on the page
 tables <- html_nodes(webpage, "table")
 
-#@ second table on the page
+# second table on the page
 table_2 <- tables[[2]] %>%
   html_table(fill = TRUE)
 
@@ -846,6 +846,7 @@ Golden Dawn leader Nikos Michaloliakos arrested (Greece)
 :::: {.columns}
 :::{.column width="50%"}
 - Far-right party voters are predominantly male. Why? **What do these parties offer women voters?** Why not vote for the far right?  
+- Example of Marine Le Pen 
 - article: @WeeksETAL2022 
 - replication: @guinaudeau2024RadicalRightPartiesUse 
 - reply: @weeks2024ResponseRadicalRightParties
@@ -856,6 +857,55 @@ Golden Dawn leader Nikos Michaloliakos arrested (Greece)
 <div class="tenor-gif-embed" data-postid="18765629" data-share-method="host" data-aspect-ratio="1.79775" data-width="100%"><a href="https://tenor.com/view/kate-mc-kinnon-snl-snl45-elizabeth-warren-no-gif-18765629">Kate Mc Kinnon Snl GIF</a>from <a href="https://tenor.com/search/kate+mc+kinnon-gifs">Kate Mc Kinnon GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 :::
 ::::
+
+## Marine Le Pen (Front National/Rassemblement National)
+
+- took over party leadership from father (J.M. Le Pen) in 2011
+    + FN history of under-performing with women voters
+        * 'radical right gender gap' [&rarr;]{style="color:red;"} decreasing with Marine as leader
+
+::: {.center}
+
+```{r}
+df <- data.frame(
+  Wahl=c("Presidential, 1st round", "Presidential, 1st round", 
+         "Presidential, 1st round", "Presidential, 1st round", 
+         "Presidential, 1st round", "Presidential, 1st round", 
+         "Presidential, 2nd round", "Presidential, 1st round",
+         "Presidential, 2nd round"),
+  Jahr=c("1988","1995","2002","2007","2012","2017(1)","2017(2)","2022(1)","2022(2)"),
+  Men = c(13.1, 18.6, 19, 12.3, 19.2, 22.8, 30.2, 20.7, 40.9),
+  Women = c(8.8, 12.3, 14.8, 9.1, 17.5, 20.1, 30.1, 26.1, 42.1)
+)
+
+df_long<-df %>% pivot_longer(cols=c(Men, Women), 
+                             names_to="Sex", values_to="Value")
+
+ggplot(df_long, aes(x=Jahr, y=Value, color=Sex, group=Sex, shape=Sex)) +
+  geom_line(linewidth=2) +
+  geom_point(size=6) +
+  geom_text(data=df_long %>% filter(Jahr!= "2022(1)" & Jahr!= "2022(2)"),
+            aes(label=Value, vjust=ifelse(Sex == "Men", -1.2, 3)), 
+            show.legend = FALSE, size = 6) +
+    geom_text(data=df_long %>% filter(Jahr=="2022(1)" | Jahr=="2022(2)"),
+              aes(label=Value, vjust=ifelse(Sex == "Women", -1.2, 2)),
+              show.legend = FALSE, size = 6) +
+  scale_y_continuous(limits=c(0, 45), 
+                     labels=scales::percent_format(scale=1)) +
+  labs(x="", y="Percentage", color="", shape="") +
+  theme_minimal() +
+  theme(text=element_text(family="sans", size=22), 
+        axis.text.x=element_text(angle=20, hjust=0.65),
+        plot.title=element_text(hjust=0.5),
+        legend.position = c(0.2, 0.9), 
+        legend.direction = "horizontal", 
+        legend.title = element_blank(),)
+
+```
+
+:::
+
+<!-- cf. @mayer2013JeanMarieMarinePen -->
 
 ## Radical right voters [@WeeksETAL2022]
 
