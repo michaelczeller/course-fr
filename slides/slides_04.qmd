@@ -756,17 +756,32 @@ ggplot(df_mig_long, aes(x = as.factor(ErstJahr), y = Percentage, fill = Partei))
 
 # Party leaders {background-color="#2c844c"}
 
+::: panel-tabset
+## _
+
 :::: {.columns}
 :::{.column width="50%"}
 - who 'typically' leads far-right parties
     + any trend change between historical and contemporary cases?
     + any difference from other parties in how these figures become party leaders?
+
 :::
 
 ::: {.column width="50%" .right}
 <div class="tenor-gif-embed" data-postid="8893248" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/leader-cult-brainwashed-simpsons-gif-8893248">Leader GIF</a>from <a href="https://tenor.com/search/leader-gifs">Leader GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 :::
 ::::
+
+## _
+
+{{< video https://www.youtube.com/watch?v=U1FxfR3lg6Q
+    start="1"
+    aspect-ratio="21x9" 
+    width="750" 
+    height="450"
+>}}
+
+:::
 
 <!-- <https://www.youtube.com/watch?v=U1FxfR3lg6Q> -->
 
