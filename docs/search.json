@@ -333,7 +333,7 @@
     "href": "content/index.html",
     "title": "Content",
     "section": "",
-    "text": "Class 1\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\nClass 2\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\nClass 2 Lecture video - part 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClass 2 Lecture video - part 2\n\n\n\n\n\n\n\n\n\n\n\nClass 3\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\nClass 4\n\n View all slides in new window  Download PDF of all slides"
+    "text": "Class 1\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\nClass 2\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\n\n\n\n\nClass 2 Lecture video - part 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClass 2 Lecture video - part 2\n\n\n\n\n\n\n\n\n\n\n\nClass 3\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\nClass 4\n\n View all slides in new window  Download PDF of all slides\n\n\n\n\n\n\n\nClass 5\n\n View all slides in new window  Download PDF of all slides"
   },
   {
     "objectID": "course-fr.html",
@@ -2028,5 +2028,285 @@
     "title": "Class 4: Parties",
     "section": "Marine Le Pen (Front National (FN)/Rassemblement National (RN))",
     "text": "Marine Le Pen (Front National (FN)/Rassemblement National (RN))\n\ntook over party leadership from father (J.M. Le Pen) in 2011\n\nFN history of under-performing with women voters (‘radical right gender gap’)\n\ndecreasing gender gap with Marine Le Pen as leader"
+  },
+  {
+    "objectID": "slides/slides_05.html#presentation-groups",
+    "href": "slides/slides_05.html#presentation-groups",
+    "title": "Class 5: Parties",
+    "section": "Presentation groups",
+    "text": "Presentation groups\n\nTopics to me as soon as possible\n\nMayJuneJuly\n\n\n\n\n\n\n\n\nPresentations line-up\n\n\n\n\n\n\n\nDate\nPresenters\nMethod\n\n\n\n\n15 May:\nIdil M., Zeynep P., Liesl W., Selin K., Chiara W.\nlogistic regression\n\n\n22 May:\nGabriel W., Lina M., Florian S., Julian B.\ndiscourse analysis\n\n\n29 May:\nNO CLASS MEETING\n\n\n\n\n\nno more regression presentations—see syllabus for some of the other options\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nPresenters\nMethod\n\n\n\n\n5 June:\nRasmus B., Andre D., Josefine E., Ioanna L., Santiago C.\nregression\n\n\n12 June:\nOmar B., Lela E., Niclas W.\nTBD\n\n\n19 June:\nNO CLASS MEETING\n\n\n\n26 June:\nColombe I., Konstantin S., Jakob W., Veronika L.\nTBD\n\n\n26 June:\nMaksim K., Felix S., Jon L.D., Damir S., Korbinian M.\ncase study\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nPresenters\nMethod\n\n\n\n\n3 July:\nAlexander V., Luis G., Oscar O., Mia C.\nTBD\n\n\n10 July:\nLina S., Stephen W., Philomena B., Aarón Z.\nTBD\n\n\n17 July:\nCorinna Z., Eva M., and Rostislav N.\nTBD\n\n\n24 July:\nSebastian K., Thomas R., Emilia Z., Florian P.\nTBD\n\n\n24 July:\nLorenz F., Daniel B., Fiona W., Medina H.\nquant. text analysis"
+  },
+  {
+    "objectID": "slides/slides_05.html#voting-for-far-right-parties-demographically",
+    "href": "slides/slides_05.html#voting-for-far-right-parties-demographically",
+    "title": "Class 5: Parties",
+    "section": "Voting for far-right parties: demographically",
+    "text": "Voting for far-right parties: demographically\n\ngenerally, voting for far-right parties (univariate predictors, e.g., in 11 European countries, Lucassen and Lubbers 2012; also Bornschier et al. 2021; Schäfer 2022) …\n\ngender: men more likely than women\nage: younger people more likely\nlocation: rural residents more likely\neducation: less educated more likely\nethnicity: migration background less likely\nothers?\n\n\n\n\nBUT it is more complicated in bivariate/multivariate perspectives"
+  },
+  {
+    "objectID": "slides/slides_05.html#voting-for-far-right-parties-issue-based",
+    "href": "slides/slides_05.html#voting-for-far-right-parties-issue-based",
+    "title": "Class 5: Parties",
+    "section": "Voting for far-right parties: issue-based",
+    "text": "Voting for far-right parties: issue-based\n\ngenerally, most important issues for contemporary far-right party voters:\n\nimmigration: security (threat perception), cultural change, welfare chauvinism\neconomic: deprived economic prospects (de-industrialisation), inequality grievances, globalisation’s ‘losers’\nanti-elitism: distrust of establishment institutions (media, longstanding parties, etc.), perceived disconnect and lack of substantive representation by mainstream politicians\ngender politics: preference for traditional patterns of social relations, only two genders (i.e., biological sex) and ‘natural’ gender roles\nothers?"
+  },
+  {
+    "objectID": "slides/slides_05.html#voting-for-far-right-parties-further-explanatory-factors",
+    "href": "slides/slides_05.html#voting-for-far-right-parties-further-explanatory-factors",
+    "title": "Class 5: Parties",
+    "section": "Voting for far-right parties: further explanatory factors",
+    "text": "Voting for far-right parties: further explanatory factors\nrising local rental prices increase probability of support (AfD) among renters with lower household income (Abou-Chadi, Cohen, and Kurer 2024)"
+  },
+  {
+    "objectID": "slides/slides_05.html#voting-for-far-right-parties-further-explanatory-factors-1",
+    "href": "slides/slides_05.html#voting-for-far-right-parties-further-explanatory-factors-1",
+    "title": "Class 5: Parties",
+    "section": "Voting for far-right parties: further explanatory factors",
+    "text": "Voting for far-right parties: further explanatory factors\n\npublic service deprivation predicts more far-right support (Cremaschi et al. 2024)\nplace resentment: spatial clustering perception of one’s region as excluded produces similar clustering of populist radical right attitudes (Arzheimer and Bernemann 2023)\nimmigrant presence predicts more populist radical right support—mediated by education levels (Arzheimer et al. 2024)\npresence of stronger dialect predicts more far-right (AfD) voting (Ziblatt, Hilbig, and Bischof 2024)"
+  },
+  {
+    "objectID": "slides/slides_05.html#voting-for-far-right-parties-further-explanatory-factors-2",
+    "href": "slides/slides_05.html#voting-for-far-right-parties-further-explanatory-factors-2",
+    "title": "Class 5: Parties",
+    "section": "Voting for far-right parties: further explanatory factors",
+    "text": "Voting for far-right parties: further explanatory factors\n\n(intercultural) contact hypothesis versus threat hypothesis\nlikelihood of Front National increases in polling stations up to intermediate distances from mosques and then decreases (Dazey and Gay 2024) — halo theory"
+  },
+  {
+    "objectID": "slides/slides_05.html#far-right-voting-among-the-youth",
+    "href": "slides/slides_05.html#far-right-voting-among-the-youth",
+    "title": "Class 5: Parties",
+    "section": "Far-right voting among the youth",
+    "text": "Far-right voting among the youth\n(video from just before 2024 EU elections)"
+  },
+  {
+    "objectID": "slides/slides_05.html#far-right-voting-among-the-youth-1",
+    "href": "slides/slides_05.html#far-right-voting-among-the-youth-1",
+    "title": "Class 5: Parties",
+    "section": "Far-right voting among the youth",
+    "text": "Far-right voting among the youth\n\n\nObservations:\n\npluralities of young men voting far right\n\nsome major young women support too (e.g., AfD)\n\nyouth more left wing in Anglophone countries\nyoung Europeans more ‘right-wing’ than US/UK youth on cultural issues like immigration and welfare\n\n\nTheses:\n\nDemographic, attitudinal factors:\n\neducational gender gap\ndeclining religious salience for women voters\npolarisation from ‘culture war’ issues\n\ntwo- vs. multi-party systems\nunderlying anti-establishment attitudes"
+  },
+  {
+    "objectID": "slides/slides_05.html#poll",
+    "href": "slides/slides_05.html#poll",
+    "title": "Class 5: Parties",
+    "section": "Poll",
+    "text": "Poll\nAre far-right voters making rational choices based on their interests, or are they misinformed and manipulated? \n\nDo people vote for far-right parties as a form of protest, or because they genuinely support the ideology? \n\nAre far-right voters primarily motivated by economic insecurity or cultural/identity-based concerns?  \nDoes immigration actually drive far-right voting, or is it the perception of immigration and cultural change that matters more?  \nIs education a protective factor against far-right voting, or is the “education gap” in voting creating new class-based political identities?"
+  },
+  {
+    "objectID": "slides/slides_05.html#voter-choice",
+    "href": "slides/slides_05.html#voter-choice",
+    "title": "Class 5: Parties",
+    "section": "Voter choice",
+    "text": "Voter choice\n\ninstitutional contexts\n\nespecially electoral and party systems\n\nhow FR parties emerge in two-party vs. multi-party systems\n\n\ndemand side: major values and attitudes among electorate\n\nwhat do voting constituencies want?\nwho (groups? from where?) are ‘buying’ what parties ‘supply’\n\nsupply side: elite competition and cooperation\n\nwhat do parties offer?\n\nideology and policy (party platform)\nleaders and representatives"
+  },
+  {
+    "objectID": "slides/slides_05.html#an-opening-salvo-from-pippa-norris",
+    "href": "slides/slides_05.html#an-opening-salvo-from-pippa-norris",
+    "title": "Class 5: Parties",
+    "section": "An opening salvo from Pippa Norris",
+    "text": "An opening salvo from Pippa Norris\n(a full-length lecture: https://www.youtube.com/watch?v=8Qw8TtzjtL4. strongly recommended for those interested in party politics and/or doing their data report on a far-right party)"
+  },
+  {
+    "objectID": "slides/slides_05.html#opening-questions",
+    "href": "slides/slides_05.html#opening-questions",
+    "title": "Class 5: Parties",
+    "section": "Opening questions",
+    "text": "Opening questions\nWhich demographics disproportionately vote for far-right parties? Does it vary by region?\n\nWhy do those demographics vote far right?"
+  },
+  {
+    "objectID": "slides/slides_05.html#natural-ceilings-and-politicalelectoral-opportunities",
+    "href": "slides/slides_05.html#natural-ceilings-and-politicalelectoral-opportunities",
+    "title": "Class 5: Parties",
+    "section": "Natural ceilings (?) and political/electoral opportunities",
+    "text": "Natural ceilings (?) and political/electoral opportunities\nCarter (2005) high levels of ideological convergence between the parties of the mainstream left and the parties of the mainstream right are associated with high right-wing extremist party scores. In contrast, low levels of ideological convergence between the mainstream parties are linked with lower rightwing extremist party scores.\nThe majority of contemporary far-right parties’ constituencies come from voters with nativist and perhaps populist attitudes. This would typically limit far-right parties to an electoral ceiling of 20 per cent. But far-right parties can gain more support under certain circumstances. Crises, where many voters fear for their security, can boost far-right support. Political instability can bolster support for the style of strong government that far-right parties often espouse. Frustration with mainstream parties and political disaffection can motivate voting for radical outsiders. When these factors combine, far-right parties can push past that 20 per cent ceiling and win electoral pluralities and even majorities. And when they do, they tend to erode the norms and institutions that uphold liberal democracy."
+  },
+  {
+    "objectID": "slides/slides_05.html#section",
+    "href": "slides/slides_05.html#section",
+    "title": "Class 5: Parties",
+    "section": "_",
+    "text": "_\nfor class on responses and counter-strategies: De Jonge (2021) Jonge (2023)\nCapoccia (2005)\nColombo et al. (2021)\nEllinas and Lamprianou (2023)\nHeinze (2018)\nHeinze (2022)\nKrause, Cohen, and Abou-Chadi (2023)\nLagios, Méon, and Tojerow (2022)"
+  },
+  {
+    "objectID": "slides/slides_05.html#refresher-on-party-membership-concepts",
+    "href": "slides/slides_05.html#refresher-on-party-membership-concepts",
+    "title": "Class 5: Parties",
+    "section": "Refresher on party membership concepts",
+    "text": "Refresher on party membership concepts\n\nparty activists or members tend to hold more radical views than the average party voter\n\nmedian voter theorem: parties should converge toward the centre to win elections, but…\nactivists/members: typically more committed and engaged; typically have stronger ideological\n\nimpact through party primaries and internal decision-making\n\n\n\n\n\ndescriptive representation: extent to which elected officials resemble the demographic characteristics of constituents \nsubstantive representation: degree to which elected officials advocate and act for their constituents’ needs, preferences, or policy concerns, regardless of shared demographic traits"
+  },
+  {
+    "objectID": "slides/slides_05.html#variation-among-far-right-parties",
+    "href": "slides/slides_05.html#variation-among-far-right-parties",
+    "title": "Class 5: Parties",
+    "section": "Variation among far-right parties",
+    "text": "Variation among far-right parties\n\nCommon traits\n\npredominantly male activist/member bases\ntypically less (but not ‘no’) ethnic/racial diversity in membership and representation\n\n\n\n\n\nNotable divergences\n\ndifferences of party membership size\n\ne.g., Dutch PVV, 1 member (Wilders); Indian BJP, 170 million\n\ninternal party differences\n\nloosely constrained (personalist parties): centralised, leader dominates\nhighly constrained: party rules, intra-party competition"
+  },
+  {
+    "objectID": "slides/slides_05.html#factionalism-within-far-right-parties",
+    "href": "slides/slides_05.html#factionalism-within-far-right-parties",
+    "title": "Class 5: Parties",
+    "section": "Factionalism within far-right parties",
+    "text": "Factionalism within far-right parties\n\nfrequent divisions between national and regional/local level representatives\nopen question of whether local representatives more radical or more pragmatic"
+  },
+  {
+    "objectID": "slides/slides_05.html#party-leaders---functions-salvini",
+    "href": "slides/slides_05.html#party-leaders---functions-salvini",
+    "title": "Class 5: Parties",
+    "section": "Party leaders - functions (Salvini)",
+    "text": "Party leaders - functions (Salvini)"
+  },
+  {
+    "objectID": "slides/slides_05.html#party-leaders---support-symbolism-cooperation",
+    "href": "slides/slides_05.html#party-leaders---support-symbolism-cooperation",
+    "title": "Class 5: Parties",
+    "section": "Party leaders - support, symbolism, cooperation",
+    "text": "Party leaders - support, symbolism, cooperation"
+  },
+  {
+    "objectID": "slides/slides_05.html#what-party-leaders-do",
+    "href": "slides/slides_05.html#what-party-leaders-do",
+    "title": "Class 5: Parties",
+    "section": "What (party) leaders do",
+    "text": "What (party) leaders do\n\n‘leading tasks’ (cf. Earl 2007 on leadership in movements):\n\narticulating vision and ideology,\nengaging the political environment,\nframing the party and its issues,\nmanaging relations with other parties and non-party actors,\nmaking strategic decisions,\norganizing specific actions/campaigns,\nmanaging the internal life of the party,\ninnovating and entrepreneurial activity, and\nproviding social capital (relationships and networks)"
+  },
+  {
+    "objectID": "slides/slides_05.html#when-things-go-wrong",
+    "href": "slides/slides_05.html#when-things-go-wrong",
+    "title": "Class 5: Parties",
+    "section": "When things go wrong…",
+    "text": "When things go wrong…\n\n\n\nconsequences of malfeasance or mismanagement?\ntacit or explicit complicity in wrongdoing?\n\n\n\nAir Quotes Leadership GIFfrom Air Quotes GIFs"
+  },
+  {
+    "objectID": "slides/slides_05.html#party-leaders---punitive",
+    "href": "slides/slides_05.html#party-leaders---punitive",
+    "title": "Class 5: Parties",
+    "section": "Party leaders - punitive",
+    "text": "Party leaders - punitive\nLe Pen 2025 embezzlement conviction - 5-year ban on holding office"
+  },
+  {
+    "objectID": "slides/slides_05.html#party-leaders---prohibitive",
+    "href": "slides/slides_05.html#party-leaders---prohibitive",
+    "title": "Class 5: Parties",
+    "section": "Party leaders - prohibitive",
+    "text": "Party leaders - prohibitive\nGolden Dawn leader Nikos Michaloliakos arrested (Greece)"
+  },
+  {
+    "objectID": "slides/slides_05.html#references",
+    "href": "slides/slides_05.html#references",
+    "title": "Class 5: Parties",
+    "section": "References",
+    "text": "References\n\n\n\n\nAbou-Chadi, Tarik, Denis Cohen, and Thomas Kurer. 2024. “Rental Market Risk and Radical Right Support.” Comparative Political Studies, December, 00104140241306963. https://doi.org/10.1177/00104140241306963.\n\n\nArzheimer, Kai, and Theresa Bernemann. 2023. “‘Place’ Does Matter for Populist Radical Right Sentiment, but How? Evidence from Germany.” European Political Science Review, September, 1–20. https://doi.org/10.1017/S1755773923000279.\n\n\nArzheimer, Kai, Carl Berning, Sarah De Lange, Jerome Dutozia, Jocelyn Evans, Myles Gould, Eelco Harteveld, et al. 2024. “How Local Context Affects Populist Radical Right Support: A Cross-National Investigation Into Mediated and Moderated Relationships.” British Journal of Political Science 54 (4): 1133–58. https://doi.org/10.1017/S0007123424000085.\n\n\nBornschier, Simon, Silja Häusermann, Delia Zollinger, and Céline Colombo. 2021. “How ‘Us’ and ‘Them’ Relates to Voting Behavior—Social Structure, Social Identities, and Electoral Choice.” Comparative Political Studies 0 (0): 1–36. https://doi.org/10.1177/0010414021997504.\n\n\nCarter, Elisabeth. 2005. “Party Competition.” In The Extreme Right in Western Europe: Success or Failure?, 102–45. Manchester: Manchester University Press.\n\n\nCremaschi, Simone, Paula Rettl, Marco Cappelluti, and Catherine E. De Vries. 2024. “Geographies of Discontent: Public Service Deprivation and the Rise of the Far Right in Italy.” American Journal of Political Science, December, ajps.12936. https://doi.org/10.1111/ajps.12936.\n\n\nDazey, Margot, and Victor Gay. 2024. “The Mosque Nearby: Visible Minorities and Far-Right Support in France.” Comparative Political Studies, October, 00104140241283015. https://doi.org/10.1177/00104140241283015.\n\n\nLucassen, Geertje, and Marcel Lubbers. 2012. “Who Fears What? Explaining Far-Right-Wing Preference in Europe by Distinguishing Perceived Cultural and Economic Ethnic Threats.” Comparative Political Studies 45 (5): 547–74. https://doi.org/10.1177/0010414011427851.\n\n\nSchäfer, Armin. 2022. “Cultural Backlash? How (Not) to Explain the Rise of Authoritarian Populism.” British Journal of Political Science 52 (4): 1977–93. https://doi.org/10.1017/S0007123421000363.\n\n\nZiblatt, Daniel, Hanno Hilbig, and Daniel Bischof. 2024. “Wealth of Tongues: Why Peripheral Regions Vote for the Radical Right in Germany.” American Political Science Review 118 (3): 1480–96. https://doi.org/10.1017/S0003055423000862."
+  },
+  {
+    "objectID": "slides/slides_05.html#voter-choice-electoral-behaviour-frameworks",
+    "href": "slides/slides_05.html#voter-choice-electoral-behaviour-frameworks",
+    "title": "Class 5: Parties",
+    "section": "Voter choice, electoral behaviour frameworks",
+    "text": "Voter choice, electoral behaviour frameworks\n\ninstitutional contexts\n\nespecially electoral and party systems\n\nhow FR parties emerge in two-party vs. multi-party systems\n\n\ndemand side: major values and attitudes among electorate\n\nwhat do voting constituencies want?\nwho (groups? from where?) are ‘buying’ what parties ‘supply’\n\nsupply side: elite competition and cooperation\n\nwhat do parties offer?\n\nideology and policy (party platform)\nleaders and representatives"
+  },
+  {
+    "objectID": "slides/slides_05.html#attitudes-values-in-brief-inglehart-norris-welzel",
+    "href": "slides/slides_05.html#attitudes-values-in-brief-inglehart-norris-welzel",
+    "title": "Class 5: Parties",
+    "section": "attitudes & values in brief (Inglehart, Norris, Welzel)",
+    "text": "attitudes & values in brief (Inglehart, Norris, Welzel)\n\n\nInglehart magnifies Maslow’s hierarchy of needs to societal (macro-) level of analysis"
+  },
+  {
+    "objectID": "slides/slides_05.html#values-attitudes-in-brief-inglehart-norris-welzel",
+    "href": "slides/slides_05.html#values-attitudes-in-brief-inglehart-norris-welzel",
+    "title": "Class 5: Parties",
+    "section": "values & attitudes in brief (Inglehart, Norris, Welzel)",
+    "text": "values & attitudes in brief (Inglehart, Norris, Welzel)\n\n\nInglehart magnifies Maslow’s hierarchy of needs to societal (macro-) level of analysis → aligns with groups and their socio-political values and attitudes\n\n\n\nbasic material needs satisfied enables seeking non-material needs"
+  },
+  {
+    "objectID": "slides/slides_05.html#values-attitudes-in-brief-inglehart-norris-welzel-1",
+    "href": "slides/slides_05.html#values-attitudes-in-brief-inglehart-norris-welzel-1",
+    "title": "Class 5: Parties",
+    "section": "values & attitudes in brief (Inglehart, Norris, Welzel)",
+    "text": "values & attitudes in brief (Inglehart, Norris, Welzel)\n\nmaterialist values\n\neconomic growth (maintaining stability and order)\nsecurity and material needs safeguarded\ntraditional morality\n\npost-materialist values\n\nfreedoms, liberties, rights — autonomy and expression\ngender and racial equality\nenvironmental protection\n\nsocietal groups (existing cleavages) show tendencies towards these values groups: generationally, regionally, class-based, religiously"
+  },
+  {
+    "objectID": "slides/slides_05.html#values-attitudes-in-brief-inglehart-norris-welzel-2",
+    "href": "slides/slides_05.html#values-attitudes-in-brief-inglehart-norris-welzel-2",
+    "title": "Class 5: Parties",
+    "section": "values & attitudes in brief (Inglehart, Norris, Welzel)",
+    "text": "values & attitudes in brief (Inglehart, Norris, Welzel)\n\n\n\nsilent revolution: a values shift from materialist to post-materialist\n\nnew cleavage silent counter-revolution"
+  },
+  {
+    "objectID": "slides/slides_05.html#values-attitudes-in-brief-inglehart-norris-welzel-dalton",
+    "href": "slides/slides_05.html#values-attitudes-in-brief-inglehart-norris-welzel-dalton",
+    "title": "Class 5: Parties",
+    "section": "values & attitudes in brief (Inglehart, Norris, Welzel, Dalton)",
+    "text": "values & attitudes in brief (Inglehart, Norris, Welzel, Dalton)\n\ncultural backlash theory\n\ndifferent generations, different experiences, different values\n\nInterwar generation (born 1900–45)\nBaby Boomers (1946–64)\nGeneration X (1965–79)\nMillennials (1980–96)\n\nsince 1950s/1960s, national identity, nuclear family, religion → no longer majority values\nliberalism expands and groups clinging to traditional values feel threatened\npushback against liberalism: parties supply what is demanded by ‘disoriented voters’ (Norris), many of whom have weaker partisan identification (Dalton)\n\nturn to ‘authoritarian populist’ parties (jettison radical right conceptual focus)\nparties and leaders are appealing for transgressive behaviour (attention economy)"
+  },
+  {
+    "objectID": "slides/slides_05.html#cultural-backlash-theory-inglehart-norris-welzel-dalton",
+    "href": "slides/slides_05.html#cultural-backlash-theory-inglehart-norris-welzel-dalton",
+    "title": "Class 5: Parties",
+    "section": "cultural backlash theory (Inglehart, Norris, Welzel, Dalton)",
+    "text": "cultural backlash theory (Inglehart, Norris, Welzel, Dalton)\n\ndifferent generations, different experiences, different values\n\nInterwar generation (born 1900–45); Baby Boomers (1946–64); Generation X (1965–79); Millennials (1980–96)\n\nsince 1950s/1960s, national identity, nuclear family, religion → no longer majority values\nliberalism expands and traditional values groups feel threatened\npushback against liberalism: parties supply what is demanded by ‘disoriented voters’ (Norris), many of whom have weaker partisan identification (Dalton)\n\nturn to ‘authoritarian populist’ parties \nparties and leaders are appealing for transgressive behaviour (attention economy)"
+  },
+  {
+    "objectID": "slides/slides_05.html#critiquing-cultural-backlash-theory---schaferculturalbacklashhow2022",
+    "href": "slides/slides_05.html#critiquing-cultural-backlash-theory---schaferculturalbacklashhow2022",
+    "title": "Class 5: Parties",
+    "section": "Critiquing cultural backlash theory - Schäfer (2022)",
+    "text": "Critiquing cultural backlash theory - Schäfer (2022)\n\nDifferent age groups have very similar cultural attitudes; few signs of polarisation among old and young cohorts\nOn most topics, different cohorts agree in principle, even though they might differ in degree\nNo positive link between authoritarian values and populist attitudes (measured as political trust); if using a populism scale, cohorts hardly differ\nOlder slightly more likely to vote for authoritarian parties, less likely to vote for populists\nYounger more likely to vote for authoritarian-populist parties defined in a more concise way\n\nInterwar generation is the cohort least likely to vote for authoritarian-populist parties"
+  },
+  {
+    "objectID": "slides/slides_05.html#electoral-system-and-party-competition",
+    "href": "slides/slides_05.html#electoral-system-and-party-competition",
+    "title": "Class 5: Parties",
+    "section": "Electoral system and party competition",
+    "text": "Electoral system and party competition\n\nelectoral system: proportional representation, low thresholds → easier to gain seats\nparty competition dynamics (e.g., Carter 2005): generally, far-right parties can benefit from …\n\nideological distance from nearest right-wing/centre-right competitor (‘political space’)\nbeing or at least appearing more moderate (contra: AfD, Trump Republicans)\nideological convergence between mainstream parties\nhotly debated: accommodation, adopting far-right rhetoric/frames, exclusion of far right"
+  },
+  {
+    "objectID": "slides/slides_05.html#natural-ceiling-of-support-special-situational-opportunities",
+    "href": "slides/slides_05.html#natural-ceiling-of-support-special-situational-opportunities",
+    "title": "Class 5: Parties",
+    "section": "Natural ceiling of support? Special situational opportunities",
+    "text": "Natural ceiling of support? Special situational opportunities\n\nfar-right parties rely on voters with nativist, perhaps populist attitudes\n↳ surveys suggest in many countries these attitudes hover around 20%\n\nis this a natural ceiling on far-right party electoral strength?\n\n\n\nOpportunities:\n\ncrisis (security/terrorism, economy, immigration) often triggers (psychological phenomenon) ‘authoritarian response’\nsimilarly, high issue salience of far-right ‘owned’ issues\nfrustration with mainstream can boost protest votes"
+  },
+  {
+    "objectID": "slides/slides_05.html#natural-ceiling-of-support-situational-opportunities",
+    "href": "slides/slides_05.html#natural-ceiling-of-support-situational-opportunities",
+    "title": "Class 5: Parties",
+    "section": "Natural ceiling of support? Situational opportunities",
+    "text": "Natural ceiling of support? Situational opportunities\n\nfar-right parties rely on voters with nativist, perhaps populist attitudes\n↳ surveys suggest these attitudes hover around 20%\n\nis this a natural ceiling on far-right party electoral strength?\n\n\n\nOpportunities:\n\ncrisis (security/terrorism, economy, immigration) often triggers (psychological phenomenon) ‘authoritarian response’\nsimilarly, high issue salience of far-right ‘owned’ issues\nfrustration with mainstream can boost protest votes\n\n\n\nfactors/combinations enable far-right parties to surpass 20% ceiling"
+  },
+  {
+    "objectID": "slides/slides_05.html#voting-for-far-right-parties---hunches",
+    "href": "slides/slides_05.html#voting-for-far-right-parties---hunches",
+    "title": "Class 5: Parties",
+    "section": "Voting for far-right parties - hunches",
+    "text": "Voting for far-right parties - hunches\n\nmd`## Poll results (Respondents: ${respondentCount})`\n\n\n\n\n\n\n\nimport { liveGoogleSheet } from \"@jimjamslam/live-google-sheet\";\nimport { aq, op } from \"@uwdata/arquero\";\n\n// UPDATE THE LINK FOR A NEW POLL\nsurveyResults = liveGoogleSheet(\n  \"https://docs.google.com/spreadsheets/d/e/\" +\n    \"2PACX-1vQI6wQF677rVAuYzA5e5tADcPH6YonPxUDzJLyiJudY31kToPsM3-u4lglGpgRXOUDTza3wTpPh9qW8/\" +\n    \"pub?gid=1789095757&single=true&output=csv\",\n  10000, 1, 6); // adjust the last number to select all relevant columns \n\nrespondentCount = surveyResults.length;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRational choice?\n\nrationalCounts = aq.from(surveyResults)\n  .select(\"rational\")\n  .groupby(\"rational\")\n  .count()\n  .derive({ measure: d =&gt; \"\" })\n\n// Calculate the maximum count from your dataset\nrational_maxCountRE = Math.max(...rationalCounts.objects().map(d =&gt; d.count));\n\nplot_rational = Plot.plot({\n  marks: [\n    Plot.barY(rationalCounts, {\n      x: \"rational\",\n      y: \"count\",\n      fill: \"rational\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Yes\",\n      \"No\"\n    ],\n    range: [\n      \"forestgreen\",\n      \"darkred\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Yes\", \"No\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(rationalCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, rational_maxCountRE]\n  },\n  facet: { data: rationalCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMisinformed, manipulated?\n\nmisinformedCounts = aq.from(surveyResults)\n  .select(\"misinformed\")\n  .groupby(\"misinformed\")\n  .count()\n  .derive({ measure: d =&gt; \"\" })\n\n// Calculate the maximum count from your dataset\nmisinformed_maxCountRE = Math.max(...misinformedCounts.objects().map(d =&gt; d.count));\n\nplot_misinformed = Plot.plot({\n  marks: [\n    Plot.barY(misinformedCounts, {\n      x: \"misinformed\",\n      y: \"count\",\n      fill: \"misinformed\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Yes\",\n      \"No\"\n    ],\n    range: [\n      \"forestgreen\",\n      \"darkred\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Yes\", \"No\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(misinformedCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, misinformed_maxCountRE]\n  },\n  facet: { data: misinformedCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});"
+  },
+  {
+    "objectID": "slides/slides_05.html#voting-for-far-right-parties---hunches-1",
+    "href": "slides/slides_05.html#voting-for-far-right-parties---hunches-1",
+    "title": "Class 5: Parties",
+    "section": "Voting for far-right parties - hunches",
+    "text": "Voting for far-right parties - hunches\n\nvoting behaviour as informed and strategic or emotional and reactionary?\n\n\n\nRational choice?\n\nplot_rational1 = Plot.plot({\n  marks: [\n    Plot.barY(rationalCounts, {\n      x: \"rational\",\n      y: \"count\",\n      fill: \"rational\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Yes\",\n      \"No\"\n    ],\n    range: [\n      \"forestgreen\",\n      \"darkred\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Yes\", \"No\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(rationalCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, rational_maxCountRE]\n  },\n  facet: { data: rationalCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});\n\n\n\n\n\n\n\nMisinformed, manipulated?\n\nplot_misinformed1 = Plot.plot({\n  marks: [\n    Plot.barY(misinformedCounts, {\n      x: \"misinformed\",\n      y: \"count\",\n      fill: \"misinformed\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Yes\",\n      \"No\"\n    ],\n    range: [\n      \"forestgreen\",\n      \"darkred\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Yes\", \"No\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(misinformedCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, misinformed_maxCountRE]\n  },\n  facet: { data: misinformedCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});"
+  },
+  {
+    "objectID": "slides/slides_05.html#voting-for-far-right-parties---hunches-2",
+    "href": "slides/slides_05.html#voting-for-far-right-parties---hunches-2",
+    "title": "Class 5: Parties",
+    "section": "Voting for far-right parties - hunches",
+    "text": "Voting for far-right parties - hunches\n\n\n\nsupportCounts = aq.from(surveyResults)\n  .select(\"support\")\n  .groupby(\"support\")\n  .count()\n  .derive({ measure: d =&gt; \"\" })\n\n// Calculate the maximum count from your dataset\nsupport_maxCountRE = Math.max(...supportCounts.objects().map(d =&gt; d.count));\n\nplot_support = Plot.plot({\n  marks: [\n    Plot.barY(supportCounts, {\n      x: \"support\",\n      y: \"count\",\n      fill: \"support\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Protest\",\n      \"Genuine support\"\n    ],\n    range: [\n      \"darkorchid\",\n      \"gold\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Protest\", \"Genuine support\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(supportCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, support_maxCountRE]\n  },\n  facet: { data: supportCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmotivatedCounts = aq.from(surveyResults)\n  .select(\"motivated\")\n  .groupby(\"motivated\")\n  .count()\n  .derive({ measure: d =&gt; \"\" })\n\n// Calculate the maximum count from your dataset\nmotivated_maxCountRE = Math.max(...motivatedCounts.objects().map(d =&gt; d.count));\n\nplot_motivated = Plot.plot({\n  marks: [\n    Plot.barY(motivatedCounts, {\n      x: \"motivated\",\n      y: \"count\",\n      fill: \"motivated\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Economic insecurity\",\n      \"Cultural/identity concerns\"\n    ],\n    range: [\n      \"dodgerblue\",\n      \"firebrick\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Economic insecurity\", \"Cultural/identity concerns\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(motivatedCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, motivated_maxCountRE]\n  },\n  facet: { data: motivatedCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimmigrationCounts = aq.from(surveyResults)\n  .select(\"immigration\")\n  .groupby(\"immigration\")\n  .count()\n  .derive({ measure: d =&gt; \"\" })\n\n// Calculate the maximum count from your dataset\nimmigration_maxCountRE = Math.max(...immigrationCounts.objects().map(d =&gt; d.count));\n\nplot_immigration = Plot.plot({\n  marks: [\n    Plot.barY(immigrationCounts, {\n      x: \"immigration\",\n      y: \"count\",\n      fill: \"immigration\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Actual immigration\",\n      \"Perception of immigration\"\n    ],\n    range: [\n      \"darkslategray\",\n      \"paleturquoise\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Actual immigration\", \"Perception of immigration\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(immigrationCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, immigration_maxCountRE]\n  },\n  facet: { data: immigrationCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});"
+  },
+  {
+    "objectID": "slides/slides_05.html",
+    "href": "slides/slides_05.html",
+    "title": "Class 5: Parties",
+    "section": "",
+    "text": "Open Stickerfrom Open Stickers\n\n\n\n\n\n\nTopics to me as soon as possible\n\nMayJuneJuly\n\n\n\n\n\n\n\n\nPresentations line-up\n\n\n\n\n\n\n\nDate\nPresenters\nMethod\n\n\n\n\n15 May:\nIdil M., Zeynep P., Liesl W., Selin K., Chiara W.\nlogistic regression\n\n\n22 May:\nGabriel W., Lina M., Florian S., Julian B.\ndiscourse analysis\n\n\n29 May:\nNO CLASS MEETING\n\n\n\n\n\nno more regression presentations—see syllabus for some of the other options\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nPresenters\nMethod\n\n\n\n\n5 June:\nRasmus B., Andre D., Josefine E., Ioanna L., Santiago C.\nregression\n\n\n12 June:\nOmar B., Lela E., Niclas W.\nTBD\n\n\n19 June:\nNO CLASS MEETING\n\n\n\n26 June:\nColombe I., Konstantin S., Jakob W., Veronika L.\nTBD\n\n\n26 June:\nMaksim K., Felix S., Jon L.D., Damir S., Korbinian M.\ncase study\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nPresenters\nMethod\n\n\n\n\n3 July:\nAlexander V., Luis G., Oscar O., Mia C.\nTBD\n\n\n10 July:\nLina S., Stephen W., Philomena B., Aarón Z.\nTBD\n\n\n17 July:\nCorinna Z., Eva M., and Rostislav N.\nTBD\n\n\n24 July:\nSebastian K., Thomas R., Emilia Z., Florian P.\nTBD\n\n\n24 July:\nLorenz F., Daniel B., Fiona W., Medina H.\nquant. text analysis"
+  },
+  {
+    "objectID": "slides/slides_05.html#voting-for-far-right-parties---hunches-3",
+    "href": "slides/slides_05.html#voting-for-far-right-parties---hunches-3",
+    "title": "Class 5: Parties",
+    "section": "Voting for far-right parties - hunches",
+    "text": "Voting for far-right parties - hunches\n\nmomentary rebuke or long-term voter re-alignment?\ndeindustrialisation, job loss, precarity vs. national identity and traditional values\n‘contact hypothesis’, ‘threat hypothesis’; media influence\n\n\n\n\nplot_support1 = Plot.plot({\n  marks: [\n    Plot.barY(supportCounts, {\n      x: \"support\",\n      y: \"count\",\n      fill: \"support\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Protest\",\n      \"Genuine support\"\n    ],\n    range: [\n      \"darkorchid\",\n      \"gold\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Protest\", \"Genuine support\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(supportCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, support_maxCountRE]\n  },\n  facet: { data: supportCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});\n\n\n\n\n\n\n\n\nplot_motivated1 = Plot.plot({\n  marks: [\n    Plot.barY(motivatedCounts, {\n      x: \"motivated\",\n      y: \"count\",\n      fill: \"motivated\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Economic insecurity\",\n      \"Cultural/identity concerns\"\n    ],\n    range: [\n      \"dodgerblue\",\n      \"firebrick\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Economic insecurity\", \"Cultural/identity concerns\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(motivatedCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, motivated_maxCountRE]\n  },\n  facet: { data: motivatedCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});\n\n\n\n\n\n\n\n\nplot_immigration1 = Plot.plot({\n  marks: [\n    Plot.barY(immigrationCounts, {\n      x: \"immigration\",\n      y: \"count\",\n      fill: \"immigration\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Actual immigration\",\n      \"Perception of immigration\"\n    ],\n    range: [\n      \"darkslategray\",\n      \"paleturquoise\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Actual immigration\", \"Perception of immigration\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(immigrationCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, immigration_maxCountRE]\n  },\n  facet: { data: immigrationCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});"
   }
 ]

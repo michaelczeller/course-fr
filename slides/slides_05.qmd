@@ -1,0 +1,1135 @@
+---
+title: "Class 5: Parties"
+subtitle: "voters"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+incremental: false
+embed-resources: true
+bibliography: ../../../library.bib
+---
+
+
+# Opening notes {background-color="#2c844c"}
+
+<div class="tenor-gif-embed" data-postid="14209777" data-share-method="host" data-aspect-ratio="1.94" data-width="70%"><a href="https://tenor.com/view/open-gif-14209777">Open Sticker</a>from <a href="https://tenor.com/search/open-stickers">Open Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+<!-- <div class="tenor-gif-embed" data-postid="23663828" data-share-method="host" data-aspect-ratio="1" data-width="70%"><a href="https://tenor.com/view/happy-birthday-gif-23663828">Happy Birthday GIF</a>from <a href="https://tenor.com/search/happy+birthday-gifs">Happy Birthday GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Angel David Meissner, Adrian Morina, Elli Quitter -->
+
+**[Topics to me as soon as possible]{style="color:red;"}**
+
+::: panel-tabset
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | logistic regression | 
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | discourse analysis |
+| 29 May: | NO CLASS MEETING                        |  | 
+
+: Presentations line-up
+
+- [no more regression presentations]{style="color:cadetblue;"}---[see syllabus for some of the other options]{style="color:red;"}
+
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | regression | 
+| 12 June: | Omar B., Lela E., Niclas W. | TBD |
+| 19 June: | NO CLASS MEETING                        |  | 
+| 26 June: | Colombe I., Konstantin S., Jakob W., Veronika L. | TBD | 
+| 26 June: | Maksim K., Felix S., Jon L.D., Damir S., Korbinian M. | case study | 
+
+## July
+
+| Date     | Presenters                              | Method |
+| --------:|:----------------------------------------|:------:|
+| 3 July:  | Alexander V., Luis G., Oscar O., Mia C. | TBD | 
+| 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | TBD | 
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD | 
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD | 
+| 24 July: | Lorenz F., Daniel B., Fiona W., Medina H. | quant. text analysis | 
+
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+# Overview of voting for far-right parties {background-color="#2c844c"}
+
+- demographically
+- issue-based
+- further explanatory factors
+    + place
+    + deprivation
+
+
+<!-- Why are men more likely than women to vote for far-right parties? -->
+<!-- Consider masculinity norms, threat perceptions, and different issue priorities. -->
+
+<!-- Is far-right support higher among older voters due to nostalgia and fear of change, or among younger voters due to alienation and lack of opportunity? -->
+<!-- Look at data across age groups and differences in motivations. -->
+
+## Voting for far-right parties: demographically
+
+- generally, voting for far-right parties [univariate predictors, e.g., in 11 European countries, @Lucassen2012; also @Bornschier2021; @schaferCulturalBacklashHow2022] ... 
+    + [gender]{style="color:darkred;"}: *men* **more** likely than women 
+    + [age]{style="color:darkred;"}: *younger* people **more** likely 
+    + [location]{style="color:darkred;"}: *rural* residents **more** likely 
+    + [education]{style="color:darkred;"}: *less educated* **more** likely 
+    + [ethnicity]{style="color:darkred;"}: *migration background* **less** likely 
+    + **others**?
+
+. . . 
+
+- [BUT]{style="color:red;"} it is more complicated in bivariate/multivariate perspectives
+
+## Voting for far-right parties: issue-based
+
+- generally, most important issues for contemporary far-right party voters:
+    + [immigration]{style="color:darkred;"}: security (threat perception), cultural change, welfare chauvinism
+    + [economic]{style="color:darkred;"}: deprived economic prospects (de-industrialisation), inequality grievances, globalisation's 'losers'
+    + [anti-elitism]{style="color:darkred;"}: distrust of establishment institutions (media, longstanding parties, etc.), perceived disconnect and lack of substantive representation by mainstream politicians
+    + [gender politics]{style="color:darkred;"}: preference for traditional patterns of social relations, only two genders (i.e., biological sex) and 'natural' gender roles
+    + **others**?
+
+## Voting for far-right parties: further explanatory factors
+
+rising local rental prices increase probability of support (*AfD*) among renters with lower household income [@abou-chadi2024RentalMarketRisk]
+
+![](slide_files/05/abou-chadi2024_fig6.png)
+
+## Voting for far-right parties: further explanatory factors
+
+- [public service deprivation]{style="color:cadetblue;"} predicts more far-right support [@cremaschi2024GeographiesDiscontentPublic]
+- [place resentment]{style="color:cadetblue;"}: spatial clustering perception of one's region as *excluded* produces similar clustering of populist radical right attitudes [@arzheimer2023PlaceDoesMatter]
+- immigrant presence predicts more populist radical right support---mediated by education levels [@arzheimer2024HowLocalContext]
+- [presence of stronger dialect]{style="color:cadetblue;"} predicts more far-right (*AfD*) voting [@ziblatt2024WealthTonguesWhy]
+
+<!-- @arzheimer2023PlaceDoesMatter - place resentment -->
+<!-- Men’s cultural threat perceptions do not differ from women’s, but men are slightly more Islamophobic, authoritarian, and populist than women. The effect of formal education is much stronger: Having a secondary school leaving certificate reduces the expected value of Islamophobia, cultural threat perceptions, and authoritarianism by about half a scale point. For populism, the reduction is still strong at about 0.3 points. -->
+
+<!-- While the effects of localism are weak and inconsistent, place resentment and the socio-demographic make-up of a place explain a substantial part of the spatial variance of all PRR attitudes. Put differently, respondents who perceive their region as excluded and/or who have socio-demographic characteristics that are associated with PRR attitudes tend to cluster in regions such as the Ruhr or the south of the former GDR, and this clustering produces a similar clustering of PRR attitudes. -->
+
+<!-- @arzheimer2024HowLocalContext - local context -->
+<!-- Our analyses confirm that perceived local decline mediates the effects of context on populist and nativist attitudes and PRR voting. They also demonstrate that, while immigrant presence is the most universal predictor of PRR support, its effect is moderated by education levels. While citizens with lower levels of education are affected by the presence of immigrants, those with higher education levels are not. This latter finding fits the broader literature on context effects, which shows that such effects are highly conditional. -->
+
+<!-- Our findings further show that the contextual effects, with some exceptions, tend to be moderated by education. That is, citizens with higher levels of education do not link immigrant presence and economic hardship to perceived local decline, whereas citizens with lower levels of education make this connection. Indirectly, this translates into PRR support. -->
+
+<!-- @cremaschi2024GeographiesDiscontentPublic -->
+<!-- Our findings suggest that public service deprivation helps explain far-right support in both settings. -->
+
+<!-- @ziblatt2024WealthTonguesWhy -->
+<!-- [COMMUNITY-LEVEL] “Taken together, the results suggest that dialectal distance is a significant and substantially meaningful predictor of radical-right voting.” … [INDIVIDUAL-LEVEL] “Across 18 waves of the GLES, we find that dialectal distance predicts an increase in the likelihood to vote for the AfD. Likewise, respondents are more likely to rate the AfD favorably when dialects in their electoral district are stronger.” -->
+
+## Voting for far-right parties: further explanatory factors
+
+- (intercultural) [contact hypothesis]{style="color:darkred;"} *versus* [threat hypothesis]{style="color:darkred;"}
+- likelihood of Front National increases in polling stations up to intermediate distances from mosques and then decreases [@dazey2024MosqueNearbyVisible] --- [halo theory]{style="color:cadetblue;"}
+
+<!-- @dazey2024MosqueNearbyVisible -->
+<!-- propensity to vote for the Front National increases in polling stations up to intermediate distances from mosques and then decreases, suggesting a spatial mechanism known as the halo effect. -->
+
+<!-- According to halo theory, “individuals living adjacent to ethnically diverse areas experience sporadic contact with immigrants through daily commuting and retail activities, but lack quality contact and therefore will be more likely to perceive those groups as a threat, resulting in higher support for the PRR” (Evans & Ivaldi, 2021, p. 825). -->
+
+:::: {.columns}
+:::{.column width="50%"}
+![](slide_files/05/dazey2024MosqueNearbyVisible1.png){width=80% fig-align="right"}
+
+:::
+
+::: {.column width="50%" .right}
+![](slide_files/05/dazey2024MosqueNearbyVisible2.png){width=80%}
+
+:::
+::::
+
+
+## Far-right voting among the youth
+
+(video from just before 2024 EU elections)
+
+<!-- Aspect ratios include 1x1, 4x3, 16x9 (the default), and 21x9. -->
+{{< video https://www.youtube.com/watch?v=KAxCZU4yT84
+    start="1"
+    aspect-ratio="21x9" 
+    width="1000" 
+    height="600"
+>}}
+
+## Far-right voting among the youth
+
+:::: {.columns}
+:::{.column width="50%"}
+[Observations]{style="color:darkred;"}: 
+
+- pluralities of young men voting far right
+    + some major young women support too (e.g., AfD)
+- youth more left wing in Anglophone countries
+- young Europeans more 'right-wing' than US/UK youth on cultural issues like immigration and welfare
+
+:::
+
+::: {.column width="50%" .right}
+[Theses]{style="color:darkred;"}:
+
+- Demographic, attitudinal factors:
+    + educational gender gap 
+    + declining religious salience for women voters
+    + polarisation from 'culture war' issues
+- two- vs. multi-party systems
+- underlying anti-establishment attitudes
+
+:::
+::::
+
+# Poll: motivations and tendencies in voting for far-right parties {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="40%"}
+![](slide_files/05/class5_poll_QR.png){fig-alt="A QR code for the survey."}
+:::
+
+::: {.column width="60%" .center}
+<!-- go to <https://www.qr-code-generator.com/>, add the link, and screen shot the QR code -->
+Take the survey at **<https://forms.gle/im5PVyqQeGNw8FWg8>**
+
+- Rational choice? Misinformed, manipulated?
+- protest vote or genuine support?
+- economic insecurity or cultural/identity-based concerns?
+- actual immigration vs. perception of immigration? 
+:::
+::::
+
+
+<!-- Are far-right voters making rational choices based on their interests, or are they misinformed and manipulated? -->
+<!-- Examine whether voting behavior is informed and strategic or emotional and reactionary. -->
+
+<!-- - Do people vote for far-right parties as a form of protest, or because they genuinely support the ideology? -->
+<!-- Explore the "outsider party" phenomenon and long-term voter alignment. -->
+
+
+<!-- Are far-right voters primarily motivated by economic insecurity or cultural/identity-based concerns? -->
+<!-- Economic insecurity argument: Focus on deindustrialization, job loss, or precarity. -->
+<!-- Cultural backlash argument: Emphasizes immigration, national identity, and perceived loss of traditional values. -->
+
+<!-- Does immigration actually drive far-right voting or is it the perception of immigration and cultural change that matters more? -->
+<!-- Consider the "contact hypothesis" vs. the "threat hypothesis". -->
+<!-- Discuss media influence on immigration perceptions. -->
+
+<!-- Is education a protective factor against far-right voting or is the "education gap" in voting creating new class-based political divisions? -->
+<!-- Contrast liberal cosmopolitanism vs. nationalist populism -->
+
+<!-- Does mainstream media attention normalize far-right discourse, or does it help contain it by exposing its dangers? -->
+<!-- Discuss "platforming" vs. scrutiny -->
+
+## Voting for far-right parties - hunches
+
+```{ojs}
+md`## Poll results (Respondents: ${respondentCount})`
+```
+
+
+```{ojs}
+
+import { liveGoogleSheet } from "@jimjamslam/live-google-sheet";
+import { aq, op } from "@uwdata/arquero";
+
+// UPDATE THE LINK FOR A NEW POLL
+surveyResults = liveGoogleSheet(
+  "https://docs.google.com/spreadsheets/d/e/" +
+    "2PACX-1vQI6wQF677rVAuYzA5e5tADcPH6YonPxUDzJLyiJudY31kToPsM3-u4lglGpgRXOUDTza3wTpPh9qW8/" +
+    "pub?gid=1789095757&single=true&output=csv",
+  10000, 1, 6); // adjust the last number to select all relevant columns 
+
+respondentCount = surveyResults.length;
+
+```
+
+:::: {.columns}
+:::{.column width="50%"}
+Rational choice?
+```{ojs}
+rationalCounts = aq.from(surveyResults)
+  .select("rational")
+  .groupby("rational")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+rational_maxCountRE = Math.max(...rationalCounts.objects().map(d => d.count));
+
+plot_rational = Plot.plot({
+  marks: [
+    Plot.barY(rationalCounts, {
+      x: "rational",
+      y: "count",
+      fill: "rational",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Yes",
+      "No"
+    ],
+    range: [
+      "forestgreen",
+      "darkred"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Yes", "No"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(rationalCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, rational_maxCountRE]
+  },
+  facet: { data: rationalCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="50%" .center}
+Misinformed, manipulated?
+```{ojs}
+misinformedCounts = aq.from(surveyResults)
+  .select("misinformed")
+  .groupby("misinformed")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+misinformed_maxCountRE = Math.max(...misinformedCounts.objects().map(d => d.count));
+
+plot_misinformed = Plot.plot({
+  marks: [
+    Plot.barY(misinformedCounts, {
+      x: "misinformed",
+      y: "count",
+      fill: "misinformed",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Yes",
+      "No"
+    ],
+    range: [
+      "forestgreen",
+      "darkred"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Yes", "No"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(misinformedCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, misinformed_maxCountRE]
+  },
+  facet: { data: misinformedCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+::::
+
+
+## Voting for far-right parties - hunches
+
+- voting behaviour as informed and strategic or emotional and reactionary?
+
+:::: {.columns}
+:::{.column width="50%"}
+Rational choice?
+```{ojs}
+
+plot_rational1 = Plot.plot({
+  marks: [
+    Plot.barY(rationalCounts, {
+      x: "rational",
+      y: "count",
+      fill: "rational",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Yes",
+      "No"
+    ],
+    range: [
+      "forestgreen",
+      "darkred"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Yes", "No"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(rationalCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, rational_maxCountRE]
+  },
+  facet: { data: rationalCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="50%" .center}
+Misinformed, manipulated?
+```{ojs}
+
+plot_misinformed1 = Plot.plot({
+  marks: [
+    Plot.barY(misinformedCounts, {
+      x: "misinformed",
+      y: "count",
+      fill: "misinformed",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Yes",
+      "No"
+    ],
+    range: [
+      "forestgreen",
+      "darkred"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Yes", "No"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(misinformedCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, misinformed_maxCountRE]
+  },
+  facet: { data: misinformedCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+::::
+
+
+## Voting for far-right parties - hunches
+
+:::: {.columns}
+:::{.column width="33%"}
+```{ojs}
+supportCounts = aq.from(surveyResults)
+  .select("support")
+  .groupby("support")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+support_maxCountRE = Math.max(...supportCounts.objects().map(d => d.count));
+
+plot_support = Plot.plot({
+  marks: [
+    Plot.barY(supportCounts, {
+      x: "support",
+      y: "count",
+      fill: "support",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Protest",
+      "Genuine support"
+    ],
+    range: [
+      "darkorchid",
+      "gold"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Protest", "Genuine support"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(supportCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, support_maxCountRE]
+  },
+  facet: { data: supportCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="33%"}
+```{ojs}
+motivatedCounts = aq.from(surveyResults)
+  .select("motivated")
+  .groupby("motivated")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+motivated_maxCountRE = Math.max(...motivatedCounts.objects().map(d => d.count));
+
+plot_motivated = Plot.plot({
+  marks: [
+    Plot.barY(motivatedCounts, {
+      x: "motivated",
+      y: "count",
+      fill: "motivated",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Economic insecurity",
+      "Cultural/identity concerns"
+    ],
+    range: [
+      "dodgerblue",
+      "firebrick"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Economic insecurity", "Cultural/identity concerns"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(motivatedCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, motivated_maxCountRE]
+  },
+  facet: { data: motivatedCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="33%"}
+```{ojs}
+immigrationCounts = aq.from(surveyResults)
+  .select("immigration")
+  .groupby("immigration")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+immigration_maxCountRE = Math.max(...immigrationCounts.objects().map(d => d.count));
+
+plot_immigration = Plot.plot({
+  marks: [
+    Plot.barY(immigrationCounts, {
+      x: "immigration",
+      y: "count",
+      fill: "immigration",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Actual immigration",
+      "Perception of immigration"
+    ],
+    range: [
+      "darkslategray",
+      "paleturquoise"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Actual immigration", "Perception of immigration"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(immigrationCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, immigration_maxCountRE]
+  },
+  facet: { data: immigrationCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+::::
+
+
+## Voting for far-right parties - hunches
+
+- momentary rebuke or long-term voter re-alignment?
+- deindustrialisation, job loss, precarity *vs*. national identity and traditional values
+- 'contact hypothesis', 'threat hypothesis'; media influence
+
+:::: {.columns}
+:::{.column width="33%"}
+```{ojs}
+
+plot_support1 = Plot.plot({
+  marks: [
+    Plot.barY(supportCounts, {
+      x: "support",
+      y: "count",
+      fill: "support",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Protest",
+      "Genuine support"
+    ],
+    range: [
+      "darkorchid",
+      "gold"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Protest", "Genuine support"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(supportCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, support_maxCountRE]
+  },
+  facet: { data: supportCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="33%"}
+```{ojs}
+
+plot_motivated1 = Plot.plot({
+  marks: [
+    Plot.barY(motivatedCounts, {
+      x: "motivated",
+      y: "count",
+      fill: "motivated",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Economic insecurity",
+      "Cultural/identity concerns"
+    ],
+    range: [
+      "dodgerblue",
+      "firebrick"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Economic insecurity", "Cultural/identity concerns"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(motivatedCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, motivated_maxCountRE]
+  },
+  facet: { data: motivatedCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="33%"}
+```{ojs}
+
+plot_immigration1 = Plot.plot({
+  marks: [
+    Plot.barY(immigrationCounts, {
+      x: "immigration",
+      y: "count",
+      fill: "immigration",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Actual immigration",
+      "Perception of immigration"
+    ],
+    range: [
+      "darkslategray",
+      "paleturquoise"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -25,
+    domain: ["Actual immigration", "Perception of immigration"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(immigrationCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, immigration_maxCountRE]
+  },
+  facet: { data: immigrationCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+::::
+
+
+
+# Voting explanations: values & attitudes {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- institutional contexts 
+- demand side
+- supply side
+- silent revolution? 
+    + cultural backlash theory?
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="17339400790570888010" data-share-method="host" data-aspect-ratio="1.25126" data-width="100%"><a href="https://tenor.com/view/choices-sesamo-gif-17339400790570888010">Choices Sesamo GIF</a>from <a href="https://tenor.com/search/choices-gifs">Choices GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+## Voter choice, electoral behaviour frameworks
+
+- [institutional contexts]{style="color:darkred;"}
+    + especially electoral and party systems
+        * how FR parties emerge in two-party vs. multi-party systems
+- [demand side]{style="color:darkred;"}: major values and attitudes among electorate 
+    + what do voting constituencies want?
+    + *who* (groups? from where?) are 'buying' what parties 'supply'
+- [supply side]{style="color:darkred;"}: elite competition and cooperation 
+    + what do parties offer?
+        * ideology and policy (party platform)
+        * leaders and representatives
+
+## An opening salvo from Pippa Norris
+
+(a full-length lecture: <https://www.youtube.com/watch?v=8Qw8TtzjtL4>. **strongly recommended for those interested in party politics and/or doing their data report on a far-right party**)
+
+<!-- Aspect ratios include 1x1, 4x3, 16x9 (the default), and 21x9. -->
+{{< video https://www.youtube.com/watch?v=Xtb7hSRjXSo
+    start="1"
+    aspect-ratio="21x9" 
+    width="750" 
+    height="450"
+>}}
+
+## values & attitudes in brief (Inglehart, Norris, Welzel)
+
+<!-- Pippa Norris on Ezra Klein podcast: <https://podcasts.apple.com/us/podcast/the-ezra-klein-show/id1548604447?i=1000584624028> -->
+
+- Inglehart magnifies Maslow's [hierarchy of needs]{style="color:darkred;"} to societal (macro-) level of analysis &rarr; aligns with groups and their socio-political values and attitudes
+
+![](slide_files/05/maslow-hierarchy.png)
+
+- basic material needs satisfied enables seeking non-material needs
+
+## values & attitudes in brief (Inglehart, Norris, Welzel)
+
+- [materialist values]{style="color:darkred;"}
+    + economic growth (maintaining stability and order)
+    + security and material needs safeguarded
+    + traditional morality
+- [post-materialist values]{style="color:darkred;"}
+    + freedoms, liberties, rights --- autonomy and expression
+    + gender and racial equality
+    + environmental protection
+
+- societal groups (existing [cleavages]{style="color:cadetblue;"}) show tendencies towards these values groups: generationally, regionally, class-based, religiously
+
+## values & attitudes in brief (Inglehart, Norris, Welzel)
+
+:::: {.columns}
+:::{.column width="30%"}
+- [silent revolution]{style="color:darkred;"}: a values shift from materialist to post-materialist 
+    + new cleavage [silent counter-revolution]{style="color:darkred;"}
+
+:::
+
+::: {.column width="70%" .right}
+![](slide_files/05/materialist_vs_postmaterialist.png){width=90%}
+
+:::
+::::
+
+## cultural backlash theory (Inglehart, Norris, Welzel, Dalton)
+
+1. different generations, different experiences, different values
+    + Interwar generation (born 1900–45); Baby Boomers (1946–64); Generation X (1965–79); Millennials (1980–96)
+2. since 1950s/1960s, national identity, nuclear family, religion &rarr; no longer majority values
+3. liberalism expands and traditional values groups feel threatened
+4. pushback against liberalism: parties *supply* what is *demanded* by 'disoriented voters' (Norris), many of whom have weaker partisan identification (Dalton)
+    + turn to '[authoritarian populist]{style="color:cadetblue;"}' parties <!-- (jettison radical right conceptual focus) -->
+    + parties and leaders are appealing for [transgressive behaviour]{style="color:cadetblue;"} (*attention economy*)
+        
+## Critiquing cultural backlash theory - @schaferCulturalBacklashHow2022
+
+1. Different age groups have very similar cultural attitudes; few signs of polarisation among old and young cohorts
+2. On most topics, different cohorts agree in principle, even though they might differ in degree
+3. No positive link between authoritarian values and populist attitudes (measured as political trust); if using a populism scale, cohorts hardly differ 
+4. Older *slightly* more likely to vote for authoritarian parties, less likely to vote for populists 
+5. Younger more likely to vote for authoritarian-populist parties defined in a more concise way  
+6. Interwar generation is the cohort least likely to vote for authoritarian-populist parties 
+
+<!-- Overall, there is little support for Norris and Inglehart’s central claim that older cohorts have more authoritarian attitudes and, as they become a minority, turn towards populism to fend off societal liberalization. -->
+
+# far-right parties' electoral performance - discussion {background-color="#2c844c"}
+
+[[under what conditions do far-right parties perform better at elections?]{style="font-size:95px;"}]{style="color:yellow;"}
+
+<!-- . . .  -->
+
+<!-- - generally, ... -->
+
+## Electoral system and party competition
+
+- [electoral system]{style="color:darkred;"}: proportional representation, low thresholds &rarr; easier to gain seats
+- [party competition dynamics]{style="color:darkred;"} [e.g., @carter2005PartyCompetition]: generally, far-right parties can benefit from ...
+    + ideological distance from nearest right-wing/centre-right competitor ('political space')
+    + being or at least appearing more moderate (contra: AfD, Trump Republicans)
+    + ideological convergence between mainstream parties 
+    + [hotly debated]{style="color:red;"}: accommodation, adopting far-right rhetoric/frames, exclusion of far right
+
+## Natural ceiling of support? Situational opportunities
+
+- far-right parties rely on voters with nativist, perhaps populist attitudes 
+- &#8627; surveys suggest these attitudes hover around 20%  
+    + is this a [natural ceiling]{style="color:cadetblue;"} on far-right party electoral strength?
+
+. . . 
+
+Opportunities: 
+
+- [crisis]{style="color:darkred;"} (security/terrorism, economy, immigration) often triggers (*psychological phenomenon*) 'authoritarian response'
+- similarly, high [issue salience]{style="color:darkred;"} of far-right '*owned*' issues
+- [frustration with mainstream]{style="color:darkred;"} can boost protest votes 
+
+. . . 
+
+[factors/combinations enable far-right parties to surpass 20% ceiling]{style="color:darkred;"}
+
+# responses and counter-strategies (lead-in to next week) {background-color="#2c844c"}
+
+- [responses and counter-strategies]{style="font-size:60px;"}
+    + [what types of responses?]{style="font-size:60px;"}
+    + [by which actors?]{style="font-size:60px;"}
+    + [what possible/likely effects?]{style="font-size:60px;"}
+
+
+<!-- for class on responses and counter-strategies: -->
+<!-- @dejonge2021CuriousCaseBelgium -->
+<!-- @jonge2023HowRespondFar -->
+
+<!-- @capoccia2005DefendingDemocracyReactions -->
+
+<!-- @ColomboETAL2021 -->
+
+<!-- @ellinas2023MovementPartyElectoral -->
+
+<!-- @Heinze2018 -->
+
+<!-- @heinze2022DealingPopulistRadical -->
+
+<!-- @krause2023DoesAccommodationWork -->
+
+<!-- @lagios2022DoesItPay -->
+
+<!-- Does mainstream media attention normalize far-right discourse, or does it help contain it by exposing its dangers? -->
+<!-- Discuss "platforming" vs. scrutiny -->
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>     
+
+Alternatively, send me an email: [m.zeller@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- 1 + 1 -->
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+<!-- ::: -->
+
+
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- library(dplyr) -->
+<!-- library(ggplot2) -->
+<!-- g <- starwars |>  -->
+<!--   ggplot() + -->
+<!--   geom_point(aes(x = height, y = mass)) + -->
+<!--   theme_light() -->
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+<!-- #| fig.align: center -->
+<!-- #| echo: true -->
+<!-- g  -->
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| echo: true -->
+<!-- #| eval: false -->
+<!-- tab <- starwars |> -->
+<!--   tidyr::drop_na(species) |>  -->
+<!--   group_by(species) |> -->
+<!--   summarise( -->
+<!--     n = n(), -->
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+<!--   ) |>  -->
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| eval: true -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+<!-- gt::gt(tab) -->
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+<!-- reactable::reactable(tab) -->
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<!-- </center> -->
+
+
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_05.html"))
+```
+
+
+## References
+
