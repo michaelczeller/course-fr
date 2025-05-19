@@ -150,6 +150,9 @@ rising local rental prices increase probability of support (*AfD*) among renters
 
 ## Voting for far-right parties: further explanatory factors
 
+::: panel-tabset
+## _
+
 - (intercultural) [contact hypothesis]{style="color:darkred;"} *versus* [threat hypothesis]{style="color:darkred;"}
 - likelihood of Front National increases in polling stations up to intermediate distances from mosques and then decreases [@dazey2024MosqueNearbyVisible] --- [halo theory]{style="color:cadetblue;"}
 
@@ -160,16 +163,25 @@ rising local rental prices increase probability of support (*AfD*) among renters
 
 :::: {.columns}
 :::{.column width="50%"}
-![](slide_files/05/dazey2024MosqueNearbyVisible1.png){width=80% fig-align="right"}
+![](slide_files/05/dazey2024MosqueNearbyVisible1.png){width=60% fig-align="right"}
 
 :::
 
 ::: {.column width="50%" .right}
-![](slide_files/05/dazey2024MosqueNearbyVisible2.png){width=80%}
+![](slide_files/05/dazey2024MosqueNearbyVisible2.png){width=60%}
 
 :::
 ::::
 
+## contact & threat hypotheses
+
+- (intercultural) [contact hypothesis]{style="color:darkred;"} - direct contact between members of different groups can reduce prejudice and improve intergroup relations
+    + breaking down stereotypes and fostering mutual understanding
+- [threat hypothesis]{style="color:darkred;"} - people can perceive their group (e.g., native populations) as being threatened by another group (e.g., immigrants)
+    + resources, culture, identity, or power are at risk
+    + more likely to develop negative attitudes toward out-group members
+
+:::
 
 ## Far-right voting among the youth
 
@@ -1094,6 +1106,28 @@ flowchart LR
   classDef redBox fill:#f8d7da;
   classDef yellowBox fill:#fff3cd;
 ```
+
+## cultural backlash theory conclusions
+
+1. age, education, urbanisation, cultural values [predict]{style="color:cadetblue;"} voting for authoritarian-populist parties in Europe
+
+::: {.fragment .custom .blur}
+2. older, non-college educated, rural areas with most authoritarian values drive voting for authoritarian-populist parties
+    + *youth votes 'authoritarian-populist parties'* (cleavage forming?)
+
+:::
+
+::: {.fragment .custom .blur}
+3. Tipping point thesis: increasing social liberalism threatens socially conservative authoritarian voters (faith, family, nation identities)
+:::
+
+::: {.fragment .custom .blur}
+4. Effects of economic conditions and social diversity reinforces these threat perceptions
+:::
+
+::: {.fragment .custom .blur}
+5. Parties/leaders reinforce threat perceptions to mobilise support
+:::
 
 ## Critiquing cultural backlash theory - @schaferCulturalBacklashHow2022 {.scrollable}
 <!-- {.smaller} -->

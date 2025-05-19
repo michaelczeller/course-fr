@@ -2069,7 +2069,7 @@
     "href": "slides/slides_05.html#voting-for-far-right-parties-further-explanatory-factors-2",
     "title": "Class 5: Parties",
     "section": "Voting for far-right parties: further explanatory factors",
-    "text": "Voting for far-right parties: further explanatory factors\n\n(intercultural) contact hypothesis versus threat hypothesis\nlikelihood of Front National increases in polling stations up to intermediate distances from mosques and then decreases (Dazey and Gay 2024) — halo theory"
+    "text": "Voting for far-right parties: further explanatory factors\n\n_contact & threat hypotheses\n\n\n\n(intercultural) contact hypothesis versus threat hypothesis\nlikelihood of Front National increases in polling stations up to intermediate distances from mosques and then decreases (Dazey and Gay 2024) — halo theory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(intercultural) contact hypothesis - direct contact between members of different groups can reduce prejudice and improve intergroup relations\n\nbreaking down stereotypes and fostering mutual understanding\n\nthreat hypothesis - people can perceive their group (e.g., native populations) as being threatened by another group (e.g., immigrants)\n\nresources, culture, identity, or power are at risk\nmore likely to develop negative attitudes toward out-group members"
   },
   {
     "objectID": "slides/slides_05.html#far-right-voting-among-the-youth",
@@ -2371,5 +2371,12 @@
     "title": "Class 5: Parties",
     "section": "cultural backlash theory (Inglehart, Norris)",
     "text": "cultural backlash theory (Inglehart, Norris)\n\n\n\n\nStage 1: Values\n\nStage 2: Votes\n\nStage 3: Impacts\n\n\n\n\n\n\nflowchart LR\n  A[Structural&lt;br/&gt;change:&lt;br/&gt;generations,&lt;br/&gt;education,&lt;br/&gt;gender,&lt;br/&gt;diversity,&lt;br/&gt;urban]:::greenBox --&gt; B[Silent&lt;br/&gt;revolution&lt;br/&gt;in socially-&lt;br/&gt;liberal&lt;br/&gt;values]:::greenBox\n  C[Immigration&lt;br/&gt;& diversity] --&gt; E{Tipping point:&lt;br/&gt;cultural backlash &&lt;br/&gt;authoritarian&lt;br/&gt;reflex}:::redBox\n  B --&gt; E\n  D[Economic&lt;br/&gt;grievances] --&gt; E\n  F(electoral&lt;br/&gt;rules):::yellowBox --&gt; H{Votes for&lt;br/&gt;A-P parties}:::yellowBox\n  E --&gt; H\n  G(party&lt;br/&gt;competition):::yellowBox --&gt; H\n  H --&gt; I[civic culture,&lt;br/&gt;policy agenda,&lt;br/&gt;& liberal democracy]:::blueBox\n\n  %% Style definitions - classDef blueBox fill:#d0e6ff,stroke:#003366,stroke-width:2px;\n  classDef blueBox fill:#d0e6ff;\n  classDef greenBox fill:#d4edda;\n  classDef greyBox fill:#e2e3e5;\n  classDef redBox fill:#f8d7da;\n  classDef yellowBox fill:#fff3cd;"
+  },
+  {
+    "objectID": "slides/slides_05.html#cultural-backlash-theory-conclusions",
+    "href": "slides/slides_05.html#cultural-backlash-theory-conclusions",
+    "title": "Class 5: Parties",
+    "section": "cultural backlash theory conclusions",
+    "text": "cultural backlash theory conclusions\n\nage, education, urbanisation, cultural values predict voting for authoritarian-populist parties in Europe\n\n\n\nolder, non-college educated, rural areas with most authoritarian values drive voting for authoritarian-populist parties\n\nyouth votes ‘authoritarian-populist parties’ (cleavage forming?)\n\n\n\n\n\nTipping point thesis: increasing social liberalism threatens socially conservative authoritarian voters (faith, family, nation identities)\n\n\n\n\nEffects of economic conditions and social diversity reinforces these threat perceptions\n\n\n\n\nParties/leaders reinforce threat perceptions to mobilise support"
   }
 ]
