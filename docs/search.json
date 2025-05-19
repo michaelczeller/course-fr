@@ -2124,8 +2124,8 @@
     "objectID": "slides/slides_05.html#section",
     "href": "slides/slides_05.html#section",
     "title": "Class 5: Parties",
-    "section": "_",
-    "text": "_\nfor class on responses and counter-strategies: De Jonge (2021) Jonge (2023)\nCapoccia (2005)\nColombo et al. (2021)\nEllinas and Lamprianou (2023)\nHeinze (2018)\nHeinze (2022)\nKrause, Cohen, and Abou-Chadi (2023)\nLagios, Méon, and Tojerow (2022)"
+    "section": "",
+    "text": "framing\n\nemotion work\n\nidentity construction"
   },
   {
     "objectID": "slides/slides_05.html#refresher-on-party-membership-concepts",
@@ -2251,7 +2251,7 @@
     "href": "slides/slides_05.html#critiquing-cultural-backlash-theory---schaferculturalbacklashhow2022",
     "title": "Class 5: Parties",
     "section": "Critiquing cultural backlash theory - Schäfer (2022)",
-    "text": "Critiquing cultural backlash theory - Schäfer (2022)\n\nDifferent age groups have very similar cultural attitudes; few signs of polarisation among old and young cohorts\nOn most topics, different cohorts agree in principle, even though they might differ in degree\nNo positive link between authoritarian values and populist attitudes (measured as political trust); if using a populism scale, cohorts hardly differ\nOlder slightly more likely to vote for authoritarian parties, less likely to vote for populists\nYounger more likely to vote for authoritarian-populist parties defined in a more concise way\n\nInterwar generation is the cohort least likely to vote for authoritarian-populist parties"
+    "text": "Critiquing cultural backlash theory - Schäfer (2022)\n\n\nDifferent age groups have very similar cultural attitudes; few signs of polarisation among old and young cohorts\nOn most topics, different cohorts agree in principle, even though they might differ in degree\nNo positive link between authoritarian values and populist attitudes (measured as political trust); if using a populism scale, cohorts hardly differ\nOlder slightly more likely to vote for authoritarian parties, less likely to vote for populists\nYounger more likely to vote for authoritarian-populist parties defined in a more concise way\n\nInterwar generation is the cohort least likely to vote for authoritarian-populist parties"
   },
   {
     "objectID": "slides/slides_05.html#electoral-system-and-party-competition",
@@ -2308,5 +2308,68 @@
     "title": "Class 5: Parties",
     "section": "Voting for far-right parties - hunches",
     "text": "Voting for far-right parties - hunches\n\nmomentary rebuke or long-term voter re-alignment?\ndeindustrialisation, job loss, precarity vs. national identity and traditional values\n‘contact hypothesis’, ‘threat hypothesis’; media influence\n\n\n\n\nplot_support1 = Plot.plot({\n  marks: [\n    Plot.barY(supportCounts, {\n      x: \"support\",\n      y: \"count\",\n      fill: \"support\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Protest\",\n      \"Genuine support\"\n    ],\n    range: [\n      \"darkorchid\",\n      \"gold\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Protest\", \"Genuine support\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(supportCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, support_maxCountRE]\n  },\n  facet: { data: supportCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});\n\n\n\n\n\n\n\n\nplot_motivated1 = Plot.plot({\n  marks: [\n    Plot.barY(motivatedCounts, {\n      x: \"motivated\",\n      y: \"count\",\n      fill: \"motivated\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Economic insecurity\",\n      \"Cultural/identity concerns\"\n    ],\n    range: [\n      \"dodgerblue\",\n      \"firebrick\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Economic insecurity\", \"Cultural/identity concerns\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(motivatedCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, motivated_maxCountRE]\n  },\n  facet: { data: motivatedCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});\n\n\n\n\n\n\n\n\nplot_immigration1 = Plot.plot({\n  marks: [\n    Plot.barY(immigrationCounts, {\n      x: \"immigration\",\n      y: \"count\",\n      fill: \"immigration\",\n      stroke: \"black\",\n      strokeWidth: 1\n    }),\n    Plot.ruleY([respondentCount], { stroke: \"#ffffff99\" })\n  ],\n  color: {\n    domain: [\n      \"Actual immigration\",\n      \"Perception of immigration\"\n    ],\n    range: [\n      \"darkslategray\",\n      \"paleturquoise\"\n    ]\n  },\n  marginBottom: 80,\n  x: { label: \"\", tickSize: 2, tickRotate: -25,\n    domain: [\"Actual immigration\", \"Perception of immigration\"]\n  },  \n  y: {\n    label: \"\",\n    tickSize: 10,\n    tickFormat: d =&gt; d,\n    tickValues: Array.from(\n      new Set(immigrationCounts.objects().map(d =&gt; d.count))\n    ).sort((a, b) =&gt; a - b),\n    domain: [0, immigration_maxCountRE]\n  },\n  facet: { data: immigrationCounts, x: \"measure\", label: \"\" },\n  marginLeft: 140,\n  style: {\n    width: 1350,\n    height: 500,\n    fontSize: 30,\n  }\n});"
+  },
+  {
+    "objectID": "slides/slides_05.html#section-1",
+    "href": "slides/slides_05.html#section-1",
+    "title": "Class 5: Parties",
+    "section": "",
+    "text": "framing\n\nemotion work\n\nidentity construction\n\n\n\n\n\n\n\n\n\nmovement solidarity"
+  },
+  {
+    "objectID": "slides/slides_05.html#section-2",
+    "href": "slides/slides_05.html#section-2",
+    "title": "Class 5: Parties",
+    "section": "",
+    "text": "framing\n\nemotion work\n\nidentity construction"
+  },
+  {
+    "objectID": "slides/slides_05.html#section-3",
+    "href": "slides/slides_05.html#section-3",
+    "title": "Class 5: Parties",
+    "section": "",
+    "text": "framing\n\nemotion work\n\nidentity construction\n\n\n\n\n\n\n\n\n\nmovement solidarity"
+  },
+  {
+    "objectID": "slides/slides_05.html#its-all-about",
+    "href": "slides/slides_05.html#its-all-about",
+    "title": "Class 5: Parties",
+    "section": "It’s all about…",
+    "text": "It’s all about…\n\nValues\n\nAttitudes"
+  },
+  {
+    "objectID": "slides/slides_05.html#its-all-about-1",
+    "href": "slides/slides_05.html#its-all-about-1",
+    "title": "Class 5: Parties",
+    "section": "It’s all about…",
+    "text": "It’s all about…\nAttitudes\n\nValues\n\n\nbroad, deep-seated beliefs about what is important in life\nstable over time, typically long-term and more abstract\ninfluenced by socialisation (e.g., family, culture, education)\ne.g., societies of survival vs. self-expression"
+  },
+  {
+    "objectID": "slides/slides_05.html#its-all-about-2",
+    "href": "slides/slides_05.html#its-all-about-2",
+    "title": "Class 5: Parties",
+    "section": "It’s all about…",
+    "text": "It’s all about…\nValues\n\nAttitudes"
+  },
+  {
+    "objectID": "slides/slides_05.html#its-all-about-3",
+    "href": "slides/slides_05.html#its-all-about-3",
+    "title": "Class 5: Parties",
+    "section": "It’s all about…",
+    "text": "It’s all about…\nValues\n\nAttitudes\n\n\nspecific and short-term predispositions or opinions that individuals hold toward specific objects, issues, or policies\nsituational, influenced by context (e.g., economic conditions, political events) and personal experiences"
+  },
+  {
+    "objectID": "slides/slides_05.html#its-all-about-4",
+    "href": "slides/slides_05.html#its-all-about-4",
+    "title": "Class 5: Parties",
+    "section": "It’s all about…",
+    "text": "It’s all about…\nValues\nAttitudes\n\nvalues shape attitudes"
+  },
+  {
+    "objectID": "slides/slides_05.html#cultural-backlash-theory-inglehart-norris",
+    "href": "slides/slides_05.html#cultural-backlash-theory-inglehart-norris",
+    "title": "Class 5: Parties",
+    "section": "cultural backlash theory (Inglehart, Norris)",
+    "text": "cultural backlash theory (Inglehart, Norris)\n\n\n\n\nStage 1: Values\n\nStage 2: Votes\n\nStage 3: Impacts\n\n\n\n\n\n\nflowchart LR\n  A[Structural&lt;br/&gt;change:&lt;br/&gt;generations,&lt;br/&gt;education,&lt;br/&gt;gender,&lt;br/&gt;diversity,&lt;br/&gt;urban]:::greenBox --&gt; B[Silent&lt;br/&gt;revolution&lt;br/&gt;in socially-&lt;br/&gt;liberal&lt;br/&gt;values]:::greenBox\n  C[Immigration&lt;br/&gt;& diversity] --&gt; E{Tipping point:&lt;br/&gt;cultural backlash &&lt;br/&gt;authoritarian&lt;br/&gt;reflex}:::redBox\n  B --&gt; E\n  D[Economic&lt;br/&gt;grievances] --&gt; E\n  F(electoral&lt;br/&gt;rules):::yellowBox --&gt; H{Votes for&lt;br/&gt;A-P parties}:::yellowBox\n  E --&gt; H\n  G(party&lt;br/&gt;competition):::yellowBox --&gt; H\n  H --&gt; I[civic culture,&lt;br/&gt;policy agenda,&lt;br/&gt;& liberal democracy]:::blueBox\n\n  %% Style definitions - classDef blueBox fill:#d0e6ff,stroke:#003366,stroke-width:2px;\n  classDef blueBox fill:#d0e6ff;\n  classDef greenBox fill:#d4edda;\n  classDef greyBox fill:#e2e3e5;\n  classDef redBox fill:#f8d7da;\n  classDef yellowBox fill:#fff3cd;"
   }
 ]

@@ -10,6 +10,8 @@ format:
     toc-depth: 1
     toc-title: Agenda for the day
     menu: TRUE
+    theme: [default, custom_options]
+    background-transition: convex
 incremental: false
 embed-resources: true
 bibliography: ../../../library.bib
@@ -103,9 +105,10 @@ bibliography: ../../../library.bib
     + [ethnicity]{style="color:darkred;"}: *migration background* **less** likely 
     + **others**?
 
-. . . 
-
+::: {.fragment .custom .blur}
 - [BUT]{style="color:red;"} it is more complicated in bivariate/multivariate perspectives
+
+:::
 
 ## Voting for far-right parties: issue-based
 
@@ -855,6 +858,58 @@ plot_immigration1 = Plot.plot({
 :::
 ::::
 
+
+
+## It's all about... {auto-animate=true}
+
+::: {style="margin-top: 10px;"}
+Values
+:::
+
+Attitudes
+
+## It's all about... {auto-animate=true}
+
+Attitudes
+
+::: {style="margin-top: 100px; font-size: 4em; color: darkred;"}
+Values
+:::
+
+- broad, deep-seated beliefs about what is important in life
+- stable over time, typically long-term and more abstract
+- influenced by socialisation (e.g., family, culture, education)
+- e.g., societies of survival vs. self-expression
+
+## It's all about... {auto-animate=true}
+
+Values
+
+::: {style="margin-top: 10px;"}
+Attitudes
+:::
+
+## It's all about... {auto-animate=true}
+
+Values
+
+::: {style="margin-top: 100px; font-size: 4em; color: darkred;"}
+Attitudes
+:::
+
+- specific and short-term predispositions or opinions that individuals hold toward specific objects, issues, or policies
+- situational, influenced by context (e.g., economic conditions, political events) and personal experiences
+
+## It's all about... {auto-animate=true}
+
+Values
+
+Attitudes
+
+::: {style="margin-top: 100px; font-size: 3em"}
+[values]{style="color:darkred;"} *shape* [attitudes]{style="color:darkred;"}
+:::
+
 ## Voter choice, electoral behaviour frameworks
 
 - [institutional contexts]{style="color:darkred;"}
@@ -867,6 +922,77 @@ plot_immigration1 = Plot.plot({
     + what do parties offer?
         * ideology and policy (party platform)
         * leaders and representatives
+
+<!-- ## {auto-animate=true auto-animate-easing="ease-in-out"} -->
+
+<!-- :::: {.columns} -->
+<!-- :::{.column width="25%"} -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="20%"} -->
+<!-- [framing]{.center style="color: forestgreen;"}  -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="18%"} -->
+<!-- [emotion work]{.center style="color: goldenrod;"}  -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="20%"} -->
+<!-- [identity construction]{.center style="color: darkred;"} -->
+
+<!-- ::: -->
+<!-- :::: -->
+
+<!-- ::: {.r-hstack} -->
+<!-- ::: {data-id="box1" auto-animate-delay="0" style="background: forestgreen; width: 200px; height: 150px; margin: 10px;"} -->
+<!-- ::: -->
+
+<!-- ::: {data-id="box2" auto-animate-delay="0.1" style="background: goldenrod; width: 200px; height: 150px; margin: 10px;"} -->
+
+<!-- ::: -->
+
+<!-- ::: {data-id="box3" auto-animate-delay="0.2" style="background: darkred; width: 200px; height: 150px; margin: 10px;"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## {auto-animate=true auto-animate-easing="ease-in-out"} -->
+
+<!-- :::: {.columns} -->
+<!-- :::{.column width="25%"} -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="20%"} -->
+<!-- [framing]{.center style="color: forestgreen;"}  -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="18%"} -->
+<!-- [emotion work]{.center style="color: goldenrod;"}  -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="20%"} -->
+<!-- [identity construction]{.center style="color: darkred;"} -->
+
+<!-- ::: -->
+<!-- :::: -->
+
+<!-- ::: {.r-stack} -->
+<!-- ::: {data-id="box1" style="background: forestgreen; width: 350px; height: 350px; border-radius: 200px;"} -->
+<!-- ::: -->
+
+<!-- ::: {data-id="box2" style="background: goldenrod; width: 250px; height: 250px; border-radius: 200px;"} -->
+<!-- ::: -->
+
+<!-- ::: {data-id="box3" style="background: darkred; width: 150px; height: 150px; border-radius: 200px;"} -->
+<!-- [movement solidarity]{style="color:white; font-size:50px;"} -->
+<!-- ::: -->
+<!-- ::: -->
+
 
 ## An opening salvo from Pippa Norris
 
@@ -927,8 +1053,50 @@ plot_immigration1 = Plot.plot({
 4. pushback against liberalism: parties *supply* what is *demanded* by 'disoriented voters' (Norris), many of whom have weaker partisan identification (Dalton)
     + turn to '[authoritarian populist]{style="color:cadetblue;"}' parties <!-- (jettison radical right conceptual focus) -->
     + parties and leaders are appealing for [transgressive behaviour]{style="color:cadetblue;"} (*attention economy*)
-        
-## Critiquing cultural backlash theory - @schaferCulturalBacklashHow2022
+
+## cultural backlash theory (Inglehart, Norris)
+
+:::: {.columns}
+:::{.column width="10%"}
+:::
+
+:::{.column width="35%"}
+Stage 1: Values
+
+:::
+
+:::{.column width="25%"}
+Stage 2: Votes
+
+:::
+
+:::{.column width="25%"}
+Stage 3: Impacts
+
+:::
+::::
+
+```{mermaid}
+flowchart LR
+  A[Structural<br/>change:<br/>generations,<br/>education,<br/>gender,<br/>diversity,<br/>urban]:::greenBox --> B[Silent<br/>revolution<br/>in socially-<br/>liberal<br/>values]:::greenBox
+  C[Immigration<br/>& diversity] --> E{Tipping point:<br/>cultural backlash &<br/>authoritarian<br/>reflex}:::redBox
+  B --> E
+  D[Economic<br/>grievances] --> E
+  F(electoral<br/>rules):::yellowBox --> H{Votes for<br/>A-P parties}:::yellowBox
+  E --> H
+  G(party<br/>competition):::yellowBox --> H
+  H --> I[civic culture,<br/>policy agenda,<br/>& liberal democracy]:::blueBox
+
+  %% Style definitions - classDef blueBox fill:#d0e6ff,stroke:#003366,stroke-width:2px;
+  classDef blueBox fill:#d0e6ff;
+  classDef greenBox fill:#d4edda;
+  classDef greyBox fill:#e2e3e5;
+  classDef redBox fill:#f8d7da;
+  classDef yellowBox fill:#fff3cd;
+```
+
+## Critiquing cultural backlash theory - @schaferCulturalBacklashHow2022 {.scrollable}
+<!-- {.smaller} -->
 
 1. Different age groups have very similar cultural attitudes; few signs of polarisation among old and young cohorts
 2. On most topics, different cohorts agree in principle, even though they might differ in degree
