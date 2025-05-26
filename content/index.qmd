@@ -141,6 +141,23 @@ xaringanExtra::embed_xaringan(
 ```
 
 
+::: {.callout-tip collapse="true"}
+## Class 6 Lecture video - part 1
+
+{{< video fr_class6_lecture_part1.mp4 >}}
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Class 6 Lecture video - part 2
+
+{{< video fr_class6_lecture_part2.mp4 >}}
+
+:::
+
+
+
+
 <!-- ```{r echo=FALSE, results="asis"} -->
 <!-- #| warning: false -->
 <!-- if (Sys.Date() >= as.Date("2025-05-05")) { -->
