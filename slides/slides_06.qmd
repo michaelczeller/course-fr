@@ -1,0 +1,2796 @@
+---
+title: "Class 6: Parties"
+subtitle: "responses and counter-strategies"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+    theme: [default, custom_options]
+    background-transition: fade
+incremental: false
+embed-resources: true
+bibliography: ../../../library.bib
+---
+
+
+# Opening notes {background-color="#2c844c"}
+
+<div class="tenor-gif-embed" data-postid="14209777" data-share-method="host" data-aspect-ratio="1.94" data-width="70%"><a href="https://tenor.com/view/open-gif-14209777">Open Sticker</a>from <a href="https://tenor.com/search/open-stickers">Open Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+<!-- <div class="tenor-gif-embed" data-postid="23663828" data-share-method="host" data-aspect-ratio="1" data-width="70%"><a href="https://tenor.com/view/happy-birthday-gif-23663828">Happy Birthday GIF</a>from <a href="https://tenor.com/search/happy+birthday-gifs">Happy Birthday GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Angel David Meissner, Adrian Morina, Elli Quitter -->
+
+**[Topics to me as soon as possible]{style="color:red;"}**
+
+::: panel-tabset
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | regression | 
+| 12 June: | Omar B., Lela E., Niclas W. | TBD |
+| 19 June: | NO CLASS MEETING                        |  | 
+| 26 June: | Colombe I., Konstantin S., Jakob W., Veronika L. | TBD | 
+| 26 June: | Maksim K., Felix S., Jon L.D., Damir S., Korbinian M. | case study | 
+
+## July
+
+| Date     | Presenters                              | Method |
+| --------:|:----------------------------------------|:------:|
+| 3 July:  | Alexander V., Luis G., Oscar O., Mia C. | descriptive inference | 
+| 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | ethnography | 
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD | 
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD | 
+| 24 July: | Lorenz F., Daniel B., Fiona W., Medina H. | quant. text analysis | 
+
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | logistic regression | 
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | discourse analysis |
+| 29 May: | NO CLASS MEETING                        |  | 
+
+: Presentations line-up
+
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+<!-- ## {auto-animate=true auto-animate-easing="ease-in-out"} -->
+
+<!-- :::: {.columns} -->
+<!-- :::{.column width="25%"} -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="20%"} -->
+<!-- [framing]{.center style="color: forestgreen;"}  -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="18%"} -->
+<!-- [emotion work]{.center style="color: goldenrod;"}  -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="20%"} -->
+<!-- [identity construction]{.center style="color: darkred;"} -->
+
+<!-- ::: -->
+<!-- :::: -->
+
+<!-- ::: {.r-hstack} -->
+<!-- ::: {data-id="box1" auto-animate-delay="0" style="background: forestgreen; width: 200px; height: 150px; margin: 10px;"} -->
+<!-- ::: -->
+
+<!-- ::: {data-id="box2" auto-animate-delay="0.1" style="background: goldenrod; width: 200px; height: 150px; margin: 10px;"} -->
+
+<!-- ::: -->
+
+<!-- ::: {data-id="box3" auto-animate-delay="0.2" style="background: darkred; width: 200px; height: 150px; margin: 10px;"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## {auto-animate=true auto-animate-easing="ease-in-out"} -->
+
+<!-- :::: {.columns} -->
+<!-- :::{.column width="25%"} -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="20%"} -->
+<!-- [framing]{.center style="color: forestgreen;"}  -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="18%"} -->
+<!-- [emotion work]{.center style="color: goldenrod;"}  -->
+
+<!-- ::: -->
+
+<!-- :::{.column width="20%"} -->
+<!-- [identity construction]{.center style="color: darkred;"} -->
+
+<!-- ::: -->
+<!-- :::: -->
+
+<!-- ::: {.r-stack} -->
+<!-- ::: {data-id="box1" style="background: forestgreen; width: 350px; height: 350px; border-radius: 200px;"} -->
+<!-- ::: -->
+
+<!-- ::: {data-id="box2" style="background: goldenrod; width: 250px; height: 250px; border-radius: 200px;"} -->
+<!-- ::: -->
+
+<!-- ::: {data-id="box3" style="background: darkred; width: 150px; height: 150px; border-radius: 200px;"} -->
+<!-- [movement solidarity]{style="color:white; font-size:50px;"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+
+
+# Overview of responses to far-right parties {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- which actors can respond to far-right parties
+- what types of responses
+- possible effects
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="7921438966093719474" data-share-method="host" data-aspect-ratio="1.11675" data-width="100%"><a href="https://tenor.com/view/i-cast-counter-counterspell-counter-counterspell-counterspell-i-cast-wizard-gif-7921438966093719474">I Cast Counter Counterspell Wizard GIF</a>from <a href="https://tenor.com/search/i+cast+counter+counterspell-gifs">I Cast Counter Counterspell GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+## Actors {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+:::{.column width="20%"}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+::::
+
+## Actors {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+:::{.column width="20%"}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+
+
+:::
+
+::: {.column width="20%" .right}
+
+
+:::
+
+::: {.column width="20%" .right}
+
+
+:::
+::::
+
+## Actors {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+
+
+:::
+
+::: {.column width="20%" .right}
+
+
+:::
+::::
+
+## Actors {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+
+
+:::
+::::
+
+
+## Actors {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+Actions, broadly [cf. @meguid2005CompetitionUnequalsRole]: 
+
+::: {style="margin-top: 20px; font-size: 2em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+
+::: {.column width="25%" .right}
+
+:::
+
+::: {.column width="33%" .right}
+
+
+:::
+::::
+:::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+Actions, broadly [cf. @meguid2005CompetitionUnequalsRole]: 
+
+::: {style="margin-top: 20px; font-size: 2em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="25%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+
+::: {.column width="33%" .right}
+
+
+:::
+::::
+:::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+Actions, broadly [cf. @meguid2005CompetitionUnequalsRole]: 
+
+::: {style="margin-top: 20px; font-size: 2em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+
+:::
+::::
+:::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- government, state institutions adapt policy or activity in line with far-right party
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- government, state institutions adapt policy or activity in line with far-right party
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- ignore, treat as any other political player
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- government, state institutions adapt policy or activity in line with far-right party
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- ignore, treat as any other political player
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+- deny registration, sanction/penalise, restrict or even proscribe
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+Actions, broadly [cf. @meguid2005CompetitionUnequalsRole]: 
+
+::: {style="margin-top: 20px; font-size: 2em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+
+:::
+::::
+:::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- engage with, amplify, finance far-right party
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- engage with, amplify, finance far-right party
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- ignore
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- engage with, amplify, finance far-right party
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- ignore
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+- publicise general (policy) opposition, specific opposition to far-right party, fund others, restrict resources/access to services
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+Actions, broadly [cf. @meguid2005CompetitionUnequalsRole]: 
+
+::: {style="margin-top: 20px; font-size: 2em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+
+:::
+::::
+:::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- support, mobilise for street politics
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- support, mobilise for street politics
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- ignore
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- support, mobilise for street politics
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- ignore
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+- protest against, blockade/disrupt, lobby state and other actors
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+Actions, broadly [cf. @meguid2005CompetitionUnequalsRole]: 
+
+::: {style="margin-top: 20px; font-size: 2em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+
+:::
+::::
+:::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- set agenda of far-right issues and framings, open 'platform' to far-right actors
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- set agenda of far-right issues and framings, open 'platform' to far-right actors
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- cover as other parties, proportionally
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- set agenda of far-right issues and framings, open 'platform' to far-right actors
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- cover as other parties, proportionally
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+- restrict access to 'platform', set agenda problematising far right 
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+Actions, broadly [cf. @meguid2005CompetitionUnequalsRole]: 
+
+::: {style="margin-top: 20px; font-size: 2em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+
+:::
+::::
+:::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- debate or even adopt policy positions, engage in cooperation or even coalition
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- debate or even adopt policy positions, engage in cooperation or even coalition
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- ignore, disregard effect on political competition, treat as any other party
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="30%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+:::
+
+::: {.column width="70%" .right}
+[accommodate]{style="color:forestgreen; font-size: 2em;"} 
+
+- debate or even adopt policy positions, engage in cooperation or even coalition
+
+[dismiss]{style="color:cadetblue; font-size: 2em;"} 
+
+- ignore, disregard effect on political competition, treat as any other party
+
+[oppose]{style="color:darkred; font-size: 2em;"}
+
+- exclude, contest legitimacy, jointly oppose
+
+:::
+::::
+
+## Actors &rarr; Actions {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+Actions, broadly [cf. @meguid2005CompetitionUnequalsRole]: 
+
+::: {style="margin-top: 20px; font-size: 2em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+
+:::
+::::
+:::
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 100px; height: 10px; background: #2780e3; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+normalise
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+::::
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 320px; height: 10px; background: forestgreen; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+::::
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 530px; height: 10px; background: goldenrod; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+weaken
+:::
+
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+::::
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 740px; height: 10px; background: orange; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+constrain
+:::
+
+::: {.column width="20%" .right}
+weaken
+:::
+
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+
+::: {.column width="20%" .right}
+
+:::
+::::
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: red; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+disband
+:::
+
+::: {.column width="20%" .right}
+constrain
+:::
+
+::: {.column width="20%" .right}
+weaken
+:::
+
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+::::
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+:::: {.columns}
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+::::
+
+predominant perspective on party changes, not the party itself
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: #2780e3; margin: 20px;"}
+:::
+
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: black; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+disband
+:::
+
+::: {.column width="20%" .right}
+constrain
+:::
+
+::: {.column width="20%" .right}
+weaken
+:::
+
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+::::
+
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+:::: {.columns}
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+
+:::
+::::
+
+party becomes less ideologically, programmatically radical/extreme
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: forestgreen; margin: 20px;"}
+:::
+
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: black; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+disband
+:::
+
+::: {.column width="20%" .right}
+constrain
+:::
+
+::: {.column width="20%" .right}
+weaken
+:::
+
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+::::
+
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+:::: {.columns}
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+weaken
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+::::
+
+party loses support because others deliver, win back voters
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: goldenrod; margin: 20px;"}
+:::
+
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: black; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+disband
+:::
+
+::: {.column width="20%" .right}
+constrain
+:::
+
+::: {.column width="20%" .right}
+weaken
+:::
+
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+::::
+
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+:::: {.columns}
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+constrain
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+::::
+
+party is deprived of policy input opportunities, chance to govern 
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: orange; margin: 20px;"}
+:::
+
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: black; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+disband
+:::
+
+::: {.column width="20%" .right}
+constrain
+:::
+
+::: {.column width="20%" .right}
+weaken
+:::
+
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+::::
+
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+:::: {.columns}
+::: {.column width="20%" .right}
+disband
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+
+::: {.column width="20%" .right}
+
+:::
+::::
+
+party is broken up, assets seized, leading activists penalised
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: red; margin: 20px;"}
+:::
+
+
+## Actors &rarr; Actions &rarr; Effects {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="20%" .right}
+[state]{style="color:darkred;"}
+
+![](slide_files/06/icon_state.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[business]{style="color:darkred;"}
+
+![](slide_files/06/icon_business.png){width=100%}
+:::
+
+:::{.column width="20%"}
+[movements]{style="color:darkred;"}
+
+![](slide_files/06/icon_movements.png){width=100%}
+:::
+
+::: {.column width="20%" .right}
+[media]{style="color:darkred;"}
+
+![](slide_files/06/icon_media.png){width=100%}
+
+:::
+
+::: {.column width="20%" .right}
+[parties]{style="color:darkred;"}
+
+![](slide_files/06/icon_party.png){width=100%}
+
+:::
+::::
+
+::: {style="margin-top: 0px; font-size: 1.4em"}
+:::: {.columns}
+::: {.column width="25%" .right}
+[oppose]{style="color:darkred;"}
+:::
+
+::: {.column width="25%" .right}
+[dismiss]{style="color:cadetblue;"} 
+:::
+
+::: {.column width="33%" .right}
+[accommodate]{style="color:forestgreen;"} 
+:::
+::::
+:::
+
+*Effects*
+
+::: {data-id="arrow" style="width: 950px; height: 10px; background: black; margin: 20px;"}
+:::
+
+:::: {.columns}
+::: {.column width="20%" .right}
+disband
+:::
+
+::: {.column width="20%" .right}
+constrain
+:::
+
+::: {.column width="20%" .right}
+weaken
+:::
+
+::: {.column width="20%" .right}
+deradicalise
+:::
+
+::: {.column width="20%" .right}
+normalise
+:::
+::::
+
+## Summing up responses to far-right parties {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- the interaction of all these pieces makes for much greater complexity
+    + actors responses frequently change, are rarely consistent, and interact with others' responses
+- empirical cases demonstrate this complexity in action
+    + @dejonge2023HowRespondFar has a nice, short blog about responding to far-right parties, reviewing 
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="13938870362007109963" data-share-method="host" data-aspect-ratio="0.752033" data-width="100%"><a href="https://tenor.com/view/desmos-math-mathematics-imaginary-numbers-complex-numbers-gif-13938870362007109963">Desmos Math GIF</a>from <a href="https://tenor.com/search/desmos-gifs">Desmos GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+# Studies of responses to FR parties {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="70%"}
+- @capoccia2005DefendingDemocracyReactions - interwar regimes
+- @dejonge2021CuriousCaseBelgium - media and parties
+- @kluver2024HowBreakPopulist - communication counter-strategies
+<!-- - @heinze2022DealingPopulistRadical - responding *within* parliament -->
+- @krause2023DoesAccommodationWork - effect of accommodation
+- protesting against far-right parties
+    + @ColomboETAL2021
+    + @lagios2022DoesItPay
+    + @ellinas2023MovementPartyElectoral
+
+:::
+
+::: {.column width="30%" .right}
+<div class="tenor-gif-embed" data-postid="24630109" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/for-example-ariana-debose-saturday-night-live-for-instance-heres-an-example-gif-24630109">For Example Ariana Debose GIF</a>from <a href="https://tenor.com/search/for+example-gifs">For Example GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+<!-- <div class="tenor-gif-embed" data-postid="10851737997107630637" data-share-method="host" data-aspect-ratio="1.50909" data-width="100%"><a href="https://tenor.com/view/denzel-washington-gif-10851737997107630637">Denzel Washington GIF</a>from <a href="https://tenor.com/search/denzel+washington-gifs">Denzel Washington GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+## @capoccia2005DefendingDemocracyReactions - interwar regimes
+
+:::: {.columns}
+:::{.column width="20%"}
+
+:::
+
+::: {.column width="80%" .right}
+**[Struggle between democratic incumbents and antisystem outsiders as primary characteristic of political process]{style="font-size:30px; font-family:Arial;"}**
+:::
+::::
+
+```{r}
+library(kableExtra)
+
+#   add_header_above(c("Struggle between democratic incumbents and antisystem outsiders as primary characteristic of the political process" = 4))
+
+text_tbl <- data.frame(
+  A = c("", "Democrats prevail", "Democrats prevail"),
+  B = c("", "Yes", "No"),
+  C = c("Yes", "Challenged survivors: Czechoslovakia, Finland, Belgium, (France)", "Takeovers: Germany, Italy"),
+  D = c(
+    "No",
+    "Non-challenged survivors: The Netherlands, Norway, Sweden, Denmark, Switzerland, United Kingdom", 
+    "'Suspension' or preemptive coup: Bulgaria, Portugal, Poland, Lithuania, Yugoslavia, Austria, Estonia, Latvia, Greece, Romania"
+  )
+)
+
+kbl(text_tbl,
+    col.names = c("_", " ", " ", " ")
+    ) %>%
+  kable_paper(full_width = F) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(3, width = "10em", background = "") %>% 
+  column_spec(4, width = "20em", background = "") %>% 
+  collapse_rows(1, valign = "middle") # %>% add_header_above(c("", "", "Struggle between democratic incumbents and antisystem outsiders as primary characteristic of the political process" = 2))
+
+```
+
+
+## @capoccia2005DefendingDemocracyReactions - interwar regimes 
+
+- Czechoslovakia: 
+    + *Sudetendeutsche Heimatsfront* (SHF) - ally of NSDAP
+    + not banned, but several measures imposed against SHF/SdP
+
+. . . 
+
+- Belgium: 
+    + *Parti Réxiste* (Leon Degrelle)
+    + Catholic youth groups led to *oppose* Rexists
+    + King Leopold III takes public opposition stance 
+
+. . . 
+
+- Finland: 
+    + *Lapua Movement*, then *Isänmaallinen Kansanliike* threats
+    + hard repression: *Lapua* banned 1932 
+
+## @capoccia2005DefendingDemocracyReactions - interwar regimes 
+
+- bans and hard repression can work, but not sufficient on its own
+    + a 'short-term solution'
+- importance of incumbent political elites
+- importance of **unity** among political elites
+
+## @dejonge2021CuriousCaseBelgium - media and parties
+
+- RQ: why is a radical right party successful in Flanders, but not in Wallonia (Belgium)?
+
+. . . 
+
+- Wallonia: hostile environment, mainstream parties and media impose *cordon sanitaire*
+    + radical-right party exclusion is 'air tight'
+    + imposed before radical-right party achieves significant success
+- Flanders: gradually more accommodative environment
+    + no counter-action before radical-right party achieved significant success
+    + initial *cordon sanitaire* quickly weakened by right-wing People's Union ejecting it
+
+## @kluver2024HowBreakPopulist - communication counter-strategies
+
+- **RQ**: How can parties counter right-wing populist parties (RPPs)?
+- **survey experiment** among 24,000+ respondents in Germany
+    + treatments in form of social media posts and placards
+- 4 party communication strategies to respond to populist rhetoric: (1) highlight mainstream parties' role representing citizen interests, (2) emphasise the performance of mainstream parties, (3) reveal the self-interest of populists, and (4) appeal to alternative identities.
+- **Finding 1**: exposing how far-righ parties' policies are self-interested decreases support
+- **Finding 2**: communication ephasising party's own performance can trigger backlash
+    <!-- 1. counter-messaging exposing how right-wing populist parties' policies are self-interested: **decreased support for RPP, particularly among initially supportive voters** -->
+    <!-- results highlight the efficacy of a counter strategy that directly addresses right-wing populist parties by exposing how their policies are self-interested. This approach decreased the propensity to support the AfD in the German context, particularly among voters who initially showed high support for the party -->
+    <!-- 2. elite communication not directly targeting the RPP, but instead emphasising the elite/party's own performance **can enhance populist attitudes, making RPPs more appealling** (backlash effect) -->
+    <!-- elite communication that does not directly target the challenger, but instead attempts to offer an alternative identity or emphasize its own performance, can have the unintended consequence of enhancing populist attitudes, thereby potentially making parties with populist platforms more appealing. -->
+
+## @krause2023DoesAccommodationWork - effect of accommodation
+
+- **RQ**: Do accommodative strategies help to weaken RRPs electorally?
+- **method**: linear regression models 
+- **data**: elections in: Austria, Belgium, Denmark, Finland, France, Germany, Italy, Netherlands, Norway, Sweden, Switzerland, and UK
+- **findings**: 
+    + no evidence that accommodation reduces radical right support
+    + in some cases, it may increase voter defection to radical right
+
+## protesting against far-right parties
+
+- @ColomboETAL2021 - Italy 2020 election, 'Sardines' against Lega
+- @lagios2022DoesItPay - France, against Front National
+- @ellinas2023MovementPartyElectoral - Greece, against Golden Dawn
+
+. . . 
+
+- summative findings: 
+    + protests can dampen support in localities where it occurs
+    + may only be by a few percentage points
+        * small but seemingly consistent effect
+
+
+
+
+
+<!-- for class on responses and counter-strategies: -->
+
+<!-- PARTIES:  -->
+
+<!-- @dejonge2021CuriousCaseBelgium -->
+<!-- “in both regions, mainstream parties have agreed not to cooperate with the far right by means of a political cordon sanitaire.9 However, the cordon could not prevent the breakthrough of the VB in Flanders. First, it was set up after the VB had made important electoral gains at the local level. Second, it became porous quickly; barely 40 days after signing the agreement, the then-chairman of the Flemish nationalist People’s Union (VU) Jaak Gabriëls proclaimed in an interview with a local newspaper that the cordon was absurd, and that it would ultimately grant too much publicity to the VB (Coffé 2005: 165). Partly due to the defection by the VU, the cordon became less effective; after all, if a cordon is not fully ‘airtight’, it is less likely to fulfil its purpose (Art 2011: 44).” (De Jonge, 2021, p. 607) -->
+
+<!-- MEDIA: -->
+<!-- Does mainstream media attention normalize far-right discourse, or does it help contain it by exposing its dangers? -->
+<!-- Discuss "platforming" vs. scrutiny -->
+
+<!-- @dejonge2021CuriousCaseBelgium -->
+<!-- Identifies omitted ‘contextual factors,’ especially the media and its cordon sanitaire, as key to explaining non-appearance of far-right party in Wallonia. -->
+
+
+
+
+<!-- @capoccia2005DefendingDemocracyReactions -->
+
+<!-- @Heinze2018 -->
+
+<!-- @heinze2022DealingPopulistRadical -->
+
+<!-- @krause2023DoesAccommodationWork -->
+
+
+<!-- @ColomboETAL2021 -->
+<!-- @lagios2022DoesItPay -->
+<!-- @ellinas2023MovementPartyElectoral -->
+
+
+
+
+<!-- for class on responses and counter-strategies: -->
+<!-- @dejonge2021CuriousCaseBelgium -->
+<!-- @jonge2023HowRespondFar -->
+
+<!-- @capoccia2005DefendingDemocracyReactions -->
+
+<!-- @ColomboETAL2021 -->
+
+<!-- @ellinas2023MovementPartyElectoral -->
+
+<!-- @Heinze2018 -->
+
+<!-- @heinze2022DealingPopulistRadical -->
+
+<!-- @krause2023DoesAccommodationWork -->
+
+<!-- @lagios2022DoesItPay -->
+
+<!-- Does mainstream media attention normalize far-right discourse, or does it help contain it by exposing its dangers? -->
+<!-- Discuss "platforming" vs. scrutiny -->
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>     
+
+Alternatively, send me an email: [m.zeller@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- 1 + 1 -->
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+<!-- ::: -->
+
+
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- library(dplyr) -->
+<!-- library(ggplot2) -->
+<!-- g <- starwars |>  -->
+<!--   ggplot() + -->
+<!--   geom_point(aes(x = height, y = mass)) + -->
+<!--   theme_light() -->
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+<!-- #| fig.align: center -->
+<!-- #| echo: true -->
+<!-- g  -->
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| echo: true -->
+<!-- #| eval: false -->
+<!-- tab <- starwars |> -->
+<!--   tidyr::drop_na(species) |>  -->
+<!--   group_by(species) |> -->
+<!--   summarise( -->
+<!--     n = n(), -->
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+<!--   ) |>  -->
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| eval: true -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+<!-- gt::gt(tab) -->
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+<!-- reactable::reactable(tab) -->
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<!-- </center> -->
+
+
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_06.html"))
+```
+
+
+## References
+
