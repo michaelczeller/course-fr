@@ -1,0 +1,666 @@
+---
+title: "Class 7: Movements"
+subtitle: "movement-parties"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+    theme: [default, custom_options]
+    background-transition: fade
+incremental: false
+embed-resources: true
+bibliography: ../../../library.bib
+---
+
+
+# Opening notes {background-color="#2c844c"}
+
+<div class="tenor-gif-embed" data-postid="14209777" data-share-method="host" data-aspect-ratio="1.94" data-width="70%"><a href="https://tenor.com/view/open-gif-14209777">Open Sticker</a>from <a href="https://tenor.com/search/open-stickers">Open Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+<!-- <div class="tenor-gif-embed" data-postid="23663828" data-share-method="host" data-aspect-ratio="1" data-width="70%"><a href="https://tenor.com/view/happy-birthday-gif-23663828">Happy Birthday GIF</a>from <a href="https://tenor.com/search/happy+birthday-gifs">Happy Birthday GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Angel David Meissner, Adrian Morina, Elli Quitter -->
+
+**[Topics to me as soon as possible]{style="color:red;"}**
+
+::: panel-tabset
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | regression | 
+| 12 June: | Omar B., Lela E., Niclas W. | network analysis |
+| 19 June: | NO CLASS MEETING                        |  | 
+| 26 June: | Colombe I., Konstantin S., Jakob W., Veronika L. | TBD | 
+| 26 June: | Maksim K., Felix S., Jon L.D., Damir S., Korbinian M. | case study | 
+
+## July
+
+| Date     | Presenters                              | Method |
+| --------:|:----------------------------------------|:------:|
+| 3 July:  | Alexander V., Luis G., Oscar O., Mia C. | descriptive inference | 
+| 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | ethnography | 
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD | 
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD | 
+| 24 July: | Lorenz F., Daniel B., Fiona W., Medina H. | quant. text analysis | 
+
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+<!-- | -------:|:---------------------------------|:------:| -->
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date    | Presenters                       | Method |
+| -------:|:---------------------------------|:------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | logistic regression | 
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | discourse analysis |
+| 29 May: | NO CLASS MEETING                        |  | 
+
+: Presentations line-up
+
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+# Introduction to social movements {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- collective behaviour theory 
+- resource mobilisation theory
+- 'cultural turn' and new social movements
+- political process theory
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="13818850" data-share-method="host" data-aspect-ratio="1.77857" data-width="100%"><a href="https://tenor.com/view/social-movement-hands-up-fist-pump-bet-social-awards2019-bet-networks-gif-13818850">Social Movement Hands Up GIF</a>from <a href="https://tenor.com/search/social+movement-gifs">Social Movement GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+## Collective behaviour theory (CBT)
+
+- origins: something went wrong in the interwar years -- what precisely and [why]{style="color:red;"}?
+    * mix of sociological and psychological approach---influenced by scholarship of Durkheim and Marx
+- some key scholars: Ted Gurr, Ralph Turner and Lewis Killian
+
+- movements as part of 'emergent phenomena,' ranging from trends and gossip, to collective action up to and including insurrection and revolution. Movements here are '[abnormal]{style="color:red;"},' consequences and manifestations of strain, deprivation, and grievance.
+
+- key concepts
+    * [grievance]{style="color:darkred;"}
+    * (relative) [deprivation]{style="color:darkred;"}
+
+## Resource mobilisation theory
+
+- origins: shift from 'why' collective action to '[how]{style="color:red;"}' collective action
+- some key scholars: McCarthy & Zald, Tilly, Tarrow, McAdam
+
+- focus on organisations: how they mobilise and campaign in [strategic]{style="color:red;"} pursuit of goals
+- degree of resources under the [control]{style="color:red;"} of a movement 
+
+- key concepts: 
+    * [strategy]{style="color:darkred;"} and [tactics]{style="color:darkred;"}
+    * types of resources: [material]{style="color:darkred;"} (finances, property, supplies), [human]{style="color:darkred;"} (quantity and expert quality of members/activists), [organisational]{style="color:darkred;"} (capacity to disseminate and enact strategy), [moral]{style="color:darkred;"} (solidarity support, legitimacy and sympathetic support)
+
+## discussion: strategy and tactics {background-color="#2c844c" auto-animate=true}
+
+- [what strategies and tactics do movements use?]{style="font-size:60px;"}
+
+## discussion: strategy and tactics {background-color="#2c844c" auto-animate=true}
+
+- [what (corresponding?) organisational forms do they take?]{style="font-size:60px;"}
+- [what strategies and tactics do movements use?]{style="font-size:60px;"}
+
+## discussion: strategy and tactics {background-color="#2c844c" auto-animate=true}
+
+- [what (corresponding?) organisational forms do they take?]{style="font-size:60px;"}
+    + [hierarchical]{style="color:orange;"} vs. [horizontal]{style="color:orange;"}
+- [what strategies and tactics do movements use?]{style="font-size:60px;"}
+    + [direct action]{style="color:orange;"} vs. [indirect/demonstrative action]{style="color:orange;"}
+
+## The 'cultural turn' and new social movements {auto-animate=true auto-animate-easing="ease-in-out"}
+
+- origins: [Gramscian]{style="color:red;"} concentration on internal life of movements, values and [meaning-making]{style="color:red;"}; otherwise the central contribution of '[new social movements]{style="color:red;"}' is missed
+
+:::: {.columns}
+:::{.column width="50%"}
+- some key scholars: Melucci, Polletta, Jasper  
+- key concepts: 
+    + [collective identity]{style="color:darkred;"} <!-- - boundaries of who 'we' and 'they' are -->
+    + [emotions]{style="color:darkred;"} 
+    + [framing]{style="color:darkred;"} [@Benford2000]: diagnostic, prognostic, motivational
+
+:::
+
+::: {.column width="50%" .right}
+
+:::: {.columns}
+:::{.column width="35%"}
+[framing]{.center style="color: forestgreen;"}
+
+:::
+
+:::{.column width="30%"}
+[emotion work]{.center style="color: goldenrod;"}
+
+:::
+
+:::{.column width="30%"}
+[identity construction]{.center style="color: darkred;"}
+
+:::
+::::
+
+::: {.r-hstack}
+::: {data-id="box1" auto-animate-delay="0" style="background: forestgreen; width: 200px; height: 150px; margin: 10px;"}
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: goldenrod; width: 200px; height: 150px; margin: 10px;"}
+
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: darkred; width: 200px; height: 150px; margin: 10px;"}
+:::
+:::
+
+:::
+::::
+
+## The 'cultural turn' and new social movements {auto-animate=true auto-animate-easing="ease-in-out"}
+
+- origins: [Gramscian]{style="color:red;"} concentration on internal life of movements, values and [meaning-making]{style="color:red;"}; otherwise the central contribution of '[new social movements]{style="color:red;"}' is missed
+
+:::: {.columns}
+:::{.column width="50%"}
+- some key scholars: Melucci, Polletta, Jasper  
+- key concepts: 
+    + [collective identity]{style="color:darkred;"} <!-- - boundaries of who 'we' and 'they' are -->
+    + [emotions]{style="color:darkred;"} 
+    + [framing]{style="color:darkred;"} [@Benford2000]: diagnostic, prognostic, motivational
+
+:::
+
+::: {.column width="50%" .right}
+
+:::: {.columns}
+:::{.column width="35%"}
+[framing]{.center style="color: forestgreen;"}
+
+:::
+
+:::{.column width="30%"}
+[emotion work]{.center style="color: goldenrod;"}
+
+:::
+
+:::{.column width="30%"}
+[identity construction]{.center style="color: darkred;"}
+
+:::
+::::
+
+::: {.r-stack}
+::: {data-id="box1" style="background: forestgreen; width: 350px; height: 350px; border-radius: 200px;"}
+:::
+
+::: {data-id="box2" style="background: goldenrod; width: 250px; height: 250px; border-radius: 200px;"}
+:::
+
+::: {data-id="box3" style="background: darkred; width: 150px; height: 150px; border-radius: 200px;"}
+[movement solidarity]{style="color:white; font-size:35px;"}
+:::
+:::
+
+:::
+::::
+
+## Political process theory (PPT)
+
+- broadening from organisational focus to surrounding structure
+- some key scholars: della Porta, Tilly, Koopmans, Rucht
+
+- key concepts:
+    + [opportunity structure]{style="color:darkred;"}
+        * political [@Kitschelt1986]
+        * discursive [@Koopmans2004]
+    + [mobilising structures]{style="color:darkred;"}
+    + [cycles of contention]{style="color:darkred;"} [@Tarrow2011]
+    + [contentious repertoires]{style="color:darkred;"}
+
+- common focus on 'protest event data'---means of comparatively measuring effects of political opportunities
+
+## Summing up {auto-animate=true}
+
+- Not exhaustive of SMS theories. There's also: *political mediation model*, *field theory*, *relational/network approaches*, etc.
+
+## Summing up {auto-animate=true}
+
+- PPT and concepts from the other main theories provide framework for research on the far right
+- Not exhaustive of SMS theories. There's also: *political mediation model*, *field theory*, *relational/network approaches*, etc.
+
+# Movement-parties {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- what does this concept mean
+- discussion: advantages and liabilities of acting as a party? as a movement?
+- what are examples (historical, contemporary)
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="9684803" data-share-method="host" data-aspect-ratio="1.79545" data-width="100%"><a href="https://tenor.com/view/nbc-snl-saturday-night-live-alec-baldwin-donald-trump-gif-9684803">Nbc Snl GIF</a>from <a href="https://tenor.com/search/nbc-gifs">Nbc GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+## Movement-parties concept
+
+- organised, registered as *political party*
+    + fielding candidates, contesting elections (even if just locally)
+
+::: {.fragment .custom .blur}
+- mobilises members and supporters in extra-institutional activism like *social movement*
+    + protests, cultural events beyond purpose of supporting election
+
+:::
+
+::: {.fragment .custom .blur}
+*combine electoral representation with extra-institutional mobilisation* [@kitschelt2006movement]
+
+- treating as parties neglects distinctive [movement-style activism]{style="color:cadetblue;"}
+- treating as movements neglects unique [instrumentalisation of institutional politics]{style="color:cadetblue;"}
+
+:::
+
+<!-- - movement parties: \textcolor{red}{combine electoral representation with extra-institutional mobilization} (p367) ... Kitschelt (2006): “coalitions of political activists who emanate from social movements and try to apply the organizational and strategic practices of social movements in the arena of party competition” -->
+<!--     + interpreting them as normal parties neglects social movement component... (p370) -->
+
+
+## Movement-parties - discussion {background-color="#2c844c" auto-animate=true}
+
+::: {style="margin-top: 10px;"}
+[What are advantages and liabilities of acting as a party?]{style="font-size:40px; color:yellow;"}
+:::
+
+[What are advantages and liabilities of acting as a movement?]{style="font-size:40px; color:yellow;"}
+
+[Why mix? Can it minimise the liabilities and maximise the advantages of both types?]{style="font-size:40px; color:#2c844c;"}
+
+## Movement-parties - discussion {background-color="#2c844c" auto-animate=true}
+
+[What are advantages and liabilities of acting as a movement?]{style="font-size:40px; color:yellow;"}
+
+::: {style="margin-top: 20px; font-size: 2.5em; color: violet;"}
+What are advantages and liabilities of acting as a party?
+:::
+
+[Why mix? Can it minimise the liabilities and maximise the advantages of both types?]{style="font-size:40px; color:#2c844c;"}
+
+## Movement-parties - discussion {background-color="#2c844c" auto-animate=true}
+
+[What are advantages and liabilities of acting as a party?]{style="font-size:40px; color:yellow;"}
+
+::: {style="margin-top: 10px;"}
+[What are advantages and liabilities of acting as a movement?]{style="font-size:40px; color:yellow;"}
+:::
+
+[Why mix? Can it minimise the liabilities and maximise the advantages of both types?]{style="font-size:40px; color:#2c844c;"}
+
+## Movement-parties - discussion {background-color="#2c844c" auto-animate=true}
+
+[What are advantages and liabilities of acting as a party?]{style="font-size:40px; color:yellow;"}
+
+::: {style="margin-top: 20px; font-size: 2.5em; color: violet;"}
+What are advantages and liabilities of acting as a movement?
+:::
+
+[Why mix? Can it minimise the liabilities and maximise the advantages of both types?]{style="font-size:40px; color:#2c844c;"}
+
+## Movement-parties - discussion {background-color="#2c844c" auto-animate=true}
+
+[What are advantages and liabilities of acting as a party?]{style="font-size:40px; color:yellow;"}
+
+[What are advantages and liabilities of acting as a movement?]{style="font-size:40px; color:yellow;"}
+
+::: {style="margin-top: 20px; font-size: 2.5em; color: violet;"}
+Why mix? Can it minimise the liabilities and maximise the advantages of both types?
+:::
+
+
+## Movement-parties - conceptual comparison {auto-animate=true}
+
+| Feature   | Party                 | Movement                    | Movement-Party           |
+| --------- | --------------------- | --------------------------- | ------------------------ |
+| Goal      | Win elections, govern | Influence culture/policy    | Both                     |
+| Structure | Bureaucratic, stable  | Fluid, network-based        | Hybrid                   |
+| Strategy  | Policy platforms      | Protest, activism           | Mixed                    |
+| Members   | Formal                | Informal, participation     | Flexible                 |
+
+<!-- | Identity  | Ideological           | Emotional/identity-based    | Populist, identity-based | -->
+
+## Movement-parties - conceptual comparison {auto-animate=true}
+
+- But the concept has [fuzzy boundaries]{style="color:cadetblue;"}, several borderline cases
+    + e.g., parties that function symbiotically with movements
+
+| Feature   | Party                 | Movement                    | Movement-Party           |
+| --------- | --------------------- | --------------------------- | ------------------------ |
+| Goal      | Win elections, govern | Influence culture/policy    | Both                     |
+| Structure | Bureaucratic, stable  | Fluid, network-based        | Hybrid                   |
+| Strategy  | Policy platforms      | Protest, activism           | Mixed                    |
+| Members   | Formal                | Informal, participation     | Flexible                 |
+
+<!-- | Identity  | Ideological           | Emotional/identity-based    | Populist, identity-based | -->
+
+## Movement-parties - conceptual comparison {auto-animate=true}
+
+- But the concept has [fuzzy boundaries]{style="color:cadetblue;"}, several borderline cases
+    + Parties (e.g., SVP) engaged in lots of grassroots activism [@favero2023BuildingLegitimacyWhy]
+    + e.g., parties that function symbiotically with movements
+
+| Feature   | Party                 | Movement                    | Movement-Party           |
+| --------- | --------------------- | --------------------------- | ------------------------ |
+| Goal      | Win elections, govern | Influence culture/policy    | Both                     |
+| Structure | Bureaucratic, stable  | Fluid, network-based        | Hybrid                   |
+| Strategy  | Policy platforms      | Protest, activism           | Mixed                    |
+| Members   | Formal                | Informal, participation     | Flexible                 |
+
+<!-- | Identity  | Ideological           | Emotional/identity-based    | Populist, identity-based | -->
+
+## Movement-parties cases [@Pirro2018]
+
+:::: {.columns}
+:::{.column width="50%"}
+
+![](slide_files/07/jobbik.png){width=85%}
+
+- based in Hungary
+- founded around paramilitary-style actions (e.g., marches in Roma areas)
+- in elections since 2009
+
+:::
+
+::: {.column width="50%" .right}
+![](slide_files/07/casapound.png){width=100%}
+
+- based in Italy
+- founded around direct action tactics (e.g., squatting)
+- in elections 2013-2019 
+
+:::
+::::
+
+## Movement-parties cases [@Pirro2018]
+
+both in transition from movement to party form (p377) -- what has happened since 2018?
+
+:::: {.columns}
+:::{.column width="50%"}
+
+![](slide_files/07/jobbik.png){width=100%}
+
+- based in Hungary
+- founded around paramilitary-style actions (e.g., marches in Roma areas)
+- in elections since 2009
+
+:::
+
+::: {.column width="50%" .right}
+![](slide_files/07/casapound.png){width=100%}
+
+- based in Italy
+- founded around direct action tactics (e.g., squatting)
+- in elections 2013-2019 
+
+:::
+::::
+
+<!-- - cases: Jobbik and CasaPound: both in transition from movement to party form (p377) -- what has happened since 2018? -->
+<!-- - findings: -->
+<!--     + 'movement parties' concept is useful... -->
+<!--     + how? what analytical leverage does it offer? (example of Sellner?) -->
+<!-- - other examples?? -->
+
+## Movement-parties
+
+[What other cases do you think this concept describes?]{style="font-size:100px; color:darkred;"}
+
+# Check-in on responses and counter-strategies (week 6) {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="70%"}
+Recall...
+
+- *Actors*: state, business, movements, media, parties
+- *Actions*: oppose, dismiss, accommodate
+- *Effects*: disband, constratin, weaken, deradicalise, normalise
+
+. . . 
+
+- [questions on this? examples you know of?]{style="color:orange;"}
+
+:::
+
+::: {.column width="30%" .right}
+<div class="tenor-gif-embed" data-postid="10496449" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/gandalf-battle-great-battle-of-our-time-we-come-to-it-at-last-the-great-battle-of-our-time-gif-10496449">Gandalf Battle GIF</a>from <a href="https://tenor.com/search/gandalf-gifs">Gandalf GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+# Sardines! {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="20%"}
+
+:::
+
+::: {.column width="80%"}
+<div class="tenor-gif-embed" data-postid="25567269" data-share-method="host" data-aspect-ratio="1" data-width="80%"><a href="https://tenor.com/view/cryptoflash-nft-wax-waxp-tattoo-gif-25567269">Cryptoflash Nft GIF</a>from <a href="https://tenor.com/search/cryptoflash-gifs">Cryptoflash GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+
+
+## Sardines [@ColomboETAL2021]
+
+> The Sardines held "anti-fascist, pro-equality, anti-intolerance, and anti-homophobic" views, they denounced a political communication based on racism, fascism, sexism and discrimination, standing their ground against it. (p5)
+
+:::: {.columns}
+:::{.column width="33%"}
+![](slide_files/07/sardine1.png){width=100%}
+
+:::
+
+
+:::{.column width="33%"}
+![](slide_files/07/sardine2.png){width=100%}
+
+:::
+
+::: {.column width="33%"}
+![](slide_files/07/sardine3.png){width=100%}
+
+:::
+::::
+
+- mobilising against *Lega* (Salvini) in Italy's 2020 election campaign
+
+## Sardines [@ColomboETAL2021]
+
+> RQ(s): how can support for FR be curbed? "we ask whether bottom-up mobilization against the far-right can undermine or boost support for the far-right. What happens when citizens mobilize in grassroots rallies against far-right political actors?" (p2)
+
+. . . 
+
+- cf. @lagios2022DoesItPay and @ellinas2023MovementPartyElectoral
+
+. . . 
+
+findings: grassroots mobilisation can decrease appeal of FR ... 
+
+## Sardines [@ColomboETAL2021]
+
+findings: grassroots mobilisation can decrease appeal of FR ... 
+
+- possible mechanisms?
+
+. . . 
+
+(1) [social pressure effect]{style="color:cadetblue;"}, reinforcing stigmatisation of FR politics, 
+
+. . . 
+
+(2) [informative effect]{style="color:cadetblue;"}, raising awareness of FR threats, 
+
+. . . 
+
+(3) [outing of (voting) intent]{style="color:cadetblue;"}, committing demonstration participants/supporters to a certain electoral choice
+
+. . . 
+
+- But also possible *[backlash effects]{style="color:darkred;"}*
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>     
+
+Alternatively, send me an email: [m.zeller@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- 1 + 1 -->
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+<!-- ::: -->
+
+
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- library(dplyr) -->
+<!-- library(ggplot2) -->
+<!-- g <- starwars |>  -->
+<!--   ggplot() + -->
+<!--   geom_point(aes(x = height, y = mass)) + -->
+<!--   theme_light() -->
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+<!-- #| fig.align: center -->
+<!-- #| echo: true -->
+<!-- g  -->
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| echo: true -->
+<!-- #| eval: false -->
+<!-- tab <- starwars |> -->
+<!--   tidyr::drop_na(species) |>  -->
+<!--   group_by(species) |> -->
+<!--   summarise( -->
+<!--     n = n(), -->
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+<!--   ) |>  -->
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r} -->
+<!-- #| label: kable-ex -->
+<!-- #| eval: true -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+<!-- gt::gt(tab) -->
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+<!-- reactable::reactable(tab) -->
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<!-- </center> -->
+
+
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_07.html"))
+```
+
+
+## References
+
