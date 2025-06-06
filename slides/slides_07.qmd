@@ -42,7 +42,7 @@ bibliography: ../../../library.bib
 
 | Date    | Presenters                       | Method |
 | -------:|:---------------------------------|:------:|
-| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | regression | 
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | surveys | 
 | 12 June: | Omar B., Lela E., Niclas W. | network analysis |
 | 19 June: | NO CLASS MEETING                        |  | 
 | 26 June: | Colombe I., Konstantin S., Jakob W., Veronika L. | network analysis | 
