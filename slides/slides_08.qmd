@@ -526,9 +526,7 @@ for many [extra-institutional goals]{style="color:red;"} it is [far-right moveme
 :::: {.columns}
 :::{.column width="50%"}
 - international treaties - usually the realm of elite politics
-- *more* ...
-
-- not unique: Global Compact for Migration [@rone2023StopPactForeign]
+- Istanbul Convention [@AK-CR-Zeller2024] - combating violence against women and domestic violence
     
 :::
 
@@ -537,7 +535,104 @@ for many [extra-institutional goals]{style="color:red;"} it is [far-right moveme
 :::
 ::::
 
-- far-right has profited like few others from a cultural shift/opening, won by movements more than parties
+- [not unique]{style="color:orange;"}: Global Compact for Migration [@rone2023StopPactForeign]
+
+## Istanbul Convention politicisation
+
+> Opponents criticize the Convention’s explicit [linkage between gender-based violence and structural gendered inequalities]{style="color:red;"} between women and men, the definition of gender in [Article 3(c)]{style="color:red;"} as “the socially constructed roles, behavior, activities, and attributes that a given society considers appropriate for women and men,” and [Arts. 12–16]{style="color:red;"} that require states to “promote changes in the social and cultural patterns of behavior of women and men” by means of education and other methods. The Convention [depicted as spreading “gender-ideology”]{style="color:red;"} and a threat to traditional values and gender roles ... became a target of anti-gender campaigns in Europe
+
+## Istanbul Convention ratification status {.smaller}
+
+Ratification of the Istanbul Convention by Council of Europe member states (EU member states in *italics*). Turkey (*) withdrew from the IC.
+
+```{r}
+library(dplyr)
+library(kableExtra)
+ratification_data <- data.frame(
+  RatificationStatus = c("Ratified in 2012", "Ratified in 2013", "Ratified in 2014", "Ratified in 2015", 
+                         "Ratified in 2016", "Ratified in 2017", "Ratified in 2018", "Ratified in 2019", 
+                         "Ratified in 2022", "Not ratified as of March 2021"),
+  Countries = c("Turkey*", 
+                "Albania, <i>Austria</i>, Bosnia and Herzegovina, <i>Italy</i>, Montenegro, <i>Portugal</i>, Serbia", 
+                "Andorra, <i>Denmark</i>, <i>France</i>, <i>Malta</i>, Monaco, <i>Spain</i>, <i>Sweden", 
+                "<i>Finland</i>, <i>Netherlands</i>, <i>Poland</i>, <i>Slovenia", 
+                "<i>Belgium</i>, <i>Romania</i>, San Marino", 
+                "<i>Cyprus</i>, <i>Estonia</i>, Georgia, <i>Germany</i>, Norway, Switzerland", 
+                "<i>Croatia</i>, <i>Greece</i>, Iceland, <i>Luxembourg</i>, North Macedonia", 
+                "<i>Ireland</i>", 
+                "Ukraine, United Kingdom", 
+                "Armenia, Azerbaijan, <i>Bulgaria</i>, <i>Czechia</i>, <i>Hungary</i>, <i>Latvia</i>, Lichtenstein, <i>Lithuania</i>, Moldova, Russia, <i>Slovakia</i>"))
+
+
+# Create the kable table
+kable(ratification_data, format = "html", escape = FALSE) %>%
+  kable_styling("striped", full_width = F)
+```
+
+## Istanbul Convention ratification and right-wing gov.
+
+![](slide_files/08/ic_rgov.png)
+
+
+## Rejecting the Istanbul Convention {.smaller}
+
+- strong [oppositional movements]{style="color:red;"} (proxied by 'OPPG') often influential in [rejecting the IC]{style="color:red;"}
+
+::: panel-tabset
+### Non-ratification QCA solution
+
+```{r}
+grouping_data <- data.frame(
+  Grouping = c("unbridled resisters", "secular illiberalism", "backsliders", "Solution"),
+  SolutionTerm = c("RGOV* OPPG* ~WEQU* ~EUC", 
+                   "RGOV* ~HRM* ~WPOW* ~WEQU* ~EUC", 
+                   "LDB* RGOV* OPPG* HRM* ~WPOW* ~WEQU", 
+                   " "),
+  InclS = c("0.886", "0.864", "0.756", "0.871"),
+  PRI = c("0.837", "0.776", "0.715", "0.830"),
+  CovS = c("0.586", "0.188", "0.159", "0.725"),
+  CovU = c("0.378", "0.030", "0.109", ""),
+  Cases = c("Latvia; Azerbaijan, Russia; Bulgaria; Hungary", 
+            "Czechia; Hungary", 
+            "Turkey", 
+            " ")
+)
+
+kable(grouping_data, format = "html", escape = FALSE) %>%
+  kable_styling("striped", full_width = FALSE) # %>%column_spec(1, width = "2cm") %>%
+  # column_spec(2, width = "2cm") %>%
+  # column_spec(7, width = "3cm")
+```
+
+### Solution plot
+![](slide_files/08/suf.png){.absolute width="700"}
+
+:::
+
+. . . 
+
+[far-right socio-politics has succeeded through cultural shifts/openings, won more by movements than parties]{style="color:darkred; font-size:30px;"}
+
+
+## Ratifying the Istanbul Convention
+
+:::: {.columns}
+:::{.column width="55%"}
+
+![](slide_files/08/ic_paths.png){.absolute height="600"}
+
+:::
+
+::: {.column width="45%" .center}
+by the same token...
+
+[various movements have been instrumental in achieving many progressive political, cultural objectives]{style="color:darkred; font-size:45px;"}
+
+____________
+
+the push and pull of opposed movements is [contentious politics]{style="color:cadetblue; font-size:45px;"}
+:::
+:::: 
 
 # Poll: matters of FR mobilisation {background-color="#2c844c"}
 
@@ -662,11 +757,11 @@ plot_active_year = Plot.plot({
     domain: [0, active_year_maxCountRE]
   },
   facet: { data: active_yearCounts, x: "measure", label: "" },
-  marginLeft: 140,
+  marginLeft: 60,
   style: {
     width: 1600,
     height: 500,
-    fontSize: 30,
+    fontSize: 40,
   },
 });
 
@@ -739,11 +834,11 @@ plot_issue = Plot.plot({
     domain: [0, issue_maxCountRE]
   },
   facet: { data: issueCounts, x: "measure", label: "" },
-  marginLeft: 140,
+  marginLeft: 60,
   style: {
     width: 1600,
     height: 500,
-    fontSize: 30,
+    fontSize: 40,
   },
 });
 
@@ -752,7 +847,7 @@ plot_issue = Plot.plot({
 :::
 
 ::: {.column width="33%"}
-Most common tactic/form
+Most common tactic
 
 ```{ojs}
 tacticCounts = aq.from(surveyResults)
@@ -807,11 +902,11 @@ plot_tactic = Plot.plot({
     domain: [0, tactic_maxCountRE]
   },
   facet: { data: tacticCounts, x: "measure", label: "" },
-  marginLeft: 140,
+  marginLeft: 60,
   style: {
     width: 1600,
     height: 500,
-    fontSize: 30,
+    fontSize: 40,
   },
 });
 
@@ -825,16 +920,19 @@ plot_tactic = Plot.plot({
 
 
 
-# Mobilisation: periods, spaces, and issues (DE, IT, UK) {background-color="#2c844c"}
+# Mobilisation: periods, spaces, issues {background-color="#2c844c"}
 
 :::: {.columns}
 :::{.column width="50%"}
 - data from UK, Italy, Germany
+    + UK: [FRGB dataset](https://www.academia.edu/75424954/CARR_Organisation_Research_Unit_2020_Year_in_Review_Report) <br> [@AllchornDafnos2021]
+    + Italy: [FARPO](https://farpo.eu/publications-and-news/) <br> [incl. @castelligattinara2022FarRightProtest]
+    + Germany: [BT Anfrage](https://dip.bundestag.de/drucksache/auf-die-kleine-anfrage-drucksache-20-14416-rechtsextreme-aufm%C3%A4rsche-im-vierten/278355?f.wahlperiode=20&f.typ=Dokument&f.metatyp=Fragen%20an%20die%20Bundesregierung&start=325&rows=25&sort=verteildatum_ab&pos=348&ctx=d) <br> (e.g., <https://dserver.bundestag.de/btd/20/135/2013555.pdf>)
     
 :::
 
 ::: {.column width="50%" .right}
-<div class="tenor-gif-embed" data-postid="21181182" data-share-method="host" data-aspect-ratio="1.48837" data-width="100%"><a href="https://tenor.com/view/protest-gif-21181182">Protest GIF</a>from <a href="https://tenor.com/search/protest-gifs">Protest GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<div class="tenor-gif-embed" data-postid="21181182" data-share-method="host" data-aspect-ratio="1.48837" data-width="90%"><a href="https://tenor.com/view/protest-gif-21181182">Protest GIF</a>from <a href="https://tenor.com/search/protest-gifs">Protest GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 :::
 ::::
 
@@ -1697,6 +1795,9 @@ plot_prohibit_fr_demos = Plot.plot({
 
 - What should authorities do when non-violent far-right demonstrations are met with disruptive, possibly violent counter-mobilisation (e.g., from anti-fascist activists)?
 
+:::: {.columns}
+::: {.column width="60%" .right}
+
 ```{ojs}
 respond_countermobCounts = aq.from(surveyResults)
   .select("respond_countermob")
@@ -1736,7 +1837,7 @@ plot_respond_countermob = Plot.plot({
       "indigo"
     ]
   },
-  marginBottom: 220,
+  marginBottom: 225,
   x: { label: "", tickSize: 2, tickRotate: -35, padding: 0.3,
     domain: ["ban both", "ban counter-mobilisation", "ban far-right demonstration", "keep protests separated", "nothing", "other"]
   },  
@@ -1759,6 +1860,20 @@ plot_respond_countermob = Plot.plot({
 });
 
 ```
+
+:::
+
+::: {.column width="40%"}
+
+::: {.fragment .fade-in}
+[these perennial questions permeate our next two class topics (*[counter-mobilisation]{style="color:darkred;"}* and *[demobilisation]{style="color:darkred;"}*)]{style="font-size:45px;"}
+
+<!-- ]{style="color:indigo; font-size:60px;"} -->
+
+:::
+
+:::
+::::
 
 ## OJS Shiny-style Plot Example {visibility="hidden"}
 
