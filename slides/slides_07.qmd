@@ -56,7 +56,7 @@ bibliography: ../../../library.bib
 | 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | ethnography | 
 | 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD | 
 | 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD | 
-| 24 July: | Lorenz F., Daniel B., Fiona W., Medina H. | quant. text analysis | 
+| 24 July: | Lorenz F., Daniel B., Medina H. | quant. text analysis | 
 
 ## May
 

@@ -1,0 +1,2147 @@
+---
+title: "Class 8: Movements"
+subtitle: "Mobilisation and movements"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+    theme: [default, custom_options]
+    background-transition: fade
+incremental: false
+embed-resources: true
+# runtime: shiny
+bibliography: ../../../library.bib
+---
+
+# Opening notes {background-color="#2c844c"}
+
+::: {.tenor-gif-embed data-postid="14209777" data-share-method="host" data-aspect-ratio="1.94" data-width="70%"}
+<a href="https://tenor.com/view/open-gif-14209777">Open Sticker</a>from <a href="https://tenor.com/search/open-stickers">Open Stickers</a>
+:::
+
+```{=html}
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+```
+
+<!-- <div class="tenor-gif-embed" data-postid="23663828" data-share-method="host" data-aspect-ratio="1" data-width="70%"><a href="https://tenor.com/view/happy-birthday-gif-23663828">Happy Birthday GIF</a>from <a href="https://tenor.com/search/happy+birthday-gifs">Happy Birthday GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Angel David Meissner, Adrian Morina, Elli Quitter -->
+
+<!-- [**Topics to me as soon as possible**]{style="color:red;"} -->
+
+::: panel-tabset
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | surveys |
+| 12 June: | Omar B., Lela E., Niclas W. | network analysis |
+| 19 June: | NO CLASS MEETING |  |
+| 26 June: | Colombe I., Konstantin S., Jakob W., Veronika L. | ethnography |
+| 26 June: | Maksim K., Felix S., Jon L.D., Damir S., Korbinian M. | case study |
+
+## July
+
+| Date | Presenters | Method |
+|-------------:|:--------------------------------------------|:------------:|
+| 3 July: | Alexander V., Luis G., Oscar O., Mia C. | descriptive inference |
+| 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | ethnography |
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD |
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD |
+| 24 July: | Lorenz F., Daniel B., Medina H. | quant. text analysis |
+
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | logistic regression |
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | discourse analysis |
+| 29 May: | NO CLASS MEETING |  |
+
+: Presentations line-up
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+# Social movement lens on the far right {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- overlap, interconnection with parties
+    + movement-parties
+    + parties with movement roots
+    + collaboration of movements and parties
+- types of movement impacts
+- discussion: far-right movement goals that extend beyond political institutions 
+    
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="15015659" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/fist-pump-fist-vuisten-vuist-stand-up-gif-15015659">Fist Pump Fist Sticker</a>from <a href="https://tenor.com/search/fist+pump-stickers">Fist Pump Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+## Movements and parties, overlaps and similarities
+
+- All sorts of constellations of movements and parties
+- Some far-right [movement-parties]{style="color:darkred;"}, as discussed last week
+- Several major far-right parties have movement roots, e.g. Front National [@CastelliGattinara2019]
+<!-- even non-movement-parties have deep movement connections or roots: Front National (National Front, FN) has clear roots in the movement sector (e.g. Shields 2007). -->
+
+. . . 
+
+- More importantly, whether movement or party, many far-right actors:
+    + develop [collective identities]{style="color:darkred;"}
+    + [frame]{style="color:darkred;"} issues
+    + [mobilise]{style="color:darkred;"} and [strategically]{style="color:darkred;"} use resources
+- [these and other social movement concepts can help understand lots of far-right activity]{style="color:cadetblue;"}
+
+## Movement impacts {auto-animate=true}
+
+
+:::: {.columns}
+:::{.column width="25%"}
+
+:::
+
+::: {.column width="25%" .center}
+
+:::
+
+::: {.column width="25%" .center}
+
+:::
+
+::: {.column width="25%" .center}
+
+:::
+
+::::
+
+
+## Movement impacts {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+:::{.column width="25%"}
+[cultural]{style="color:darkred;"}
+
+![](slide_files/08/cultural.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+
+:::
+
+::: {.column width="25%" .center}
+
+:::
+
+::: {.column width="25%" .center}
+
+:::
+
+::::
+
+## Movement impacts {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+:::{.column width="25%"}
+[political]{style="color:darkred;"}
+
+![](slide_files/08/political.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[cultural]{style="color:darkred;"}
+
+![](slide_files/08/cultural.png){width=100%}
+
+:::
+
+::: {.column width="25%" .center}
+
+
+:::
+
+::: {.column width="25%" .center}
+
+
+:::
+
+::::
+
+## Movement impacts {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+:::{.column width="25%"}
+[organisational]{style="color:darkred;"}
+
+![](slide_files/08/organisational.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[political]{style="color:darkred;"}
+
+![](slide_files/08/political.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[cultural]{style="color:darkred;"}
+
+![](slide_files/08/cultural.png){width=100%}
+
+:::
+
+::: {.column width="25%" .center}
+
+
+:::
+
+::::
+
+## Movement impacts {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="25%" .center}
+[individual]{style="color:darkred;"}
+
+![](slide_files/08/individual.png){width=100%}
+:::
+
+:::{.column width="25%"}
+[organisational]{style="color:darkred;"}
+
+![](slide_files/08/organisational.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[political]{style="color:darkred;"}
+
+![](slide_files/08/political.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[cultural]{style="color:darkred;"}
+
+![](slide_files/08/cultural.png){width=100%}
+
+:::
+
+::::
+
+## Movement impacts - individual {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="35%" .right}
+[individual]{style="color:darkred;"}
+
+![](slide_files/08/individual.png){width=100%}
+:::
+
+::: {.column width="65%" .right}
+- did people who participated change? how?
+    + interpersonal connections (likely future movement particiation)
+- did people who encountered the movement change? how?
+    + different issue attention/focus? different attitudes? 
+
+:::
+::::
+
+. . . 
+
+- [participants]{style="color:red;"}, [attitudinally]{style="color:cadetblue;"}: radicalised? disillusioned? [behaviourally]{style="color:cadetblue;"}: more extreme? burnout?
+- [onlookers responses]{style="color:red;"}: on immigration, culture? support/oppose?
+
+## Movement impacts {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="25%" .center}
+[individual]{style="color:darkred;"}
+
+![](slide_files/08/individual.png){width=100%}
+:::
+
+:::{.column width="25%"}
+[organisational]{style="color:darkred;"}
+
+![](slide_files/08/organisational.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[political]{style="color:darkred;"}
+
+![](slide_files/08/political.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[cultural]{style="color:darkred;"}
+
+![](slide_files/08/cultural.png){width=100%}
+
+:::
+
+::::
+
+## Movement impacts - organisational {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="35%" .right}
+[organisational]{style="color:darkred;"}
+
+![](slide_files/08/organisational.png){width=100%}
+:::
+
+::: {.column width="65%" .right}
+- a targeted organisation?
+    + changed behaviour? organisational decline?
+- the movement's own (or connected) organisation(s)?
+    + professionalisation, institutionalisation
+    + new affiliate organisations (perhaps parties, businesses)
+
+:::
+::::
+
+. . . 
+
+- [targeted organisation]{style="color:red;"}: e.g., changed (political) financing activity, policies (as with platforms content moderation), hindered org.'s activity
+
+## Movement impacts {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="25%" .center}
+[individual]{style="color:darkred;"}
+
+![](slide_files/08/individual.png){width=100%}
+:::
+
+:::{.column width="25%"}
+[organisational]{style="color:darkred;"}
+
+![](slide_files/08/organisational.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[political]{style="color:darkred;"}
+
+![](slide_files/08/political.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[cultural]{style="color:darkred;"}
+
+![](slide_files/08/cultural.png){width=100%}
+
+:::
+
+::::
+
+## Movement impacts - political {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="35%" .right}
+[political]{style="color:darkred;"}
+
+![](slide_files/08/political.png){width=100%}
+:::
+
+::: {.column width="65%" .right}
+- have debates/discourse changed?
+- have policies or laws changed?
+- have dynamics between political actors changed?
+- have new political actors emerged because of the movement?
+
+- see @Tilly1999 and @Amenta2010 
+:::
+::::
+
+## Movement impacts {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="25%" .center}
+[individual]{style="color:darkred;"}
+
+![](slide_files/08/individual.png){width=100%}
+:::
+
+:::{.column width="25%"}
+[organisational]{style="color:darkred;"}
+
+![](slide_files/08/organisational.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[political]{style="color:darkred;"}
+
+![](slide_files/08/political.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[cultural]{style="color:darkred;"}
+
+![](slide_files/08/cultural.png){width=100%}
+
+:::
+
+::::
+
+## Movement impacts - cultural {auto-animate=true}
+
+:::: {.columns}
+::: {.column width="35%" .right}
+[cultural]{style="color:darkred;"}
+
+![](slide_files/08/cultural.png){width=100%}
+:::
+
+::: {.column width="65%" .right}
+
+- have cultural/societal norms changed because of the movement? how?
+    + are certain ideas, behaviours now acceptable *or* no longer acceptable in:
+        * public opinion, lifestyle trends
+        * media and popular culture
+        * non-political institutions (e.g., research and education, religion)
+
+- see @AmentaPolletta2019
+
+:::
+::::
+
+. . . 
+
+- e.g., immigration views compared to two/three decades ago; acceptance of certain political rhetoric; approval of 'strong man' leadership in Western democracies
+
+## Movement impacts {auto-animate=true}
+
+::: footer
+[[icons created by Flaticon](https://www.flaticon.com/free-icons/)]{style="font-size:20px;"}
+<!-- <a href="https://www.flaticon.com/free-icons/" title="Flaticon">icons created by Freepik - Flaticon</a> -->
+:::
+
+:::: {.columns}
+::: {.column width="25%" .center}
+[individual]{style="color:darkred;"}
+
+![](slide_files/08/individual.png){width=100%}
+:::
+
+:::{.column width="25%"}
+[organisational]{style="color:darkred;"}
+
+![](slide_files/08/organisational.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[political]{style="color:darkred;"}
+
+![](slide_files/08/political.png){width=100%}
+:::
+
+::: {.column width="25%" .center}
+[cultural]{style="color:darkred;"}
+
+![](slide_files/08/cultural.png){width=100%}
+
+:::
+
+::::
+
+## Far-right movement goals discussion {.center}
+
+- we have discussed far-right goals in *institutional politics*, but...
+
+::: {style="text-align: center;"}
+**[What are some goals of contemporary far-right movements that are *not* particular to institutional politics?]{style="color:indigo; font-size:60px;"}** 
+:::
+
+. . . 
+
+for many [extra-institutional goals]{style="color:red;"} it is [far-right movements]{style="color:red;"} (more than other actors) that have a major impact
+
+# A less likely case of far-right movement influence - the Istanbul Convention {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- international treaties - usually the realm of elite politics
+- *more* ...
+
+- not unique: Global Compact for Migration [@rone2023StopPactForeign]
+    
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="22182744" data-share-method="host" data-aspect-ratio="1.89349" data-width="100%"><a href="https://tenor.com/view/gender-ideology-meme-mike-myers-dr-evil-austin-powers-gif-22182744">Gender Ideology Meme GIF</a>from <a href="https://tenor.com/search/gender+ideology-gifs">Gender Ideology GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+- far-right has profited like few others from a cultural shift/opening, won by movements more than parties
+
+# Poll: matters of FR mobilisation {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="35%"}
+![](slide_files/08/class8_poll_QR.png){fig-alt="A QR code for the survey."}
+
+:::
+
+::: {.column width="65%" .center}
+<!-- go to <https://www.qr-code-generator.com/>, add the link, and screen shot the QR code -->
+Take the survey at **<https://forms.gle/LNPvbC4h9QbycWYL7>**
+
+<!-- - mobilising more under left-wing or right-wing -- discuss why -->
+- which [year]{style="color:orange;"} do you guess was far-right social mobilisation [most frequent]{style="color:orange;"}?
+- most [prominent]{style="color:orange;"} far-right protest [issue]{style="color:orange;"}?
+    <!-- + symbols and aesthetics in movement activity? -->
+- most common far-right mobilisation form?
+
+- what to do when non-violent far-right demonstrations are met with disruptive, possibly violent counter-mobilisation?
+
+<!-- - should governments take actions to restrict or even prohibit (certain) far-right demonstrations? -->
+<!-- - what about when there is (potentially violent) counter-mobilisation? -->
+
+:::
+:::: 
+
+- should governments or state authorities be able to prohibit far-right demonstrations even if they are non-violent?
+
+--- 
+
+```{ojs}
+md`## Poll results (Respondents: ${respondentCount})`
+```
+
+
+```{ojs}
+
+import { liveGoogleSheet } from "@jimjamslam/live-google-sheet";
+import { aq, op } from "@uwdata/arquero";
+
+// UPDATE THE LINK FOR A NEW POLL
+surveyResults = liveGoogleSheet(
+  "https://docs.google.com/spreadsheets/d/e/" +
+    "2PACX-1vRUirGBSRIasLbdAX8eUL3CnbZMeyDlaJg641JdD1rmABt9Sn2cCyLdZDVc0vlllR18UEfSJiDBL3Bs/" +
+    "pub?gid=1046226459&single=true&output=csv",
+  10000, 1, 6); // adjust the last number to select all relevant columns 
+
+respondentCount = surveyResults.length;
+
+```
+
+
+<!-- - Which year in the last decade do you think saw the most frequent far-right protest activity? -->
+<!-- - Which issue do you think is most prominent in far-right protest? -->
+<!-- - What protest tactic do you think is most common in far-right mobilisation? -->
+
+:::: {.columns}
+:::{.column width="33%"}
+Most active year
+
+```{ojs}
+active_yearCounts = aq.from(surveyResults)
+  .select("active_year")
+  .groupby("active_year")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+active_year_maxCountRE = Math.max(...active_yearCounts.objects().map(d => d.count));
+
+plot_active_year = Plot.plot({
+  marks: [
+    Plot.barY(active_yearCounts, {
+      x: "active_year",
+      y: "count",
+      fill: "active_year",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014", 
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    range: [
+      "darkred",
+      "darkorange",
+      "goldenrod",
+      "forestgreen",
+      "blue",
+      "indigo",
+      "violet",
+      "brown",
+      "black",
+      "grey",
+      "white"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -90, padding: 0.2,
+    domain: ["2009", "2010", "2011", "2012", "2013", "2014",  "2015", "2016", "2017", "2018", "2019"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(active_yearCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, active_year_maxCountRE]
+  },
+  facet: { data: active_yearCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 30,
+  },
+});
+
+```
+ 
+:::
+
+::: {.column width="33%"}
+Most prominent issue
+
+
+```{ojs}
+issueCounts = aq.from(surveyResults)
+  .select("issue")
+  .groupby("issue")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+issue_maxCountRE = Math.max(...issueCounts.objects().map(d => d.count));
+
+plot_issue = Plot.plot({
+  marks: [
+    Plot.barY(issueCounts, {
+      x: "issue",
+      y: "count",
+      fill: "issue",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "corruption",
+      "culture",
+      "economy",
+      "EU",
+      "foreign policy",
+      "gender", 
+      "immigration",
+      "Islam",
+      "security",
+      "welfare"
+    ],
+    range: [
+      "darkred",
+      "darkorange",
+      "goldenrod",
+      "forestgreen",
+      "blue",
+      "indigo",
+      "violet",
+      "brown",
+      "black",
+      "grey"
+    ]
+  },
+  marginBottom: 100,
+  x: { label: "", tickSize: 2, tickRotate: -45, padding: 0.3,
+    domain: ["corruption", "culture", "economy", "EU", "foreign policy", "gender",  "immigration", "Islam", "security", "welfare"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(issueCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, issue_maxCountRE]
+  },
+  facet: { data: issueCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 30,
+  },
+});
+
+```
+
+:::
+
+::: {.column width="33%"}
+Most common tactic/form
+
+```{ojs}
+tacticCounts = aq.from(surveyResults)
+  .select("tactic")
+  .groupby("tactic")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+tactic_maxCountRE = Math.max(...tacticCounts.objects().map(d => d.count));
+
+plot_tactic = Plot.plot({
+  marks: [
+    Plot.barY(tacticCounts, {
+      x: "tactic",
+      y: "count",
+      fill: "tactic",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "boycott",
+      "confrontation",
+      "demonstration",
+      "occupation",
+      "symbolic",
+      "violence"
+    ],
+    range: [
+      "darkred",
+      "darkorange",
+      "goldenrod",
+      "forestgreen",
+      "blue",
+      "indigo"
+    ]
+  },
+  marginBottom: 100,
+  x: { label: "", tickSize: 2, tickRotate: -25, padding: 0.3,
+    domain: ["boycott", "confrontation", "demonstration", "occupation", "symbolic", "violence"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(tacticCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, tactic_maxCountRE]
+  },
+  facet: { data: tacticCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 30,
+  },
+});
+
+```
+
+:::
+::::
+
+
+
+
+
+
+# Mobilisation: periods, spaces, and issues (DE, IT, UK) {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- data from UK, Italy, Germany
+    
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="21181182" data-share-method="host" data-aspect-ratio="1.48837" data-width="100%"><a href="https://tenor.com/view/protest-gif-21181182">Protest GIF</a>from <a href="https://tenor.com/search/protest-gifs">Protest GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+<!-- OUTLINE -->
+<!-- -   mobilisation (FARPO, ACLED, Anfrage data, Will and Andreas's UK data) -->
+<!--     -   poll on most common issues of protests, mobilising more under left-wing or right-wing governments [@Koopmans1995] (follow up with why do you think that; what are the mechanisms); -->
+<!-- -   mobilising more under left-wing or right-wing governments [@Koopmans1995] -->
+<!-- -   movement 'success' in different areas -->
+<!--     -   examples of success in each area -->
+
+
+<!-- LOAD DATA -->
+
+```{r load-mobi-data}
+#| echo: false
+#| fig-width: 7
+#| fig-height: 4
+library(lubridate)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+
+## Europe / Italy data
+FARPO <- read.csv("slide_files/08/FARPE-data_1.3.txt", comment.char="#")
+FARPO$Date <- as.Date(ISOdate(FARPO$Year, FARPO$Month, FARPO$Day))
+
+## UK data
+frgb <- read.csv("slide_files/08/FRGB.csv", header = TRUE)
+frgb$State <- "United Kingdom"
+frgb$Date <- as.Date(frgb$Date, format="%Y-%m-%d")
+frgb$Year <- as.numeric(format(as.Date(frgb$Date, format="%Y-%m-%d"),"%Y"))
+n <- as.numeric(max(frgb$Year)) - as.numeric(min(frgb$Year))
+
+## Germany data
+library(readxl)
+de_demos <- read_excel("slide_files/08/demos_2005-2024sep_geo.xlsx")
+de_demos$Jahr <- as.numeric(de_demos$Jahr)
+N <- max(de_demos$Jahr) - min(de_demos$Jahr)
+de_demos$Jahr <- lubridate::ymd(de_demos$Jahr, truncated = 2L)
+de_demos$Datum <- as.Date(de_demos$Datum)
+
+```
+
+## Most active mobilisation in recent years
+
+::: {.absolute .fragment top="180" right="80"}
+**[Italy]{style="color:#FF6347; font-size:45px;"}**  
+**[UK]{style="color:#4682B4; font-size:45px;"}**  
+**[Germany]{style="color:#32CD32; font-size:45px;"}** 
+:::
+
+```{r}
+#| echo: false
+
+it <- FARPO %>% 
+  filter(Country_string=="Italy") %>% 
+  group_by(Year) %>% 
+  summarise(Num=n()) 
+
+de_pros <- read_excel("slide_files/08/demos_2005-2024sep_geo.xlsx")
+de_pros$Jahr <- as.numeric(de_pros$Jahr)
+
+ge <- de_pros %>% 
+  group_by(Jahr) %>% 
+  summarise(Num=n())
+
+uk <- frgb %>% 
+  group_by(Year) %>% 
+  summarise(Num=n())
+
+```
+
+```{ojs}
+// Combine the datasets 
+
+Italy = [
+  {Year: 2008, Num: 42}, {Year: 2009, Num: 117}, {Year: 2010, Num: 269},
+  {Year: 2011, Num: 233}, {Year: 2012, Num: 196}, {Year: 2013, Num: 225},
+  {Year: 2014, Num: 228}, {Year: 2015, Num: 190}, {Year: 2016, Num: 138},
+  {Year: 2017, Num: 54}, {Year: 2018, Num: 26}
+]
+
+UK = [
+  {Year: 2009, Num: 40}, {Year: 2010, Num: 98}, {Year: 2011, Num: 148},
+  {Year: 2012, Num: 116}, {Year: 2013, Num: 161}, {Year: 2014, Num: 149},
+  {Year: 2015, Num: 123}, {Year: 2016, Num: 83}, {Year: 2017, Num: 84},
+  {Year: 2018, Num: 107}, {Year: 2019, Num: 107}
+]
+
+Germany = [
+  {Year: 2005, Num: 187}, {Year: 2006, Num: 151}, {Year: 2007, Num: 129},
+  {Year: 2008, Num: 103}, {Year: 2009, Num: 137}, {Year: 2010, Num: 85},
+  {Year: 2011, Num: 142}, {Year: 2012, Num: 132}, {Year: 2013, Num: 186},
+  {Year: 2014, Num: 219}, {Year: 2015, Num: 491}, {Year: 2016, Num: 330},
+  {Year: 2017, Num: 107}, {Year: 2018, Num: 129}, {Year: 2019, Num: 174},
+  {Year: 2020, Num: 151}, {Year: 2021, Num: 89}, {Year: 2022, Num: 143},
+  {Year: 2023, Num: 196}, {Year: 2024, Num: 170}
+]
+
+// Create a dropdown which dataset to display (Inputs.select) - Inputs.radio for radio buttons
+// FIRST VERSION: viewof dataset = Inputs.radio(["IT (FARPO)", "UnitedKingdom (FRGB)", "DE (BT)"], {label: "Dataset"})
+viewof datasets = Inputs.checkbox(
+  ["IT (FARPO)", "UK (FRGB)", "DE (BT)"], 
+  {label: "", value: ["IT (FARPO)", "UK (FRGB)", "DE (BT)"]}
+)
+
+
+// Choose the corresponding dataset based on the selection
+// FIRST VERSION: selected_data = dataset === "IT (FARPO)" ? Italy : dataset === "UK (FRGB)" ? UK : Germany
+// Combine the selected datasets into one array
+selected_data = datasets.flatMap(dataset => {
+  if (dataset === "IT (FARPO)") {
+    return Italy.map(d => ({...d, dataset: "Italy"}));
+  } else if (dataset === "UK (FRGB)") {
+    return UK.map(d => ({...d, dataset: "UK"}));
+  } else if (dataset === "DE (BT)") {
+    return Germany.map(d => ({...d, dataset: "Germany"}));
+  }
+  return [];
+});
+
+```
+
+```{ojs}
+// plot as a bar plot
+// FIRST VERSION: Plot.plot({
+//   x: {
+//     label: "", tickSize: 2, tickRotate: -45,
+//     tickFormat: d => d.toString() // Converts the year to a string to avoid number formatting
+//   },
+//   y: {
+//     grid: true
+//   },
+//   margin: 100,
+//   marks: [
+//     Plot.barY(selected_data, {x: "Year", y: "Num", fill: "darkred"})
+//   ],
+//   width: 1200,
+//   height: 600,
+//   style: {
+//     fontSize: 30,
+//   },
+// })
+
+// plot as a bar plot with dodged bars colored by dataset
+Plot.plot({
+  x: {
+    label: "", 
+    tickSize: 2, 
+    tickRotate: -45,
+    tickFormat: d => d.toString()
+  },
+  y: {
+    grid: true
+  },
+  color: {
+    legend: true,
+    domain: ["Italy", "UK", "Germany"],
+    range: ["#FF6347", "#4682B4", "#32CD32"]
+  },
+  margin: 100,
+  marks: [
+    Plot.barY(selected_data, {
+      x: "Year",
+      y: "Num",
+      fill: "dataset",
+      groupby: "dataset",
+      x1: "dataset"
+    })
+  ],
+  width: 1200,
+  height: 600,
+  style: {
+    fontSize: 28
+  }
+})
+
+```
+
+
+## Far-right demonstrations in Germany {auto-animate="true"}
+
+- Identified in gov. responses to parliamentary inquiries (*Anfrage*)
+
+```{r}
+#| echo: true
+#| fig-width: 18
+#| fig-height: 6
+
+de_demos
+
+```
+
+## Far-right demonstrations in Germany {auto-animate="true"}
+
+- Identified in gov. responses to parliamentary inquiries (*Anfrage*)
+
+```{r}
+#| echo: true
+#| fig-width: 18
+#| fig-height: 6
+de_demos %>% 
+  mutate(month=floor_date(Datum, "month")) %>% 
+  group_by(month) %>% summarise(Num=n())
+```
+
+## Far-right demonstrations in Germany {auto-animate="true"}
+
+- Identified in gov. responses to parliamentary inquiries (*Anfrage*)
+
+```{r}
+#| echo: true
+#| fig-width: 18
+#| fig-height: 6
+de_demos %>% 
+  mutate(month=floor_date(Datum, "month")) %>% 
+  group_by(month) %>% summarise(Num=n()) %>% 
+  ggplot(aes(x=month, y=Num))+ geom_bar(stat="identity")
+```
+
+## Far-right demonstrations in Germany {auto-animate="true"}
+
+```{r}
+#| echo: true
+#| fig-width: 18
+#| fig-height: 6
+de_demos %>% 
+  mutate(month=floor_date(Datum, "month")) %>% 
+  group_by(month) %>% summarise(Num=n()) %>% 
+  ggplot(aes(x=month, y=Num))+ geom_bar(stat="identity")+
+  scale_x_date("", labels=scales::date_format("%b %Y"), breaks="6 month",
+            limits=c(min(as.Date(de_demos$Datum)),max(as.Date(de_demos$Datum))),expand=c(0,0))+
+  theme_minimal()+ylab("")+
+  theme(text=element_text(size=38),
+        axis.text.x=element_text(angle=90, hjust=1, vjust=0.5))
+```
+
+
+
+<!-- ```{r} -->
+<!-- #| echo: true -->
+<!-- #| fig-width: 18 -->
+<!-- #| fig-height: 4.5 -->
+
+<!-- de_demos %>%  -->
+<!--   group_by(Jahr) %>%  -->
+<!--   summarise(Num=n()) %>%  -->
+<!--   ggplot(aes(x=Jahr, y=Num))+ -->
+<!--   geom_bar(stat="identity")+ -->
+<!--   scale_x_date("",date_labels="%Y",date_breaks="1 year", minor_breaks="1 year", -->
+<!--                limits=c(min(as.Date(de_demos$Datum)),max(as.Date(de_demos$Datum))), -->
+<!--                expand=c(0,0))+ -->
+<!--   theme_minimal()+ylab("")+ -->
+<!--   theme(text=element_text(size=30), -->
+<!--         axis.text.x=element_text(angle=90, hjust=1, vjust=0.5)) -->
+
+<!-- ``` -->
+
+
+
+## Far-right demonstrations in Germany {visibility="hidden"}
+
+::: r-stack
+```{r}
+#| echo: false
+#| fig-width: 4
+#| fig-height: 4
+#| cache: true
+library(tidyverse)
+library(sf)
+library(rnaturalearth)
+library(gganimate)
+library(gifski)
+
+de_demos$Jahr <- format(as.Date(de_demos$Jahr), format = "%Y")
+
+de_demos_grouped <- de_demos %>% 
+  group_by(Ort, Jahr, lat, long) %>%
+  summarise(protests = n(),
+            .groups = "drop")
+
+de_demos_grouped <- as.data.frame(de_demos_grouped)
+
+de_demos_grouped$Latitude <- de_demos_grouped$lat
+de_demos_grouped$Longitude <- de_demos_grouped$long
+
+de_demos_grouped_sf <- de_demos_grouped %>% drop_na(lat)
+
+de_demos_grouped_sf <- de_demos_grouped_sf %>% 
+  st_as_sf(
+    coords = c("long", "lat"),
+    crs = st_crs("EPSG:32632") # CRS for Germany
+  )
+
+DE = ne_states(returnclass = "sf") |>
+  filter(admin == "Germany") 
+
+st_crs(de_demos_grouped_sf) <- st_crs(DE)
+
+p <- ggplot() +
+  geom_sf(data = DE, fill = "aquamarine")+
+  geom_sf(data = st_boundary(DE), linewidth=0.05, color=alpha("grey30", 0.7))+
+  geom_count(data = de_demos_grouped_sf,
+             aes(x = Longitude, y = Latitude, size = protests, group=Jahr),
+             fill="red", shape=21, alpha=0.6, color="black", stroke=0.5) +
+  scale_size(name = "Number of demos", 
+             breaks = c(1, 10, 25, 53),
+             range = c(2, 14))+
+  coord_sf(xlim = c(5, 15.5), ylim = c(47, 55)) +
+  theme_void()+theme(text=element_text(size=10))+
+  transition_states(Jahr, transition_length = 0, state_length = 20)+
+  ggtitle('Year: {closest_state}')+ # subtitle = 'Frame {frame} of {nframes}'
+  theme(plot.title = element_text(hjust = 0.5))
+
+P = 20
+
+animate(p, renderer = gifski_renderer(),fps = 4, nframes = 4*N+P, end_pause = P)
+
+```
+:::
+
+## Far-right demonstrations in Germany {auto-animate="true"}
+
+:::: {.columns}
+::: {.column width="40%" .right}
+
+``` r 
+library(tmap)
+library(tidyverse)
+library(sf)
+library(rnaturalearth)
+library(gganimate)
+library(gifski)
+
+de_demos$Jahr <- format(
+  as.Date(de_demos$Jahr), format="%Y"
+  )
+
+de_demos_grouped <- de_demos %>% 
+  group_by(Ort, Jahr, lat, long) %>%
+  summarise(protests = n(),
+            .groups = "drop")
+
+de_demos_grouped <- as.data.frame(
+  de_demos_grouped
+  )
+
+de_demos_grouped$Latitude <- de_demos_grouped$lat
+de_demos_grouped$Longitude <- de_demos_grouped$long
+
+de_demos_grouped_sf <- de_demos_grouped %>% 
+  drop_na(lat)
+
+de_demos_grouped_sf <- de_demos_grouped_sf %>% 
+  st_as_sf(
+    coords=c("long", "lat"),
+    crs=st_crs("EPSG:32632") # CRS for DE
+  )
+
+DE = ne_states(returnclass="sf") |>
+  filter(admin=="Germany") 
+
+st_crs(de_demos_grouped_sf) <- st_crs(DE)
+
+fr_prot_anim <- tm_shape(DE)+
+  tm_polygons(fill="gold", 
+              col="darkolivegreen")+
+  tm_shape(de_demos_grouped_sf)+
+  tm_bubbles(shape=21, 
+             size="protests", 
+             col="red", 
+             scale=8, 
+             alpha=0.5, 
+             border.col="black")+
+  tm_facets(pages="Jahr")+
+  tm_layout(panel.label.size=4, 
+            panel.label.color='black',
+            panel.label.bg.color='grey', 
+            panel.label.height=3,
+            legend.text.size=1.5)
+tmap_animation(
+  fr_prot_anim, 
+  filename = "fr_prot_anim.gif",
+  delay = 50, 
+  width = 1200, height = 1200
+)
+
+```
+
+:::
+
+:::{.column width="60%"}
+
+```{r}
+#| cache: true
+#| include: false
+library(tmap)
+
+fr_prot_anim <- tm_shape(DE)+
+  tm_polygons(fill="gold", col="darkolivegreen")+
+  tm_shape(de_demos_grouped_sf)+
+  tm_bubbles(shape=21, size="protests", col="red", scale=8, alpha=0.5, border.col="black")+
+  # tm_bubbles(col = "black", fill="red", size = "protests", scale = 4)+ 
+  tm_facets(pages="Jahr")+
+  tm_layout(panel.label.size = 4, panel.label.color = 'black',
+            panel.label.bg.color = 'grey', panel.label.height = 3,
+            legend.text.size = 1.5)
+tmap_animation(
+  fr_prot_anim, filename = "fr_prot_anim.gif",
+  delay = 50, width = 1200, height = 1200
+)
+
+```
+
+![](fr_prot_anim.gif){width="600px"}
+
+:::
+
+::::
+
+## Far-right demonstrations in Italy 
+
+```{r}
+#| echo: true
+#| fig-width: 18
+#| fig-height: 6
+FARPO %>% 
+  filter(Country_string=="Italy") %>% 
+  mutate(month=floor_date(Date, "month")) %>% 
+  group_by(month) %>% summarise(Num=n()) %>% 
+  ggplot(aes(x=month, y=Num))+ geom_bar(stat="identity")+
+  scale_x_date("", labels=scales::date_format("%b %Y"), breaks="6 month",
+            limits=c(min(as.Date(FARPO$Date)),max(as.Date(FARPO$Date))),expand=c(0,0))+
+  theme_minimal()+ylab("")+
+  theme(text=element_text(size=38),
+        axis.text.x=element_text(angle=90, hjust=1, vjust=0.5))
+```
+
+## demos - IT {visibility="hidden"}
+
+::: r-stack
+```{r}
+#| echo: false
+#| fig-width: 4
+#| fig-height: 4
+#| cache: true
+library(tidygeocoder)
+
+FARPO <- read.csv("slide_files/08/FARPO.csv", row.names=1, header = TRUE) 
+
+FARPOit <- FARPO %>% 
+  filter(Country_string=="Italy") %>% 
+  group_by(Place, Year) %>%
+  summarise(protests = n(),
+            Country = "Italy",
+            .groups = "drop") %>% 
+  slice(-1:-8) %>% 
+  as.data.frame()
+
+FARPOit_geo <- FARPOit %>% 
+  tidygeocoder::geocode(
+    city = Place,
+    country = Country,
+    method = "osm"
+  )
+
+
+FARPOit_geo <- as.data.frame(FARPOit_geo)
+
+FARPOit_geo$Latitude <- FARPOit_geo$lat
+FARPOit_geo$Longitude <- FARPOit_geo$long
+
+FARPOit_geo_sf <- FARPOit_geo %>% drop_na(lat)
+
+FARPOit_geo_sf <- FARPOit_geo_sf %>% 
+  st_as_sf(
+    coords = c("long", "lat"),
+    crs = st_crs("EPSG:6875") # CRS for Italy
+  )
+
+IT = ne_states(returnclass = "sf") |>
+  filter(admin == "Italy") 
+# plot(st_geometry(IT), border = 'red')
+# plot(st_geometry(FARPOit_geo_sf), add = TRUE, cex = .5)
+
+st_crs(FARPOit_geo_sf) <- st_crs(IT)
+
+
+v <- ggplot() +
+  geom_sf(data = IT, fill = "pink")+
+  geom_sf(data = st_boundary(IT), linewidth=0.05, color=alpha("grey30", 0.7))+
+  geom_count(data = FARPOit_geo_sf,
+             aes(x = Longitude, y = Latitude, size = protests, group=Year),
+             fill="red", shape=21, alpha=0.6, color="black", stroke=0.5) +
+  scale_size(name = "Number of demos", 
+             breaks = c(1, 5, 20, 48),
+             range = c(2, 14))+
+  coord_sf(xlim = c(6.5, 19), ylim = c(35, 47.3)) +
+  theme_void()+theme(text=element_text(size=10))+
+  transition_states(Year, transition_length = 0, state_length = 20)+
+  ggtitle('Year: {closest_state}')+ # subtitle = 'Frame {frame} of {nframes}'
+  theme(plot.title = element_text(hjust = 0.5))
+
+P = 20
+
+animate(v, renderer = gifski_renderer(),fps = 4, nframes = 4*N+P, end_pause = P)
+
+
+```
+:::
+
+
+## Far-right demonstrations in Italy
+
+::: r-stack
+
+```{r}
+#| cache: true
+#| fig-height: 4
+#| fig-width: 4
+#| include: false
+library(tmap)
+
+it_prot_anim <- tm_shape(IT,
+                         bbox=tmaptools::bb(matrix(c(6.5,35,19,47.3),2,2)))+
+  tm_polygons(fill="lightblue", col="brown")+
+  tm_shape(FARPOit_geo_sf)+
+  tm_bubbles(shape=21, size="protests", col="red", scale=8, alpha=0.5, border.col="black")+
+  tm_facets(pages="Year")+
+  tm_layout(panel.label.size = 4, panel.label.color = 'black',
+            panel.label.bg.color = 'grey', panel.label.height = 3,
+            legend.text.size = 1.5)
+tmap_animation(
+  it_prot_anim, filename = "it_prot_anim.gif",
+  delay = 50, width = 1200, height = 1200
+)
+
+```
+
+![](it_prot_anim.gif){height="600px"}
+
+:::
+
+## Far-right demonstrations in the UK 
+
+```{r}
+#| echo: true
+#| fig-width: 18
+#| fig-height: 6
+frgb %>% 
+  mutate(month=floor_date(Date, "month")) %>% 
+  group_by(month) %>% summarise(Num=n()) %>% 
+  ggplot(aes(x=month, y=Num))+ geom_bar(stat="identity")+
+  scale_x_date("", labels=scales::date_format("%b %Y"), breaks="6 month",
+            limits=c(min(as.Date(frgb$Date)),max(as.Date(frgb$Date))),expand=c(0,0))+
+  theme_minimal()+ylab("")+
+  theme(text=element_text(size=38),
+        axis.text.x=element_text(angle=90, hjust=1, vjust=0.5))
+```
+
+
+## demos - UK {visibility="hidden"}
+
+::: r-stack
+```{r}
+#| echo: false
+#| fig-width: 4
+#| fig-height: 4
+#| cache: true
+
+frgb_geo <- frgb %>% 
+  tidygeocoder::geocode(
+    city = Location,
+    country = State,
+    method = "osm"
+  )
+
+frgb_geo_grouped <- frgb_geo %>% 
+  group_by(Location, Year, lat, long) %>%
+  summarise(protests = n(),
+            .groups = "drop")
+
+frgb_geo_grouped <- as.data.frame(frgb_geo_grouped)
+
+frgb_geo_grouped$Latitude <- frgb_geo_grouped$lat
+frgb_geo_grouped$Longitude <- frgb_geo_grouped$long
+
+frgb_geo_grouped_sf <- frgb_geo_grouped %>% drop_na(lat)
+
+frgb_geo_grouped_sf <- frgb_geo_grouped_sf %>% 
+  st_as_sf(
+    coords = c("long", "lat"),
+    crs = st_crs("EPSG:27700") # CRS for UK
+  )
+
+uk_states <- ne_states(country = "united kingdom", returnclass = "sf")
+# plot(st_geometry(uk_states), border = 'red')
+# plot(st_geometry(frgb_geo_grouped_sf), add = TRUE, cex = .5)
+
+st_crs(frgb_geo_grouped_sf) <- st_crs(uk_states)
+
+
+m <- ggplot() +
+  geom_sf(data = uk_states, fill = "lightblue")+
+  geom_sf(data = st_boundary(uk_states), linewidth=0.05, color=alpha("grey30", 0.7))+
+  geom_count(data = frgb_geo_grouped_sf,
+             aes(x = Longitude, y = Latitude, size = protests, group=Year),
+             fill="red", shape=21, alpha=0.6, color="black", stroke=0.5) +
+  scale_size(name = "Number of demos", 
+             breaks = c(1, 5, 15, 32),
+             range = c(2, 14))+
+  coord_sf(xlim = c(-8, 1.5), ylim = c(49.5, 59)) +
+  theme_void()+theme(text=element_text(size=10))+
+  transition_states(Year, transition_length = 0, state_length = 20)+
+  ggtitle('Year: {closest_state}')+ # subtitle = 'Frame {frame} of {nframes}'
+  theme(plot.title = element_text(hjust = 0.5))
+
+P = 20
+
+animate(m, renderer = gifski_renderer(),fps = 4, nframes = 4*N+P, end_pause = P)
+
+
+```
+:::
+
+
+## Far-right demonstrations in the UK 
+
+::: r-stack
+
+```{r}
+#| cache: true
+#| fig-height: 4
+#| fig-width: 4
+#| include: false
+library(tmap)
+
+uk_prot_anim <- tm_shape(uk_states,
+                         bbox=tmaptools::bb(matrix(c(-8,49.8,1.7,58.7),2,2)))+
+  tm_polygons(fill="seagreen1", col="darkred")+
+  tm_shape(frgb_geo_grouped_sf)+
+  tm_bubbles(shape=21, size="protests", col="red", scale=8, alpha=0.5, border.col="black")+
+  tm_facets(pages="Year")+
+  tm_layout(panel.label.size = 4, panel.label.color = 'black',
+            panel.label.bg.color = 'grey', panel.label.height = 3,
+            legend.text.size = 1.5)
+tmap_animation(
+  uk_prot_anim, filename = "uk_prot_anim.gif",
+  delay = 50, width = 1200, height = 1200
+)
+
+```
+
+![](uk_prot_anim.gif){height="600px"}
+
+:::
+
+## Issues (FARPO - all countries)
+
+<!-- https://r-charts.com/ranking/ggwordcloud/ -->
+
+::: panel-tabset
+### plot
+
+```{r}
+#| echo: false
+#| fig-width: 7
+#| fig-height: 4
+
+f_iss1 <- FARPO %>% 
+  group_by(Issue1_string) %>% 
+  summarise(Num=n()) %>% 
+  as.data.frame() %>% 
+  rename(Issue=Issue1_string)
+
+f_iss2 <- FARPO %>% 
+  group_by(Issue2_string) %>% 
+  summarise(Num=n()) %>% 
+  as.data.frame() %>% 
+  rename(Issue=Issue2_string)
+
+f_iss3 <- FARPO %>% 
+  group_by(Issue3_string) %>% 
+  summarise(Num=n()) %>% 
+  as.data.frame() %>% 
+  rename(Issue=Issue3_string)
+
+merged_iss <- purrr::reduce(list(f_iss1, f_iss2, f_iss3), 
+                            function(x, y) merge(x, y, by="Issue", all=TRUE))
+
+iss_final <- merged_iss %>%
+  group_by(Issue) %>%
+  summarise(Num=sum(coalesce(Num.x, 0), coalesce(Num.y, 0), coalesce(Num, 0))) %>% 
+  slice(-1:-11) %>% 
+  as.data.frame()
+
+library(ggwordcloud)
+
+set.seed(1)
+ggplot(iss_final, aes(label=Issue, size=Num, color=Num)) +
+  geom_text_wordcloud() +
+  scale_size_area(max_size=10) +
+  theme_minimal()+
+  scale_color_gradient(low="blue", high="red")
+```
+
+
+### code
+``` r
+f_iss1 <- FARPO %>% 
+  group_by(Issue1_string) %>% 
+  summarise(Num=n()) %>% 
+  as.data.frame() %>% 
+  rename(Issue=Issue1_string)
+
+f_iss2 <- FARPO %>% 
+  group_by(Issue2_string) %>% 
+  summarise(Num=n()) %>% 
+  as.data.frame() %>% 
+  rename(Issue=Issue2_string)
+
+f_iss3 <- FARPO %>% 
+  group_by(Issue3_string) %>% 
+  summarise(Num=n()) %>% 
+  as.data.frame() %>% 
+  rename(Issue=Issue3_string)
+
+merged_iss <- purrr::reduce(list(f_iss1, f_iss2, f_iss3), 
+                            function(x, y) merge(x, y, by="Issue", all=TRUE))
+
+iss_final <- merged_iss %>%
+  group_by(Issue) %>%
+  summarise(Num=sum(coalesce(Num.x, 0), coalesce(Num.y, 0), coalesce(Num, 0))) %>% 
+  slice(-1:-11) %>% 
+  as.data.frame()
+
+library(ggwordcloud)
+
+set.seed(1)
+ggplot(iss_final, aes(label=Issue, size=Num, color=Num)) +
+  geom_text_wordcloud() +
+  scale_size_area(max_size=10) +
+  theme_minimal()+
+  scale_color_gradient(low="blue", high="red")
+  
+```
+
+:::
+
+## Issues (DE) {visibility="hidden"}
+
+add here a text analysis
+
+## Far-right mobilisation under left- and right-wing governments
+
+- @Koopmans1995: data on protests 1975-1979 in France, Britain, the Netherlands, and Germany (1950-1991) -- represents 15 different governmental constellations (left, right, mixed)
+    + far-right protest [increases]{style="color:darkorange;"} under left-wing governments
+    + left-wing protest [increases]{style="color:darkorange;"} under right-wing governments
+    + mixed governments see the [highest overall]{style="color:darkorange;"} protest levels
+
+## Far-right mobilisation amid left- and right-wing party politics
+
+- @hutter2014protesting: data from Western Europe
+    + far-right protest [decreases]{style="color:darkorange;"} when far-right parties are well-established, strong
+        * [substitution effect]{style="color:cadetblue;"}: electoral participation replaces street politics
+
+. . . 
+
+- @Torcal2016: 2002-2010 ESS data (much of EU space) on protest participation
+    + far-right protest slightly higher under right-wing governments
+
+## Far-right mobilisation in context
+
+::: {.fragment .fade-in-then-semi-out}
+- seems heavily influenced by conditions of *political exclusion*
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+- ideological posture of government matters---but not deterministic
+    + movements respond not just to posture abstractly, but also to actual specific treatment
+        * gov. tolerance/encouragement can increase far-right protest
+        * gov. hostility/repressive action can suppress or provoke far-right protest  
+        
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+- institutionalisation of far-right parties may reduce protest activity
+:::
+
+<!-- @hellmeier2022DynamicsDeterminantsRightwing: Our exploratory analysis of contextual factors suggests that economic and cultural grievances in isolation do not explain the emergence of far-right protests. Protests are more likely in wealthier cities and less likely in cities with a high share of foreign-born citizens. -->
+
+
+## Poll results - prohibition
+
+- Should governments or state authorities be able to prohibit far-right demonstrations even if they are non-violent?
+
+```{ojs}
+prohibit_fr_demosCounts = aq.from(surveyResults)
+  .select("prohibit_fr_demos")
+  .groupby("prohibit_fr_demos")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+prohibit_fr_demos_maxCountRE = Math.max(...prohibit_fr_demosCounts.objects().map(d => d.count));
+
+plot_prohibit_fr_demos = Plot.plot({
+  marks: [
+    Plot.barY(prohibit_fr_demosCounts, {
+      x: "prohibit_fr_demos",
+      y: "count",
+      fill: "prohibit_fr_demos",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    range: [
+      "red",
+      "darkred",
+      "black",
+      "forestgreen",
+      "green"
+    ]
+  },
+  marginBottom: 90,
+  x: { label: "", tickSize: 2, tickRotate: 0,
+    domain: ["Strongly\ndisagree", "Disagree", "Neutral", "Agree", "Strongly\nagree"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(prohibit_fr_demosCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, prohibit_fr_demos_maxCountRE]
+  },
+  facet: { data: prohibit_fr_demosCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 20,
+  }
+});
+
+```
+
+
+## Poll results - amid disruptive counter-mobilisation {.smaller}
+
+- What should authorities do when non-violent far-right demonstrations are met with disruptive, possibly violent counter-mobilisation (e.g., from anti-fascist activists)?
+
+```{ojs}
+respond_countermobCounts = aq.from(surveyResults)
+  .select("respond_countermob")
+  .groupby("respond_countermob")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+respond_countermob_maxCountRE = Math.max(...respond_countermobCounts.objects().map(d => d.count));
+
+plot_respond_countermob = Plot.plot({
+  marks: [
+    Plot.barY(respond_countermobCounts, {
+      x: "respond_countermob",
+      y: "count",
+      fill: "respond_countermob",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "ban both",
+      "ban counter-mobilisation",
+      "ban far-right demonstration",
+      "keep protests separated",
+      "nothing",
+      "other"
+    ],
+    range: [
+      "darkred",
+      "darkorange",
+      "goldenrod",
+      "forestgreen",
+      "blue",
+      "indigo"
+    ]
+  },
+  marginBottom: 220,
+  x: { label: "", tickSize: 2, tickRotate: -35, padding: 0.3,
+    domain: ["ban both", "ban counter-mobilisation", "ban far-right demonstration", "keep protests separated", "nothing", "other"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(respond_countermobCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, respond_countermob_maxCountRE]
+  },
+  facet: { data: respond_countermobCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 30,
+  },
+});
+
+```
+
+## OJS Shiny-style Plot Example {visibility="hidden"}
+
+<!-- ```{r} -->
+
+<!-- #| echo: false -->
+
+<!-- library(shiny) -->
+
+<!-- library(bslib) -->
+
+<!-- library(modeldata) -->
+
+<!-- library(DataExplorer) -->
+
+<!-- library(plotly) -->
+
+<!-- library(tidyverse) -->
+
+<!-- utils::data("stackoverflow", "car_prices", "Sacramento", package = "modeldata") -->
+
+<!-- data_list = list( -->
+
+<!--   "StackOverflow" = stackoverflow, -->
+
+<!--   "Car Prices" = car_prices, -->
+
+<!--   "Sacramento Housing" = Sacramento -->
+
+<!-- ) -->
+
+<!-- ui <- navbarPage( -->
+
+<!--   title = "Data Explorer", -->
+
+<!--   theme = bslib::bs_theme(version = 4, bootswatch = "minty"), -->
+
+<!--   tabPanel( -->
+
+<!--     title = "Explore", -->
+
+<!--     sidebarLayout( -->
+
+<!--       sidebarPanel( -->
+
+<!--         width = 3, -->
+
+<!--         h1("Explore a Dataset"), -->
+
+<!--         # Requires reactive programming knowledge -->
+
+<!--         # - taught in Shiny Dashboards (DS4B 102-R) -->
+
+<!--         shiny::selectInput( -->
+
+<!--           inputId = "dataset_choice", -->
+
+<!--           label = "Data Connection", -->
+
+<!--           choices = c("StackOverflow", "Car Prices", "Sacramento Housing") -->
+
+<!--         ), -->
+
+<!--         # Requires bootstrap knowledge -->
+
+<!--         # - taught in Shiny Developer with AWS (DS4B 202A-R) -->
+
+<!--         hr(), -->
+
+<!--         h3("Apps by Business Science"), -->
+
+<!--         p("Go from beginner to building full-stack shiny apps."), -->
+
+<!--         p("Learn Shiny Today!") %>%  -->
+
+<!--           a( -->
+
+<!--             href = 'https://www.business-science.io/', -->
+
+<!--             target = "_blank", -->
+
+<!--             class = "btn btn-lg btn-primary" -->
+
+<!--           ) %>%  -->
+
+<!--           div(class = "text-center") -->
+
+<!--       ), -->
+
+<!--       mainPanel( -->
+
+<!--         h1("Correlation"), -->
+
+<!--         plotlyOutput("corrplot", height = 700) -->
+
+<!--       ) -->
+
+<!--     ) -->
+
+<!--   ) -->
+
+<!-- ) -->
+
+<!-- # 2.0 SERVER -->
+
+<!-- server <- function(input, output) { -->
+
+<!--   # REACTIVE PROGRAMMING --- -->
+
+<!--   # Taught in Shiny Dashboards & Shiny Developer Courses -->
+
+<!--   rv <- reactiveValues() -->
+
+<!--   observe({ -->
+
+<!--     rv$data_set <- data_list %>% pluck(input$dataset_choice) -->
+
+<!--   }) -->
+
+<!--   output$corrplot <- renderPlotly({ -->
+
+<!--     g <- DataExplorer::plot_correlation(rv$data_set) -->
+
+<!--     plotly::ggplotly(g) -->
+
+<!--   }) -->
+
+<!-- } -->
+
+<!-- # run the application -->
+
+<!-- shinyApp(ui = ui, server = server) -->
+
+<!-- ``` -->
+
+<!-- ```{r} -->
+
+<!-- sliderInput("bins", "Number of bins:",  -->
+
+<!--             min = 1, max = 50, value = 30) -->
+
+<!-- plotOutput("distPlot") -->
+
+<!-- ``` -->
+
+<!-- ```{r} -->
+
+<!-- #| context: server -->
+
+<!-- output$distPlot <- renderPlot({ -->
+
+<!--   x <- faithful[, 2]  # Old Faithful Geyser data -->
+
+<!--   bins <- seq(min(x), max(x), length.out = input$bins + 1) -->
+
+<!--   hist(x, breaks = bins, col = 'darkgray', border = 'white') -->
+
+<!-- }) -->
+
+<!-- ``` -->
+
+```{ojs}
+// Create a slider input
+viewof bins = Inputs.range([1, 50], {
+  label: "Number of bins:",
+  value: 30,
+  step: 1
+})
+```
+
+```{ojs}
+// Use the eruption duration data from the faithful dataset
+x = [
+  3.6, 1.8, 3.333, 2.283, 4.533, 2.883, 4.7, 3.6, 1.95, 4.35, 1.833, 3.917,
+  4.2, 1.75, 4.7, 2.167, 1.75, 4.8, 1.6, 4.25, 1.8, 1.75, 3.45, 3.067, 4.533,
+  3.6, 1.967, 4.083, 3.85, 4.433, 4.3, 4.467, 3.367, 4.033, 3.833, 2.017,
+  1.867, 4.833, 1.833, 4.783, 4.35, 1.883, 4.567, 1.75, 4.533, 3.317, 3.833,
+  2.1, 4.633, 2.0
+]
+```
+
+
+```{ojs}
+// Compute the histogram
+bins_data = {
+  const histogram = d3.histogram()
+    .domain(d3.extent(x))
+    .thresholds(bins);
+  return histogram(x);
+}
+```
+
+
+```{ojs}
+// Plot the histogram
+Plot.plot({
+  y: {
+    grid: true
+  },
+  marks: [
+    Plot.barY(bins_data, {
+      x: d => d.x0,
+      x1: d => d.x1,
+      y: d => d.length,
+      fill: "darkgray"
+    })
+  ],
+  width: 600,
+  height: 400
+})
+```
+
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>
+
+Alternatively, send me an email: [m.zeller\@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- 1 + 1 -->
+
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+
+<!-- ::: -->
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- library(dplyr) -->
+
+<!-- library(ggplot2) -->
+
+<!-- g <- starwars |>  -->
+
+<!--   ggplot() + -->
+
+<!--   geom_point(aes(x = height, y = mass)) + -->
+
+<!--   theme_light() -->
+
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+
+<!-- #| fig.align: center -->
+
+<!-- #| echo: true -->
+
+<!-- g  -->
+
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| echo: true -->
+
+<!-- #| eval: false -->
+
+<!-- tab <- starwars |> -->
+
+<!--   tidyr::drop_na(species) |>  -->
+
+<!--   group_by(species) |> -->
+
+<!--   summarise( -->
+
+<!--     n = n(), -->
+
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+
+<!--   ) |>  -->
+
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| eval: true -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+
+<!-- gt::gt(tab) -->
+
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+
+<!-- reactable::reactable(tab) -->
+
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<!-- </center> -->
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_08.html"))
+```
+
+## References
