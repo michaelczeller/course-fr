@@ -1760,15 +1760,15 @@ plot_prohibit_fr_demos = Plot.plot({
     ],
     range: [
       "red",
-      "darkred",
-      "black",
-      "forestgreen",
-      "green"
+      "pink",
+      "lightgrey",
+      "lightgreen",
+      "forestgreen"
     ]
   },
-  marginBottom: 90,
-  x: { label: "", tickSize: 2, tickRotate: 0,
-    domain: ["Strongly\ndisagree", "Disagree", "Neutral", "Agree", "Strongly\nagree"]
+  marginBottom: 180,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Strongly disagree", "Disagree", "Neutral", "Agree", "Strongly agree"]
   },  
   y: {
     label: "",
@@ -1784,7 +1784,7 @@ plot_prohibit_fr_demos = Plot.plot({
   style: {
     width: 1350,
     height: 500,
-    fontSize: 20,
+    fontSize: 30,
   }
 });
 
