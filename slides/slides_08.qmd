@@ -1682,9 +1682,81 @@ ggplot(iss_final, aes(label=Issue, size=Num, color=Num)) +
 
 :::
 
-## Issues (DE) {visibility="hidden"}
+## Issues (BT Anfrage - from reported 'Motto' of event) 
 
-add here a text analysis
+```{r}
+#| echo: false
+#| fig-width: 15
+#| fig-height: 10
+
+library(quanteda)
+# de_demos
+
+## drop rows with no Motto
+de_demos_prep <- de_demos %>% drop_na(Motto)
+
+de_corpus <- corpus(de_demos_prep$Motto)
+
+docvars(de_corpus, "JAHR") <- (de_demos_prep$Jahr)
+docvars(de_corpus, "LAND") <- (de_demos_prep$Land)
+docvars(de_corpus, "ORT") <- (de_demos_prep$Ort)
+docvars(de_corpus, "ZUOR") <- (de_demos_prep$Zuordnung)
+
+de_corpus_stats <- summary(de_corpus, n = Inf)
+de_corpus_stats <- as.data.frame(de_corpus_stats)
+
+de_corpus_toks <- tokens(de_corpus, remove_punct=T, remove_numbers=T, remove_symbols=T)
+
+de_corpus_dfm <- dfm(de_corpus_toks)
+
+# library(stopwords)
+de_corpus_dfm <- dfm_remove(de_corpus_dfm, 
+                          c(stopwords("german"), 
+                            "ist", "der", "others?"))
+
+# de_corpus_dfm_trim <- dfm_trim(de_corpus_dfm, min_termfreq=2, max_termfreq=75)
+
+de_corpus_dfm_stm <- convert(de_corpus_dfm, to="stm")
+
+library(stm)
+## https://juliasilge.com/blog/evaluating-stm/
+# findingK <- searchK(de_corpus_dfm_stm$documents, de_corpus_dfm_stm$vocab,
+#                     K=c(5:25), data=meta, verbose=FALSE)
+# plot(findingK)
+## held-out likelihood should be high; residuals should be low; lower bound should be low; semantic coherence should be at least somewhat low (without overspecificity) -- 15-16 K seems close to ideal
+
+de_corpus_dfm_tm <- convert(de_corpus_dfm, to="topicmodels")
+
+library(topicmodels)
+de_corpus_tm_LDA <- LDA(de_corpus_dfm_tm, k=15)
+
+library(tidytext)
+de_corpus_tm_topics <- tidy(de_corpus_tm_LDA, matrix="beta")
+
+de_corpus_tm_top_terms <- de_corpus_tm_topics %>% 
+  group_by(topic) %>% 
+  top_n(9, beta) %>% 
+  ungroup() %>% 
+  arrange(topic, -beta)
+
+de_corpus_terms_plot <- de_corpus_tm_top_terms %>% 
+  filter(topic %in% 1:9) %>% 
+  mutate(term = reorder(term, beta)) %>%
+  ggplot(aes(term, beta, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free", nrow = 4) +
+  theme(text=element_text(size=25),
+        axis.text.x = element_text(angle = 30, vjust = 1, hjust=1)) +
+  coord_flip()
+de_corpus_terms_plot
+
+# if(!require("ldatuning")) {install.packages("ldatuning"); library("ldatuning")}
+# if(!require("stm")) {install.packages("stm"); library("stm")} 
+# if(!require("tm")) {install.packages("tm"); library("tm")} 
+# if(!require("stopwords")) {install.packages("stopwords"); library("stopwords")}
+
+```
+
 
 ## Far-right mobilisation under left- and right-wing governments
 
