@@ -92,6 +92,20 @@ bibliography: ../../../library.bib
 
 <!-- []{style="font-size:10px;"} -->
 
+# Data report: reminders, clarifications {background-color="#2c844c"}
+
+- *intentionally* different from a 'normal' essay
+    + less theory, literature review &rarr; more (basic) empirics
+    + 'back to basics': *good* description before 'complex' arguments <!-- 'walking before running' &rarr; 'back to basics' -->
+- (i) *description* is necessary for ii. *explanation* or iii. *prediction*
+- *intentionally* vague requirements about data type
+    + extant data, modified data, wholly new data---all possible
+    + *in any case*, you should be thinking about how data is created and to what extent it is *[valid]{style="color:orange;"}* and *[reliable]{style="color:orange;"}*
+- purpose: (1) data strength and [limitations]{style="color:yellow;"} awareness, (2) 'get hands dirty with data' (before thesis!), (3) building blocks for (thesis) research: [concepts]{style="color:orange;"}, [methods]{style="color:orange;"}, (good) [empirical material]{style="color:orange;"}
+
+<!-- (i) *describe*, (ii) *explain*, (iii) *predict*---but *description* is basis for all -->
+
+
 # Social movement lens on the far right {background-color="#2c844c"}
 
 :::: {.columns}
