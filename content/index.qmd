@@ -219,6 +219,13 @@ xaringanExtra::embed_xaringan(
 )
 ```
 
+::: {.callout-tip collapse="true"}
+## Class 9 Lecture video 
+
+{{< video fr_class9_lecture.mp4 >}}
+
+:::
+
 
 <!-- ```{r echo=FALSE, results="asis"} -->
 <!-- #| warning: false -->
