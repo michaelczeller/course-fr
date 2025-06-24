@@ -1,0 +1,1054 @@
+---
+title: "Class 10: Movements"
+subtitle: "Demobilisation"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+    theme: [default, custom_options]
+    background-transition: fade
+incremental: false
+embed-resources: true
+# runtime: shiny
+bibliography: ../../../library.bib
+---
+
+# Opening notes {background-color="#2c844c"}
+
+::: {.tenor-gif-embed data-postid="14209777" data-share-method="host" data-aspect-ratio="1.94" data-width="70%"}
+<a href="https://tenor.com/view/open-gif-14209777">Open Sticker</a>from <a href="https://tenor.com/search/open-stickers">Open Stickers</a>
+:::
+
+```{=html}
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+```
+
+<!-- <div class="tenor-gif-embed" data-postid="23663828" data-share-method="host" data-aspect-ratio="1" data-width="70%"><a href="https://tenor.com/view/happy-birthday-gif-23663828">Happy Birthday GIF</a>from <a href="https://tenor.com/search/happy+birthday-gifs">Happy Birthday GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Angel David Meissner, Adrian Morina, Elli Quitter -->
+
+<!-- [**Topics to me as soon as possible**]{style="color:red;"} -->
+
+::: panel-tabset
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | surveys |
+| 12 June: | Omar B., Lela E., Niclas W. | network analysis |
+| 19 June: | NO CLASS MEETING |  |
+| 26 June: | Colombe I., Konstantin S., Jakob W., Veronika L. | ethnography |
+| 26 June: | Maksim K., Felix S., Jon L.D., Damir S., Korbinian M. | case study |
+
+## July
+
+| Date | Presenters | Method |
+|-------------:|:--------------------------------------------|:------------:|
+| 3 July: | Alexander V., Luis G., Oscar O., Mia C. | descriptive inference |
+| 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | ethnography |
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD |
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD |
+| 24 July: | Lorenz F., Daniel B., Medina H. | quant. text analysis |
+
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | logistic regression |
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | discourse analysis |
+| 29 May: | NO CLASS MEETING |  |
+
+: Presentations line-up
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+
+<!-- FOR CLASS ON ONLINE OR ON CONDUCTING RESEARCH: Zurich online manipulation of ChangeMyView reddit -->
+<!-- https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/ -->
+<!-- https://www.science.org/content/article/unethical-ai-research-reddit-under-fire -->
+<!-- https://www.reddit.com/r/Futurology/comments/1ig3shj/comment/maloixh/?share_id=Ug1NU1tqy_KzA21t5L9hZ&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1 -->
+
+# Demobilisation and disengagement conceptually {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- definitions: 
+    + process and outcome
+- causes: 
+    + internal 
+        * individual, organisational 
+    + external 
+        * state, private
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="4915243" data-share-method="host" data-aspect-ratio="1.05042" data-width="100%"><a href="https://tenor.com/view/break-car-fall-apart-broken-ride-gif-4915243">Break Car GIF</a>from <a href="https://tenor.com/search/break-gifs">Break GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+## Demobilisation and disengagement defined
+
+[Demobilisation]{style="color:darkred;"} [@Zeller2026CUP; cf. @Davenport2015]
+
+> the [process]{style="color:cadetblue;"} whereby [collective action]{style="color:darkorange;"}, whether in the form of campaigns, organisations, or even whole movements, [decreases]{style="color:cadetblue;"} and ultimately [ends]{style="color:cadetblue;"}
+
+. . . 
+
+[Disengagement]{style="color:darkred;"} [cf. @GaudetteETAL2022; @Fillieule2009; @Fillieule2015]
+
+> the [process]{style="color:cadetblue;"} by which an [individual]{style="color:darkorange;"} leaves their associated extremist group or movement
+
+. . . 
+
+Note that these definitions cover *decline* and *cessation* of activity
+
+## Demobilisation causes [@Zeller2026CUP] 
+    
+```{r}
+library(kableExtra)
+library(tidyverse)
+
+## https://haozhu233.github.io/kableExtra/awesome_table_in_html.html
+
+table_data <- data.frame(
+  LP = c("*Burnout/exhaustion* (inability to continue participation)", 
+                 "*Lost commitment* (unwillingness to continue participation)", 
+                 "", 
+                 ""),
+  OF = c("*Membership loss* (failure to recruit/retain members)", 
+                 "*Factionalisation* (internal splitting of organisations or coalitions)", 
+                 "*Rigidity* (failure to adapt according to new circumstances)", 
+                 ""),
+  SC1 = c("(1) *Identity of", 
+          "State agents (actors representing state institutions)", 
+           "(2) *Character of", 
+           "Coercion (direct repression; the threat or use of force)"),
+  SC2 = c("repressive agent*",
+          "Private agents (actors not representing state institutions)", 
+          "repressive action*", 
+          "Channelling (indirect repression, such as resource deprivation, problem depletion)")
+)
+
+table_data <- data.frame(
+  LP = c("Burnout/exhaustion", 
+         "(inability to continue participation)",
+         "Lost commitment", 
+         "(unwillingness to continue participation)", 
+         "",
+         ""),
+  OF = c("Membership loss", 
+         "(failure to recruit/retain members)",
+         "Factionalisation",
+         "(internal splitting of organisations or coalitions)", 
+         "Rigidity", 
+         "(failure to adapt according to new circumstances)"),
+  SC1 = c("(1) Identity of", 
+          "State agents (actors representing state institutions)", 
+           "(2) Character of", 
+           "Coercion (direct repression; the threat or use of force)",
+          "",
+         ""),
+  SC2 = c("repressive agent",
+          "Private agents (actors not representing state institutions)", 
+          "repressive action", 
+          "Channelling (indirect repression, such as resource deprivation, problem depletion)",
+          "",
+          "")
+)
+
+kable(table_data, col.names = c("Lost Participation (individual level)", "Organisational Failure (group level)", "Social control", "(two dimensions)"), 
+      align = c("l", "l", "r", "l")) %>%
+  add_header_above(header = c("Internal" = 2, "External" = 2)) %>% 
+  kable_minimal() %>%
+  kable_styling(bootstrap_options = "striped", font_size = 24) %>% 
+  # kable_classic_2(full_width = F) %>% 
+  # column_spec(1:ncol(table_data), hline_after=F) %>% 
+  column_spec(1, border_right=T) %>% 
+  column_spec(2, border_right=T) %>% 
+  row_spec(0, bold = T, background = "grey80", hline_after = F) %>% 
+  row_spec(1, italic = T, color="darkred") %>% 
+  row_spec(3, italic = T, color="darkred") %>% 
+  row_spec(5, italic = T, color="darkred")
+
+```
+
+
+## Demobilisation causes [@Zeller2026CUP] 
+
+*causes overlap and interact in different __demobilisation processes__*
+
+```{r}
+kable(table_data, col.names = c("Lost Participation (individual level)", "Organisational Failure (group level)", "Social control", "(two dimensions)"), 
+      align = c("l", "l", "r", "l")) %>%
+  add_header_above(header = c("Internal" = 2, "External" = 2)) %>% 
+  kable_minimal() %>%
+  kable_styling(bootstrap_options = "striped", font_size = 24) %>% 
+  # kable_classic_2(full_width = F) %>% 
+  # column_spec(1:ncol(table_data), hline_after=F) %>% 
+  column_spec(1, border_right=T) %>% 
+  column_spec(2, border_right=T) %>% 
+  row_spec(0, bold = T, background = "grey80", hline_after = F) %>% 
+  row_spec(1, italic = T, color="darkred") %>% 
+  row_spec(3, italic = T, color="darkred") %>% 
+  row_spec(5, italic = T, color="darkred")
+
+```
+
+# Individual demobilisation/disengagement {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- (de)radicalisation and (dis)engagement
+- reasons for individual disengagement
+- @GaudetteETAL2022
+- Social work intervention programmes (e.g., EXIT)
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="6119519" data-share-method="host" data-aspect-ratio="1.505" data-width="100%"><a href="https://tenor.com/view/the-office-dwight-little-bit-extreme-gif-6119519">The Office Dwight GIF</a>from <a href="https://tenor.com/search/the+office-gifs">The Office GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+<!-- [Demokratie leben!](https://www.demokratie-leben.de/en/programme) - aimed at practising and maintaining democratic culture -->
+<!-- <https://www.youtube.com/watch?v=mRjcwuYsMnw&list=PLVvNcE1KWVn_wzZEGg5IUXk3Uhwvo_3Fr&index=8> -->
+
+## Individual disengagement - core concepts
+
+- [radicalisation]{style="color:darkred;"} (*change in [belief]{style="color:cadetblue;"}*): process of connecting with and adopting radical or extremist ideology---does not necessarily result in violence or 'engaging' in extremist activity
+- [engagement]{style="color:darkred;"} (*change in [behaviour]{style="color:violet;"}*): (in this context) process or act of performing radical or extremist activity, especially violence
+
+- [deradicalisation]{style="color:darkred;"} (*change in [belief]{style="color:cadetblue;"}*): (p1) "process by which an individual is diverted from an extremist ideology, eventually rejecting an extremist ideology and moderating their beliefs"
+- [disengagement]{style="color:darkred;"} (*change in [behaviour]{style="color:violet;"}*): (p1) "process by which an individual decides to leave their associated extremist group or movement in order to reintegrate into society"
+
+[@GaudetteETAL2022]
+
+## Individual disengagement - a few reasons {auto-animate=true}
+
+> [Burnout/exhaustion]{style="color:darkred;"} or [Lost commitment]{style="color:darkred;"} might de driven by ... among several possibilities:
+
+## Individual disengagement - a few reasons {auto-animate=true}
+
+> [Burnout/exhaustion]{style="color:darkred;"} or [Lost commitment]{style="color:darkred;"} might de driven by ... among several possibilities:
+
+- intervention programmes
+
+## Individual disengagement - a few reasons {auto-animate=true}
+
+> [Burnout/exhaustion]{style="color:darkred;"} or [Lost commitment]{style="color:darkred;"} might de driven by ... among several possibilities:
+
+- criminal justice responses (high variability: from 'read Jane Austen' [@TaylorSuliman2021-1-21]; to counter-terrorism responses [@Koehler2019])
+- intervention programmes
+
+## Individual disengagement - a few reasons {auto-animate=true}
+
+> [Burnout/exhaustion]{style="color:darkred;"} or [Lost commitment]{style="color:darkred;"} might de driven by ... among several possibilities:
+
+- changes to [biographical availability]{style="color:darkred;"}
+- criminal justice responses (high variability: from 'read Jane Austen' [@TaylorSuliman2021-1-21]; to counter-terrorism responses [@Koehler2019])
+- intervention programmes
+
+## Individual disengagement - Gaudette et al. [-@GaudetteETAL2022]
+
+- interviews with Canadian former right-wing extremists (RWEs): 
+- [ethical implications]{style="color:indigo;"}? (more on related issues in our last class)
+
+> prior to conducting the interviews with formers, we [consulted with key stakeholders]{style="color:red;"}, namely [Canadian law enforcement officials]{style="color:red;"} and [local community activists]{style="color:red;"}, and [they developed a list of interview questions that they would ask]{style="color:red;"} formers and those questions were incorporated into the interview guide. The purpose of this approach was simple: rather than developing an interview guide that was derived from an academic perspective only, we included interview questions from key stakeholders for the purposes of developing a multidimensional, multi-perspective interview guide.
+
+## Individual disengagement - Gaudette et al. [-@GaudetteETAL2022]
+
+- data: 10 former RWEs, recruited using [snowball sampling]{style="color:red;"}
+
+::: r-stack
+![](slide_files/10/gaudette1.png)
+:::
+
+## Disengagement reasons - Gaudette et al. [-@GaudetteETAL2022]
+
+:::: {.columns}
+:::{.column width="50%"}
+| _                   | n  |
+|--------------------:|:---|
+| Birth of a child    | 4  |
+| Reunite with family | 1  |
+| Emotional burnout   | 3  |
+| Physical burnout    | 1  |
+| Disillusionment     | 6  |
+
+- note multiplicity of reasons
+
+:::
+
+::: {.column width="50%" .right}
+
+:::
+::::
+
+## Disengagement reasons - Gaudette et al. [-@GaudetteETAL2022]
+
+:::: {.columns}
+:::{.column width="50%"}
+| _                   | n  |
+|--------------------:|:---|
+| Birth of a child    | 4  |
+| Reunite with family | 1  |
+| Emotional burnout   | 3  |
+| Physical burnout    | 1  |
+| Disillusionment     | 6  |
+
+- note multiplicity of reasons
+
+:::
+
+::: {.column width="50%" .right}
+- [strategies]{style="color:darkred;"} of disengaging:
+    + time away, distancing from movement adherents <!-- (incl. imprsonment) -->
+    + different social support network (e.g., friends and family), outside of RWE 
+
+:::
+::::
+
+## Disengagement reasons - Gaudette et al. [-@GaudetteETAL2022]
+
+:::: {.columns}
+:::{.column width="50%"}
+| _                   | n  |
+|--------------------:|:---|
+| Birth of a child    | 4  |
+| Reunite with family | 1  |
+| Emotional burnout   | 3  |
+| Physical burnout    | 1  |
+| Disillusionment     | 6  |
+
+- note multiplicity of reasons
+
+:::
+
+::: {.column width="50%" .right}
+- [strategies]{style="color:darkred;"} of disengaging:
+    + time away, distancing from movement adherents <!-- (incl. imprsonment) -->
+    + different social support network (e.g., friends and family), outside of RWE 
+
+- '[hard-wired beliefs]{style="color:cadetblue;"}': [disengaged]{style="color:darkred;"} but not [deradicalised]{style="color:darkred;"}
+    + retention of radicalism &rarr; strong predictor of reengagement (Altier, MB, Boyle, EL, & Horgan, J., 2021)
+
+:::
+::::
+
+## Disengagement reasons - Gaudette et al. [-@GaudetteETAL2022]
+
+:::: {.columns}
+:::{.column width="50%"}
+| _                   | n  |
+|--------------------:|:---|
+| Birth of a child    | 4  |
+| Reunite with family | 1  |
+| Emotional burnout   | 3  |
+| Physical burnout    | 1  |
+| Disillusionment     | 6  |
+
+- note multiplicity of reasons
+- [generalisability? might we find the same with other places, periods, movements?]{style="color:indigo;"}
+:::
+
+::: {.column width="50%" .right}
+- [strategies]{style="color:darkred;"} of disengaging:
+    + time away, distancing from movement adherents <!-- (incl. imprsonment) -->
+    + different social support network (e.g., friends and family), outside of RWE 
+
+- '[hard-wired beliefs]{style="color:cadetblue;"}': [disengaged]{style="color:darkred;"} but not [deradicalised]{style="color:darkred;"}
+    + retention of radicalism &rarr; strong predictor of reengagement (Altier, MB, Boyle, EL, & Horgan, J., 2021)
+
+:::
+::::
+
+## Individual disengagement intervention programmes
+
+- non-criminal justice responses increasingly common in many European states
+- [social work]{style="color:cadetblue;"} programmes to steer individuals away from radical/extreme milieu
+- For example: [Exit Norway](https://www.nmbu.no/en/research/projects/exit), UK's [Prevent](https://www.gov.uk/government/publications/prevent-duty-guidance) strategy and [Channel](https://homeofficemedia.blog.gov.uk/2024/12/05/prevent-and-channel-factsheet-2024/) programme, [EXIT Deutschland](https://www.exit-deutschland.de/)
+
+## Disengagement intervention programmes - EXIT
+
+::: panel-tabset
+## DonateTheHate
+<!-- Aspect ratios include 1x1, 4x3, 16x9 (the default), and 21x9. -->
+{{< video https://www.youtube.com/watch?v=r1kTq3-Sr_M
+    start="1"
+    aspect-ratio="21x9" 
+    width="900" 
+    height="525"
+>}}
+
+## Trojan T-Shirt
+<!-- Aspect ratios include 1x1, 4x3, 16x9 (the default), and 21x9. -->
+{{< video https://www.youtube.com/watch?v=CSIbsHKEP-8
+    start="1"
+    aspect-ratio="21x9" 
+    width="900" 
+    height="525"
+>}}
+
+## Involuntary walkathon
+<!-- Aspect ratios include 1x1, 4x3, 16x9 (the default), and 21x9. -->
+{{< video https://www.youtube.com/watch?v=mMrQge9hP5o
+    start="1"
+    aspect-ratio="21x9" 
+    width="900" 
+    height="525"
+>}}
+
+## Haut, Stein
+
+<!-- Aspect ratios include 1x1, 4x3, 16x9 (the default), and 21x9. -->
+{{< video https://www.youtube.com/watch?v=hcq4z8p5dBY
+    start="1"
+    aspect-ratio="21x9" 
+    width="900" 
+    height="525"
+>}}
+
+:::
+
+# Campaign demobilisation {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- unit of analysis: campaign
+- patterns overall [@Zeller2021_qca; Zeller -@Zeller2026CUP]
+- example of EDL (UK) [@Morrow2018]
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="9499213" data-share-method="host" data-aspect-ratio="2.255" data-width="100%"><a href="https://tenor.com/view/charlottesville-gif-9499213">Charlottesville GIF</a>from <a href="https://tenor.com/search/charlottesville-gifs">Charlottesville GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+:::
+::::
+
+<!-- <div class="tenor-gif-embed" data-postid="4648626806140183455" data-share-method="host" data-aspect-ratio="0.566265" data-width="100%"><a href="https://tenor.com/view/gud-groupe-union-d%C3%A9fense-ultra-droite-extreme-droite-gif-4648626806140183455">Gud Groupe Union Défense GIF</a>from <a href="https://tenor.com/search/gud-gifs">Gud GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+## Social movement campaigns
+
+- [Campaigns]{style="color:darkred;"} consist of four elements [@dellaPortaRucht2002; @Staggenborg2009]
+    1. a consistent organising actor (an activist[s], an organisation[s]),
+    2. temporal boundedness,
+    3. strategically linked actions, and
+    4. the intention to advance goals
+
+. . . 
+
+- Campaigns...
+    + are means for collective action to achieve [objectives]{style="color:cadetblue;"}
+    + shape [collective identities]{style="color:darkred;"} [@PollettaJasper2001; @Doherty2018, pp. 272, 278]
+    + alter political opportunities and models of contention [@Tilly2008]
+
+## Far-right demonstration campaigns (AT, DE, UK) 
+
+::: footer 
+[[@Zeller2026CUP]]{style="font-size:15px;"}
+:::
+
+::: {.r-hstack}
+![](slide_files/10/camp_colour.png)
+:::
+
+## Far-right demonstration campaigns [@Zeller2026CUP]  {auto-animate=true}
+
+::: {style="text-align: center;"}
+**[What might cause these campaigns to (negatively) demobilise?]{style="color:indigo; font-size:60px;"}** 
+:::
+
+## Far-right demonstration campaigns [@Zeller2026CUP]  {auto-animate=true}
+
+::: {style="text-align: center;"}
+**[What might cause these campaigns to (negatively) demobilise?]{style="color:indigo; font-size:60px;"}** 
+:::
+
+- concentrated state channelling (*SCH*)
+
+## Far-right demonstration campaigns [@Zeller2026CUP]  {auto-animate=true}
+
+::: {style="text-align: center;"}
+**[What might cause these campaigns to (negatively) demobilise?]{style="color:indigo; font-size:60px;"}** 
+:::
+
+- concentrated state coercion (*SCO*)
+- concentrated state channelling (*SCH*)
+
+## Far-right demonstration campaigns [@Zeller2026CUP]  {auto-animate=true}
+
+::: {style="text-align: center;"}
+**[What might cause these campaigns to (negatively) demobilise?]{style="color:indigo; font-size:60px;"}** 
+:::
+
+- concentrated private channelling (*PCH*)
+- concentrated state coercion (*SCO*)
+- concentrated state channelling (*SCH*)
+
+## Far-right demonstration campaigns [@Zeller2026CUP]  {auto-animate=true}
+
+::: {style="text-align: center;"}
+**[What might cause these campaigns to (negatively) demobilise?]{style="color:indigo; font-size:60px;"}** 
+:::
+
+- concentrated private coercion (*PCO*)
+- concentrated private channelling (*PCH*)
+- concentrated state coercion (*SCO*)
+- concentrated state channelling (*SCH*)
+
+## Far-right demonstration campaigns [@Zeller2026CUP]  {auto-animate=true}
+
+::: {style="text-align: center;"}
+**[What might cause these campaigns to (negatively) demobilise?]{style="color:indigo; font-size:60px;"}** 
+:::
+
+- long duration (*LD*) [on temporality, see @Grzymala-Busse2011]
+- concentrated private coercion (*PCO*)
+- concentrated private channelling (*PCH*)
+- concentrated state coercion (*SCO*)
+- concentrated state channelling (*SCH*)
+
+
+## Far-right demobilisation patterns [@Zeller2026CUP] {.smaller}
+
+```{r}
+grouping_data <- data.frame(
+  Grouping = c("closing opportunity", "state repression", "civil counter-mobilisation", "anti-far-right militancy", ""),
+  SolutionTerm = c("SCH", 
+                   "~LD* ~PCH", 
+                   "~PCO* PCH", 
+                   "LD* ~SCO* PCO",
+                   "Solution"),
+  InclS = c("0.977", "1", "0.925", "1", "0.949"),
+  PRI = c("0.977", "1", "0.923", "1", "0.948"),
+  CovS = c("0.408", "0.136", "0.475", "0.214", "0.893"),
+  CovU = c("0.097", "0.087", "0.243", "0.146", " "),
+  Cases = c("HoGeSa, Pressefest der Deutsche Stimme, Eichsfelder Heimattag; AN Antikriegstag; 2. Hess Gedenksmarsch; 1. Hess Gedenksmarsch; 2. Waffen-SS commemoration, Heidenau hört zu; Ulrichsbergfeier; Freital steht auf, 2018 Pro Chemnitz; Tag der deutschen Zukunft; Trauermarsch Bad Nenndorf", 
+            "Freigeist; Sachsentag; 1. Waffen-SS commemoration; 1. Hess Gedenksmarsch", 
+            "Lichtelläufen Schneeberg, Free Tommy Robinson, FLA against extremism, Justice for Women and Children; HoGeSa, Pressefest der Deutsche Stimme, Eichsfelder Heimattag; 2. Hess Gedenksmarsch; Deutsche Volksunion Congress, PEGIDA Dresden, Legida, EDL rally, Migrationspakt stoppen, S/TH-ÜGIDA; Freital steht auf, 2018 Pro Chemnitz", 
+            "2. Wehrmachtsausstellung; Trauermarsch Magdeburg, BNP Red, White and Blue festival, Wiener Korporations Ball, 1. Trauermarsch Dresden; Tag der deutschen Zukunft; Trauermarsch Bad Nenndorf",
+            " ")
+)
+
+kable(grouping_data, format = "html", escape = FALSE, 
+      col.names = c(" ", " ", "inclS", "PRI", "covS", "covU", "cases")) %>%
+  kable_styling("striped", full_width = FALSE,
+                font_size = 20) # %>%column_spec(1, width = "2cm") %>%
+  # column_spec(2, width = "2cm") %>%
+  # column_spec(7, width = "3cm")
+```
+
+## Far-right demobilisation patterns [@Zeller2026CUP]
+
+:::: {.columns}
+:::{.column width="65%"}
+![](slide_files/10/venn1.png)
+
+:::
+
+::: {.column width="35%" .right}
+[[(negative) demobilisation]{style="color: white;"}]{style="background-color: darkred;"}
+
+[non-demobilisation]{style="background-color: seagreen;"}
+
+[mixed outcomes]{style="background-color: gray;"}
+
+[no cases]{style="background-color: gray90;"}
+
+:::
+::::
+
+## Example of the EDL [@Morrow2018] {background-color="#2c844c"}
+
+English Defence League (EDL)
+
+:::: {.columns}
+:::{.column width="65%"}
+![](slide_files/10/edl.png)
+
+:::
+
+::: {.column width="35%" .right}
+![](slide_files/10/english_disco_lovers.png)
+
+:::
+::::
+
+- important case: return to street politics, lots of successors (FLA, DFLA, Free Tommy Robinson, Justice for Women and Children)
+
+
+## Example of the EDL [@Morrow2018]
+
+:::: {.columns}
+:::{.column width="50%"}
+![](slide_files/10/edl1.png)
+
+:::
+
+::: {.column width="50%" .right}
+![](slide_files/10/edl2.png)
+
+:::
+::::
+
+> rejection of pluralism and minority rights means [EDL] can properly be considered 'far right' (p545) [cf. @Mudde2019]
+
+## EDL [@Morrow2018; cf. Busher et al. -@Busher2018a]
+
+:::: {.columns}
+:::{.column width="60%"}
+- RQ: What determines the success or failure of FR organisations?
+- theory: "We concur with [Norris]{style="color:darkorange;"} (2005) that a satisfactory explanation of far-right... activism must understand the *interaction of supply and demand*.
+- data: ethnographic interviews at protests in [London]{style="color:cadetblue;"}, [Manchester]{style="color:cadetblue;"}, [Newcastle]{style="color:cadetblue;"} and [Rotherham]{style="color:cadetblue;"}
+    + "nonprobabilistic and purposive" sample
+    + respondents ages 16 to 54 years, 15 men and 5 women
+
+<!-- "sample recruited was nonprobabilistic and purposive, not aiming for statistical representativeness, but nevertheless seeking to select respondents with a range of sociological characteristics; our respondents ranged from 16 to 54 years of age; were based in the Greater London, the Midlands and Norfolk; and comprised 15 men and 5 women." -->
+
+:::
+
+::: {.column width="40%" .right}
+![](slide_files/10/robinson1.png)
+
+![](slide_files/10/carroll1.png)
+
+:::
+::::
+
+## EDL [@Morrow2018]
+
+:::: {.columns}
+:::{.column width="60%"}
+- methods note: 
+    + explanations for the rapid collapse of the EDL ([explaining outcome]{style="color:darkorange;"}, single case study) (p544)
+- EDL measured its success by protest attendance (unclear how then to achieve goals) 
+- benefits to members: access to violence, increased self-worth and group solidarity
+- participatory crowding &rarr; many marginal members
+
+:::
+
+::: {.column width="40%" .right}
+![](slide_files/10/robinson1.png)
+
+![](slide_files/10/carroll1.png)
+
+:::
+::::
+
+## EDL [@Morrow2018]
+
+<style>
+svg[id^="mermaid-"] { min-width: 950px; max-width: 1300px; }
+</style>
+
+```{mermaid}
+%%flowchart LR
+%%  A["`EDL 
+%%  campaign
+%%  kjaasdafjkjagk`"]:::greenBox --> B[reactive<br/>policing]:::yellowBox
+%%  A --> C[counter-<br/>protest]:::yellowBox 
+%%  B --> D[public<br/>disorder,<br/>arrests]
+%%  C --> D
+%%  D --> E[preventative<br/>policing]:::yellowBox
+%%  E --> F[EDL<br/>benefits<br/>reduced]
+
+flowchart LR
+  A[EDL<br/>campaign:<br/>violence,<br/>increased<br/>self-worth,<br/>solidarity]:::greenBox --> B[heavy,<br/>reactive<br/>policing]:::yellowBox
+  A --> C[counter-<br/>demonstration<br/>activity]:::yellowBox 
+  B --> D[public disorder<br/>and numerous<br/>arrests]
+  C --> D
+  D --> E[policing<br/>adaptation:<br/>preventative]:::yellowBox
+  E --> F[benefits to<br/>members esp.<br/>violence and<br/>group solidarity<br/>reduced]
+
+
+  %% Style definitions - classDef blueBox fill:#d0e6ff,stroke:#003366,stroke-width:2px;
+  %% classDef greenBox fill:#d4edda,height:150,width:160;
+  %% classDef yellowBox fill:#fff3cd,height:100,width:70;
+  classDef blueBox fill:#d0e6ff;
+  classDef greenBox fill:#d4edda;
+  classDef greyBox fill:#e2e3e5;
+  classDef redBox fill:#f8d7da;
+  classDef yellowBox fill:#fff3cd;
+```
+
+> From 2012, the police more effectively kept EDL and counter-demonstrations apart, and routed protests away from potential flashpoints such as Islamic centres
+
+## EDL [@Morrow2018]
+
+> At interview, Robinson explained that the numbers at EDL demonstrations declined from 2011 because: *The police were successful in what they were doing, the days become quite boring, intentionallywise [sic] ... Tower Hamlets they held everyone in the road for six hours – it’s boring as fuck. Do you think I’ve just travelled down from Newcastle to stand in the road for six hours without having beer?*
+
+on protest policing, see (e.g.,) @dellaPortaReiter1998
+
+# Organisational demobilisation (and proscription) {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- states and civil society responding to far-right *organisations*
+- overview of proscription/banning of far-right organisations
+- proscription patterns in Germany
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="16001202525946562160" data-share-method="host" data-aspect-ratio="1.77857" data-width="100%"><a href="https://tenor.com/view/organized-chicken-run-mrs-tweedy-not-organized-gif-16001202525946562160">Organized Chicken Run GIF</a>from <a href="https://tenor.com/search/organized-gifs">Organized GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+:::
+::::
+
+<!-- ## Responding to far-right *organisations* -->
+
+<!-- [@pedahzur2001StrugglingChallengesRightWing] -->
+
+## Banned & monitored (nationally) FR orgs in Germany
+
+:::: {.columns}
+:::{.column width="40%"}
+![](slide_files/10/org-map-1.png)
+
+:::
+
+::: {.column width="60%" .right}
+- Organisations monitored by Bundesverfassungsschutz (VfS)
+    + [o]{style="color:green;"}: monitored by VfS, but not banned
+    + [x]{style="color:red;"}: banned by BRD interior ministry
+
+:::
+::::
+
+## Banned & monitored (nationally) FR orgs in Germany
+
+:::: {.columns}
+:::{.column width="40%"}
+![](slide_files/10/org-map-1.png)
+
+:::
+
+::: {.column width="60%" .right}
+- Organisations monitored by Bundesverfassungsschutz (VfS)
+    + [o]{style="color:green;"}: monitored by VfS, but not banned
+    + [x]{style="color:red;"}: banned by BRD interior ministry
+
+- many groups/orgs. exist that are in violation of the law; they are monitored; but they are not banned. Why?
+
+:::
+::::
+
+## Banned & monitored (nationally) FR orgs in Germany
+
+:::: {.columns}
+:::{.column width="40%"}
+![](slide_files/10/org-map-1.png)
+
+:::
+
+::: {.column width="60%" .right}
+- Organisations monitored by Bundesverfassungsschutz (VfS)
+    + [o]{style="color:green;"}: monitored by VfS, but not banned
+    + [x]{style="color:red;"}: banned by BRD interior ministry
+
+- many groups/orgs. exist that are in violation of the law; they are monitored; but they are not banned. Why?
+
+- a mixture of situational (and contextual, but that's for cross-country comparison) and proximate conditions that lead to bans
+
+:::
+::::
+
+## Banning FR orgs in Germany - necessity
+
+- [high far-right visibility]{style="color:cadetblue;"} is necessary for banning decisions
+
+> German governments banned far-right organisations only in years when far-right activity, in the form of violence or agitation, was highly visible. Conspicuous incidents of violence in particular were often a prod to proscriptive action. Organisational unlawfulness alone is not enough to explain banning decisions. Without public or political awareness, authorities appear unlikely to act, even if a group is technically illegal.
+
+## Banning FR orgs in Germany - sufficient patterns
+
+1. [Neo-Nazi movement groups]{style="color:cadetblue;"} – organisations promote [National Socialist ideology]{style="color:orange;"}---[legally sufficient for banning in Germany and several other countries]{style="color:orange;"}---as well as racial hatred and violence.
+
+. . . 
+
+2. [Longstanding hubs]{style="color:cadetblue;"} – long existing organisations, serving as centres of far-right activism and networking ([network disruption strategy in banning decisions?]{style="color:indigo;"})
+
+. . . 
+
+3. [Militant organisations]{style="color:cadetblue;"} – organisations embody particularly aggressive, confrontational far-right activism
+
+. . . 
+
+4. [Neo-Nazi sham parties]{style="color:cadetblue;"} – organisations presented as  parties (hoping for status's protection) but still spread neo-Nazi ideology
+
+## Case 1: Nationale Offensive (NO)
+
+- typical of [neo-Nazi sham parties]{style="color:cadetblue;"} pattern
+
+- founded 1990 (by split from FAP) &rarr; linked to previously banned group
+- not serious electoral contestation:
+    + 0.2 per cent at local elections in Singen-Konstanz
+    + 1992 BW Landtag elections: 183 votes out of five million cast
+- **BAN**: by Rudolf Seiters (CDU): the NO ‘created and fuelled a xenophobic mood.’
+- NO *appealed...* &rarr; Federal Administrative Court *quashed* appeal
+   <!-- + NO had lack of the requisite ‘serious will to participate in parliament’ -->
+
+**mechanism**: *social and political pressure* on minister &larr; indignation about high levels of far-right violence (HVIO) situation
+
+## Case 2: Collegium Humanum (CH)
+
+- typical of [longstanding hubs]{style="color:cadetblue;"} pattern
+- founded 1963 by Haverbeck (d. 1999) and Haverbeck-Wetzel
+    + **had charitable status** (*Gemeinnützigkeit*)
+    + meeting point (Vlotho, NRW) for far-right activists from all over
+        * *are there any banned orgs. to which the CH was not linked?!*
+    + publication: *Stimme des Gewissens*
+- **BAN**: by Wolfgang Schäuble (CDU): the CH was directed against Germany’s constitutional order and repeatedly violated laws against Holocaust denial
+
+## Case 2: Collegium Humanum (CH)
+
+- typical of [longstanding hubs]{style="color:cadetblue;"} pattern
+
+- CH *appealed...* -- Federal Administrative Court *denied* appeal  
+    1. CH publications repeatedly denied the Holocaust
+    2. CH publications showed an affinity to and attempt to promote National Socialism
+    + **ideology of CH publication was sufficient legal basis** [cf. @BVerfG2009] -- [many fit this qualification...]{style="color:indigo;"}
+
+- Mendel-Grundmann-Gesellschaft (MGG) active in Vlotho (research, then outreach)
+- *Vlothoer Bündnis gegen das CH* (by local Greens)
+- **mechanism**: high *specific* visibility, driven by local counter-mobilisation
+
+## informative epilogue to these cases
+
+Response to parliamentary inquiry [@DB1994-3-9]. Asked about effects of banning, government asserted 
+
+> the bans had achieved ‘widespread uncertainty and a lack of prospects in the right-wing extremist scene, far-reaching suppression of group activity by breaking up organisational structures and confiscating organisations’ assets, and the seizure of weapons’
+
+Moreover: government claimed a sort of **chilling effect**, that other groups ‘*have at least restricted their agitation activities in order to prevent bans*’. 
+
+## informative epilogue to these cases
+
+Conversely, gov. acknowledged that ... 
+
+- BfV intelligence-gathering perhaps disrupted by banning action,
+- activists might use banning as an opportunity to propagandise,
+- bans could radicalise members (i.e., conspiratorial, aggressive), 
+- members might acquire more solidarity by enduring banning
+
+. . . 
+
+> Response concludes, negative effects are uncertain, visible only after time; positive effects are achieved directly through the enforcement of bans. **instrumental logic**
+
+## Conclusions
+
+- **inconsistency in German governments' banning practices**:
+    + org. characteristics alone are not enough to explain bans
+    + situational factors are causally significant and cannot be ignored
+- the use of banning is sometimes a tool of politics rather than a targeted response to systemic threats
+- *high far-right visibility* (HVIO+HPRO) necessary situation for ban 
+    + but that **visibility is specific** rather than generalised
+        * builds social/political pressure to ban
+
+::: {style="font-size: 0.75em; color: forestgreen;"}
+bans do not just follow the law---they follow pressure. Public visibility, political will, and social mobilisation all shape outcomes. This means that organisational bans and perhaps other militant democracy decisions are not solely in the hands of governments. Societal actors inform and influence how states and governments respond to extremism.
+:::
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>
+
+Alternatively, send me an email: [m.zeller\@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- 1 + 1 -->
+
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+
+<!-- ::: -->
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- library(dplyr) -->
+
+<!-- library(ggplot2) -->
+
+<!-- g <- starwars |>  -->
+
+<!--   ggplot() + -->
+
+<!--   geom_point(aes(x = height, y = mass)) + -->
+
+<!--   theme_light() -->
+
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+
+<!-- #| fig.align: center -->
+
+<!-- #| echo: true -->
+
+<!-- g  -->
+
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| echo: true -->
+
+<!-- #| eval: false -->
+
+<!-- tab <- starwars |> -->
+
+<!--   tidyr::drop_na(species) |>  -->
+
+<!--   group_by(species) |> -->
+
+<!--   summarise( -->
+
+<!--     n = n(), -->
+
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+
+<!--   ) |>  -->
+
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| eval: true -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+
+<!-- gt::gt(tab) -->
+
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+
+<!-- reactable::reactable(tab) -->
+
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<!-- </center> -->
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_10.html"))
+```
+
+## References

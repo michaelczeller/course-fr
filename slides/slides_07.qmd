@@ -658,6 +658,7 @@ Alternatively, send me an email: [m.zeller@lmu.de]{style="color:red;"}
 
 
 ```{r}
+#| include: false
 pagedown::chrome_print(file.path("..", "docs/slides", "slides_07.html"))
 ```
 
