@@ -92,12 +92,6 @@ bibliography: ../../../library.bib
 
 <!-- []{style="font-size:10px;"} -->
 
-
-<!-- FOR CLASS ON ONLINE OR ON CONDUCTING RESEARCH: Zurich online manipulation of ChangeMyView reddit -->
-<!-- https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/ -->
-<!-- https://www.science.org/content/article/unethical-ai-research-reddit-under-fire -->
-<!-- https://www.reddit.com/r/Futurology/comments/1ig3shj/comment/maloixh/?share_id=Ug1NU1tqy_KzA21t5L9hZ&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1 -->
-
 # Demobilisation and disengagement conceptually {background-color="#2c844c"}
 
 :::: {.columns}
@@ -727,9 +721,14 @@ on protest policing, see (e.g.,) @dellaPortaReiter1998
 :::
 ::::
 
-<!-- ## Responding to far-right *organisations* -->
+## states and civil society responding to far-right *organisations* {visibility="hidden"}
 
-<!-- [@pedahzur2001StrugglingChallengesRightWing] -->
+[@pedahzur2001StrugglingChallengesRightWing] 
+
+[@pedahzur2003PotentialRoleProdemocratic]
+
+## overview of proscription/banning of far-right organisations {visibility="hidden"}
+
 
 ## Banned & monitored (nationally) FR orgs in Germany
 
