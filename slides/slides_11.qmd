@@ -754,7 +754,7 @@ But...
 
 > [No]{style="color:red;"} support was garnered for the identification of distinct pathways of [homogeneous risk factors]{style="color:red;"} among either sample of violent offenders.
 
-# Poll: matters of FR mobilisation {background-color="#2c844c"}
+# Poll: tendencies of radicalisation {background-color="#2c844c"}
 
 :::: {.columns}
 :::{.column width="35%"}
