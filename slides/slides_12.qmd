@@ -1,0 +1,1842 @@
+---
+title: "Class 12: Individuals in the far right"
+subtitle: "Violence"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+    theme: [default, custom_options]
+    background-transition: fade
+incremental: false
+embed-resources: true
+# runtime: shiny
+bibliography: ../../../library.bib
+---
+
+
+<!-- FOR CLASS ON ONLINE OR ON CONDUCTING RESEARCH: Zurich online manipulation of ChangeMyView reddit -->
+<!-- https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/ -->
+<!-- https://www.science.org/content/article/unethical-ai-research-reddit-under-fire -->
+<!-- https://www.reddit.com/r/Futurology/comments/1ig3shj/comment/maloixh/?share_id=Ug1NU1tqy_KzA21t5L9hZ&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1 -->
+
+# Opening notes {background-color="#2c844c"}
+
+::: {.tenor-gif-embed data-postid="14209777" data-share-method="host" data-aspect-ratio="1.94" data-width="70%"}
+<a href="https://tenor.com/view/open-gif-14209777">Open Sticker</a>from <a href="https://tenor.com/search/open-stickers">Open Stickers</a>
+:::
+
+```{=html}
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+```
+
+<!-- <div class="tenor-gif-embed" data-postid="23663828" data-share-method="host" data-aspect-ratio="1" data-width="70%"><a href="https://tenor.com/view/happy-birthday-gif-23663828">Happy Birthday GIF</a>from <a href="https://tenor.com/search/happy+birthday-gifs">Happy Birthday GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Angel David Meissner, Adrian Morina, Elli Quitter -->
+
+<!-- [**Topics to me as soon as possible**]{style="color:red;"} -->
+
+::: panel-tabset
+## July
+
+| Date | Presenters | Method |
+|-------------:|:--------------------------------------------|:------------:|
+| 3 July:  | Alexander V., Luis G., Oscar O., Mia C. | descriptive inference |
+| 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | ethnography |
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | TBD |
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | TBD |
+| 24 July: | Lorenz F., Daniel B., Medina H. | quant. text analysis |
+
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | logistic regression |
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | discourse analysis |
+| 29 May: | NO CLASS MEETING |  |
+
+: Presentations line-up
+
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | surveys |
+| 12 June: | Omar B., Lela E., Niclas W. | network analysis |
+| 19 June: | NO CLASS MEETING |  |
+| 26 June: | Colombe I., Konstantin S., Jakob W., Veronika L. | ethnography |
+| 26 June: | Maksim K., Felix S., Jon L.D., Damir S., Korbinian M. | case study |
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+
+<!-- FOR CLASS ON ONLINE OR ON CONDUCTING RESEARCH: Zurich online manipulation of ChangeMyView reddit -->
+<!-- https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/ -->
+<!-- https://www.science.org/content/article/unethical-ai-research-reddit-under-fire -->
+<!-- https://www.reddit.com/r/Futurology/comments/1ig3shj/comment/maloixh/?share_id=Ug1NU1tqy_KzA21t5L9hZ&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1 -->
+
+# Course evaluations {background-color="#2c844c"} 
+
+:::: {.columns}
+:::{.column width="50%"}
+- course evaluations are available
+- scoring is appreciated
+- comments can be very helpful, for example:
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="12499950575553704875" data-share-method="host" data-aspect-ratio="2.3271" data-width="100%"><a href="https://tenor.com/view/rachel-berry-rachel-berry-quote-gif-12499950575553704875">Rachel Berry Rachel Berry Quote GIF</a>from <a href="https://tenor.com/search/rachel+berry-gifs">Rachel Berry GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+:::
+::::
+
+1. how is the [course website]{style="color:yellow;"}? any suggested improvements?
+2. what did you like and dislike about the [class slides]{style="color:yellow;"}?
+3. what did you like and dislike about [class meetings]{style="color:yellow;"}?
+4. did you watch the [recorded lectures]{style="color:yellow;"}? (*evaluations are anonymous, so you can be totally honest*) how were they?
+5. are [course assignments]{style="color:yellow;"} clear? (e.g., add another report example?)
+<!-- 6. between (i) questions before/after class, (ii) office hour, (iii) anonymous feedback form, and (iv) regular emails --- [did you feel you were able to get clarification on any points of confusion]{style="color:yellow;"}? -->
+
+# Patterns of violence and the far right {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- 'patterns of violence' framework
+    + repertoires, targeting, frequency, techniques
+- applying this framework to far-right violent 
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="17884347" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/dont-get-aggressive-violence-violin-3d-gifs-artist-violence-is-not-the-answer-gif-17884347">Dont Get Aggressive Violence GIF</a>from <a href="https://tenor.com/search/dont+get+aggressive-gifs">Dont Get Aggressive GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+> a pattern of violence on the part of an armed organization (state force, rebel group, or militia) as the *[relatively stable and recognizable configuration of violence in which it engages. This configuration consists of]{style="color:darkorange;"} ...* 
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+:::: {.columns}
+:::{.column width="25%"}
+repertoire 
+:::
+
+:::{.column width="25%"}
+targeting 
+:::
+
+:::{.column width="25%"}
+frequency
+:::
+
+:::{.column width="25%"}
+technique 
+:::
+::::
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+:::: {.columns}
+:::{.column width="25%"}
+ 
+:::
+
+:::{.column width="25%"}
+targeting 
+:::
+
+:::{.column width="25%"}
+frequency
+:::
+
+:::{.column width="25%"}
+technique 
+:::
+::::
+
+::: {style="margin-top: 5px; font-size: 3em; color: darkred;"}
+repertoire
+:::
+
+- what [forms of violence]{style="color:darkorange;"} are used
+    + beatings, stabbings, sexual violence, homicide, etc.
+- violent repertoires used by far-right actors vary
+    + several far-right groups we have discussed are associated with low-level, low intensity violence (e.g., beatings and non-lethal assault), such as *CasaPound Italia*
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+:::: {.columns}
+:::{.column width="25%"}
+repertoire 
+:::
+
+:::{.column width="25%"}
+targeting 
+:::
+
+:::{.column width="25%"}
+frequency
+:::
+
+:::{.column width="25%"}
+technique 
+:::
+::::
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+:::: {.columns}
+:::{.column width="25%"}
+repertoire 
+:::
+
+:::{.column width="25%"}
+ 
+:::
+
+:::{.column width="25%"}
+frequency
+:::
+
+:::{.column width="25%"}
+technique 
+:::
+::::
+
+::: {style="margin-top: 5px; font-size: 3em; color: darkred;"}
+targeting
+:::
+
+- the [social groups]{style="color:darkorange;"} against whom actors regularly use violent repertoires
+    + an ethnic group, political opponents, LBGTI persons, militants of rival organisations, residents of certain areas, etc.
+- [collective targeting]{style="color:darkred;"} tends to be most prominent among (contemporary) far-right actors 
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+:::: {.columns}
+:::{.column width="25%"}
+repertoire 
+:::
+
+:::{.column width="25%"}
+[targeting]{style="color:darkred;"} 
+:::
+
+:::{.column width="25%"}
+frequency
+:::
+
+:::{.column width="25%"}
+technique 
+:::
+::::
+
+:::: {.columns}
+:::{.column width="75%"} 
+![](slide_files/12/targeting_taxonomy.png)
+:::
+
+:::{.column width="25%"}
+*targeting taxonomy (and related conceptual space)* [@Zeller2025targeting] 
+:::
+::::
+
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+:::: {.columns}
+:::{.column width="25%"}
+repertoire 
+:::
+
+:::{.column width="25%"}
+targeting 
+:::
+
+:::{.column width="25%"}
+frequency
+:::
+
+:::{.column width="25%"}
+technique 
+:::
+::::
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+:::: {.columns}
+:::{.column width="25%"}
+repertoire 
+:::
+
+:::{.column width="25%"}
+targeting 
+:::
+
+:::{.column width="25%"}
+
+:::
+
+:::{.column width="25%"}
+technique 
+:::
+::::
+
+::: {style="margin-top: 5px; font-size: 3em; color: darkred;"}
+frequency
+:::
+
+- [count]{style="color:cadetblue;"}: number of attacks deploying a repertoire against a target 
+- [rates]{style="color:cadetblue;"} (common in criminology research as well): 
+    + [incidence]{style="color:cadetblue;"}: incidents per member of some referent population 
+    + [prevalence]{style="color:cadetblue;"}: fraction of population that suffered an incident
+    + [perpetration]{style="color:cadetblue;"}: number of incidents or persons of the targeted group per member of the group of violent attackers 
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+:::: {.columns}
+:::{.column width="25%"}
+repertoire 
+:::
+
+:::{.column width="25%"}
+targeting 
+:::
+
+:::{.column width="25%"}
+frequency
+:::
+
+:::{.column width="25%"}
+technique 
+:::
+::::
+
+## Patterns of Violence {auto-animate=true}
+
+borrowing a conceptual framework from armed conflict research [@gutierrez-sanin2017WhatShouldWe]
+
+:::: {.columns}
+:::{.column width="25%"}
+repertoire 
+:::
+
+:::{.column width="25%"}
+targeting 
+:::
+
+:::{.column width="25%"}
+frequency
+:::
+
+:::{.column width="25%"}
+ 
+:::
+::::
+
+::: {style="margin-top: 5px; font-size: 3em; color: darkred;"}
+technique
+:::
+
+- how the actor(s) carry out their violence
+- techniques are about the [tools or instruments]{style="color:darkorange;"} used (e.g., clubs, knives, guns, bombs)
+
+
+## Patterns of Violence {auto-animate=true}
+
+:::: {.columns}
+:::{.column width="25%"}
+[repertoire]{style="color:darkred;"} 
+
+- what [forms of violence]{style="color:darkorange;"} are used
+    + beatings, stabbings, sexual violence, homicide, etc.
+
+:::
+
+:::{.column width="25%"}
+[targeting]{style="color:darkred;"} 
+
+- the [social groups]{style="color:darkorange;"} against whom actors regularly use violent repertoires
+    + an ethnic group, political opponents, LBGTI persons, etc
+
+:::
+
+:::{.column width="25%"}
+[frequency]{style="color:darkred;"} 
+
+- [count]{style="color:cadetblue;"}: number of attacks deploying a repertoire against a target 
+- [incidence rates]{style="color:cadetblue;"}, [prevalence rates]{style="color:cadetblue;"}, [perpetration rates]{style="color:cadetblue;"}
+
+:::
+
+:::{.column width="25%"}
+[technique]{style="color:darkred;"} 
+
+- how the actor(s) carry out their violence
+- techniques are about the [tools or instruments]{style="color:darkorange;"} used (e.g., clubs, knives, guns, bombs)
+:::
+::::
+
+## Far-right patterns - Italy [@Zeller2025targeting]
+
+::: panel-tabset
+### Repertoire
+
+```{r load-Italy-fr-violence-data}
+#| echo: false
+#| fig-width: 7
+#| fig-height: 4
+library(lubridate)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(readxl)
+
+## Italy data
+df <- read_excel("slide_files/12/IT_far-right_violence.xlsx", sheet = "data")
+df <- as.data.frame(df)
+df$DATE <- as.Date(df$DATE, format = "%d.%m.%y")
+## make a year variable
+df$YEAR <- format(as.Date(df$DATE, format="%d.%m.%y"),"%Y")
+# take out the few earlier incidents
+df <- subset(df, DATE > as.Date('2013-01-01'))
+# take out later incidents, after onset of COVID
+df <- subset(df, DATE < as.Date('2020-03-08'))
+
+# df <- subset(df, PREVENTED=="NO")
+
+# collapse soft air weapons into 'shooting' category
+df$TECHNIQUE = ifelse(df$TECHNIQUE=="shooting with soft air weapons", "shooting", df$TECHNIQUE)
+# collapse other elements of technique
+df$TECHNIQUE = ifelse(df$TECHNIQUE=="beating", "brawl", df$TECHNIQUE)
+df$TECHNIQUE = ifelse(df$TECHNIQUE=="scuffle", "brawl", df$TECHNIQUE)
+df$TECHNIQUE = ifelse(df$TECHNIQUE=="vandalism", "defacing", df$TECHNIQUE)
+
+# df$REPETOIRE
+it_rep <- df %>% 
+  group_by(YEAR, REPETOIRE) %>% 
+  summarise(Num=n()) 
+
+it_rep_assault <- it_rep %>% 
+  filter(REPETOIRE=="assault/raid")
+
+it_rep_vandalism <- it_rep %>% 
+  filter(REPETOIRE=="destruction")
+
+it_rep_homicide <- it_rep %>% 
+  filter(REPETOIRE=="homicide")
+
+# df$TARGET_TYPE
+it_tt <- df %>% 
+  group_by(YEAR, TARGET_TYPE) %>% 
+  summarise(Num=n()) 
+
+it_tt_sel <- it_tt %>% 
+  filter(TARGET_TYPE=="selective")
+
+it_tt_col <- it_tt %>% 
+  filter(TARGET_TYPE=="collective")
+
+it_tt_sit <- it_tt %>% 
+  filter(TARGET_TYPE=="situational")
+
+it_tt_ind <- it_tt %>% 
+  filter(TARGET_TYPE=="indiscriminate")
+
+# it_tt_sel
+# it_tt_col
+# it_tt_sit
+# it_tt_ind
+
+# df$TARGET
+# df$TECHNIQUE
+it_tech <- df %>% 
+  group_by(YEAR, TECHNIQUE) %>% 
+  summarise(Num=n()) 
+
+it_tech_ars <- it_tech %>% 
+  filter(TECHNIQUE=="arson")
+
+it_tech_bra <- it_tech %>% 
+  filter(TECHNIQUE=="brawl")
+
+it_tech_def <- it_tech %>% 
+  filter(TECHNIQUE=="defacing")
+
+it_tech_sho <- it_tech %>% 
+  filter(TECHNIQUE=="shooting")
+
+it_tech_sta <- it_tech %>% 
+  filter(TECHNIQUE=="stabbing")
+
+it_tech_tre <- it_tech %>% 
+  filter(TECHNIQUE=="trespass")
+
+```
+
+
+```{ojs}
+// Combine the datasets 
+Assault = [
+  {Year: "2013", Num: 3}, {Year: "2014", Num: 21}, {Year: "2015", Num: 21}, 
+  {Year: "2016", Num: 26}, {Year: "2017", Num: 28}, {Year: "2018", Num: 36}, 
+  {Year: "2019", Num: 11}, {Year: "2020", Num: 2}
+]
+
+Vandalism = [
+  {Year: "2014", Num: 3}, {Year: "2015", Num: 1}, {Year: "2016", Num: 8}, 
+  {Year: "2017", Num: 4}, {Year: "2018", Num: 9}, {Year: "2019", Num: 2}, 
+  {Year: "2020", Num: 1}
+]
+
+Homicide = [
+  {Year: "2015", Num: 1}, {Year: "2016", Num: 1}
+]
+
+// Create a dropdown which dataset to display (Inputs.select) - Inputs.radio for radio buttons
+// FIRST VERSION: viewof dataset = Inputs.radio(["Assault", "Vandalism", "Homicide"], {label: "Dataset"})
+viewof datasets = Inputs.checkbox(
+  ["Assault", "Vandalism", "Homicide"],
+  {label: "", value: ["Assault", "Vandalism", "Homicide"]}
+)
+
+
+// Choose the corresponding dataset based on the selection
+// FIRST VERSION: selected_data = dataset === "Assault" ? Assault : dataset === "Vandalism" ? Vandalism : Homicide
+// Combine the selected datasets into one array
+selected_data = datasets.flatMap(dataset => {
+  if (dataset === "Assault") {
+    return Assault.map(d => ({...d, dataset: "Assault"}));
+  } else if (dataset === "Vandalism") {
+    return Vandalism.map(d => ({...d, dataset: "Vandalism"}));
+  } else if (dataset === "Homicide") {
+    return Homicide.map(d => ({...d, dataset: "Homicide"}));
+  }
+  return [];
+});
+
+```
+
+```{ojs}
+
+// plot as a bar plot with dodged bars colored by dataset
+Plot.plot({
+  x: {
+    label: "",
+    tickSize: 2,
+    tickRotate: -1,
+    tickFormat: d => d.toString()
+  },
+  y: {
+    grid: true
+  },
+  color: {
+    legend: "ramp",
+    domain: ["Assault", "Vandalism", "Homicide"],
+    range: ["#00008B", "#FFD700", "#8B0000"], // https://en.wikipedia.org/wiki/Web_colors
+    swatchSize: 60, // https://observablehq.com/plot/features/legends
+    marginLeft: 10,
+    width: 600,
+    height: 60,
+    className: "large-font"
+  },
+  margin: 100,
+  marks: [
+    Plot.barY(selected_data, {
+      x: "Year",
+      y: "Num",
+      fill: "dataset",
+      groupby: "dataset",
+      x1: "dataset"
+    })
+  ],
+  width: 1200,
+  height: 500,
+  style: {
+    fontSize: 40
+  }
+})
+
+```
+
+### Target type
+
+```{ojs}
+// it_tt_sel
+// it_tt_col
+// it_tt_sit
+// it_tt_ind
+
+// Combine the datasets 
+Selective = [
+  {Year: "2013", Num: 3}, 
+  {Year: "2014", Num: 1}, 
+  {Year: "2015", Num: 3}, 
+  {Year: "2016", Num: 5}, 
+  {Year: "2017", Num: 7}, 
+  {Year: "2018", Num: 6}, 
+  {Year: "2019", Num: 3}
+]
+
+Collective = [
+  {Year: "2014", Num: 16}, 
+  {Year: "2015", Num: 10}, 
+  {Year: "2016", Num: 21}, 
+  {Year: "2017", Num: 18}, 
+  {Year: "2018", Num: 27}, 
+  {Year: "2019", Num: 9}, 
+  {Year: "2020", Num: 2}
+]
+
+Situational = [
+  {Year: "2014", Num: 7}, 
+  {Year: "2015", Num: 9}, 
+  {Year: "2016", Num: 9}, 
+  {Year: "2017", Num: 7}, 
+  {Year: "2018", Num: 12}, 
+  {Year: "2019", Num: 1}, 
+  {Year: "2020", Num: 1}
+]
+
+Indiscriminate = [
+  {Year: "2015", Num: 1}
+]
+
+// Create a dropdown which dataset to display (Inputs.select) - Inputs.radio for radio buttons
+// FIRST VERSION: viewof dataset = Inputs.radio(["Selective", "Collective", "Situational", "Indiscriminate"], {label: "Dataset"})
+viewof datasets2 = Inputs.checkbox(
+  ["Selective", "Collective", "Situational", "Indiscriminate"],
+  {label: "", value: ["Selective", "Collective", "Situational", "Indiscriminate"]}
+)
+
+// Choose the corresponding dataset based on the selection
+// FIRST VERSION: selected_data = dataset === "Selective" ? Selective : dataset === "Collective" ? Collective : dataset === "Situational" ? Situational : Indiscriminate
+// Combine the selected datasets into one array
+selected_data2 = datasets2.flatMap(dataset => {
+  if (dataset === "Selective") {
+    return Selective.map(d => ({...d, dataset: "Selective"}));
+  } else if (dataset === "Collective") {
+    return Collective.map(d => ({...d, dataset: "Collective"}));
+  } else if (dataset === "Situational") {
+    return Situational.map(d => ({...d, dataset: "Situational"}));
+  } else if (dataset === "Indiscriminate") {
+    return Indiscriminate.map(d => ({...d, dataset: "Indiscriminate"}));
+  }
+  return [];
+});
+
+```
+
+```{ojs}
+
+// plot as a bar plot with dodged bars colored by dataset
+Plot.plot({
+  x: {
+    label: "",
+    tickSize: 2,
+    tickRotate: -1,
+    tickFormat: d => d.toString()
+  },
+  y: {
+    grid: true
+  },
+  color: {
+    legend: "ramp",
+    domain: ["Selective", "Collective", "Situational", "Indiscriminate"],
+    range: ["#800000", "#000080", "#008080", "#800080"], // https://en.wikipedia.org/wiki/Web_colors
+    swatchSize: 60, // https://observablehq.com/plot/features/legends
+    marginLeft: 10,
+    width: 1000,
+    height: 60,
+    className: "large-font"
+  },
+  margin: 100,
+  marks: [
+    Plot.barY(selected_data2, {
+      x: "Year",
+      y: "Num",
+      fill: "dataset",
+      groupby: "dataset",
+      x1: "dataset"
+    })
+  ],
+  width: 1200,
+  height: 500,
+  style: {
+    fontSize: 40
+  }
+})
+
+```
+
+### Technique
+
+```{ojs}
+
+// it_tech_ars 
+// it_tech_bra 
+// it_tech_def 
+// it_tech_sho 
+// it_tech_sta 
+// it_tech_tre 
+
+// Combine the datasets 
+Arson = [
+  {Year: "2013", Num: 0}, 
+  {Year: "2014", Num: 2}, 
+  {Year: "2015", Num: 1}, 
+  {Year: "2016", Num: 5}, 
+  {Year: "2017", Num: 1}, 
+  {Year: "2018", Num: 6}, 
+  {Year: "2019", Num: 2},
+  {Year: "2020", Num: 0}
+]
+
+Brawl = [
+  {Year: "2013", Num: 2}, 
+  {Year: "2014", Num: 15}, 
+  {Year: "2015", Num: 18}, 
+  {Year: "2016", Num: 22}, 
+  {Year: "2017", Num: 26}, 
+  {Year: "2018", Num: 25}, 
+  {Year: "2019", Num: 11}, 
+  {Year: "2020", Num: 2}
+]
+
+Defacing = [
+  {Year: "2013", Num: 0}, 
+  {Year: "2014", Num: 1}, 
+  {Year: "2015", Num: 0}, 
+  {Year: "2016", Num: 3}, 
+  {Year: "2017", Num: 3}, 
+  {Year: "2018", Num: 3}, 
+  {Year: "2019", Num: 0}, 
+  {Year: "2020", Num: 1}
+]
+
+Shooting = [
+  {Year: "2013", Num: 0}, 
+  {Year: "2014", Num: 0}, 
+  {Year: "2015", Num: 1}, 
+  {Year: "2016", Num: 1}, 
+  {Year: "2017", Num: 0}, 
+  {Year: "2018", Num: 6}, 
+  {Year: "2019", Num: 0}, 
+  {Year: "2020", Num: 0}
+]
+
+Stabbing = [
+  {Year: "2013", Num: 1}, 
+  {Year: "2014", Num: 5}, 
+  {Year: "2015", Num: 3}, 
+  {Year: "2016", Num: 3}, 
+  {Year: "2017", Num: 0}, 
+  {Year: "2018", Num: 3}, 
+  {Year: "2019", Num: 0}, 
+  {Year: "2020", Num: 0}
+]
+
+Trespass = [
+  {Year: "2013", Num: 0}, 
+  {Year: "2014", Num: 1}, 
+  {Year: "2015", Num: 0}, 
+  {Year: "2016", Num: 1}, 
+  {Year: "2017", Num: 2}, 
+  {Year: "2018", Num: 2}, 
+  {Year: "2019", Num: 0}, 
+  {Year: "2020", Num: 0}
+]
+
+// Create a dropdown which dataset to display (Inputs.select) - Inputs.radio for radio buttons
+// FIRST VERSION: viewof dataset = Inputs.radio(["Arson", "Brawl", "Defacing", "Shooting", "Stabbing", "Trespass"], {label: "Dataset"})
+viewof datasets3 = Inputs.checkbox(
+  ["Arson", "Brawl", "Defacing", "Shooting", "Stabbing", "Trespass"],
+  {label: "", value: ["Arson", "Brawl", "Defacing", "Shooting", "Stabbing", "Trespass"]}
+)
+
+// Choose the corresponding dataset based on the selection
+// FIRST VERSION: selected_data = dataset === "Arson" ? Arson : dataset === "Brawl" ? Brawl : dataset === "Defacing" ? Defacing : dataset === "Shooting" ? Shooting : dataset === "Stabbing" ? Stabbing : Trespass
+// Combine the selected datasets into one array
+selected_data3 = datasets3.flatMap(dataset => {
+  if (dataset === "Arson") {
+    return Arson.map(d => ({...d, dataset: "Arson"}));
+  } else if (dataset === "Brawl") {
+    return Brawl.map(d => ({...d, dataset: "Brawl"}));
+  } else if (dataset === "Defacing") {
+    return Defacing.map(d => ({...d, dataset: "Defacing"}));
+  } else if (dataset === "Shooting") {
+    return Shooting.map(d => ({...d, dataset: "Shooting"}));
+  } else if (dataset === "Stabbing") {
+    return Stabbing.map(d => ({...d, dataset: "Stabbing"}));
+  } else if (dataset === "Trespass") {
+    return Trespass.map(d => ({...d, dataset: "Trespass"}));
+  }
+  return [];
+});
+
+```
+
+```{ojs}
+
+// plot as a bar plot with dodged bars colored by dataset
+Plot.plot({
+  x: {
+    label: "",
+    tickSize: 2,
+    tickRotate: -1,
+    tickFormat: d => d.toString()
+  },
+  y: {
+    grid: true
+  },
+  color: {
+    legend: "ramp",
+    domain: ["Arson", "Brawl", "Defacing", "Shooting", "Stabbing", "Trespass"],
+    range: ["#DC143C", "#9932CC", "#FF8C00", "#0000CD", "#808000", "#FFD700"], // https://en.wikipedia.org/wiki/Web_colors
+    swatchSize: 60, // https://observablehq.com/plot/features/legends
+    marginLeft: 10,
+    width: 1100,
+    height: 60,
+    className: "large-font"
+  },
+  margin: 100,
+  marks: [
+    Plot.barY(selected_data3, {
+      x: "Year",
+      y: "Num",
+      fill: "dataset",
+      groupby: "dataset",
+      x1: "dataset"
+    })
+  ],
+  width: 1200,
+  height: 500,
+  style: {
+    fontSize: 40
+  }
+})
+
+```
+
+:::
+
+## Explore further - RTV 
+
+:::: {.columns}
+:::{.column width="60%"}
+![](slide_files/12/RTVincidents.png) 
+
+:::
+
+::: {.column width="40%" .center}
+- Injuries and fatalities from violent right-wing extremism
+
+- similar categorical codes used in [Right-Wing Terrorism and Violence (RTV) Dataset](https://www.sv.uio.no/c-rex/english/resources/rtv-dataset/)
+
+> <https://www.sv.c-rex.uio.no/RTVMapTool/>
+
+:::
+:::: 
+
+## Explore further - HRCW 
+
+:::: {.columns}
+:::{.column width="55%"}
+![](slide_files/12/hcrw.png) 
+
+:::
+
+::: {.column width="45%" .center}
+- Reported hate crime incidents per year, by country. (most populous countries on top)
+
+- Data are collected by the OSCE’s Office for Democratic Institutions and Human Rights (ODIHR) 
+
+> <https://hatecrime.osce.org/>
+
+- [any issues to discuss if we *reported* on these data?]{style="color:indigo;"}
+
+:::
+:::: 
+
+
+# Poll: far-right violence {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="30%"}
+![](slide_files/12/class12_poll_QR.png){fig-alt="A QR code for the survey."}
+
+:::
+
+::: {.column width="70%" .center}
+<!-- go to <https://www.qr-code-generator.com/>, add the link, and screen shot the QR code -->
+Take the survey at **<https://forms.gle/EJmHdaqQpbBdvKDx7>**
+
+- Patterns of far-right violence similar or different to other extremist violence? 
+- Generally, are 'lone actors' or violent far-right groups the greater societal threat?
+
+:::
+:::: 
+
+- 'regular' violent crime: just like other individual violent offenders; domestic terrorism: violence to terrift, advance movement goals. State authorities' understanding?: crime or terrorism? 
+- Groups, parties responsible for members' violent crimes? 
+- Is anti-fascist violence sometimes legitimate? 
+
+<!-- (Venice Commission; example of NRM in Finland) -->
+<!-- the Venice Commission of the Council of Europe provided advisory guidelines about the regulation of political parties that stated a “political party as a whole cannot be held responsible for the individual behaviour of its members not authorised by the party within the framework of political/public and party activities” (European Commission 2003). -->
+
+<!-- European Commission. 2003. ‘Opinion on the Proposed Amendment to the Law on Parties and Other Socio-Political Organisations of the Republic of Moldova Adopted by the Venice Commission at Its 54th Plenary Session (Venice, 14-15 March 2003)’. Venice Commission of the Council of Europe. https://www.coe.int/en/web/venice-commission/-/cdl-ad-2003-008- e?p_l_back_url=%2Fen%2Fweb%2Fvenice- commission%2Fdocuments%3FYears%3D277145199%26Languages%3D274802870%26 Series%3D274804643. -->
+
+--- 
+
+```{ojs}
+md`## Poll results (Respondents: ${respondentCount})`
+```
+
+
+```{ojs}
+
+import { liveGoogleSheet } from "@jimjamslam/live-google-sheet";
+import { aq, op } from "@uwdata/arquero";
+
+// UPDATE THE LINK FOR A NEW POLL
+surveyResults = liveGoogleSheet(
+  "https://docs.google.com/spreadsheets/d/e/" +
+    "2PACX-1vRlp4g_pBSPhIHzVRjuA-NXNER-nycqjbSx6GDelAHtjzLQoW-yp-gOAOmudiqxTtWyLx9GbqobjL4W/" +
+    "pub?gid=473771883&single=true&output=csv",
+  10000, 1, 6); // adjust the last number to select all relevant columns 
+
+respondentCount = surveyResults.length;
+
+```
+
+Are patterns of far-right violence largely similar to other extremist violence or rather different?
+
+```{ojs}
+patternsCounts = aq.from(surveyResults)
+  .select("patterns")
+  .groupby("patterns")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+patterns_maxCountRE = Math.max(...patternsCounts.objects().map(d => d.count));
+
+plot_patterns = Plot.plot({
+  marks: [
+    Plot.barY(patternsCounts, {
+      x: "patterns",
+      y: "count",
+      fill: "patterns",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "similar",
+      "different"
+    ],
+    range: [
+      "darkorange",
+      "cadetblue"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -1, padding: 0.2,
+    domain: ["similar", "different"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(patternsCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, patterns_maxCountRE]
+  },
+  facet: { data: patternsCounts, x: "measure", label: "" },
+  marginLeft: 60,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 40,
+  },
+});
+
+```
+ 
+
+## Poll: threat and response
+
+<!-- responsible	antifascism -->
+
+:::: {.columns}
+:::{.column width="50%"}
+greater societal threat?
+
+```{ojs}
+threatCounts = aq.from(surveyResults)
+  .select("threat")
+  .groupby("threat")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+threat_maxCountRE = Math.max(...threatCounts.objects().map(d => d.count));
+
+plot_threat = Plot.plot({
+  marks: [
+    Plot.barY(threatCounts, {
+      x: "threat",
+      y: "count",
+      fill: "threat",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "lone actors",
+      "violent groups",
+      "other"
+    ],
+    range: [
+      "teal",
+      "indigo",
+      "violet"
+    ]
+  },
+  marginBottom: 140,
+  x: { label: "", tickSize: 2, tickRotate: -30, padding: 0.2,
+    domain: ["lone actors", "violent groups", "other"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(threatCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, threat_maxCountRE]
+  },
+  facet: { data: threatCounts, x: "measure", label: "" },
+  marginLeft: 70,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 40,
+  },
+});
+
+```
+ 
+:::
+
+::: {.column width="50%"}
+response: crime or terrorism?
+
+```{ojs}
+responseCounts = aq.from(surveyResults)
+  .select("response")
+  .groupby("response")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+response_maxCountRE = Math.max(...responseCounts.objects().map(d => d.count));
+
+plot_response = Plot.plot({
+  marks: [
+    Plot.barY(responseCounts, {
+      x: "response",
+      y: "count",
+      fill: "response",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "violent crime",
+      "domestic terrorism",
+      "other"
+    ],
+    range: [
+      "darkorange",
+      "red",
+      "violet",
+    ]
+  },
+  marginBottom: 140,
+  x: { label: "", tickSize: 2, tickRotate: -30, padding: 0.2,
+    domain: ["violent crime", "domestic terrorism", "other"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(responseCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, response_maxCountRE]
+  },
+  facet: { data: responseCounts, x: "measure", label: "" },
+  marginLeft: 70,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 40,
+  },
+});
+
+```
+
+:::
+::::
+
+# Contextual causes of far-right violence {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- country-level causes of right-wing terrorism [@Ravndal2018]
+- development of right-wing terrorism within a country (Germany) [@Manthe2021]
+    + is right-wing terrorism 'still' a within-country phenomenon?
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="14095280468464450467" data-share-method="host" data-aspect-ratio="1.30769" data-width="100%"><a href="https://tenor.com/view/context-robin-hood-crumb-of-context-please-sir-meme-gif-14095280468464450467">Context Robin Hood Meme</a>from <a href="https://tenor.com/search/context-memes">Context Memes</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+## Explaining right-wing terrorism [@Ravndal2018]
+
+- *RQ*: Why do some [Western liberal democracies]{style="color:darkorange;"} experience more right-wing terrorism and violence (RTV) than others?
+
+. . . 
+
+- *data*: RTV in [18 West European countries]{style="color:darkorange;"} between *1990 and 2015*
+    + (quite hard to gather valid, reliable data for Central and Eastern Europe, as it happens)
+
+. . . 
+
+- *method*: qualitative comparative analysis (QCA)
+    + suited to *explaining* (more so than *describing* or *predicting*)
+    + built on [set theory]{style="color:darkorange;"}: does this concept (set) describe this case
+
+. . . 
+
+- *outcome*: [high RTV]{style="color:darkorange;"} in a country
+    + non-outcome: 'not-high RTV'
+
+
+## Country-level causes of RW terrorism [@Ravndal2018]
+
+| Conditions                       | Theoretical foundation |
+|---------------------------------:|:-----------------------|
+| Ethnic diversity or immigration  | [Grievances]{style="color:cadetblue;"} |
+| Socioeconomic hardship           | [Grievances]{style="color:cadetblue;"} |
+| Radical right support            | [Opportunities]{style="color:darkorange;"} |
+| Authoritarian legacies           | [Opportunities]{style="color:darkorange;"} |
+| Left-wing militancy (aggression) | [Polarisation]{style="color:forestgreen;"} |
+| Radical right repression         | [Polarisation]{style="color:forestgreen;"} |
+
+## @Ravndal2018 - RTV outcome data table {.smaller .scrollable}
+
+| Country    | events| deadly events (no. killed) | per million inhabitants
+|-----------:|:-----:|:-----------------|:---------------|
+| Austria        | 23  | 1 (4)     | 0.1 |
+| Belgium        | 6   | 3 (5)     | 0.3 |
+| Denmark        | 19  | 1 (1)     | 0.2 |
+| Finland        | 8   | –         |     |
+| France         | 16  | 9 (11)    | 0.1 |
+| [Germany]{style="color:red;"}        | 122 | 82 (104)  | [1]{style="color:red;"}   |
+| [Greece]{style="color:red;"}        | 55  | 6 (7)     | 0.6 |
+| Ireland        | 4   | 3 (4)     | 0.8 |
+| [Italy]{style="color:red;"}          | 99  | 5 (6)     | 0.1 |
+| [Netherlands]{style="color:red;"}    | 10  | 3 (3)     | 0.2 |
+| Norway         | 25  | 3 ([79]{style="color:red;"})    | 0.7 |
+| Portugal       | 3   | 3 (3)     | 0.3 |
+| [Spain]{style="color:red;"}          | 39  | 22 (22)   | 0.5 |
+| [Sweden]{style="color:red;"}         | 89  | 17 (20)   | [1.9]{style="color:red;"} |
+| Switzerland    | 1   | 1 (1)     | 0.1 |
+| [United Kingdom]{style="color:red;"} | 59  | 31 (33)   | 0.5 |
+| Sum            | 578 | 190 (303) |     |
+
+## Calibrated data (set membership) [@Ravndal2018]
+
+```{r data}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(kableExtra)
+
+AUT <- c(0.25, 1   , 0   , 1   , 1   , 0   , 0)
+BEL <- c(0.25, 1   , 0.25, 0.75, 0.25, 0.75, 0)
+DEN <- c(0.25, 0.75, 0   , 0.75, 0   , 0   , 0.25)
+FIN <- c(0.25, 0   , 0   , 0.25, 0   , 0   , 0)
+FRA <- c(0.25, 0.75, 0   , 0.75, 0.25, 0.75, 0.25)
+GER <- c(1   , 0.75, 0.25, 0   , 1   , 1   , 0.75)
+GRE <- c(0.75, 0.75, 1   , 0   , 1   , 0   , 1)
+ICE <- c(0   , 0   , 0   , 0   , 0   , 0   , 0)
+IRE <- c(0.25, 0.75, 0.75, 0   , 0   , 0   , 0)
+ITA <- c(0.75, 0.25, 0.75, 0.75, 1   , 0   , 0.75)
+LUX <- c(0   , 1   , 0   , 0   , 0   , 0   , 0)
+NED <- c(0.25, 0.75, 0   , 0.25, 0   , 0.75, 0)
+NOR <- c(0.25, 1   , 0   , 0.75, 0   , 0   , 0)
+POR <- c(0   , 0.25, 0.75, 0   , 1   , 0   , 0)
+SPA <- c(0.75, 0.75, 0.75, 0   , 1   , 0   , 0.75)
+SWE <- c(1   , 1   , 0   , 0   , 0   , 1   , 0.25)
+SWI <- c(0.25, 1   , 0   , 1   , 0   , 0.25, 0)
+UK  <- c(0.75, 0.75, 0.25, 0   , 0   , 0.75, 0)
+
+df <- as.data.frame(rbind(AUT,BEL,DEN,FIN,FRA,GER,GRE,ICE,IRE,ITA,LUX,NED,NOR,POR,SPA,SWE,SWI,UK))
+
+colnames(df) <- c("RTV","DIVERSITY","HARDSHIP","SUPPORT","LEGACIES","REPRESSION","AGGRESSION")
+
+# library(RColorBrewer)
+# library(wesanderson)
+
+kable(df, format = "html", escape = FALSE, 
+      col.names = c("Country", "RTV", "Diversity", "Hardship", "Support", "Legacies", "Repression", "Aggression")
+      ) %>%
+  kable_styling("striped", full_width = FALSE,
+                font_size = 19) # %>%column_spec(1, width = "2cm") %>%
+  # column_spec(2, width = "2cm") %>%
+  # column_spec(7, width = "3cm")
+```
+
+
+## @Ravndal2018 - sufficiency
+
+```{r quick-QCA1}
+library(QCA)
+library(SetMethods)
+library(ggplot2)
+
+SUIN <- superSubset(data = df,
+                       conditions = c("DIVERSITY","HARDSHIP","SUPPORT","LEGACIES","REPRESSION","AGGRESSION"),
+                       outcome = "RTV",
+                       relation = "nec",
+                       incl.cut = 0.3,
+                       cov.cut = 0.3,
+                       ron.cut = 0.1,
+                       depth = 1)
+# SUIN
+
+# pimplot(data = df, results = SUIN, outcome = "RTV", necessity = TRUE, jitter = TRUE, font = "mono", fontsize = 5)
+
+tt <- truthTable(data=df, outcome = "RTV",
+                   conditions = c("DIVERSITY","HARDSHIP","SUPPORT","LEGACIES","REPRESSION","AGGRESSION"),
+                   incl.cut=0.8,
+                   sort.by=c("incl", "n"), 
+                   complete=TRUE,
+                   show.cases=TRUE, 
+                   PRI=TRUE)
+# tt
+
+sol_i <- minimize(tt, details = TRUE, 
+                  include = "?",
+                  dir.exp = c(1,1,0,1,1,1))
+# sol_i
+
+# stargazerSol(sol_i,
+#              outcome = "RTV",
+#              sol = 1,
+#              show.cases = T,
+#              type = "latex",
+#              title = "",
+#              out = NULL,
+#              digits = 3)
+```
+
+
+```{r}
+#| echo: false
+
+grouping_data <- data.frame(
+  SolutionTerm = c("HARDSHIP∗ LEGACIES∗ AGGRESSION", 
+                   "DIVERSITY∗ ~SUPPORT∗ REPRESSION",
+                   "Solution"),
+  InclS = c("0.909", "0.867", "0.880"),
+  PRI = c("0.875", "0.818", "0.833"),
+  CovS = c("0.345", "0.448", "0.759"),
+  CovU = c("0.310", "0.414", " "),
+  Cases = c("ITA; GRE, SPA", 
+            "NED, SWE, UK; GER", 
+            " ")
+)
+
+kable(grouping_data, format = "html", escape = FALSE, 
+      col.names = c(" ", "inclS", "PRI", "covS", "covU", "cases")) %>%
+  kable_styling("striped", full_width = FALSE,
+                font_size = 40) # %>%column_spec(1, width = "2cm") %>%
+  # column_spec(2, width = "2cm") %>%
+  # column_spec(7, width = "3cm")
+```
+
+
+## Sufficiency plot
+
+<!-- \vspace{-18cm} -->
+
+```{r quick-QCA5, out.width='90%'}
+# pimplot(data = tt, results = sol_i, outcome = "RTV", all_labels = TRUE, jitter = TRUE, font = "mono", fontsize = 7)
+
+df_sol <- dplyr::select(df, c("DIVERSITY", "HARDSHIP", "SUPPORT", "LEGACIES", "REPRESSION", "AGGRESSION", "RTV"))
+
+# COLOUR VERSION
+sol <- admisc::compute("DIVERSITY*~SUPPORT*REPRESSION + HARDSHIP*LEGACIES*AGGRESSION", data = df_sol) # compute sol_yc set membership
+
+col <- rep("red", nrow(df_sol)) # define a vector of colors
+col[sol < 0.5 & df_sol$RTV < 0.5] <- "darkseagreen1" # zone 4
+col[sol > 0.5 & df_sol$RTV < 0.5] <- "dodgerblue" # zone 4
+col[sol < 0.5 & df_sol$RTV >= 0.5] <- "orange" # zone 5
+col[sol > 0.5 & df_sol$RTV >= 0.5] <- "red" # zone 5
+clabels <- logical(nrow(df_sol))
+clabels[c(1:18)] <- TRUE # only these labels to print
+
+XYplot("DIVERSITY*~SUPPORT*REPRESSION + HARDSHIP*LEGACIES*AGGRESSION", RTV, relation = "sufficiency", data = df_sol, jitter = T, amount = 0.03, clabels = clabels, xlab = "Solution: DIVERSITY*~SUPPORT*REPRESSION + HARDSHIP*LEGACIES*AGGRESSION", col = "black", bg = col, cex = 1.2)
+
+```
+
+## @Ravndal2018 - conclusions
+
+- The two 'causal recipes' both appear "to fuel hostility, polarisation and violence"
+    + [North European pattern]{style="color:blue;"} (Diversity* ~Support* Repression)
+        * "a predominantly pro-immigration elite perceived as hostile towards people with anti-immigration concerns might be exploited by the extreme right to mobilise new followers and to motivate terrorism and violence"
+    + [South European pattern]{style="color:blue;"} (Hardship* Legacies* Aggression)
+    + both recipes contain elements of [grievances]{style="color:cadetblue;"} and [opportunities]{style="color:darkorange;"}
+
+- Ravndal: *high polarisation* might be necessary for extensive RTV, but the data do not offer firm conclusions about this.
+
+## @Ravndal2018[p. 862] - conclusions: 'paradox of tolerance'
+
+> By implication, a potentially [effective cure for RTV]{style="color:darkorange;"} could be to [limit immigration]{style="color:darkorange;"} and be [more accepting towards radical right actors and opinions]{style="color:darkorange;"}. However, considering the inherently intolerant policies these actors seek to implement, this cure comes with a bitter aftertaste from a liberal democratic perspective. This [liberal dilemma]{style="color:darkorange;"} has no easy solution...
+
+<!-- [thoughts on where to draw the line?]{style="color:indigo;"}  -->
+
+## Right-wing terrorism within Germany [@Manthe2021]
+
+::: panel-tabset
+### Manthe's definition of (RW) terrorism
+*calculated action of groups or individuals... who, with attempted or actual severe violence against people or property, conspiratorially pursue at least two of the following goals*:
+
+- to [create a climate of fear]{style="color:red;"} in the general/certain populations; 
+- to attract public [attention]{style="color:red;"}; 
+- to [influence the actions]{style="color:red;"} of states, leaders, and/or to provoke; 
+- to [destabilize]{style="color:red;"} political and social order (which can include challenging the state and its policies); and 
+- to defend political and social order (vigilantism).
+
+
+### Other definitions 
+1. *Verfassungsschutz*: "persistent fight for political goals enforced by attacks on life, limb and property of others particularly through severe criminal acts as named in \S 129a Strafgesetzbuch or through other acts of violence meant to prepare these criminal acts."
+
+2. scholarship definition: terrorism aims to send a message in order to "achieve an effect on others besides the direct victim or target of the violence." (Bjørgo)
+
+:::
+
+## Right-wing terrorism within Germany [@Manthe2021]
+
+- *data*: mainly from Bundesarchiv
+    + 22 groups and lone actors between 1970 and 1980
+- *common activities*: robberies, illegal weapons, militant training, shootings, planning bombings and attacks
+- *common targets*: leftists (GDR, USSR, communists), Jews (incl. cemeteries), U.S. buildings and troops, memorials
+
+. . . 
+
+want to know more? consider a visit to [NS-Dokumentationszentrum München](https://www.nsdoku.de/)
+
+## bans against right-wing extremist groups in Germany
+
+![](slide_files/12/DE-ban-years-1.png)
+
+## @Manthe2021 - postwar era {.smaller}
+
+Causes of (relatively) peaceful period in postwar era until the 1970s: 
+
+(1) criminally prosecuting far-right offenders and banning far-right groups
+(2) lack of strong de-nazification and *Vergangenheitsbewältigung* ('dealing with the past') means 'less impetus for violence'
+    + several members of Adenauer’s governments had been in NS regime, e.g.,
+        * Hans Globke, Chief of Staff for the West German Chancellery, helped draft Nuremberg Laws and worked closely with Adolf Eichmann to administer parts of the Holocaust; 
+        * Interior Minister Gerhard Schröder, longtime Nazi party member;  
+        * minister for refugees Theodor Oberländer,  served in SS battalion implicated in war crimes; and 
+        * Bundesnachtichtendienst president Reinhard Gehlen, NS intelligence officer
+(3) NPD creation in 1964 led the far-right scene to transfer expectations of success through parliamentary victory; also led to strategic restraint with regards to openly violent activities.
+
+<!-- Though the first post-war German governments under Konrad Adenauer (1949-1963) implemented denazification in many areas, some implementation was conspicuously hollow. Most notably, several members of Adenauer’s governments had held senior positions in the National Socialist regime, for example: Hans Globke, who was appointed Chief of Staff for the West German Chancellery, had helped draft the racialist Nuremberg Laws and worked closely with Adolf Eichmann to administer parts of the Holocaust; Interior Minister Gerhard Schröder  had  been  a  Nazi  party  member  and  storm  trooper  since  1933;  the  minister  for refugees Theodor Oberländer had served in a SS battalion implicated in war crimes in Poland and Ukraine; and Reinhard Gehlen, a leading military intelligence officer in the Nazi regime, became the first president of the German Federal Intelligence Service (Bundesnachtichtendienst). -->
+
+[how do these explanations relate to the *movements* analytical concepts we have discussed?]{style="color:indigo;"}
+
+<!-- 1. limited opportunities; 2. limited grievances; 3. other channels for public activity -->
+
+## @Manthe2021 - phases of 1970s RW terrorist activity
+
+- early 1970s: (larger) group emergence
+- mid-1970s: smaller groupings, radicalisation
+- late 1970s: escalation in violence
+    + participation of German RW extremists in Lebanese civil war, later in Yugoslav wars
+
+## @Manthe2021 - a new era
+
+- In last phase, two events in particular provoked state reaction:
+    + Oktoberfest bombing (26.09.1980): 12 dead, 200+ injured
+        * attacker: Gundolf Köhler (member of WSG Hoffmann)
+        * 'lone attacker' theory re-opened for investigation in 2014
+    + Assassination of Shlomo Lewin & Frida Poeschke (19.12.1980)
+        * attacker: Uwe Behrendt (member of WSG Hoffmann)
+
+:::: {.columns}
+:::{.column width="50%"}
+![](slide_files/12/oktoberfest1980.png){width="350"}
+
+:::
+
+::: {.column width="50%" .center}
+![](slide_files/12/lewin.png){width="350"}
+
+:::
+:::: 
+
+## An example of the curious relationship of opposed movements
+
+> after the RAF had killed the *Generalbundesanwalt* (Public Prosecutor General) Siegfried Buback on April 7, 1977, the neo-Nazi magazine *Wille und Weg* (Will and Way) celebrated the assassination, calling it a “relieving act.” Statements by right-wing terrorists, such as Christine Hewicker, indicate that they admired the RAF for its determinedness. However, other activists at the same time deeply objected to the group" [@Manthe2021, p. 61]
+
+(use and misuse of the 'horseshoe theory'?)
+
+<!-- AREA FOR FURTHER RESEARCH: long-term activist histories, after bannings, jail, etc. -->
+<!-- - effect of bans on individual activists -- relates to @GaudetteETAL2022 -->
+
+## Poll: responsibility and anti-fascism
+
+:::: {.columns}
+:::{.column width="50%"}
+groups, parties responsible for members' crimes?
+
+```{ojs}
+responsibleCounts = aq.from(surveyResults)
+  .select("responsible")
+  .groupby("responsible")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+responsible_maxCountRE = Math.max(...responsibleCounts.objects().map(d => d.count));
+
+plot_responsible = Plot.plot({
+  marks: [
+    Plot.barY(responsibleCounts, {
+      x: "responsible",
+      y: "count",
+      fill: "responsible",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    range: [
+      "forestgreen",
+      "darkred",
+      "goldenrod"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -1, padding: 0.2,
+    domain: ["Yes", "No", "Maybe"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(responsibleCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, responsible_maxCountRE]
+  },
+  facet: { data: responsibleCounts, x: "measure", label: "" },
+  marginLeft: 60,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 40,
+  },
+});
+
+```
+ 
+:::
+
+::: {.column width="50%"}
+anti-fascist violence sometimes legitimate?
+
+```{ojs}
+antifascismCounts = aq.from(surveyResults)
+  .select("antifascism")
+  .groupby("antifascism")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+antifascism_maxCountRE = Math.max(...antifascismCounts.objects().map(d => d.count));
+
+plot_antifascism = Plot.plot({
+  marks: [
+    Plot.barY(antifascismCounts, {
+      x: "antifascism",
+      y: "count",
+      fill: "antifascism",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    range: [
+      "forestgreen",
+      "darkred",
+      "goldenrod"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -1, padding: 0.2,
+    domain: ["Yes", "No", "Maybe"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(antifascismCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, antifascism_maxCountRE]
+  },
+  facet: { data: antifascismCounts, x: "measure", label: "" },
+  marginLeft: 60,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 40,
+  },
+});
+
+```
+ 
+:::
+::::
+
+## Groups responsible for members: pro arguments
+
+- UN Security Council [Resolution 1373](https://digitallibrary.un.org/record/449020?ln=en&v=pdf)
+    + states bound to prevent and suppress terrorist activity by groups in their territories (*state responsibility*)
+- UN Security Council [Resolution 1820](https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/CAC%20S%20RES%201820.pdf)
+    + recognises state and non-state armed groups bear responsibility for acts of sexual violence committed by their members (*[armed] group responsibility*)
+
+<!-- International Criminal Court (ICC) Cases Supporting Organizational Responsibility -->
+<!-- The Prosecutor v. Thomas Lubanga Dyilo (DRC) -->
+
+<!-- Lubanga was the leader of the Union of Congolese Patriots (a non-state armed group). -->
+
+<!-- Convicted for conscripting and using child soldiers by members of his militia. -->
+
+<!-- The case established that commanders and leaders are responsible for crimes committed by their forces if they have effective control. -->
+
+<!-- The Prosecutor v. Bosco Ntaganda (DRC) -->
+
+<!-- Ntaganda, a rebel leader, was convicted of war crimes and crimes against humanity committed by his troops. -->
+
+<!-- The court emphasized the responsibility of commanders for failing to prevent or punish crimes by their subordinates. -->
+
+<!-- The Prosecutor v. Ahmad Al Faqi Al Mahdi (Mali) -->
+
+<!-- Focused on destruction of cultural heritage by a member of an armed group. -->
+
+<!-- While Al Mahdi was individually responsible, the case underscored the broader responsibility of groups for members’ actions. -->
+
+<!-- The Prosecutor v. Jean-Pierre Bemba Gombo (CAR) -->
+
+<!-- Bemba was a militia leader found responsible for crimes committed by his troops in the Central African Republic. -->
+
+<!-- The Appeals Chamber clarified the doctrine of command responsibility and organizational liability. -->
+
+
+## Groups responsible for members: contra arguments
+
+> Venice Commission of the Council of Europe provided advisory guidelines about the regulation of political parties that stated a “political party as a whole cannot be held responsible for the individual behaviour of its members not authorised by the party within the framework of political/public and party activities. [@ec2003-3-15]
+
+- banning of NRM (Finland) [@Kotonen2021; @ZellerVaughan2023Proscribing], Golden Dawn (Greece) [@FielitzETAL2020oru] 
+    + strongly motivated by culpability of leaders for members' violence
+
+<!-- (Venice Commission; example of NRM in Finland) -->
+<!-- the Venice Commission of the Council of Europe provided advisory guidelines about the regulation of political parties that stated a “political party as a whole cannot be held responsible for the individual behaviour of its members not authorised by the party within the framework of political/public and party activities” (European Commission 2003). -->
+
+<!-- European Commission. 2003. ‘Opinion on the Proposed Amendment to the Law on Parties and Other Socio-Political Organisations of the Republic of Moldova Adopted by the Venice Commission at Its 54th Plenary Session (Venice, 14-15 March 2003)’. Venice Commission of the Council of Europe. https://www.coe.int/en/web/venice-commission/-/cdl-ad-2003-008- e?p_l_back_url=%2Fen%2Fweb%2Fvenice- commission%2Fdocuments%3FYears%3D277145199%26Languages%3D274802870%26 Series%3D274804643. -->
+
+
+
+<!-- Key Resolutions and Guidelines Contradicting Organizational Responsibility -->
+<!-- UN Human Rights Committee General Comment No. 25 (1996) on Article 25 of the ICCPR -->
+
+<!-- This commentary outlines the importance of political rights, specifically focusing on freedom of association and freedom of political expression. The Committee emphasized that political parties have a right to organize and that their members cannot be held accountable for the actions of other members unless they were directly involved in unlawful activities. -->
+
+<!-- This implies that parties should not be collectively responsible for acts committed by individuals unless those acts are part of the party's official activities or directives. -->
+
+<!-- UN Declaration on the Rights of Indigenous Peoples (2007) -->
+
+<!-- This declaration stresses freedom of association for indigenous peoples and similar groups. In the context of non-state entities, the UN affirms the protection of these freedoms, suggesting that groups cannot be held responsible for individual acts of members unless there's clear evidence of direct involvement by the leadership. -->
+
+<!-- Legal Precedents and Cases Complicating Organizational Responsibility -->
+<!-- European Court of Human Rights (ECHR) – Gäfgen v. Germany (2010) -->
+
+<!-- While not directly related to political parties, this case dealt with the state's responsibility to prevent harm by non-state actors (in this case, individual police officers). The court ruled that a government could only be responsible for individual actions if the state had failed to exercise proper control or oversight. -->
+
+<!-- This case suggests that while states are responsible for violence by their officials, organizations (including political parties) should not automatically be held accountable for actions by members unless those actions were authorized by the party leadership. -->
+
+<!-- The Prosecutor v. Laurent Gbagbo (ICC) -->
+
+<!-- In this case, Gbagbo (former president of Côte d'Ivoire) was charged for crimes during the 2010-2011 post-election violence. The ICC found that he was responsible for the actions of his supporters because he was in control and had taken part in the violence. However, the case did not extend liability to the party as an organization, focusing instead on the individual responsibility of leadership. -->
+
+<!-- This suggests a nuance in how organizational responsibility is treated: only individual leaders, and not the entire party, could be held accountable for the actions of their members, unless those actions were carried out with the approval or direction of the leadership. -->
+
+<!-- Venice Commission Guidelines on Political Parties -->
+
+<!-- As you mentioned, the Venice Commission (2003) issued guidelines that emphasize freedom of political association and cautioned against blanket organizational responsibility for the actions of members. These guidelines are particularly significant because they are part of the Council of Europe’s efforts to establish best practices for democracy and the regulation of political parties. -->
+
+<!-- According to the guidelines, a political party is not liable for unlawful acts committed by its members unless the party itself authorized or directed those actions. This contrasts with the international criminal law framework, which emphasizes command responsibility. -->
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>
+
+Alternatively, send me an email: [m.zeller\@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- 1 + 1 -->
+
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+
+<!-- ::: -->
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- library(dplyr) -->
+
+<!-- library(ggplot2) -->
+
+<!-- g <- starwars |>  -->
+
+<!--   ggplot() + -->
+
+<!--   geom_point(aes(x = height, y = mass)) + -->
+
+<!--   theme_light() -->
+
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+
+<!-- #| fig.align: center -->
+
+<!-- #| echo: true -->
+
+<!-- g  -->
+
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| echo: true -->
+
+<!-- #| eval: false -->
+
+<!-- tab <- starwars |> -->
+
+<!--   tidyr::drop_na(species) |>  -->
+
+<!--   group_by(species) |> -->
+
+<!--   summarise( -->
+
+<!--     n = n(), -->
+
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+
+<!--   ) |>  -->
+
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| eval: true -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+
+<!-- gt::gt(tab) -->
+
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+
+<!-- reactable::reactable(tab) -->
+
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<!-- </center> -->
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_12.html"))
+```
+
+## References

@@ -538,6 +538,8 @@ kable(table_data, col.names = c("Lost Participation (individual level)", "Organi
 ## Far-right demobilisation patterns [@Zeller2026CUP] {.smaller}
 
 ```{r}
+#| echo: false
+
 grouping_data <- data.frame(
   Grouping = c("closing opportunity", "state repression", "civil counter-mobilisation", "anti-far-right militancy", ""),
   SolutionTerm = c("SCH", 
@@ -1047,6 +1049,10 @@ Alternatively, send me an email: [m.zeller\@lmu.de]{style="color:red;"}
 <!-- </center> -->
 
 ```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
 pagedown::chrome_print(file.path("..", "docs/slides", "slides_10.html"))
 ```
 
