@@ -1,0 +1,1808 @@
+---
+title: "Class 13: Individuals in the far right"
+subtitle: "Online"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+    theme: [default, custom_options]
+    background-transition: fade
+incremental: false
+embed-resources: true
+# runtime: shiny
+bibliography: ../../../library.bib
+---
+
+# Opening notes {background-color="#2c844c"}
+
+::: {.tenor-gif-embed data-postid="14209777" data-share-method="host" data-aspect-ratio="1.94" data-width="70%"}
+<a href="https://tenor.com/view/open-gif-14209777">Open Sticker</a>from <a href="https://tenor.com/search/open-stickers">Open Stickers</a>
+:::
+
+```{=html}
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+```
+
+<!-- <div class="tenor-gif-embed" data-postid="23663828" data-share-method="host" data-aspect-ratio="1" data-width="70%"><a href="https://tenor.com/view/happy-birthday-gif-23663828">Happy Birthday GIF</a>from <a href="https://tenor.com/search/happy+birthday-gifs">Happy Birthday GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+
+<!-- FOR CLASS ON ONLINE OR ON CONDUCTING RESEARCH: Zurich online manipulation of ChangeMyView reddit -->
+<!-- https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/ -->
+<!-- https://www.science.org/content/article/unethical-ai-research-reddit-under-fire -->
+<!-- https://www.reddit.com/r/Futurology/comments/1ig3shj/comment/maloixh/?share_id=Ug1NU1tqy_KzA21t5L9hZ&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1 -->
+
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Angel David Meissner, Adrian Morina, Elli Quitter -->
+
+<!-- [**Topics to me as soon as possible**]{style="color:red;"} -->
+
+::: panel-tabset
+## July
+
+| Date | Presenters | Method |
+|-------------:|:--------------------------------------------|:------------:|
+| 3 July:  | Alexander V., Luis G., Oscar O., Mia C. | descriptive inference |
+| 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | ethnography |
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | process tracing |
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | quant. text analysis |
+| 24 July: | Lorenz F., Daniel B., Medina H. | quant. text analysis |
+
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | logistic regression |
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | discourse analysis |
+| 29 May: | NO CLASS MEETING |  |
+
+: Presentations line-up
+
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | surveys |
+| 12 June: | Omar B., Lela E., Niclas W. | network analysis |
+| 19 June: | NO CLASS MEETING |  |
+| 26 June: | Colombe I., Konstantin S., Jakob W., Veronika L. | ethnography |
+| 26 June: | Maksim K., Felix S., Jon L.D., Damir S., Korbinian M. | case study |
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+
+<!-- FOR CLASS ON ONLINE OR ON CONDUCTING RESEARCH: Zurich online manipulation of ChangeMyView reddit -->
+<!-- https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/ -->
+<!-- https://www.science.org/content/article/unethical-ai-research-reddit-under-fire -->
+<!-- https://www.reddit.com/r/Futurology/comments/1ig3shj/comment/maloixh/?share_id=Ug1NU1tqy_KzA21t5L9hZ&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1 -->
+
+
+# The far right online {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- brief history
+- forms of contemporary far right online [@zhangEextremismConceptualFramework2022]
+    + cryptic codes
+    + spotlight on financing
+- networking transnationally [@heftTransnationalInformationEcology2021]
+- multi-platform strategies [@mitts2025SafeHavensHate]
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="27546602" data-share-method="host" data-aspect-ratio="1.28" data-width="100%"><a href="https://tenor.com/view/getting-online-getting-online-gif-27546602">Getting Online Getting GIF</a>from <a href="https://tenor.com/search/getting+online-gifs">Getting Online GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+
+## Brief history [cf. @ConwayETAL2019]
+
+::: {.fragment .fade-left}
+::: {.fragment .semi-fade-out}
+- **Early days** (1980s): telephone information lines; online bulletin board systems
+:::
+:::
+
+::: {.fragment .fade-left}
+::: {.fragment .semi-fade-out}
+- **1990s**: Stormfront, organisational websites <!-- (today's websites) Daily Stormer, Iron March -->
+:::
+:::
+
+::: {.fragment .fade-left}
+::: {.fragment .semi-fade-out}
+- **2000s**: [rise of social media]{style="color:red;"}, renaissance of forums (chans, reddit, imageboards) [@crawford2020memetic]
+:::
+:::
+
+::: {.fragment .fade-left}
+::: {.fragment .semi-fade-out}
+- **2010s**: [diversification]{style="color:red;"} (video/audio content, news/reporting, editorial accounts, interpersonal connections/networking, 'going on offence'/trolling)
+:::
+:::
+
+::: {.fragment .fade-left}
+- **2020s**: [sophistication]{style="color:red;"} (dark web, crypto, backing up social media activity to alternative platforms (*nimbleness*)) [@ISD2020; @FATF2021; @blazakisFarRightOnlineFinancing2022]
+:::
+
+<!-- . . .  -->
+
+<!-- *additions to this?* -->
+
+## Far-right activism forms online {.center}
+
+- we have discussed far-right activity forms *offline*, but...
+
+::: {style="text-align: center;"}
+**[What do far-right actors (individuals or even groups/organisations) use the [internet]{style="color:red;"} for? Is there anything distinctive compared to other types of actors?]{style="color:indigo; font-size:60px;"}** 
+:::
+
+## far right use of online tools [@zhangEextremismConceptualFramework2022]
+
+- distribute information
+    + most extreme cases: spreading '*attacker manifestos*'
+        * a focal point for platforms and states in recent years
+- produce subculture (content containing [frames]{style="color:darkred;"}, narratives, and that generates [collective identity]{style="color:darkred;"})
+- fundraise
+- lobby policy-makers
+- transnational organisation and mobilisation
+    + examples: '#FreeTommy', anti-Istanbul Convention, EU elections
+    + other examples? what do those examples tell us?
+
+<!-- - different rhetorical devices and discursive styles on different platforms -->
+<!-- different types of far-right actors deploy and develop different forms of digital network repertoires to facilitate e-extremism through the exploitation of hybrid media opportunities, networked opportunities and discursive opportunities. -->
+
+see also @Wahlstrom2019
+
+## Cryptic codes 
+
+- Far-right actors online often use '[wolf-in-sheep’s-clothes strategy]{style="color:cadetblue;"}' [@zhangEextremismConceptualFramework2022]: *camouflage extremist ideas with in-jokes and coded language*
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(knitr)
+library(kableExtra)
+
+text_tbl <- data.frame(
+  A = c("", "Slightly cryptic", "Highly cryptic"),
+  B = c("Strong FR connection", "e.g., 'white power', Reichsadler", "e.g., '14 words', Nordadler symbols, Kühnengruß"),
+  C = c(
+    "Weak FR connection",
+    "e.g., Celtic crosses, meander patterns", 
+    "e.g., '100%', runic symbols"
+  )
+)
+
+# kbl(text_tbl,
+#     col.names = c(" ", " ", " ")
+#     ) %>%
+#   kable_styling(full_width = F) %>%
+#   row_spec(1, bold = T)
+#   column_spec(1, bold = T, border_right = T) %>%
+#   column_spec(2, width = "20em", background = "") %>% 
+#   column_spec(3, width = "20em", background = "")
+  
+kable(text_tbl, "html", col.names = c(" ", " ", " "), escape=FALSE, align="rcc") %>%
+  kable_styling("striped", full_width=FALSE, position="center") %>% # , font_size=43
+  # column_spec(1, bold = TRUE, background = "#E5E5E5") %>%
+  row_spec(1, bold = T) %>% 
+  column_spec(1, bold = T, border_right = T) %>% 
+  column_spec(2, border_right = T, width = "20em", background = "") %>% 
+  column_spec(3, width = "20em", background = "")
+
+```
+
+- Other examples? ('Let's go Brandon!', the 'okay' hand symbol)
+
+## Spotlight on far-right financing online
+
+```{r}
+
+# Create a data frame with your table structure
+df <- data.frame(
+  # Categories = c(
+  #   "1. Donations/self-funding",
+  #   "2. Criminal activity",
+  #   "3a. Sale of goods (merchandise, music, real estate, etc.)",
+  #   "3b. Sale of services (memberships, events, etc.)"
+  # ),
+  `Legal and/or Non-Violation of Terms` = rep("", 4),
+  `Illegal and/or Violation of Terms` = rep("", 4),
+  check.names = FALSE
+)
+
+kable(df, "html", escape=FALSE, align="cc") %>%
+  kable_styling("striped", full_width=FALSE, position="center", font_size=43) %>%
+  # column_spec(1, bold = TRUE, background = "#E5E5E5") %>%
+  column_spec(1, background="seagreen1", include_thead=T) %>%
+  column_spec(2, background="tomato1", include_thead=T) %>%
+  add_header_above(c("Legality and/or Terms of Service Compliance"=2)) 
+
+```
+
+## Spotlight on far-right financing online
+
+```{r}
+kable(df, "html", escape=FALSE, align="cc") %>%
+  kable_styling("striped", full_width=FALSE, position="center", font_size=43) %>%
+  # column_spec(1, bold = TRUE, background = "#E5E5E5") %>%
+  column_spec(1, background="seagreen1", include_thead=T) %>%
+  column_spec(2, background="tomato1", include_thead=T) %>%
+  add_header_above(c("Legality and/or Terms of Service Compliance"=2)) %>% 
+  pack_rows("1. Donations/self-funding", 1, 1, background="#E5E5E5", italic=T)
+
+```
+
+## Spotlight on far-right financing online
+
+```{r}
+kable(df, "html", escape=FALSE, align="cc") %>%
+  kable_styling("striped", full_width=FALSE, position="center", font_size=43) %>%
+  # column_spec(1, bold = TRUE, background = "#E5E5E5") %>%
+  column_spec(1, background="seagreen1", include_thead=T) %>%
+  column_spec(2, background="tomato1", include_thead=T) %>%
+  add_header_above(c("Legality and/or Terms of Service Compliance"=2)) %>% 
+  pack_rows("1. Donations/self-funding", 1, 1, background="#E5E5E5", italic=T) %>%
+  pack_rows("2a. Sale of goods (merchandise, music, real estate, etc)", 2, 2, background="#E5E5E5", italic=T)
+
+```
+
+## Spotlight on far-right financing online
+
+```{r}
+kable(df, "html", escape=FALSE, align="cc") %>%
+  kable_styling("striped", full_width=FALSE, position="center", font_size=43) %>%
+  # column_spec(1, bold = TRUE, background = "#E5E5E5") %>%
+  column_spec(1, background="seagreen1", include_thead=T) %>%
+  column_spec(2, background="tomato1", include_thead=T) %>%
+  add_header_above(c("Legality and/or Terms of Service Compliance"=2)) %>% 
+  pack_rows("1. Donations/self-funding", 1, 1, background="#E5E5E5", italic=T) %>%
+  pack_rows("2a. Sale of goods (merchandise, music, real estate, etc)", 2, 2, background="#E5E5E5", italic=T) %>%
+  pack_rows("2b. Sale of services (memberships, events, etc)", 3, 3, background="#E5E5E5", italic=T)
+
+```
+
+## Spotlight on far-right financing online
+
+```{r}
+kable(df, "html", escape=FALSE, align="cc") %>%
+  kable_styling("striped", full_width=FALSE, position="center", font_size=43) %>%
+  # column_spec(1, bold = TRUE, background = "#E5E5E5") %>%
+  column_spec(1, background="seagreen1", include_thead=T) %>%
+  column_spec(2, background="tomato1", include_thead=T) %>%
+  add_header_above(c("Legality and/or Terms of Service Compliance"=2)) %>% 
+  pack_rows("1. Donations/self-funding", 1, 1, background="#E5E5E5", italic=T) %>%
+  pack_rows("2a. Sale of goods (merchandise, music, real estate, etc)", 2, 2, background="#E5E5E5", italic=T) %>%
+  pack_rows("2b. Sale of services (memberships, events, etc)", 3, 3, background="#E5E5E5", italic=T) %>% 
+  pack_rows("3. Criminal activities", 4, 4, background="#E5E5E5", italic=T) 
+
+```
+
+## 1. Donations/self-funding [e.g., @blazakisFarRightOnlineFinancing2022; @bogle2021PolicyBriefBuying]
+
+- use of *mainstream platforms* (PayPal, Patreon, Kickstarter, Monero, and GoFundMe)
+    + but [counter-mobilisation]{style="color:darkred;"} has pressured these platforms [@Kienzl2019-11-27; @Rietschel2019]
+        * part of widespread strategy: 'bankrupt' the far right [@Ortiz2022-1-17] (e.g., [against 2017 Charlottesville, U.S. rally](https://www.integrityfirstforamerica.org/))
+    + 'hacking' of some platforms (GiveSendGo) [@Wilson2021-4-10]
+- *alternative funding platforms* used (Hatreon, Goyfundme): less reach, but less risk of lock-out
+- *[crypto-currencies]{style="color:cadetblue;"}*: difficult to trace, large transfers [@SickJost2023-9-26; @Hussain2021-1-14]---but still outside mainstream
+
+<!-- @blazakisFarRightOnlineFinancing2022 AAREM violent extremists also use conventional online crowdfunding tools to solicit and receive donations, using mainstream platforms such as Patreon, Kickstarter, and GoFundMe to collect thousands of dollars. That success was short-lived when these companies and their payment processors de-risked from providing services to white supremacists.26 One consequence of the deplatforming was that AAREM violent extremists created their own crowdfunding websites, such as Hatreon and Goyfundme, to secure donations.27 Th -->
+
+## 2a. Sale of goods (merchandise, music, real estate, etc)
+
+- far-right *[rap]{style="color:cadetblue;"}* [@Raabe2023-12-8] and *[rock]{style="color:cadetblue;"}* [@Dyck2016]---**big business**
+- fascist fashion [@Postma2022-5-24]
+    + *explicitly* far-right brands: e.g., *Thor Steinar* (here, [counter-mobilisation]{style="color:darkred;"} too)
+    + co-opted brands: e.g., *Lonsdale*
+- [real estate]{style="color:cadetblue;"}: create 'safe hinterlands' and/or boost a group's resources ([Spiegel doku](https://www.youtube.com/watch?v=YilcjXGXDbY), [NDR doku](https://www.youtube.com/watch?v=Zbsx3VSsxdY), [AA Stiftung report](https://www.amadeu-antonio-stiftung.de/w/files/pdfs/voelkische-siedler-internet.pdf)) <!-- updated, 2021 report: https://www.amadeu-antonio-stiftung.de/wp-content/uploads/2021/02/Land-unter-Internet.pdf -->
+    + NPD offered pamphlets on including the party in one's will...
+- *key question*: [on which platforms do these transactions happen]{style="color:red;"}
+    + mainstream markets being 'misused' [@Al-Othman2024-10-10]
+    + websites of far-right groups or companies
+
+
+::: {.r-stack}
+![](slide_files/13/thor_steinar.png){.fragment .absolute top=50 left=200}
+
+![](slide_files/13/storch_heinar1.png){.fragment .absolute top=50 left=200}
+
+![](slide_files/13/storch_heinar2.png){.fragment .absolute top=50 left=150}
+:::
+
+
+<!-- joke video about clothing: <https://www.youtube.com/watch?v=e0n47Oj8owg> -->
+<!-- joke video about far-right V-Maenner: <https://www.youtube.com/watch?v=yOIxQmHqEYU> -->
+
+## 2b. Sale of services (memberships, events, etc)
+
+:::: {.columns}
+:::{.column width="60%"}
+- like music sales, [concerts]{style="color:cadetblue;"} are a major source of financing [@Dyck2016; @Colborne2022-7-28]
+    + also for building [collective identity]{style="color:darkred;"}, solidarity, networking, etc.
+- [fight events]{style="color:cadetblue;"} (MMA, boxing, etc.) have spread and become profitable
+    + e.g., *[Kampf der Nibelungen]{style="color:darkorange;"}* (started 2013, DE bans  starting in 2019, new *replacement events*)
+- some FR groups have [membership fees]{style="color:cadetblue;"}
+
+:::
+
+::: {.column width="40%" .center}
+
+@vsb2023: 
+
+[right-wing extremist music events]{style="color:red;"}
+
+<!-- correct citation: @vsb2024 -->
+
+```{r}
+# musik <- data.frame(
+#   Veranstaltung = c("Konzerte", "Liederabende", "Sonstige", "Insgesamt"),
+#   `2023` = c(39, 132, 40, 322),
+#   `2024` = c(29, 130, 151, 307)
+# )
+# 
+# kable(musik, col.names = c("Veranstaltung", "2023", "2024")) # , caption = "Rechtsextremistische Musikveranstaltungen"
+
+musik <- data.frame(
+  Veranstaltung = c("Concert", "'Song evening'", "Other", "Total"),
+  `2023` = c(39, 132, 40, 322),
+  `2024` = c(29, 130, 151, 307)
+)
+
+kable(musik, col.names = c("Event", "2023", "2024")) # , caption = "Rechtsextremistische Musikveranstaltungen"
+```
+
+:::
+:::: 
+
+## Far-right music events (Germany, Verfassungschutzberichte)
+
+```{ojs}
+
+Concert = [
+  {Year: "2009", Num: 125}, 
+  {Year: "2010", Num: 128}, 
+  {Year: "2011", Num: 131}, 
+  {Year: "2012", Num: 82}, 
+  {Year: "2013", Num: 78}, 
+  {Year: "2014", Num: 55}, 
+  {Year: "2015", Num: 63}, 
+  {Year: "2016", Num: 68}, 
+  {Year: "2017", Num: 68}, 
+  {Year: "2018", Num: 60}, 
+  {Year: "2019", Num: 64},
+  {Year: "2020", Num: 27}, 
+  {Year: "2021", Num: 18}, 
+  {Year: "2022", Num: 35}, 
+  {Year: "2023", Num: 39}, 
+  {Year: "2024", Num: 29},
+]
+
+SongEvening = [
+  {Year: "2009", Num: 38}, 
+  {Year: "2010", Num: 40}, 
+  {Year: "2011", Num: 30}, 
+  {Year: "2012", Num: 17}, 
+  {Year: "2013", Num: 47}, 
+  {Year: "2014", Num: 55}, 
+  {Year: "2015", Num: 54}, 
+  {Year: "2016", Num: 71}, 
+  {Year: "2017", Num: 88}, 
+  {Year: "2018", Num: 95}, 
+  {Year: "2019", Num: 133},
+  {Year: "2020", Num: 55}, 
+  {Year: "2021", Num: 59}, 
+  {Year: "2022", Num: 92}, 
+  {Year: "2023", Num: 132}, 
+  {Year: "2024", Num: 130},
+]
+
+Other = [
+  {Year: "2009", Num: 42}, 
+  {Year: "2010", Num: 71}, 
+  {Year: "2011", Num: 57}, 
+  {Year: "2012", Num: 49}, 
+  {Year: "2013", Num: 46}, 
+  {Year: "2014", Num: 51}, 
+  {Year: "2015", Num: 82}, 
+  {Year: "2016", Num: 84}, 
+  {Year: "2017", Num: 103}, 
+  {Year: "2018", Num: 115}, 
+  {Year: "2019", Num: 114},
+  {Year: "2020", Num: 59}, 
+  {Year: "2021", Num: 67}, 
+  {Year: "2022", Num: 130}, 
+  {Year: "2023", Num: 151}, 
+  {Year: "2024", Num: 148},
+]
+
+// Create a dropdown which dataset to display (Inputs.select) - Inputs.radio for radio buttons
+// FIRST VERSION: viewof dataset = Inputs.radio(["Concert", "SongEvening", "Other"], {label: "Dataset"})
+viewof datasets2 = Inputs.checkbox(
+  ["Concert", "SongEvening", "Other"],
+  {label: "", value: ["Concert", "SongEvening", "Other"]}
+)
+
+// Choose the corresponding dataset based on the selection
+// FIRST VERSION: selected_data = dataset === "Concert" ? Concert : dataset === "SongEvening" ? SongEvening : Other
+// Combine the selected datasets into one array
+selected_data2 = datasets2.flatMap(dataset => {
+  if (dataset === "Concert") {
+    return Concert.map(d => ({...d, dataset: "Concert"}));
+  } else if (dataset === "SongEvening") {
+    return SongEvening.map(d => ({...d, dataset: "SongEvening"}));
+  } else if (dataset === "Other") {
+    return Other.map(d => ({...d, dataset: "Other"}));
+  }
+  return [];
+});
+
+```
+
+```{ojs}
+// plot as a bar plot with dodged bars coloured by dataset
+Plot.plot({
+  x: {
+    label: "",
+    tickSize: 2,
+    tickRotate: -90,
+    tickFormat: d => d.toString()
+  },
+  y: {
+    label: "",
+    grid: true
+  },
+  color: {
+    legend: "ramp",
+    domain: ["Concert", "SongEvening", "Other"],
+    range: ["#800000", "#008080", "#FFD700"], // https://en.wikipedia.org/wiki/Web_colors
+    swatchSize: 60, // https://observablehq.com/plot/features/legends
+    marginLeft: 10,
+    width: 600,
+    height: 80,
+    className: "large-font"
+  },
+  margin: 100,
+  marks: [
+    Plot.barY(selected_data2, {
+      x: "Year",
+      y: "Num",
+      fill: "dataset",
+      groupby: "dataset",
+      x1: "dataset"
+    })
+  ],
+  width: 1200,
+  height: 500,
+  style: {
+    fontSize: 40
+  }
+})
+
+```
+
+## 3. Criminal activities
+
+- production and/or sale of drugs [@IbsenETAL2020]
+- cyber-crime
+    + hacking computer networks
+    + sale or distribution of violence-enabling tools 
+    + more accessible (for now?) through manipulation of generative AI tools (e.g., [*Telegraph* 2024](https://www.telegraph.co.uk/news/2024/10/14/fcg9-3d-printed-gun-neo-nazi-crime/))
+
+## Networking transnationally [@heftTransnationalInformationEcology2021]
+
+> To what extent do [alternative right-wing online news sites (RNS)] in the United States, United Kingdom, Germany, Austria, Sweden, and Denmark form [national and transnational right-wing news ecologies]{style="color:darkorange;"} through [hyperlinking]{style="color:darkorange;"}?
+
+. . . 
+
+findings: 
+
+- countries differ significantly the scope of their networking activities toward other RNS
+- [domestic links]{style="color:red;"} predominate in United States, Sweden, and Germany
+- In Denmark, [transnational links]{style="color:red;"} are predominant
+- balanced distribution in Austria 
+
+## Networking transnationally [@heftTransnationalInformationEcology2021]
+
+![](slide_files/13/heft_netz.png)
+
+## Multi-platform strategies [@mitts2025SafeHavensHate]
+
+> militant and hate organizations’ online success centers on their ability to [operate across many platforms in parallel]{style="color:red;"}
+
+- [content moderation]{style="color:darkred;"} "organized practice of screening user-generated content (UGC) posted to Internet sites, social media, and other online outlets, in order to determine the appropriateness of the content for a given site, locality, or jurisdiction."
+
+# Regulating the far right online {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="25%"}
+- poll 
+- regulation challenges [@mitts2025SafeHavensHate]
+
+:::
+
+
+::: {.column width="75%"}
+<!-- <div class="tenor-gif-embed" data-postid="4355610959213596988" data-share-method="host" data-aspect-ratio="1.98347" data-width="100%"><a href="https://tenor.com/view/regulators-mount-up-gif-4355610959213596988">Regulators Mount Up GIF</a>from <a href="https://tenor.com/search/regulators-gifs">Regulators GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+<div class="tenor-gif-embed" data-postid="26758125" data-share-method="host" data-aspect-ratio="2.60163" data-width="100%"><a href="https://tenor.com/view/rules-gif-26758125">Rules GIF</a>from <a href="https://tenor.com/search/rules-gifs">Rules GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+
+:::
+::::
+
+- regulation approaches [@gorwa2024PoliticsPlatformRegulation]
+    + extant regulations
+- 'dangerous actors' on Meta [@Biddle2021-10-12]
+    + example: CasaPound and Facebook [e.g., @GoliaBehring2020-2-18]
+
+# Poll: regulating the far right online {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="35%"}
+![](slide_files/13/class13_poll_QR.png){fig-alt="A QR code for the survey."}
+
+:::
+
+::: {.column width="65%" .center}
+<!-- go to <https://www.qr-code-generator.com/>, add the link, and screen shot the QR code -->
+Take the survey at **<https://forms.gle/6r8coBVy5v9C7x7t8>**
+
+- Who should [define]{style="color:violet;"} what is (right-wing) extremist content?
+- Who should [shape policy]{style="color:violet;"} responding to (right-wing) extremist content?
+- What should [predominant approach]{style="color:violet;"} be?
+
+:::
+:::: 
+
+- Is [deplatforming]{style="color:violet;"} effective for dealing with online extremism?
+- Should criminal penalties exist for spreading [disinformation]{style="color:violet;"}?
+
+<!-- - Who should determine what constitutes impermissible (right-wing) extremist content? -->
+<!--     + state, platform companies, independent regulator, other -->
+<!-- - Who should make policy about what to do with impermissible (right-wing) extremist content? -->
+<!--     + state, platform companies, independent regulator, other -->
+<!-- - What should the predominant approach be to impermissible (right-wing) extremist content? -->
+<!--     + do nothing, attach warning, reduce possible views, permanently remove post, suspend poster's account -->
+<!-- - Do you think deplatforming is an effective way to deal with (right-wing) extremist actors on platforms?  -->
+<!--     + yes, no, maybe -->
+<!-- - Should criminal penalties exist for spreading [disinformation]{style="color:yellow;"}? ([misinformation]{style="color:yellow;"}?) -->
+<!--     + yes, no, maybe -->
+
+## Multi-platform activity [@mitts2025SafeHavensHate] - regulation challenges
+
+- *assumption*: stronger action by platform companies will decrease their ability to exploit the internet
+    + this assumption is plausible in [isolated platform perspective]{style="color:darkorange;"}---less so in [multi-platform perspective]{style="color:darkorange;"}
+    + [platforms largely moderate content in isolation, but extremist actors coordinate activity across multiple platforms]{style="color:red;"}
+
+- adaptation mechanisms: 
+    + [platform migration]{style="color:cadetblue;"}: move to alternative platforms
+    + [messaging]{style="color:cadetblue;"}: moderate discourse on regulated platforms
+    + [mobilisation]{style="color:cadetblue;"}: problematise platforms' content moderation policies/practices
+
+## Regulation approaches [@gorwa2024PoliticsPlatformRegulation] {auto-animate=true}
+
+- contest
+- collaborate
+- convince
+
+## Regulation approaches [@gorwa2024PoliticsPlatformRegulation] {auto-animate=true}
+
+- collaborate
+- convince
+
+::: {style="margin-top: 1px; font-size: 3em; color: darkred;"}
+- contest
+:::
+
+- legally binding, enforceable rules
+    + [executive]{style="color:cadetblue;"} orders; [legislatures]{style="color:cadetblue;"} pass laws (e.g., data protection, competition regulation, consumer safety; cybersecurity)
+
+## Regulation approaches [@gorwa2024PoliticsPlatformRegulation] {auto-animate=true}
+
+- contest
+- collaborate
+- convince
+
+## Regulation approaches [@gorwa2024PoliticsPlatformRegulation] {auto-animate=true}
+
+- contest
+- convince
+
+::: {style="margin-top: 1px; font-size: 3em; color: darkred;"}
+- collaborate
+:::
+
+- non-binding, voluntarily enacted rules designed with government input, occasionally featuring binding procedural constraints
+    + may be agreed by a mix of industry, firm, and civil society stakeholders &rarr; implemented voluntarily by industry
+
+## Regulation approaches [@gorwa2024PoliticsPlatformRegulation] {auto-animate=true}
+
+- contest
+- collaborate
+- convince
+
+## Regulation approaches [@gorwa2024PoliticsPlatformRegulation] {auto-animate=true}
+
+- contest
+- collaborate
+
+::: {style="margin-top: 1px; font-size: 3em; color: darkred;"}
+- convince
+:::
+
+- using existing channels to raise grievances rather than striving for new rules
+    + often occurs in the shadows, few public-facing elements
+    + 'cheap' to pursue and implement &rarr; but also 'cheap' consequences (no binding sanctions, probably least impactful)
+
+## Regulation approaches [@gorwa2024PoliticsPlatformRegulation] {auto-animate=true}
+
+- [contest]{style="color:darkred;"} - legally binding, enforceable rules
+- [collaborate]{style="color:darkred;"} - non-binding, voluntarily enacted rules designed with government input, occasionally featuring binding procedural constraints
+- [convince]{style="color:darkred;"} - using existing channels to raise grievances rather than striving for new rules
+
+. . . 
+
+- likelihood of approach success depends on [political will]{style="color:darkorange;"} (sufficient demand for change) and [power to intervene]{style="color:darkorange;"} (shaped by state's market power, regulatory capacity, domestic and international context, and norms)
+- trend of [platform governance hybridization]{style="color:darkorange;"}
+
+<!-- likelihood of its success are all influenced by two main factors, which I call political will and the power to intervene. -->
+
+<!-- contest (legally binding, enforceable rules), collaborate (non-binding, voluntarily enacted rules designed with government input, occasionally featuring binding procedural constraints), and convince (using existing channels to raise grievances rather than striving for new rules). -->
+
+## Major extant regulation, forums, etc. [cf. @gorwa2024PoliticsPlatformRegulation; @conway2023ViolentExtremismTerrorism] 
+
+- Germany's '[Network Enforcement Law](https://www.gesetze-im-internet.de/netzdg/BJNR335210017.html)' (NetzDG)
+- France’s Avia Law (declared [unconstitutional](https://edri.org/our-work/french-avia-law-declared-unconstitutional-what-does-this-teach-us-at-eu-level/) and revised drastically)
+- EU’s [Digital Services Act](https://digital-strategy.ec.europa.eu/de/policies/digital-services-act-package) (DSA)
+- [Terrorist Content Online](https://home-affairs.ec.europa.eu/policies/internal-security/counter-terrorism-and-radicalisation/prevention-radicalisation/terrorist-content-online_en) (TCO) Regulation
+- [Christchurch Call](https://www.christchurchcall.org/)
+- [European Union Internet Forum](https://home-affairs.ec.europa.eu/networks/european-union-internet-forum_en) (EUIF)
+- [Global Internet Forum for Countering Terrorism](https://gifct.org/) (GIFCT)
+    + [hash-sharing database](https://gifct.org/hsdb/)
+- [Tech Against Terrorism](https://techagainstterrorism.org/home)
+
+<!-- ## 'dangerous actors' on Meta [@Biddle2021-10-12] -->
+
+<!-- ![](slide_files/13/fb-banned-orgs-vis-final-1.png) -->
+
+## 'dangerous actors' on Meta [@Biddle2021-10-12] {.smaller}
+
+<!-- :::: {.columns} -->
+<!-- :::{.column width="20%"} -->
+
+<!-- - 2021 leak of designated 'dangerous actors' identified by Meta -->
+<!--     + used for targeted removal (i.e., deplatforming) -->
+<!-- - many similarities with U.S. Terrorist Designation List---but also plenty of difference -->
+<!-- - an instance of a platform's content moderation policy in practice -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="80%" .center} -->
+
+```{r}
+library(igraph)
+library(tidyr)
+library(dplyr)
+### TWO-MODE NETWORK VIS
+library(readxl)
+netprepped <- read_excel("slide_files/13/fb_pros_ALL.xlsx", sheet="Netz")
+netprepped <- netprepped %>% tidyr::drop_na(`Affiliated With`)
+netprepped_hate <- netprepped %>% subset(Category=="Hate")
+netprepped_hate <- netprepped_hate %>% tidyr::drop_na(`Affiliated With`)
+
+# net <- as.network(netprepped, 
+#                   bipartite=TRUE, # Nodes number in second mode (orgs)
+#                   vertex.attr=attribute_list,
+#                   directed=FALSE)
+# 
+# gplot(net)
+
+g <- graph.data.frame(netprepped, directed=FALSE)
+h <- graph.data.frame(netprepped_hate, directed=FALSE)
+library(intergraph)
+g_n <- intergraph::asNetwork(g)
+h_n <- intergraph::asNetwork(h)
+
+# types <- V(g)$type ## getting each vertex `type` let's us sort easily
+# types_h <- V(h)$type
+# deg <- degree(g)
+# deg_h <- degree(h)
+# bet <- betweenness(g)
+# bet_h <- betweenness(h)
+# clos <- closeness(g)
+# clos_h <- closeness(h)
+# eig <- eigen_centrality(g)$vector
+# eig_h <- eigen_centrality(h)$vector
+# 
+# cent_df <- data.frame(types, deg, bet, clos, eig)
+# cent_df_h <- data.frame(deg_h, bet_h, clos_h, eig_h) # types_h,
+
+## good basic plot, but no legend
+# plot(
+#   g_n,
+#   # vertex.cex = sna::degree(cibola_n) / 10,
+#   # mode = "kamadakawai",
+#   vertex.col = as.factor(netprepped$Ideo),
+#   edge.col = "darkgray",
+#   displayisolates = FALSE
+# )
+
+
+V(g)$type <- bipartite_mapping(g)$type
+# V(g)$shape <- ifelse(V(g)$type, "square", "circle")
+# V(g)$size <- ifelse(V(g)$type, 4, 1)
+V(g)$size <- case_when(
+  V(g)$name=="Generation Identity United Kingdom and Ireland" ~ 4,
+  V(g)$name=="British Union of Fascists" ~ 4,
+  V(g)$name=="National Socialist German Workers' Party" ~ 4,
+  V(g)$name=="Egalité et Réconciliation" ~ 4,
+  V(g)$name=="Daily Stormer" ~ 4,
+  V(g)$name=="National Corps" ~ 4,
+  V(g)$name=="Azov Battalion" ~ 4,
+  V(g)$name=="National Squad" ~ 4,
+  V(g)$name=="The Affirmative Right" ~ 4,
+  V(g)$name=="Ustaše" ~ 4,
+  V(g)$name=="American Nazi Party" ~ 4,
+  V(g)$name=="ShieldWall" ~ 4,
+  V(g)$name=="Lads Society" ~ 4,
+  V(g)$name=="Ku Klux Klan" ~ 4,
+  V(g)$name=="American Guard" ~ 4,
+  V(g)$name=="Misanthropic Division" ~ 4,
+  V(g)$name=="Die Rechte" ~ 4,
+  V(g)$name=="League of the South" ~ 4,
+  V(g)$name=="Golden Dawn" ~ 4,
+  V(g)$name=="Altright.com" ~ 4,
+  V(g)$name=="Propetarian Institute" ~ 4,
+  V(g)$name=="English Defence League" ~ 4,
+  V(g)$name=="Russian Imperial Movement" ~ 4,
+  V(g)$name=="Patriot Front" ~ 4,
+  V(g)$name=="ZBOR" ~ 4,
+  V(g)$name=="Hooligans Against Salafists" ~ 4,
+  V(g)$name=="Proud Boys" ~ 4,
+  V(g)$name=="Blocco Studentesco" ~ 4,
+  V(g)$name=="Westboro Baptist Church" ~ 4,
+  V(g)$name=="Forza Nuova" ~ 4,
+  V(g)$name=="Students for Western Civilization" ~ 4,
+  V(g)$name=="Casa Pound Italia" ~ 4,
+  V(g)$name=="Kategorie C" ~ 4,
+  V(g)$name=="Red Ice Creations" ~ 4,
+  V(g)$name=="Skrewdriver" ~ 4,
+  V(g)$name=="Blood and Honour" ~ 4,
+  V(g)$name=="Liberty Defenders" ~ 4,
+  V(g)$name=="Resistance Radio" ~ 4,
+  V(g)$name=="European Knights Project" ~ 4,
+  V(g)$name=="Britain First" ~ 4,
+  V(g)$name=="British National Party" ~ 4,
+  V(g)$name=="Afrikaner's Resistance Movement" ~ 4,
+  V(g)$name=="American Renaissance" ~ 4,
+  V(g)$name=="Defend Europe" ~ 4,
+  V(g)$name=="National Socialist Movement" ~ 4,
+  V(g)$name=="Temple of Blood" ~ 4,
+  V(g)$name=="The Northwest Front" ~ 4,
+  V(g)$name=="Mut Zur Warheit" ~ 4,
+  V(g)$name=="Aryan Strikeforce" ~ 4,
+  V(g)$name=="Canadian Nationalist Front" ~ 4,
+  V(g)$name=="Schutzstaffel" ~ 4,
+  V(g)$name=="Aryan Nation" ~ 4,
+  V(g)$name=="Nova Ordem Social" ~ 4,
+  V(g)$name=="Identitare Bewegung" ~ 4,
+  V(g)$name=="Creativity Alliance" ~ 4,
+  V(g)$name=="Traditionalist Worker Party" ~ 4,
+  V(g)$name=="Traditionalist Youth Network" ~ 4,
+  V(g)$name=="Soldiers of Odin" ~ 4,
+  V(g)$name=="Serbian State Guard" ~ 4,
+  V(g)$name=="Forum Umat Islam" ~ 4,
+  V(g)$name=="Serikat Pekerja Front" ~ 4,
+  V(g)$name=="Identity Europe" ~ 4,
+  V(g)$name=="American Identity Movement" ~ 4,
+  V(g)$name=="United Patriots Front" ~ 4,
+  V(g)$name=="Knights Templar International" ~ 4,
+  V(g)$name=="Imperium Europa" ~ 4,
+  V(g)$name=="A Voice For Men" ~ 4,
+  V(g)$name=="National Policy Institute" ~ 4,
+  V(g)$name=="Meat Shits" ~ 4,
+  V(g)$name=="National Socialist Liberation Front" ~ 4,
+  V(g)$name=="Rivolta Nazionale" ~ 4,
+  V(g)$name=="ARMA Hellas" ~ 4,
+  V(g)$name=="White Aryan Resistance" ~ 4,
+  V(g)$name=="Patr" ~ 4,
+  V(g)$name=="Omladinski pokret 64 županije" ~ 4,
+  V(g)$name=="Burzum" ~ 4,
+  V(g)$name=="National Alliance" ~ 4,
+  V(g)$name=="Artpolitinfo" ~ 4,
+  V(g)$type==TRUE ~ 3,
+  TRUE~1.5
+)
+# V(g)$label <- ifelse(V(g)$type, V(g)$name, "")
+V(g)$label <- case_when(
+  ##V(g)$name=="Generation Identity United Kingdom and Ireland" ~ "Generation Identity UK",
+  ##V(g)$name=="British Union of Fascists" ~ "BUF",
+  V(g)$name=="National Socialist German Workers' Party" ~ "NSDAP",
+  ##V(g)$name=="Egalité et Réconciliation" ~ "Egalité et Réconciliation",
+  ##V(g)$name=="Daily Stormer" ~ "Daily Stormer",
+  # V(g)$name=="National Corps" ~ 6,
+  # V(g)$name=="Azov Battalion" ~ 6,
+  # V(g)$name=="National Squad" ~ 6,
+  ##V(g)$name=="The Affirmative Right" ~ "Affirmative Right",
+  # V(g)$name=="Ustaše" ~ 6,
+  # V(g)$name=="American Nazi Party" ~ 6,
+  ##V(g)$name=="ShieldWall" ~ "ShieldWall",
+  # V(g)$name=="Lads Society" ~ 6,
+  ##V(g)$name=="Ku Klux Klan" ~ "KKK",
+  # V(g)$name=="American Guard" ~ 6,
+  # V(g)$name=="Misanthropic Division" ~ 6,
+  V(g)$name=="Die Rechte" ~ "Die\nRechte",
+  # V(g)$name=="League of the South" ~ 6,
+  V(g)$name=="Golden Dawn" ~ "Golden\nDawn",
+  # V(g)$name=="Altright.com" ~ 6,
+  # V(g)$name=="Propetarian Institute" ~ 6,
+  ##V(g)$name=="English Defence League" ~ "EDL",
+  # V(g)$name=="Russian Imperial Movement" ~ 6,
+  # V(g)$name=="Patriot Front" ~ 6,
+  # V(g)$name=="ZBOR" ~ 6,
+  ##V(g)$name=="Hooligans Against Salafists" ~ "HoGeSa",
+  ##V(g)$name=="Proud Boys" ~ "Proud Boys",
+  # V(g)$name=="Blocco Studentesco" ~ 6,
+  # V(g)$name=="Westboro Baptist Church" ~ 6,
+  V(g)$name=="Forza Nuova" ~ "Forza\nNuova",
+  # V(g)$name=="Students for Western Civilization" ~ 6,
+  V(g)$name=="Casa Pound Italia" ~ "CPI",
+  # V(g)$name=="Kategorie C" ~ 6,
+  # V(g)$name=="Red Ice Creations" ~ 6,
+  # V(g)$name=="Skrewdriver" ~ 6,
+  V(g)$name=="Blood and Honour" ~ "B&H",
+  # V(g)$name=="Liberty Defenders" ~ 6,
+  # V(g)$name=="Resistance Radio" ~ 6,
+  # V(g)$name=="European Knights Project" ~ 6,
+  ##V(g)$name=="Britain First" ~ "Britain First",
+  ##V(g)$name=="British National Party" ~ "BNP",
+  # V(g)$name=="Afrikaner's Resistance Movement" ~ 6,
+  # V(g)$name=="American Renaissance" ~ 6,
+  # V(g)$name=="Defend Europe" ~ 6,
+  # V(g)$name=="National Socialist Movement" ~ 6,
+  # V(g)$name=="Temple of Blood" ~ 6,
+  # V(g)$name=="The Northwest Front" ~ 6,
+  # V(g)$name=="Mut Zur Warheit" ~ 6,
+  # V(g)$name=="Aryan Strikeforce" ~ 6,
+  # V(g)$name=="Canadian Nationalist Front" ~ 6,
+  V(g)$name=="Schutzstaffel" ~ "SS",
+  # V(g)$name=="Aryan Nation" ~ 6,
+  # V(g)$name=="Nova Ordem Social" ~ 6,
+  ##V(g)$name=="Identitare Bewegung" ~ "Identitare Bewegung",
+  # V(g)$name=="Creativity Alliance" ~ 6,
+  # V(g)$name=="Traditionalist Worker Party" ~ 6,
+  # V(g)$name=="Traditionalist Youth Network" ~ 6,
+  ##V(g)$name=="Soldiers of Odin" ~ "Soldiers of Odin",
+  # V(g)$name=="Serbian State Guard" ~ 6,
+  # V(g)$name=="Forum Umat Islam" ~ 6,
+  # V(g)$name=="Serikat Pekerja Front" ~ 6,
+  ##V(g)$name=="Identity Europe" ~ "Identity Europe",
+  # V(g)$name=="American Identity Movement" ~ 6,
+  # V(g)$name=="United Patriots Front" ~ 6,
+  # V(g)$name=="Knights Templar International" ~ 6,
+  # V(g)$name=="Imperium Europa" ~ 6,
+  # V(g)$name=="A Voice For Men" ~ 6,
+  # V(g)$name=="National Policy Institute" ~ 6,
+  # V(g)$name=="Meat Shits" ~ 6,
+  # V(g)$name=="National Socialist Liberation Front" ~ 6,
+  ##V(g)$name=="Rivolta Nazionale" ~ "Rivolta Nazionale",
+  ##V(g)$name=="ARMA Hellas" ~ "ARMA Hellas",
+  # V(g)$name=="White Aryan Resistance" ~ 6,
+  # V(g)$name=="Patr" ~ 6,
+  # V(g)$name=="Omladinski pokret 64 županije" ~ 6,
+  # V(g)$name=="Burzum" ~ 6,
+  # V(g)$name=="National Alliance" ~ 6,
+  # V(g)$name=="Artpolitinfo" ~ 6,
+  TRUE~""
+)
+# V(g)$color <- ifelse(V(g)$type, as.factor(netprepped$Ideo), "white")
+V(g)$color <- case_when(
+  V(g)$name=="Jalisco Nueva Generación" ~ "grey",
+  V(g)$name=="Mara Salvatrucha" ~ "grey",
+  V(g)$name=="Cartel de Tijuana Nueva Generacion" ~ "grey",
+  V(g)$name=="Gangster Disciples" ~ "grey",
+  V(g)$name=="Gente Nueva" ~ "grey",
+  V(g)$name=="Cartel del Noreste" ~ "grey",
+  V(g)$name=="Cartel Nueva Plaza" ~ "grey",
+  V(g)$name=="La Union Tepito" ~ "grey",
+  V(g)$name=="Guardia Guerrerense" ~ "grey",
+  V(g)$name=="Cartel de Santa Rosa de Lima" ~ "grey",
+  V(g)$name=="Hellbanianz" ~ "grey",
+  V(g)$name=="Popular Liberation Army [Colombia]" ~ "pink",
+  V(g)$name=="Thieves in Law" ~ "grey",
+  V(g)$name=="Numbers Gang" ~ "grey",
+  V(g)$name=="Comando Classe A" ~ "grey",
+  V(g)$name=="Los Viagras" ~ "grey",
+  V(g)$name=="Medillin Cartel" ~ "grey",
+  V(g)$name=="Generation Identity United Kingdom and Ireland" ~ "red",
+  V(g)$name=="British Union of Fascists" ~ "red",
+  V(g)$name=="Front Pembela Islam" ~ "seagreen",
+  V(g)$name=="National Socialist German Workers' Party" ~ "red",
+  V(g)$name=="Egalité et Réconciliation" ~ "red",
+  V(g)$name=="Daily Stormer" ~ "red",
+  V(g)$name=="National Corps" ~ "red",
+  V(g)$name=="Azov Battalion" ~ "red",
+  V(g)$name=="National Squad" ~ "red",
+  V(g)$name=="The Affirmative Right" ~ "red",
+  V(g)$name=="Ustaše" ~ "red",
+  V(g)$name=="American Nazi Party" ~ "red",
+  V(g)$name=="Patriotic Association of Myanmar" ~ "gold",
+  V(g)$name=="Lehava" ~ "lightblue",
+  V(g)$name=="ShieldWall" ~ "red",
+  V(g)$name=="Grey Wolves" ~ "red",
+  V(g)$name=="Lads Society" ~ "red",
+  V(g)$name=="Ku Klux Klan" ~ "red",
+  V(g)$name=="American Guard" ~ "red",
+  V(g)$name=="Misanthropic Division" ~ "red",
+  V(g)$name=="Die Rechte" ~ "red",
+  V(g)$name=="League of the South" ~ "red",
+  V(g)$name=="Golden Dawn" ~ "red",
+  V(g)$name=="Altright.com" ~ "red",
+  V(g)$name=="Propetarian Institute" ~ "red",
+  V(g)$name=="English Defence League" ~ "red",
+  V(g)$name=="Russian Imperial Movement" ~ "red",
+  V(g)$name=="Patriot Front" ~ "red",
+  V(g)$name=="ZBOR" ~ "red",
+  V(g)$name=="Hooligans Against Salafists" ~ "red",
+  V(g)$name=="Proud Boys" ~ "red",
+  V(g)$name=="Blocco Studentesco" ~ "red",
+  V(g)$name=="Westboro Baptist Church" ~ "red",
+  V(g)$name=="Forza Nuova" ~ "red",
+  V(g)$name=="Buddhist Power Force" ~ "gold",
+  V(g)$name=="Students for Western Civilization" ~ "red",
+  V(g)$name=="Casa Pound Italia" ~ "violet",
+  V(g)$name=="Front Mahasiswa Islam" ~ "seagreen",
+  V(g)$name=="Majelis Pembela Rasmbullah" ~ "seagreen",
+  V(g)$name=="Front Santri Indonesia" ~ "seagreen",
+  V(g)$name=="Kategorie C" ~ "red",
+  V(g)$name=="Red Ice Creations" ~ "red",
+  V(g)$name=="Skrewdriver" ~ "red",
+  V(g)$name=="Blood and Honour" ~ "red",
+  V(g)$name=="Liberty Defenders" ~ "red",
+  V(g)$name=="Resistance Radio" ~ "red",
+  V(g)$name=="European Knights Project" ~ "red",
+  V(g)$name=="Britain First" ~ "red",
+  V(g)$name=="British National Party" ~ "red",
+  V(g)$name=="Afrikaner's Resistance Movement" ~ "red",
+  V(g)$name=="American Renaissance" ~ "red",
+  V(g)$name=="Defend Europe" ~ "red",
+  V(g)$name=="National Socialist Movement" ~ "red",
+  V(g)$name=="Temple of Blood" ~ "red",
+  V(g)$name=="The Northwest Front" ~ "red",
+  V(g)$name=="Mut Zur Warheit" ~ "red",
+  V(g)$name=="Aryan Strikeforce" ~ "red",
+  V(g)$name=="Canadian Nationalist Front" ~ "red",
+  V(g)$name=="Schutzstaffel" ~ "red",
+  V(g)$name=="Aryan Nation" ~ "red",
+  V(g)$name=="Nova Ordem Social" ~ "red",
+  V(g)$name=="Identitare Bewegung" ~ "red",
+  V(g)$name=="Creativity Alliance" ~ "red",
+  V(g)$name=="Traditionalist Worker Party" ~ "red",
+  V(g)$name=="Traditionalist Youth Network" ~ "red",
+  V(g)$name=="Soldiers of Odin" ~ "red",
+  V(g)$name=="Serbian State Guard" ~ "red",
+  V(g)$name=="Forum Umat Islam" ~ "red",
+  V(g)$name=="Serikat Pekerja Front" ~ "red",
+  V(g)$name=="Identity Europe" ~ "red",
+  V(g)$name=="American Identity Movement" ~ "red",
+  V(g)$name=="United Patriots Front" ~ "red",
+  V(g)$name=="Knights Templar International" ~ "red",
+  V(g)$name=="Imperium Europa" ~ "red",
+  V(g)$name=="A Voice For Men" ~ "red",
+  V(g)$name=="National Policy Institute" ~ "red",
+  V(g)$name=="Meat Shits" ~ "red",
+  V(g)$name=="National Socialist Liberation Front" ~ "red",
+  V(g)$name=="Rivolta Nazionale" ~ "red",
+  V(g)$name=="ARMA Hellas" ~ "red",
+  V(g)$name=="White Aryan Resistance" ~ "red",
+  V(g)$name=="Patr" ~ "red",
+  V(g)$name=="Omladinski pokret 64 županije" ~ "red",
+  V(g)$name=="Patriotic Myanmar Monks Union" ~ "gold",
+  V(g)$name=="Burzum" ~ "red",
+  V(g)$name=="National Alliance" ~ "red",
+  V(g)$name=="Artpolitinfo" ~ "red",
+  V(g)$name=="Taliban" ~ "seagreen",
+  V(g)$name=="al Qaeda Central Command" ~ "seagreen",
+  V(g)$name=="Tehrik-e Taliban Pakistan" ~ "seagreen",
+  V(g)$name=="Hizbul Mujahideen" ~ "seagreen",
+  V(g)$name=="Hezbollah" ~ "seagreen",
+  V(g)$name=="Islamic Revolutionary Corps Guard" ~ "seagreen",
+  V(g)$name=="Egyptian Islamic Jihad" ~ "seagreen",
+  V(g)$name=="Palestinian Islamic Jihad" ~ "seagreen",
+  V(g)$name=="Islamic State" ~ "seagreen",
+  V(g)$name=="Ansar al-Islam" ~ "seagreen",
+  V(g)$name=="al-Nusrah Front" ~ "seagreen",
+  V(g)$name=="Libyan Islamic Fighting Group" ~ "seagreen",
+  V(g)$name=="al-Qa'ida in the Arabian Peninsula" ~ "seagreen",
+  V(g)$name=="Mujahideen Shura Council in the Environs of Jerusalem" ~ "seagreen",
+  V(g)$name=="Hamas" ~ "seagreen",
+  V(g)$name=="Hezbollah al-Hejaz" ~ "seagreen",
+  V(g)$name=="Haqqani Network" ~ "seagreen",
+  V(g)$name=="Lashkar-e Tayyiba" ~ "seagreen",
+  V(g)$name=="Abu Sayyaf Group" ~ "seagreen",
+  V(g)$name=="Bangsamoro Islamic Freedom Fighters" ~ "seagreen",
+  V(g)$name=="Jemaah Islamiyah" ~ "seagreen",
+  V(g)$name=="ISIL" ~ "seagreen",
+  V(g)$name=="National Thowheed Jama'at" ~ "seagreen",
+  V(g)$name=="Al Muhajirun" ~ "seagreen",
+  V(g)$name=="Jaish-e-Mohammed Kashmir" ~ "seagreen",
+  V(g)$name=="Hezb-e Islami Gulbuddin" ~ "seagreen",
+  V(g)$name=="Houthis" ~ "seagreen",
+  V(g)$name=="Kurdistan Workers Party" ~ "pink", 
+  V(g)$name=="Palestine Liberation Front" ~ "seagreen",
+  V(g)$name=="Al-Qaeda in the Islamic Maghreb" ~ "seagreen",
+  V(g)$name=="Hayyat Tahrir Al-Sham" ~ "seagreen",
+  V(g)$name=="Ahrar al Sham" ~ "seagreen",
+  V(g)$name=="Ansar al-Shari'a in Benghazi" ~ "seagreen",
+  V(g)$name=="Kata'ib Hizballah" ~ "seagreen",
+  V(g)$name=="Boko Haram" ~ "seagreen",
+  V(g)$name=="al-Shabaab" ~ "seagreen",
+  V(g)$name=="Liberation Tigers of Tamil Eelam" ~ "purple", 
+  V(g)$name=="Islamic Jihad Union" ~ "seagreen",
+  V(g)$name=="Saraya al Ashtar" ~ "seagreen",
+  V(g)$name=="Popular Front for the Liberation of Palestine" ~ "seagreen",
+  V(g)$name=="Caucuses Emirate" ~ "seagreen",
+  V(g)$name=="Free Syrian Army" ~ "seagreen",
+  V(g)$name=="Movement for Unity and Jihad in West Africa" ~ "seagreen",
+  V(g)$name=="Askatasuna" ~ "pink", 
+  V(g)$name=="Palestinian purple September Organiation" ~ "seagreen",
+  V(g)$name=="Ansar al-Shari'a in Tunisia" ~ "seagreen",
+  V(g)$name=="Baloch Liberation Front" ~ "purple", 
+  V(g)$name=="ISIS" ~ "seagreen",
+  V(g)$name=="Parthia Cargo LLC, Mahan Air" ~ "purple", 
+  V(g)$name=="Maha Sohon Balakaya" ~ "seagreen",
+  V(g)$name=="Rajah Solaiman Movement" ~ "seagreen",
+  V(g)$name=="Harakat al-Nujaba" ~ "seagreen",
+  V(g)$name=="Jaish al-Muhajireen wal-Ansar" ~ "seagreen",
+  V(g)$name=="Commander Nazir Group" ~ "seagreen",
+  V(g)$name=="Lashkar-e Balochistan" ~ "seagreen",
+  V(g)$name=="Khalistan Zindabad Force" ~ "seagreen",
+  V(g)$name=="Devrimci Halk Kurtuluş Cephesi" ~ "seagreen",
+  V(g)$name=="Ansar Ghazwat-Ul-Hind" ~ "seagreen",
+  V(g)$name=="Conspiracy of Fire Nuclei" ~ "pink", 
+  V(g)$name=="Sindudesh Liberation Army" ~ "seagreen",
+  V(g)$name=="Harakat ul-Mujahidin" ~ "seagreen",
+  V(g)$name=="Movimento Bolivariano Por La Nueva Colombia, Revolutionary Armed Forces of Colombia" ~ "pink", 
+  V(g)$name=="Abdallah Azzam Brigades" ~ "seagreen",
+  V(g)$name=="Jama'at ul Dawa al-Qu'ran" ~ "seagreen",
+  V(g)$name=="Jaysh Al-Islam" ~ "seagreen",
+  V(g)$name=="Ansar al-Dine" ~ "seagreen",
+  V(g)$name=="Jaysh Rijal al-Tariq al-Naqshabandi" ~ "seagreen",
+  V(g)$name=="Asaib Ahl Haq" ~ "seagreen",
+  V(g)$name=="United Liberation Front of Asom" ~ "purple", 
+  V(g)$name=="Shining Path" ~ "pink", 
+  V(g)$name=="Communist Party of the Philippines" ~ "pink", 
+  V(g)$name=="Tehreek I Labbaik Pakistan" ~ "seagreen",
+  V(g)$name=="International Sikh Youth Foundation" ~ "purple", 
+  V(g)$name=="Libyan Islamic Fighters Group" ~ "seagreen",
+  V(g)$name=="Lashkar I Jhangvi" ~ "seagreen",
+  V(g)$name=="Tehreek Lashkar e Islam Pakistan" ~ "seagreen",
+  V(g)$name=="Milatu Ibrahim" ~ "seagreen",
+  V(g)$name=="Al Mourabitoon" ~ "seagreen",
+  V(g)$name=="Islamic Movement of Uzbekistan" ~ "seagreen",
+  V(g)$name=="Armenien Secret Army for the Liberation of Armenia" ~ "seagreen",
+  V(g)$name=="Sipah-i-Sahaba Pakistan" ~ "seagreen",
+  V(g)$name=="Islamic State Saudi Arabia" ~ "seagreen",
+  V(g)$name=="Tehreek Labbaik Ya RasoolAllah - Balochistan" ~ "seagreen",
+  V(g)$name=="Muhammad Jamal Network" ~ "seagreen",
+  V(g)$name=="Junuud al Sham" ~ "seagreen",
+  V(g)$name=="Islamic State in Yemen" ~ "seagreen",
+  V(g)$name=="Democratic Front for the Liberation of Palestine - Hawatmeh Faction" ~ "seagreen",
+  V(g)$name=="Revolutionary People's Struggle" ~ "pink", 
+  V(g)$name=="Firqat Al Ghuraba" ~ "seagreen",
+  V(g)$name=="Khalistan Commando Force" ~ "seagreen",
+  V(g)$name=="Mujahidin Indonesia Timur" ~ "seagreen",
+  V(g)$name=="Higher Military Majsul Shura of the United Mujahideen of the Caucuses" ~ "seagreen",
+  V(g)$name=="Al-Gama'a al-Islamiya" ~ "seagreen",
+  V(g)$name=="Violent U.S.-based Anti-Government Network" ~ "seagreen",
+  V(g)$name=="Tehreek-e-Natez-e-Shariat-e-Mohammadi" ~ "seagreen",
+  V(g)$name=="Ansar al-Shari'a in Darnah" ~ "seagreen",
+  V(g)$name=="Babbar Khalsa International" ~ "seagreen",
+  V(g)$name=="Jamaat Ul Mujahideen Bangladesh" ~ "seagreen",
+  V(g)$name=="Fatah al-Islam" ~ "seagreen",
+  V(g)$name=="Al-Aqsa Martyrs Brigade" ~ "seagreen",
+  V(g)$name=="Shura Council of Benghazi Revolutionaries" ~ "seagreen",
+  TRUE~"white"
+)
+
+l <- layout_with_graphopt(g)
+l <- norm_coords(l, ymin=-1, ymax=1, xmin=-1, xmax=1)
+
+par(mar=c(0,0,0,0))
+
+## https://igraph.org/r/html/1.3.0/layout_.html
+plot(g,
+     # vertex.size = 4, #igraph::eigen_centrality(cibola_i)$vector * 20,
+     layout = l*2.0, # layout_with_graphopt, # layout.kamada.kawai, #layout.fruchterman.reingold, 
+     # vertex.color = as.factor(netprepped$Ideo),
+     edge.color = "grey60", # "darkblue",
+     vertex.color = V(g)$color,
+     vertex.shape=c("circle", "square")[match(V(g)$type, c(FALSE, TRUE))],
+     vertex.label.family="Helvetica",
+     vertex.label.color=c("blue"),
+     vertex.label.font=2, # Font: 1plain, 2bold, 3italic, 4bold italic, 5symbol
+     vertex.label.cex=0.8
+)
+legend(
+  x = -1.1, y = 1.1, # "bottomleft",
+  legend = c("Extreme right", "Islamist", "Drug cartel", "Extreme left"), # "Buddhist nationalist", "Separatist"
+  fill = c("red", "seagreen", "grey", "pink"), # "gold", "purple"
+  pt.cex = 2,
+  pt.bg = c("grey80", "grey80"),
+  col = "black",
+  bty = "n"
+)
+legend(
+  x = 0.6, y = 1.1, # "bottomleft",
+  pch = c(22, 21), # c("circle", "square"),
+  legend = c("Organisation", "Individual"),
+  pt.cex = c(2, 1),
+  pt.bg = c("white", "white"),
+  col = "black",
+  bty = "n"
+)
+
+# par(mfrow=c(2,2), mar=c(0,0,0,0))
+# plot(g, rescale=F, edge.color="grey80", layout=l*0.8, vertex.label.cex=0.1)
+# plot(g, rescale=F, edge.color="grey80", layout=l*1.0, vertex.label.cex=0.1)
+# plot(g, rescale=F, edge.color="grey80", layout=l*1.8, vertex.label.cex=0.1)
+# plot(g, rescale=F, edge.color="grey80", layout=l*2.0, vertex.label.cex=0.1)
+# dev.off()
+
+
+# png(file=paste0(as.character(Sys.Date()), "fb_net_final", ".png"), width = 200, height = 200, units = 'mm', res = 1200)
+# plot(g,
+#      # vertex.size = 4, #igraph::eigen_centrality(cibola_i)$vector * 20,
+#      layout = l*1.8, # layout_with_graphopt, # layout.kamada.kawai, #layout.fruchterman.reingold, 
+#      # vertex.color = as.factor(netprepped$Ideo),
+#      edge.color = "grey80", # "darkblue",
+#      vertex.label.family="Helvetica",
+#      vertex.label.color=c("blue"),
+#      vertex.label.font=2, # Font: 1plain, 2bold, 3italic, 4bold italic, 5symbol
+#      vertex.label.cex=0.8
+# )
+# dev.off()
+
+```
+
+<!-- ::: -->
+<!-- ::::  -->
+
+## 'dangerous actors' on Meta [@Biddle2021-10-12]
+
+```{r}
+## https://rdrr.io/cran/visNetwork/man/visNetwork-igraph.html
+
+# V(g)$type <- bipartite_mapping(g)$type
+# V(g)$shape <- ifelse(V(g)$type, "square", "circle")
+V(g)$size <- ifelse(V(g)$type, 60, 1)
+V(g)$label.cex = ifelse(V(g)$type, 2, 0.5)
+
+E(g)$width <- 3
+E(g)$color <- "blue"
+
+library(visNetwork)
+# useful to play around and pull out nodes
+visNetwork::visIgraph(g, physics = T, smooth = TRUE, idToLabel = T)
+
+```
+
+::: {.absolute top="180" right="30"}
+[CasaPound]{style="color:violet; font-size:25px;"}
+:::
+
+**[Extreme right]{style="color:red; font-size:25px;"}**, **[Islamist]{style="color:seagreen; font-size:25px;"}**, **[Drug cartel]{style="color:grey; font-size:25px;"}**, **[Extreme left]{style="color:pink; font-size:25px;"}**, **[Buddhist nationalist]{style="color:gold; font-size:25px;"}**, **[Separatist]{style="color:purple; font-size:25px;"}**
+
+<!-- ## 'dangerous actors' on Meta [@Biddle2021-10-12] -->
+
+```{r}
+
+# library(networkD3)
+# wc <- cluster_walktrap(g)
+# members <- membership(wc)
+# g_d3 <- igraph_to_networkD3(g, group = members)
+# 
+# forceNetwork(Links = g_d3$links, Nodes = g_d3$nodes,
+#            Source = 'source', Target = 'target',
+#            NodeID = 'name', Group = 'group',
+#            height=600, width=1000,
+#            fontSize = 18,
+#            charge=-0.1,
+#            opacity = 0.7,
+#            bounded = TRUE,
+#            # colourScale=my_color,
+#            # legend = T,
+#            zoom = T)
+
+```
+
+
+## CasaPound v. Facebook [e.g., @GoliaBehring2020-2-18]
+
+- **CasaPound** [e.g., @FroioETAL2020casapound]: (neo-)'fascist' organisation in Italy, highly active on digital media 
+- **9.9.2019**: Facebook deactivates CasaPound page (and representatives), arguing the content is 'hate speech' and 'incitement to violence', violating [Facebook’s Terms of Use]{style="color:darkorange;"}
+- **CP** argues (before [Court of Rome]{style="color:cadetblue;"}) 'it proposed an update of historical fascism that exclusively values its social policies, and that it has publicly condemned racial laws'; that it does not violate Facebook's terms of service --- and that CP protected by article 21 of the Italian constitution
+
+- see further at: <https://globalfreedomofexpression.columbia.edu/cases/casapound-v-facebook/>
+
+
+--- 
+
+<!-- define	policy	approach	deplatforming	disinformation -->
+
+```{ojs}
+md`## Poll results (Respondents: ${respondentCount}) and CasaPound v. Facebook`
+```
+
+- *what is at stake here? who decides? who ought to?*
+
+```{ojs}
+
+import { liveGoogleSheet } from "@jimjamslam/live-google-sheet";
+import { aq, op } from "@uwdata/arquero";
+
+// UPDATE THE LINK FOR A NEW POLL
+surveyResults = liveGoogleSheet(
+  "https://docs.google.com/spreadsheets/d/e/" +
+    "2PACX-1vRk0WyoY9IFIZd6XjeguLMKR-vv1RKAcSOGoiWr5lMgw1oSQo6TiJH6DkEO3DcyNSYJoiqvDIEV58fY/" +
+    "pub?gid=418161089&single=true&output=csv",
+  10000, 1, 6); // adjust the last number to select all relevant columns 
+
+respondentCount = surveyResults.length;
+
+```
+
+:::: {.columns}
+:::{.column width="50%"}
+*define* what is impermissible
+
+```{ojs}
+defineCounts = aq.from(surveyResults)
+  .select("define")
+  .groupby("define")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+define_maxCountRE = Math.max(...defineCounts.objects().map(d => d.count));
+
+plot_define = Plot.plot({
+  marks: [
+    Plot.barY(defineCounts, {
+      x: "define",
+      y: "count",
+      fill: "define",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "state actors",
+      "platform companies",
+      "independent regulator",
+      "other"
+    ],
+    range: [
+      "teal",
+      "indigo",
+      "forestgreen",
+      "violet"
+    ]
+  },
+  marginBottom: 200,
+  x: { label: "", tickSize: 2, tickRotate: -30, padding: 0.2,
+    domain: ["state actors", "platform companies", "independent regulator", "other"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(defineCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, define_maxCountRE]
+  },
+  facet: { data: defineCounts, x: "measure", label: "" },
+  marginLeft: 80,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 40,
+  },
+});
+
+```
+ 
+:::
+
+::: {.column width="50%"}
+make *policy* responses
+
+```{ojs}
+policyCounts = aq.from(surveyResults)
+  .select("policy")
+  .groupby("policy")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+policy_maxCountRE = Math.max(...policyCounts.objects().map(d => d.count));
+
+plot_policy = Plot.plot({
+  marks: [
+    Plot.barY(policyCounts, {
+      x: "policy",
+      y: "count",
+      fill: "policy",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "state actors",
+      "platform companies",
+      "independent regulator",
+      "other"
+    ],
+    range: [
+      "teal",
+      "indigo",
+      "forestgreen",
+      "violet"
+    ]
+  },
+  marginBottom: 200,
+  x: { label: "", tickSize: 2, tickRotate: -30, padding: 0.2,
+    domain: ["state actors", "platform companies", "independent regulator", "other"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(policyCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, policy_maxCountRE]
+  },
+  facet: { data: policyCounts, x: "measure", label: "" },
+  marginLeft: 80,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 40,
+  },
+});
+
+```
+
+:::
+::::
+
+## CasaPound v. Facebook [e.g., @GoliaBehring2020-2-18]
+
+- **Court decision**:
+    + 'Facebook holds a special position and its mission aims to uphold freedom of expression' 
+    + CP page deactivation violated its rights as a political party (under **article 49 of the Constitution**)
+    + ordered FB to reactivate page(s) and pay a penalty of 800 EUR for each day of deactivation
+
+## CasaPound v. Facebook [e.g., @GoliaBehring2020-2-18]
+
+- **Facebook** appealed (unsuccessfully), saying it is 'a private company operating for profit protected by art. 41 of the Constitution', that:
+
+::: {.absolute .fragment top="170"}
+- Zuckerberg initially referred to Facebook as a '[utility]{style="color:cadetblue;"}'... 
+:::
+
+> the order had erroneously attributed a [special nature]{style="color:darkorange;"} to the contract between the social network and the user, when it was [instead an ordinary contract under civil law]{style="color:darkorange;"}. In the absence of any legal basis, according to Facebook, it is [not possible to attribute public service obligations to private sector players]{style="color:darkorange;"} such as the protection of freedom of association and expression. Likewise, Facebook argued that it is [not required to ensure special protection]{style="color:darkorange;"} to some users such as organizations engaged in political activities by virtue of their role in the political debate.
+
+<!-- Facebook CEO Mark Zuckerberg actually initially referred to his product as a ‘utility’—reflecting his goal to provide an understated service that was a generally useful and essential part of people’s everyday lives—before being told to re-brand as a ‘platform’ and ‘community’ by company lawyers, who warned that utilities were tightly regulated in many countries and that Zuckerberg’s language bore regulatory risks for the company in the long term (A. Fisher, 2018; Hoffmann, Proferes, and Zimmer, 2018). -->
+
+# Dealing with the far right online: effects, legitimacy {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- deplatforming effects [@Ghaffary2022-2-3; @thomas2023DisruptingHateEffect; @chandrasekharan2017YouCantStay; @rauchfleisch2024ImpactDeplatformingFar]
+    + for more, see @mitts2025SafeHavensHate -- [it's a brilliant study!]{style="color:violet;"}
+- legitimacy of censorious measures [@pradel2024ToxicSpeechLimited] 
+
+:::
+
+::: {.column width="50%"}
+<div class="tenor-gif-embed" data-postid="16047504" data-share-method="host" data-aspect-ratio="1.68421" data-width="100%"><a href="https://tenor.com/view/bane-no-banned-and-you-are-explode-gif-16047504">Bane No GIF</a>from <a href="https://tenor.com/search/bane-gifs">Bane GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+:::
+::::
+
+## Predominant approach and deplatforming
+
+:::: {.columns}
+:::{.column width="50%"}
+should be predominant *approach*
+
+```{ojs}
+approachCounts = aq.from(surveyResults)
+  .select("approach")
+  .groupby("approach")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+approach_maxCountRE = Math.max(...approachCounts.objects().map(d => d.count));
+
+plot_approach = Plot.plot({
+  marks: [
+    Plot.barY(approachCounts, {
+      x: "approach",
+      y: "count",
+      fill: "approach",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "do nothing",
+      "attach warning",
+      "reduce possible views",
+      "permanently remove post",
+      "suspend poster's account"
+    ],
+    range: [
+      "teal",
+      "goldenrod",
+      "darkorange",
+      "darkolivegreen",
+      "darkred"
+    ]
+  },
+  marginBottom: 260,
+  x: { label: "", tickSize: 2, tickRotate: -30, padding: 0.2,
+    domain: ["do nothing", "attach warning", "reduce possible views", "permanently remove post", "suspend poster's account"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(approachCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, approach_maxCountRE]
+  },
+  facet: { data: approachCounts, x: "measure", label: "" },
+  marginLeft: 80,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 40,
+  },
+});
+
+```
+ 
+:::
+
+::: {.column width="50%"}
+*deplatforming* effective?
+
+```{ojs}
+deplatformingCounts = aq.from(surveyResults)
+  .select("deplatforming")
+  .groupby("deplatforming")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+deplatforming_maxCountRE = Math.max(...deplatformingCounts.objects().map(d => d.count));
+
+plot_deplatforming = Plot.plot({
+  marks: [
+    Plot.barY(deplatformingCounts, {
+      x: "deplatforming",
+      y: "count",
+      fill: "deplatforming",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    range: [
+      "forestgreen",
+      "darkred",
+      "goldenrod"
+    ]
+  },
+  marginBottom: 80,
+  x: { label: "", tickSize: 2, tickRotate: -1, padding: 0.2,
+    domain: ["Yes", "No", "Maybe"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(deplatformingCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, deplatforming_maxCountRE]
+  },
+  facet: { data: deplatformingCounts, x: "measure", label: "" },
+  marginLeft: 60,
+  style: {
+    width: 1600,
+    height: 500,
+    fontSize: 40,
+  },
+});
+
+```
+ 
+:::
+::::
+
+## Deplatforming effects
+
+- diminishing the [scale of influence]{style="color:cadetblue;"} [@Ghaffary2022-2-3]
+    + Facebook, Youtube: billions of users 
+    + Parler, Gettr (e.g.): at most a few million users
+    + Telegram: a few hundred million users, little regulation
+        * e.g., Proud Boys' use [@bailard2024KeepYourHeads] <!-- Sellner's use [@GartnerETAL2020] -->
+        * more emphasis on [content moderation]{style="color:darkred;"} after [CEO's arrest in 2024](https://www.theguardian.com/technology/2024/sep/23/telegram-illegal-content-pavel-durov-arrest) ...
+
+. . . 
+
+- the '[whack-a-mole]{style="color:cadetblue;"}' problem: extremist social media accounts removed, but reappear on other sites and/or under aliases <!-- mentioned in mitts2025SafeHavensHate -->
+
+<!-- a study examining cross-platform activity in the wake of the “Great Deplatforming”—the large wave of account suspensions on mainstream social media that followed the January 6, 2021, attack on the U.S. Capitol—found that it was followed by a large increase in the usage of and spread of toxic content on fringe platforms with more lenient content policies.11 -->
+
+## Deplatforming effects [@thomas2023DisruptingHateEffect]
+
+- RQ: How does removing the *[leadership of online hate organizations]{style="color:darkorange;"}* from online platforms change behavior in their target audience?
+- cases: six network disruptions (i.e., deplatforming) on Facebook
+    + NB: *the researchers are/were Meta employees*
+- finding: network disruptions [reduced]{style="color:cadetblue;"} the consumption and production of hateful content
+
+> The results suggest that strategies of targeted removals, such as leadership removal and network degradation efforts, can reduce the ability of hate organizations to successfully operate online.
+
+- *BUT*, finding comes from looking at [one platform in isolation]{style="color:darkorange;"}
+
+## Deplatforming effects [@chandrasekharan2017YouCantStay]
+
+- 10 June 2015, Reddit [banned several subreddits]{style="color:darkorange;"}, including: r/fatpeoplehate and r/CoonTown
+- *RQ1*: What effect did Reddit’s ban have on the contributors to banned subreddits? 
+- *RQ2*: What effect did the ban have on subreddits that saw an influx of banned subreddit users? 
+- findings: 
+    + many users from banned subreddits became inactive
+        * led to a [drop in Reddit users]{style="color:darkorange;"} (some migrated to other platforms)... *[what's the significance of this finding]{style="color:indigo;"}*?
+    + volume of *active* users' posting mostly unchanged
+    + a dramatic decrease in hate speech usage by the treatment users post-ban
+
+## Content moderation, deplatforming legitimacy [@pradel2024ToxicSpeechLimited] 
+
+- key concept: *[Toxic speech]{style="color:darkred;"}* as consisting of... 
+    (a) incivility, 
+    (b) intolerance, and 
+    (c) violent threats
+- experimental design: randomly exposed people (in U.S.) to *[toxic speech]{style="color:darkred;"}* social media posts &rarr; effect on users' content moderation preferences 
+
+## Moderation, deplatforming legitimacy [@pradel2024ToxicSpeechLimited] 
+
+![](slide_files/13/pradel1.png)
+
+## Moderation, deplatforming legitimacy [@pradel2024ToxicSpeechLimited] 
+
+![](slide_files/13/pradel2.png)
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>
+
+Alternatively, send me an email: [m.zeller\@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- 1 + 1 -->
+
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+
+<!-- ::: -->
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- library(dplyr) -->
+
+<!-- library(ggplot2) -->
+
+<!-- g <- starwars |>  -->
+
+<!--   ggplot() + -->
+
+<!--   geom_point(aes(x = height, y = mass)) + -->
+
+<!--   theme_light() -->
+
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+
+<!-- #| fig.align: center -->
+
+<!-- #| echo: true -->
+
+<!-- g  -->
+
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| echo: true -->
+
+<!-- #| eval: false -->
+
+<!-- tab <- starwars |> -->
+
+<!--   tidyr::drop_na(species) |>  -->
+
+<!--   group_by(species) |> -->
+
+<!--   summarise( -->
+
+<!--     n = n(), -->
+
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+
+<!--   ) |>  -->
+
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| eval: true -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+
+<!-- gt::gt(tab) -->
+
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+
+<!-- reactable::reactable(tab) -->
+
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<!-- </center> -->
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_13.html"))
+```
+
+## References
