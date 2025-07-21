@@ -1,0 +1,1169 @@
+---
+title: "Class 14: Studying the far right"
+subtitle: "Methods, ethics, and safety"
+author: "[Dr. Michael C. Zeller](https://michaelzeller.de)"
+format: 
+  rladies-revealjs:
+    footer: ""
+    slide-number: c/t
+    toc: TRUE
+    toc-depth: 1
+    toc-title: Agenda for the day
+    menu: TRUE
+    theme: [default, custom_options]
+    background-transition: fade
+incremental: false
+embed-resources: true
+# runtime: shiny
+bibliography: ../../../library.bib
+---
+
+# Opening notes {background-color="#2c844c"}
+
+::: {.tenor-gif-embed data-postid="14209777" data-share-method="host" data-aspect-ratio="1.94" data-width="70%"}
+<a href="https://tenor.com/view/open-gif-14209777">Open Sticker</a>from <a href="https://tenor.com/search/open-stickers">Open Stickers</a>
+:::
+
+```{=html}
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+```
+
+<!-- <div class="tenor-gif-embed" data-postid="23663828" data-share-method="host" data-aspect-ratio="1" data-width="70%"><a href="https://tenor.com/view/happy-birthday-gif-23663828">Happy Birthday GIF</a>from <a href="https://tenor.com/search/happy+birthday-gifs">Happy Birthday GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+
+
+<!-- FOR CLASS ON ONLINE OR ON CONDUCTING RESEARCH: Zurich online manipulation of ChangeMyView reddit -->
+<!-- https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/ -->
+<!-- https://www.science.org/content/article/unethical-ai-research-reddit-under-fire -->
+<!-- https://www.reddit.com/r/Futurology/comments/1ig3shj/comment/maloixh/?share_id=Ug1NU1tqy_KzA21t5L9hZ&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1 -->
+
+
+## Presentation groups
+
+<!-- As yet ungrouped: Kateryna Ageienko, Lisa Kneis, Angel David Meissner, Adrian Morina, Elli Quitter -->
+
+<!-- [**Topics to me as soon as possible**]{style="color:red;"} -->
+
+::: panel-tabset
+## July
+
+| Date | Presenters | Method |
+|-------------:|:--------------------------------------------|:------------:|
+| 3 July:  | Alexander V., Luis G., Oscar O., Mia C. | descriptive inference |
+| 10 July: | Lina S., Stephen W., Philomena B., Aarón Z. | ethnography |
+| 17 July: | Corinna Z., Eva M., and Rostislav N. | process tracing |
+| 24 July: | Sebastian K., Thomas R., Emilia Z., Florian P. | quant. text analysis |
+| 24 July: | Lorenz F., Daniel B., Medina H. | quant. text analysis |
+
+## May
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 15 May: | Idil Metin, Zeynep Polat, Liesl Winternitz, Selin Kaya, Chiara Weimar | TBD |  -->
+
+<!-- | 22 May: | Gabriel Wein, Lina Mergani, Florian Seiwald, Julian Bali | TBD | -->
+
+<!-- | 29 May: | NO CLASS MEETING                        |  |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 15 May: | Idil M., Zeynep P., Liesl W., Selin K., Chiara W. | logistic regression |
+| 22 May: | Gabriel W., Lina M., Florian S., Julian B. | discourse analysis |
+| 29 May: | NO CLASS MEETING |  |
+
+: Presentations line-up
+
+## June
+
+<!-- | Date    | Presenters                       | Method | -->
+
+<!-- | -------:|:---------------------------------|:------:| -->
+
+<!-- | 5 June: | Rasmus Bleyl, Andre Duran, Josefine Enke, Ioanna Levakou, Santiago Calderón |  -->
+
+<!-- | 12 June: | Omar Badran, Lela Elabd, Niclas Wisbrun |  -->
+
+<!-- | 19 June: | NO CLASS MEETING                        |  |  -->
+
+<!-- | 26 June: | Colombe Iannone, Konstantin Stirn, Jakob Wirsching |  -->
+
+| Date | Presenters | Method |
+|-------------:|:-------------------------------------------|:------------:|
+| 5 June: | Rasmus B., Andre D., Josefine E., Ioanna L., Santiago C. | surveys |
+| 12 June: | Omar B., Lela E., Niclas W. | network analysis |
+| 19 June: | NO CLASS MEETING |  |
+| 26 June: | Colombe I., Konstantin S., Jakob W., Veronika L. | ethnography |
+| 26 June: | Maksim K., Felix S., Jon L.D., Damir S., Korbinian M. | case study |
+:::
+
+<!-- []{style="font-size:10px;"} -->
+
+
+# Approach and Methodology points to consider {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- fundamental research approach points
+- methods of studying the far right encountered in this course
+- conceptualisation example from @Meijers2021 
+- helpful texts on researching the far right <!-- @AsheBusherMacklinWinter2020; @vaughan2024ethics -->
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="17190483" data-share-method="host" data-aspect-ratio="2.03822" data-width="100%"><a href="https://tenor.com/view/madness-conan-obrien-hand-gesture-theres-a-method-to-my-madness-gif-17190483">Madness Conan Obrien GIF</a>from <a href="https://tenor.com/search/madness-gifs">Madness GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+## Approaches to studying the far right 
+
+- [selection of topic]{style="color:cadetblue;"}: theory-driven, method-driven, problem-/empirics-driven
+- [purpose]{style="color:cadetblue;"}: describing, explaining, predicting
+- [use of theory]{style="color:cadetblue;"}: testing [e.g., puzzles, @day2019FindingQuestion] or generating
+- [concepts]{style="color:cadetblue;"}: how much is constructed (i.e., new conceptualisation)?
+- [methods]{style="color:cadetblue;"}: 
+    + ontological assumptions: [probabilism]{style="color:darkred;"}, [determinism]{style="color:darkred;"}, [constructivism]{style="color:darkred;"} 
+    + methodological alignment [@Hall2003]
+        * choice of cases: [sampling]{style="color:red;"} or [casing]{style="color:red;"} [@Soss2018]?
+        * analysis: by [variables]{style="color:red;"} (generalisation) or by [cases]{style="color:red;"} (contextualisation)? 
+
+## Methods encountered in this course and their uses {.scrollable}
+
+- [regression and other inferential statistics]{style="color:forestgreen;"} - probabilities/ correlations of large-N data; 'reg. table is a statement of averages'
+- [quantitative text analysis]{style="color:forestgreen;"} - topics/discourse, sentiment/emotion
+- [experiments]{style="color:forestgreen;"} - the *gold standard* of causation; individual behaviour, [survey]{style="color:forestgreen;"} experiments, and 'natural experiments'
+- [social network analysis (SNA)]{style="color:forestgreen;"} - relational aspects, shape and density and even nature of connections and flows between them
+- [qualitative comparative analysis (QCA)]{style="color:forestgreen;"} - complex causation, conditions in necessary and/or sufficient combinations
+- [case studies]{style="color:forestgreen;"} - diverse uses: theory-building, theory-testing, exploratory and [descriptive inference]{style="color:forestgreen;"}, [process tracing]{style="color:forestgreen;"} 
+- [discourse analysis]{style="color:forestgreen;"} - narratives, imagery, communication strategy
+- [ethnography]{style="color:forestgreen;"} - many uses, which we'll discuss in a moment
+
+## conceptualising 'populism' [@Meijers2021] 
+
+four criteria: (i) *construct validity*, (ii) *multi-dimensionality*, (iii) *measurement precision* and (iv) *coverage*
+
+- [construct validity]{style="color:darkred;"}: capture all relevant components
+    + *5 for populism*: (1) sovereignty of 'the people', (2) 'the people' are homogenous, (3) 'the people's' interests are united by a general will, (4) elite portrayed as corrupt, and (5) conflict of 'the people' and elite as a moral struggle between good and bad
+
+. . . 
+
+- [multi-dimensionality]{style="color:darkred;"}: not only all components, measure should also capture populism's components separately
+
+. . . 
+
+- [measurement precision]{style="color:darkred;"}: degree differences of a concept
+
+. . . 
+
+- [coverage]{style="color:darkred;"}: measure covers as many cases as possible
+
+## conceptualisation [@adcock2001MeasurementValid]
+
+:::: {.columns}
+:::{.column width="70%"}
+
+![](slide_files/14/AdcockCollier_levels.png)
+
+:::
+
+::: {.column width="30%" .right}
+- [key tip for thesis work]{style="color:cadetblue;"}: *be clear, systematic, and consistent on your central concepts*
+- research from this course is at its best when you can easily pick out key [concepts]{style="color:darkred;"}
+
+:::
+::::
+
+## books on researching the far right 
+
+:::: {.columns}
+:::{.column width="50%"}
+@AsheBusherMacklinWinter2020 - Researching the Far Right: Theory, Method and Practice
+
+![](slide_files/14/asheETAL.png)
+
+:::
+
+::: {.column width="50%" .right}
+@vaughan2024ethics - The Ethics of Researching the Far Right
+
+![](slide_files/14/vaughanETAL.png)
+
+:::
+::::
+
+# Poll: ethical issues of studying FR {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="35%"}
+![](slide_files/14/class14_poll_QR.png){fig-alt="A QR code for the survey."}
+
+:::
+
+::: {.column width="65%" .center}
+<!-- go to <https://www.qr-code-generator.com/>, add the link, and screen shot the QR code -->
+Take the survey at **<https://forms.gle/cfFFMvuHiCWJG4nF7>**
+
+- safe and reliable interview research with far-right actors is *not* possible
+- covert research of the far right is unethical 
+- publication that encourages violent action against far-right actors 
+
+:::
+:::: 
+
+- inform law enforcement if researcher discovers a crime 
+- do not present text, images, content produced by far-right actors because it could benefit far-right actors
+- engage with policymakers whenever invited
+- govs. should minimise surveillance because the threat from state overreach, 'authoritarian creep,' is a more pressing concern
+
+<!-- - researchers should not attempt to engage with far-right interviewees because alternative views on reality and general lack of trust prevents safe and reliable research; further, researchers should not attempt to engage with far-right interviewees because it is usually 'white-on-white' interaction, with researchers taking advantage of 'racial insider' status -->
+<!-- - researchers should not publish research that would encourage violent action against far-right actors. -->
+<!-- - researchers should engage with policymakers when invited/open. (Hirschman: exit/voice/loyalty) -->
+<!-- - researchers interacting with far-right actors should inform law enforcement if they discover a crime (previously committed or in planning). (HnH example, 'activist research') -->
+<!-- - researchers should not present universally applicable definitions of 'far right' because this term (and related terms) are inextricably context-dependent. -->
+<!-- - researchers should exercise restraint in presenting text, images, content produced by far-right actors because it could sensationalise and benefit far-right actors -->
+<!-- - governments should minimise surveillance of far-right actors because the threat from state overreach, 'authoritarian creep,' is a more pressing concern. -->
+
+--- 
+
+```{ojs}
+md`## Poll results (Respondents: ${respondentCount}) - researching`
+```
+
+
+```{ojs}
+
+import { liveGoogleSheet } from "@jimjamslam/live-google-sheet";
+import { aq, op } from "@uwdata/arquero";
+
+// UPDATE THE LINK FOR A NEW POLL
+surveyResults = liveGoogleSheet(
+  "https://docs.google.com/spreadsheets/d/e/" +
+    "2PACX-1vT0X8SmKdeG_DPPZrpET7H9Xu7AQ2tq3mi3nL33OFPMuouMDV3hok64Pt_Rj3DzrQrpZ-UrEFKCR83T/" +
+    "pub?gid=858869001&single=true&output=csv",
+  10000, 1, 8); // adjust the last number to select all relevant columns 
+
+respondentCount = surveyResults.length;
+
+```
+
+:::: {.columns}
+:::{.column width="50%"}
+- should *not* interview FR actors
+
+```{ojs}
+engageCounts = aq.from(surveyResults)
+  .select("engage")
+  .groupby("engage")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+engage_maxCountRE = Math.max(...engageCounts.objects().map(d => d.count));
+
+plot_engage = Plot.plot({
+  marks: [
+    Plot.barY(engageCounts, {
+      x: "engage",
+      y: "count",
+      fill: "engage",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    range: [
+      "red",
+      "pink",
+      "lightgrey",
+      "lightgreen",
+      "forestgreen"
+    ]
+  },
+  marginBottom: 180,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Strongly disagree", "Disagree", "Neutral", "Agree", "Strongly agree"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(engageCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, engage_maxCountRE]
+  },
+  facet: { data: engageCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+
+:::
+
+::: {.column width="50%"}
+
+covert research of FR is unethical
+
+```{ojs}
+covertCounts = aq.from(surveyResults)
+  .select("covert")
+  .groupby("covert")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+covert_maxCountRE = Math.max(...covertCounts.objects().map(d => d.count));
+
+plot_covert = Plot.plot({
+  marks: [
+    Plot.barY(covertCounts, {
+      x: "covert",
+      y: "count",
+      fill: "covert",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    range: [
+      "red",
+      "pink",
+      "lightgrey",
+      "lightgreen",
+      "forestgreen"
+    ]
+  },
+  marginBottom: 180,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Strongly disagree", "Disagree", "Neutral", "Agree", "Strongly agree"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(covertCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, covert_maxCountRE]
+  },
+  facet: { data: covertCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+::::
+
+## Research findings and dissemination
+
+
+:::: {.columns}
+:::{.column width="30%"}
+findings should *not* justify violence 
+
+```{ojs}
+publish_violentCounts = aq.from(surveyResults)
+  .select("publish_violent")
+  .groupby("publish_violent")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+publish_violent_maxCountRE = Math.max(...publish_violentCounts.objects().map(d => d.count));
+
+plot_publish_violent = Plot.plot({
+  marks: [
+    Plot.barY(publish_violentCounts, {
+      x: "publish_violent",
+      y: "count",
+      fill: "publish_violent",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    range: [
+      "red",
+      "pink",
+      "lightgrey",
+      "lightgreen",
+      "forestgreen"
+    ]
+  },
+  marginBottom: 180,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Strongly disagree", "Disagree", "Neutral", "Agree", "Strongly agree"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(publish_violentCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, publish_violent_maxCountRE]
+  },
+  facet: { data: publish_violentCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+
+
+:::
+
+::: {.column width="30%" .right}
+researchers *should* report crimes
+
+```{ojs}
+crimeCounts = aq.from(surveyResults)
+  .select("crime")
+  .groupby("crime")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+crime_maxCountRE = Math.max(...crimeCounts.objects().map(d => d.count));
+
+plot_crime = Plot.plot({
+  marks: [
+    Plot.barY(crimeCounts, {
+      x: "crime",
+      y: "count",
+      fill: "crime",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    range: [
+      "red",
+      "pink",
+      "lightgrey",
+      "lightgreen",
+      "forestgreen"
+    ]
+  },
+  marginBottom: 180,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Strongly disagree", "Disagree", "Neutral", "Agree", "Strongly agree"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(crimeCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, crime_maxCountRE]
+  },
+  facet: { data: crimeCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+
+::: {.column width="30%" .right}
+research should *not* publish FR content
+
+```{ojs}
+fr_contentCounts = aq.from(surveyResults)
+  .select("fr_content")
+  .groupby("fr_content")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+fr_content_maxCountRE = Math.max(...fr_contentCounts.objects().map(d => d.count));
+
+plot_fr_content = Plot.plot({
+  marks: [
+    Plot.barY(fr_contentCounts, {
+      x: "fr_content",
+      y: "count",
+      fill: "fr_content",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    range: [
+      "red",
+      "pink",
+      "lightgrey",
+      "lightgreen",
+      "forestgreen"
+    ]
+  },
+  marginBottom: 180,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Strongly disagree", "Disagree", "Neutral", "Agree", "Strongly agree"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(fr_contentCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, fr_content_maxCountRE]
+  },
+  facet: { data: fr_contentCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+:::
+::::
+
+
+## Consequences of research
+
+
+:::: {.columns}
+:::{.column width="50%"}
+researchers should always engage with policymakers
+
+```{ojs}
+policymakersCounts = aq.from(surveyResults)
+  .select("policymakers")
+  .groupby("policymakers")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+policymakers_maxCountRE = Math.max(...policymakersCounts.objects().map(d => d.count));
+
+plot_policymakers = Plot.plot({
+  marks: [
+    Plot.barY(policymakersCounts, {
+      x: "policymakers",
+      y: "count",
+      fill: "policymakers",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    range: [
+      "red",
+      "pink",
+      "lightgrey",
+      "lightgreen",
+      "forestgreen"
+    ]
+  },
+  marginBottom: 180,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Strongly disagree", "Disagree", "Neutral", "Agree", "Strongly agree"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(policymakersCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, policymakers_maxCountRE]
+  },
+  facet: { data: policymakersCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+
+
+:::
+
+::: {.column width="50%" .right}
+minimise surveillance of FR, avoid 'authoritarian creep'
+
+```{ojs}
+authoritarian_creepCounts = aq.from(surveyResults)
+  .select("authoritarian_creep")
+  .groupby("authoritarian_creep")
+  .count()
+  .derive({ measure: d => "" })
+
+// Calculate the maximum count from your dataset
+authoritarian_creep_maxCountRE = Math.max(...authoritarian_creepCounts.objects().map(d => d.count));
+
+plot_authoritarian_creep = Plot.plot({
+  marks: [
+    Plot.barY(authoritarian_creepCounts, {
+      x: "authoritarian_creep",
+      y: "count",
+      fill: "authoritarian_creep",
+      stroke: "black",
+      strokeWidth: 1
+    }),
+    Plot.ruleY([respondentCount], { stroke: "#ffffff99" })
+  ],
+  color: {
+    domain: [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    range: [
+      "red",
+      "pink",
+      "lightgrey",
+      "lightgreen",
+      "forestgreen"
+    ]
+  },
+  marginBottom: 180,
+  x: { label: "", tickSize: 2, tickRotate: -45,
+    domain: ["Strongly disagree", "Disagree", "Neutral", "Agree", "Strongly agree"]
+  },  
+  y: {
+    label: "",
+    tickSize: 10,
+    tickFormat: d => d,
+    tickValues: Array.from(
+      new Set(authoritarian_creepCounts.objects().map(d => d.count))
+    ).sort((a, b) => a - b),
+    domain: [0, authoritarian_creep_maxCountRE]
+  },
+  facet: { data: authoritarian_creepCounts, x: "measure", label: "" },
+  marginLeft: 140,
+  style: {
+    width: 1350,
+    height: 500,
+    fontSize: 30,
+  }
+});
+
+```
+
+
+
+:::
+::::
+
+
+# Ethical research {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="50%"}
+- ethics approval
+- problematic examples: 
+    + Zurich online manipulation of ChangeMyView reddit
+    + @Shoshan2016 *The Management of Hate*
+
+:::
+
+::: {.column width="50%" .right}
+<div class="tenor-gif-embed" data-postid="12069871" data-share-method="host" data-aspect-ratio="1.435" data-width="100%"><a href="https://tenor.com/view/the-office-lets-get-ethical-exercise-gif-12069871">The Office Lets Get Ethical GIF</a>from <a href="https://tenor.com/search/the+office-gifs">The Office GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+:::
+::::
+
+## Common ethics approval points 
+
+1. Will individuals participate in this study who belong to a [vulnerable group]{style="color:red;"} ... or who cannot give [their own consent]{style="color:red;"} to participate (e.g., under the age of 16)?
+
+2. Will it be necessary that people participate in this study without having been informed about this previously or without having given their consent to participate (e.g., as in [covert observation]{style="color:red;"})?
+
+3. Will the study involve covert observation or any other method that precludes informed consent, full debriefing, or the opportunity for participants to have their data deleted?
+
+## Common ethics approval points 
+
+4. Will the study feature questions about topics that are of an [intimate nature]{style="color:red;"} or that participants may perceive as [stigmatising]{style="color:red;"} (e.g., questions pertaining to *illegal* or *deviant behaviour* or to sexual preferences)?
+
+5. Will video or audio *recordings* be taken [without prior consent]{style="color:red;"} by the participants? 
+
+6. Which [personal data]{style="color:red;"}, if any, will be collected? ... How will the anonymisation or pseudonymisation of collected data be ensured? ... How long will the data be kept and where will they be stored?
+
+## What not to do ... research design
+
+<!-- FOR CLASS ON ONLINE OR ON CONDUCTING RESEARCH: Zurich online manipulation of ChangeMyView reddit -->
+<!-- https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/ -->
+<!-- https://www.science.org/content/article/unethical-ai-research-reddit-under-fire -->
+<!-- https://www.reddit.com/r/Futurology/comments/1ig3shj/comment/maloixh/?share_id=Ug1NU1tqy_KzA21t5L9hZ&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1 -->
+
+
+:::: {.columns}
+:::{.column width="60%"}
+- [team at University of Zürich](https://www.science.org/content/article/unethical-ai-research-reddit-under-fire) (UZH) used AI-generated content to 'participate' on [ChangeMyView subreddit]{style="color:red;"}, testing if AI was better at changing people's minds than humans
+    + AI tailored arguments to individuals by inferring demographic features (sex, ethnicity, etc.) from prior posts 
+    + AI adopted false guises, e.g., male rape survivor, a trauma counselor, and a Black person who disagreed with BLM movement
+
+:::
+
+::: {.column width="40%" .right}
+![](slide_files/14/zurich.png)
+
+:::
+::::
+
+
+## What not to do ... research design
+
+:::: {.columns}
+:::{.column width="60%"}
+- experiment ran for four months, researchers then informed subreddit moderators, who [informed](https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/) users <!-- (<https://www.reddit.com/r/changemyview/comments/1k8b2hj/meta_unauthorized_experiment_on_cmv_involving/>)  -->
+- ethics approval obtained, but it could not prohibit the study; 'role was only advisory' ... 
+- danger of undermining scientific credibility
+    + echoes [2014 study by Facebook](https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds), manipulating users' emotions <!-- <https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds> -->
+    
+<!-- also <https://www.theguardian.com/technology/2014/jun/30/facebook-emotion-study-breached-ethical-guidelines-researchers-say> -->
+
+:::
+
+::: {.column width="40%" .right}
+![](slide_files/14/zurich.png)
+
+:::
+::::
+
+
+## What not to do ... reporting 
+
+- @Shoshan2016 provides a study of far-right youth in Köpenick district of Berlin
+    + author is of Jewish ancestry, so adopting a pseudonym was necessary for research to proceed
+    + author was embedded with 'street social workers', effectively masquerading as one of them
+        * no informed consent, youth participants, covert observation, possibly illegal activity 
+
+. . . 
+
+- There may be defensible, ethically approvable reasons for all of this---*but it is not reported in the book*... 
+
+
+# The wonderful work of Kathy Blee {background-color="#2c844c"}
+
+:::: {.columns}
+:::{.column width="60%"}
+- ethnography of the far right
+    + challenges and opportunities
+- emotions in fieldwork
+- study of (U.S.) women in far-right groups
+- transparency [e.g., @JacobsETAL2021]
+
+:::
+
+::: {.column width="40%" .right}
+![](slide_files/14/blee.png)
+
+:::
+::::
+
+## Kathy Blee's books 
+
+:::: {.columns}
+:::{.column width="30%"}
+1991
+
+![](slide_files/14/blee1991.png)
+
+:::
+
+::: {.column width="30%" .right}
+1998
+
+![](slide_files/14/blee1998.png)
+
+:::
+
+::: {.column width="30%" .right}
+2003 
+
+![](slide_files/14/blee2003.png)
+
+:::
+::::
+
+## @Blee2007 on ethnography of far right
+
+- many studies of far right offer [the view from outside]{style="color:red;"}: economic, social, attitudinal, or cultural environments that nurture organised racism and right-wing extremism---not internal dynamics 
+    + Limitations of such [externalist]{style="color:red;"} accounts: struggles to explain movement/party emergence and participation
+
+- [Ethnography]{style="color:forestgreen;"} offers solutions
+    + common objects of research: *[political rituals]{style="color:cadetblue;"}*, nature and intensity of FR leaders and groups, and how individual respond
+    + includes *[techniques]{style="color:cadetblue;"}* like [life-history interviews]{style="color:violet;"} with activists, [focus groups]{style="color:darkorange;"}, [observation and/or participation]{style="color:navy;"} at far-right meetings and events
+    + strong in drawing attention *[researcher positionality]{style="color:cadetblue;"}* problems
+
+## @Blee2007 on ethnography of FR - *challenges*
+
+- [mutual mistrust]{style="color:red;"}:
+    + researchers sometimes *[fail to scrutinise]{style="color:cadetblue;"}* motives or actions by sympathetic movements/activists---the far right, conversely, is usually regarded with *[(excessive) scepticism]{style="color:cadetblue;"}*
+        * few researchers want to develop rapport (often integral to ethnography) with FR subjects
+    + far right often regard academics as **untrustworthy or hostile**, as "*[potential agents of an enemy state (police, infiltrators, informants), spies from rival groups, or general antagonists who will expose their operations and cause harm]{style="color:darkorange;"}*"
+        * FR individuals sometimes intimidate or threaten researchers
+
+- This circular mutual mistrust fuels the [problem of access]{style="color:red;"} 
+
+## @Blee2007 on ethnography of FR - *opportunities*
+
+- [ethnography]{style="color:forestgreen;"} has mostly studied *progressive movements* and other groups with whom researchers sympathise
+- close-up, ethnographic (and related) approaches can identify [beliefs and motivations of FR activists and supporters]{style="color:red;"}
+    + for example, [emotions]{style="color:darkred;"}: '*[hostility]{style="color:cadetblue;"}*, *[persecution]{style="color:cadetblue;"}*, and *[anger]{style="color:cadetblue;"}* certainly are generated and reinforced in the far right, but so are feelings of *[pride]{style="color:cadetblue;"}*, *[amusement]{style="color:cadetblue;"}*, and *[sensuality]{style="color:cadetblue;"}*'. And there is considerable variations between movements.
+- sometimes, *under certain conditions and with strict rules*, researchers may **[covertly]{style="color:darkorange;"}** or **[discretely]{style="color:darkorange;"}** study FR
+
+## @Blee1998 on emotions in fieldwork with the far right
+
+- Fieldwork is emotional: usually both positive and negative emotions are affecting researchers  
+    + challenging to [recognise]{style="color:red;"} &rarr; demanding committed and discerning introspection
+    + unrecognised, can create serious [problems of bias]{style="color:red;"} (and others) for research work
+    + plus, personal consequences for researcher well-being
+
+- Emotions in fieldwork are [negotiated]{style="color:cadetblue;"} and [relational]{style="color:cadetblue;"} (not individual)
+
+## @Blee1998 on emotions in fieldwork with the far right
+
+- YET **[emotional dimensions of fieldwork]{style="color:cadetblue;"}** can be useful: 
+    1. emotional dynamics between respondent and researcher can be analysed, 
+    2. researcher's emotions are good data in themselves, so keep an '*emotional log*' (what is respondent trying to evoke? sympathy, understanding, fear, aversion to transgressive/provocative statements? how is the interviewer responding?)
+
+- empathy, rapport, and trust with sympathetic respondents; (mutual) **fear** with 'unloved groups'
+    + "*My fear of being harmed and the respondents' fears of being exposed*..."
+
+## Background of Blee's studies
+
+- research aim: the **[role of women]{style="color:cadetblue;"}** within **[active self-defined racist and antisemitic groups]{style="color:cadetblue;"}** operating in the U.S. in the 1994-1995.
+- data:
+    + unstructured life history interviews 
+    + structured questionnaires 
+    + 34 women who were active members of a racist group
+    + plus, an analysis of propaganda published by more than 100 then active racist and antisemitic groups.
+
+Blee's article (and other output from this project) is a [masterful display of research transparency]{style="color:red;"} -- **take inspiration for your thesis!**
+
+
+## Methods point: Blee's justification for *life histories*
+
+- @Blee1998[p. 387] states three reasons
+    1. avoid the tendency of racist activists to substitute **[organisational doctrine]{style="color:cadetblue;"}** for **[personal belief]{style="color:cadetblue;"}** in standard interview settings (as in news interviews)
+        + differentiating between individuals and groups, avoiding skewed/misleading data
+    2. wanted to get *[narratives]{style="color:darkorange;"}* for causation of respondents' personal development
+        + method to suit research aim
+    3. life histories and narratives, rather than on the beliefs, [to minimize the potential for this study to be used to broadcast racist ideologies to new audiences]{style="color:red;"}
+
+## @Blee1998 - finding respondents
+
+- locating interview respondents:
+    + [snowball sampling not possible]{style="color:red;"}: though common in studies of 'hidden communities,' *practically*, "animosity among racist groups meant that members could not be relied upon to suggest respondents from other groups" (**recognition of internal dynamics of study population**) 
+
+## @Blee1998 - introductory interview communication
+
+> I made it clear that I did not share the racial convictions of these groups. I explicitly said that my ideological views were quite opposed to theirs, that they should not have any hope of converting me to their views, but that I would try to present an accurate depiction of women racist activists. This stance---as distant but not neutral researcher---was intended to clarify the nature of my interest in racist activists and their movement. It also positioned me as an observer who had not decided in advance to depict them as crazy or as personally pathological (a common media portrayal) and thus increase their vulnerability to incarceration by law enforcement or mental health agencies.
+
+## @Blee1998 - introductory interview communication
+
+> [I made it clear that I did not share the racial convictions of these groups. I explicitly said that my ideological views were quite opposed to theirs, that they should not have any hope of converting me to their views, but that I would try to present an accurate depiction of women racist activists. This stance---as distant but not neutral researcher---was intended to clarify the nature of my interest in racist activists and their movement. It also positioned me as an observer who had not decided in advance to depict them as crazy or as personally pathological (a common media portrayal) and thus increase their vulnerability to incarceration by law enforcement or mental health agencies.]{style="font-size:25px;"}
+
+- explains positionality, interest, and intent (no whiff of deception)
+- doing no harm
+- plus, openness during interviews to explain position further, even if respondents were uninterested [@Blee1998, p. 386]
+
+## @Blee1998 - arranging interview, negotiating setting
+
+- asked respondents: choose a comfortable place but without likelihood of interruption
+    + refused on two occasions (for safety reasons): (1) get blindfolded and transported to unknown destination in back of a truck, (2) meeting in a remote racist compound, driven by a racist group member
+
+. . . 
+
+- interview procedures
+    + reiterate positionality, interest, and intent
+    + assuaging concerns: [confidentiality]{style="color:red;"}, [anonymity]{style="color:red;"}, and [no questions about illegal activities]{style="color:red;"} 
+
+## @Blee1998 - project duration developments
+
+- fear abated, **numbness** to extreme ideas set in
+- in one interview, 'seductive, false rapport,' as @Blee1998[p. 393] describes
+
+> Actually with Linda and [her boyfriend] there was no indication that they might try to harm me at all. In fact, quite the contrary. I actually was afraid of that before they came because they both have very violent reputations, but in person they were extremely cordial and very friendly, not trying to intimidate me in any way. Perhaps trying to cultivate me.
+
+## @Blee1998 - interview dynamics, research effects
+
+- respondents frequently pointed out researcher's vulnerability (**fear and intimidation**)
+- acknowledge that persons from disagreeable groups can be quite agreeable respondents (**emotional dissonance for researchers**)
+
+. . . 
+
+- effects of research 
+
+> To avoid giving further publicity to racist groups as well as to ensure anonymity, I use pseudonyms for both respondents' names and the names of their groups and have changed some identifying details.
+
+
+# A final discussion question {background-color="#2c844c"}
+
+::: {style="text-align: left;"}
+**[Posed by a previous student of this course: ]{style="font-size:30px;"}** 
+:::
+
+::: {style="text-align: center;"}
+**[Is democracy in decline? Is the far right a symptom/cause of that? If so, then what can/should we do? Is there a possibility science can "help"?]{style="color:indigo; font-size:60px;"}** 
+:::
+
+::: {style="text-align: left;"}
+**[The quotation marks around 'help' are artful and wonderfully wry, recalling other times when science has 'helped']{style="font-size:20px;"}** 
+:::
+
+# Valedictory remarks {background-color="#2c844c"}
+
+::: {style="text-align: center;"}
+**[Thank you for your presence and participation!]{style="font-size:60px;"}** 
+:::
+
+# Any questions, concerns, feedback for this class? {background-color="#2c844c"}
+
+Anonymous feedback here: <https://forms.gle/pisUmtmWdE13zMD58>
+
+Alternatively, send me an email: [m.zeller\@lmu.de]{style="color:red;"}
+
+<!-- ## Code -->
+
+<!-- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. -->
+
+<!-- You can embed code like this: -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- 1 + 1 -->
+
+<!-- ``` -->
+
+<!-- > This is part of the [Quarto documentation](https://quarto.org/docs/presentations/). -->
+
+<!-- You can also add `text marked as code`! -->
+
+<!-- # New topic! {background-color="#2c844c"} -->
+
+<!-- To make a slide like this, use: -->
+
+<!--     # Title of slide {background-color="#562457"} -->
+
+<!-- ## Tabset example -->
+
+<!-- ::: panel-tabset -->
+
+<!-- ## Example 1 -->
+
+<!-- Content here for tabset 1 :) -->
+
+<!-- ## Example 2 -->
+
+<!-- More content here, for tabset 2 :) -->
+
+<!-- ::: -->
+
+<!-- ## You can add R code -->
+
+<!-- ```{r} -->
+
+<!-- #| echo: true -->
+
+<!-- library(dplyr) -->
+
+<!-- library(ggplot2) -->
+
+<!-- g <- starwars |>  -->
+
+<!--   ggplot() + -->
+
+<!--   geom_point(aes(x = height, y = mass)) + -->
+
+<!--   theme_light() -->
+
+<!-- ``` -->
+
+<!-- ## And show the results aswell :) -->
+
+<!-- ```{r} -->
+
+<!-- #| fig.align: center -->
+
+<!-- #| echo: true -->
+
+<!-- g  -->
+
+<!-- ``` -->
+
+<!-- ## What about tables? {.smaller} -->
+
+<!-- ### `knitr::kable()` -->
+
+<!-- ::: columns -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| echo: true -->
+
+<!-- #| eval: false -->
+
+<!-- tab <- starwars |> -->
+
+<!--   tidyr::drop_na(species) |>  -->
+
+<!--   group_by(species) |> -->
+
+<!--   summarise( -->
+
+<!--     n = n(), -->
+
+<!--     mean_heigth = round(mean(height, na.rm = TRUE)), -->
+
+<!--     mean_mass = round(mean(mass, na.rm = TRUE)) -->
+
+<!--   ) |>  -->
+
+<!--   slice_max(order_by = n, n = 4)  -->
+
+<!-- knitr::kable(tab) -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+
+<!-- ```{r} -->
+
+<!-- #| label: kable-ex -->
+
+<!-- #| eval: true -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ## `DT::datatable()` {.smaller} -->
+
+<!-- With the `smaller` class in the slide! -->
+
+<!-- Ex: `## slide name {.smaller}` -->
+
+<!-- ```{r} -->
+
+<!-- DT::datatable(tab, options = list(pageLength = 5)) -->
+
+<!-- ``` -->
+
+<!-- ## `gt::gt()` -->
+
+<!-- ```{r} -->
+
+<!-- gt::gt(tab) -->
+
+<!-- ``` -->
+
+<!-- ## `reactable::reactable()` -->
+
+<!-- ```{r} -->
+
+<!-- reactable::reactable(tab) -->
+
+<!-- ``` -->
+
+<!-- ## Diagrams with Mermaid! -->
+
+<!-- Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/). -->
+
+<!-- <center> -->
+
+<!-- <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/quartotip?src=hash&amp;ref_src=twsrc%5Etfw">#quartotip</a> 21: Create diagrams in Quarto documents using Mermaid or Graphviz in executable code cells, similar to how you create figures.<br><br>Read more: <a href="https://t.co/3qx9oSNCay">https://t.co/3qx9oSNCay</a> <a href="https://t.co/fYzGcISl4h">pic.twitter.com/fYzGcISl4h</a></p>&mdash; Quarto (@quarto_pub) <a href="https://twitter.com/quarto_pub/status/1549271325943947270?ref_src=twsrc%5Etfw">July 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<!-- </center> -->
+
+```{r}
+pagedown::chrome_print(file.path("..", "docs/slides", "slides_14.html"))
+```
+
+## References
